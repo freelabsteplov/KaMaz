@@ -1,0 +1,34 @@
+{
+  "canvas": [
+    2048,
+    2048
+  ],
+  "base_bbox": [
+    103,
+    266,
+    1946,
+    2048
+  ],
+  "needle_bbox": [
+    482,
+    1069,
+    1143,
+    1728
+  ],
+  "needle_pivot_px_in_canvas": [
+    1024,
+    1187
+  ],
+  "needle_pivot_px_in_crop": [
+    542,
+    118
+  ],
+  "default_angle_deg": 225,
+  "value_range": [
+    0,
+    30
+  ],
+  "sweep_deg": 270,
+  "start_angle_deg": 225,
+  "unit": "x100 min^-1"
+}
