@@ -14,13 +14,6 @@ if not exist "%GIT_EXE%" (
 
 pushd "%PROJECT_DIR%"
 
-if "%REMOTE_URL%"=="" (
-    echo Usage:
-    echo GIT_PUSH_MAIN.cmd https://github.com/USER/REPO.git
-    popd
-    exit /b 1
-)
-
 "%GIT_EXE%" rev-parse --is-inside-work-tree >nul 2>nul
 if errorlevel 1 (
     echo This folder is not a git repository.
@@ -30,9 +23,17 @@ if errorlevel 1 (
 
 "%GIT_EXE%" remote get-url origin >nul 2>nul
 if errorlevel 1 (
+    if "%REMOTE_URL%"=="" (
+        echo Usage:
+        echo GIT_PUSH_MAIN.cmd https://github.com/USER/REPO.git
+        popd
+        exit /b 1
+    )
     "%GIT_EXE%" remote add origin "%REMOTE_URL%"
 ) else (
-    "%GIT_EXE%" remote set-url origin "%REMOTE_URL%"
+    if not "%REMOTE_URL%"=="" (
+        "%GIT_EXE%" remote set-url origin "%REMOTE_URL%"
+    )
 )
 
 "%GIT_EXE%" push -u origin main
