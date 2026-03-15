@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "cast_plowbrush_for_height_update",
+      "type": "dynamic_cast",
+      "target_class": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+      "x": -448,
+      "y": -12432,
+      "pure": false
+    }
+  ],
+  "links": [
+    {
+      "from_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_39",
+      "from_pin": "PlowBrushComponent",
+      "to_node": "cast_plowbrush_for_height_update",
+      "to_pin": "Object"
+    },
+    {
+      "from_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_24",
+      "from_pin": "then",
+      "to_node": "cast_plowbrush_for_height_update",
+      "to_pin": "execute"
+    },
+    {
+      "from_node": "cast_plowbrush_for_height_update",
+      "from_pin": "then",
+      "to_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_44",
+      "to_pin": "execute"
+    },
+    {
+      "from_node": "cast_plowbrush_for_height_update",
+      "from_pin": "AsBP Plow Brush Component",
+      "to_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_44",
+      "to_pin": "self"
+    }
+  ]
+}

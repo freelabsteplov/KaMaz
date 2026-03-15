@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {
+      "id": "mark_persistent_wheel_writer",
+      "type": "call_function",
+      "owner_class": "/Script/Kamaz_Cleaner.SnowStateBlueprintLibrary",
+      "function": "MarkPersistentWheelWriter",
+      "x": 1520,
+      "y": 3984
+    }
+  ],
+  "links": [
+    {
+      "from_node_path": "/Game/CityPark/SnowSystem/BP_WheelSnowTrace_Component.BP_WheelSnowTrace_Component:EventGraph.K2Node_CallFunction_5",
+      "from_pin": "then",
+      "to_node": "mark_persistent_wheel_writer",
+      "to_pin": "execute"
+    },
+    {
+      "from_node": "mark_persistent_wheel_writer",
+      "from_pin": "then",
+      "to_node_path": "/Game/CityPark/SnowSystem/BP_WheelSnowTrace_Component.BP_WheelSnowTrace_Component:EventGraph.K2Node_VariableSet_2",
+      "to_pin": "execute"
+    }
+  ],
+  "execution_chains": []
+}

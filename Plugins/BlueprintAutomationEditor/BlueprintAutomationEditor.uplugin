@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Blueprint Automation Editor",
+	"Description": "Editor-only Blueprint asset automation services for controlled GPT tool integration.",
+	"Category": "Scripting",
+	"CreatedBy": "OpenAI Codex",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "BlueprintAutomationEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

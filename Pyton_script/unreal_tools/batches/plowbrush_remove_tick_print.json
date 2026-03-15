@@ -1,0 +1,11 @@
+{
+  "nodes": [],
+  "links": [
+    {
+      "from_node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_Event_1",
+      "from_pin": "then",
+      "to_node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_0",
+      "to_pin": "execute"
+    }
+  ]
+}

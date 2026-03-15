@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "id": "mark_persistent_plow_writer",
+      "type": "call_function",
+      "owner_class": "/Script/Kamaz_Cleaner.SnowStateBlueprintLibrary",
+      "function": "MarkPersistentPlowWriter",
+      "x": 1712,
+      "y": 1712,
+      "pin_defaults": [
+        {
+          "pin": "LengthCm",
+          "default_value": "50.0"
+        },
+        {
+          "pin": "WidthCm",
+          "default_value": "350.0"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from_node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_3",
+      "from_pin": "then",
+      "to_node": "mark_persistent_plow_writer",
+      "to_pin": "execute"
+    },
+    {
+      "from_node": "mark_persistent_plow_writer",
+      "from_pin": "then",
+      "to_node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_3",
+      "to_pin": "execute"
+    }
+  ],
+  "execution_chains": []
+}

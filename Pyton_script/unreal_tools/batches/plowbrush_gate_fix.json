@@ -1,0 +1,12 @@
+{
+  "nodes": [],
+  "links": [
+    {
+      "from_node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_0",
+      "from_pin": "bEnablePlowClearing",
+      "to_node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_1",
+      "to_pin": "A"
+    }
+  ],
+  "execution_chains": []
+}

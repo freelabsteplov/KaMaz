@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "cast_snowtrace_fallback",
+      "type": "dynamic_cast",
+      "target_class": "/Game/CityPark/SnowSystem/BP_WheelSnowTrace_Component.BP_WheelSnowTrace_Component_C",
+      "x": -12512,
+      "y": -7632,
+      "pure": false
+    },
+    {
+      "id": "assign_owner_vehicle_fallback",
+      "type": "variable_set",
+      "owner_class": "/Game/CityPark/SnowSystem/BP_WheelSnowTrace_Component.BP_WheelSnowTrace_Component_C",
+      "variable": "OwnerVehicle",
+      "x": -12128,
+      "y": -7632
+    }
+  ],
+  "links": [
+    {
+      "from_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_1",
+      "from_pin": "CastFailed",
+      "to_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_28",
+      "to_pin": "execute"
+    },
+    {
+      "from_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_Self_0",
+      "from_pin": "self",
+      "to_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_55",
+      "to_pin": "self"
+    },
+    {
+      "from_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_55",
+      "from_pin": "ReturnValue",
+      "to_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_28",
+      "to_pin": "SnowTraceComponent"
+    },
+    {
+      "from_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_28",
+      "from_pin": "then",
+      "to_node": "cast_snowtrace_fallback",
+      "to_pin": "execute"
+    },
+    {
+      "from_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_55",
+      "from_pin": "ReturnValue",
+      "to_node": "cast_snowtrace_fallback",
+      "to_pin": "Object"
+    },
+    {
+      "from_node": "cast_snowtrace_fallback",
+      "from_pin": "then",
+      "to_node": "assign_owner_vehicle_fallback",
+      "to_pin": "execute"
+    },
+    {
+      "from_node": "cast_snowtrace_fallback",
+      "from_pin": "AsBP Wheel Snow Trace Component",
+      "to_node": "assign_owner_vehicle_fallback",
+      "to_pin": "self"
+    },
+    {
+      "from_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_Self_0",
+      "from_pin": "self",
+      "to_node": "assign_owner_vehicle_fallback",
+      "to_pin": "OwnerVehicle"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "get_plowbrush_component_fallback",
+      "type": "call_function",
+      "function_path": "/Script/Engine.Actor:GetComponentByClass",
+      "x": -11328,
+      "y": -6080,
+      "pin_defaults": [
+        {
+          "pin": "ComponentClass",
+          "default_object": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_Self_1",
+      "from_pin": "self",
+      "to_node": "get_plowbrush_component_fallback",
+      "to_pin": "self"
+    },
+    {
+      "from_node": "get_plowbrush_component_fallback",
+      "from_pin": "ReturnValue",
+      "to_node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_41",
+      "to_pin": "PlowBrushComponent"
+    }
+  ]
+}

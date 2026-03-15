@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "beginplay_get_owner",
+      "type": "call_function",
+      "owner_class": "/Script/Engine.ActorComponent",
+      "function": "GetOwner",
+      "x": 224,
+      "y": 592,
+      "pure": true
+    },
+    {
+      "id": "beginplay_cast_owner_to_pawn",
+      "type": "dynamic_cast",
+      "target_class": "/Script/Engine.Pawn",
+      "x": 480,
+      "y": 592,
+      "pure": false
+    },
+    {
+      "id": "beginplay_assign_owner_vehicle",
+      "type": "variable_set",
+      "variable": "OwnerVehicle",
+      "x": 848,
+      "y": 592
+    }
+  ],
+  "links": [
+    {
+      "from_node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_Event_0",
+      "from_pin": "then",
+      "to_node": "beginplay_cast_owner_to_pawn",
+      "to_pin": "execute"
+    },
+    {
+      "from_node": "beginplay_get_owner",
+      "from_pin": "ReturnValue",
+      "to_node": "beginplay_cast_owner_to_pawn",
+      "to_pin": "Object"
+    },
+    {
+      "from_node": "beginplay_cast_owner_to_pawn",
+      "from_pin": "then",
+      "to_node": "beginplay_assign_owner_vehicle",
+      "to_pin": "execute"
+    },
+    {
+      "from_node": "beginplay_cast_owner_to_pawn",
+      "from_pin": "AsPawn",
+      "to_node": "beginplay_assign_owner_vehicle",
+      "to_pin": "OwnerVehicle"
+    }
+  ],
+  "execution_chains": []
+}
