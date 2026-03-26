@@ -1,0 +1,658 @@
+﻿{
+    "source_file":  "plowbrush_component_graph.json",
+    "asset_label":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+    "graph_name":  "EventGraph",
+    "graph_path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph",
+    "keyword_regex":  "road2|snow|plow|rvt|carrier|receiver|trail|runtime|opacity|height",
+    "matched_node_count":  42,
+    "matched_nodes":  [
+                          {
+                              "name":  "K2Node_Event_0",
+                              "title":  "Event Begin Play",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_Event_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_Event",
+                              "comment":  "This node is disabled and will not be called.\nDrag off pins to build functionality.",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_Event_1",
+                              "title":  "Event Tick",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_Event_1",
+                              "class":  "/Script/BlueprintGraph.K2Node_Event",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_6",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_4",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_5",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_6",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_8"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_0",
+                              "title":  "Get bEnablePlowClearing",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "snow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_1",
+                              "title":  "Get PlowLiftHeight",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_1",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height",
+                                                    "snow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_7",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_5"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_2",
+                              "title":  "Get OwnerVehicle",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_2",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_0",
+                              "title":  "Is Valid",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_2",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_0",
+                              "title":  "Timespan \u003c Timespan",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CommutativeAssociativeBinaryOperator_0",
+                              "title":  "AND Boolean",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CommutativeAssociativeBinaryOperator_1",
+                              "title":  "AND Boolean",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_1",
+                              "class":  "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_3"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_IfThenElse_0",
+                              "title":  "Branch",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_IfThenElse",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_6",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_3",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_DynamicCast_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_0"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_1",
+                              "title":  "Get Movement Component",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_1",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_2",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_DynamicCast_0"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_DynamicCast_0",
+                              "title":  "Cast To ChaosVehicleMovementComponent",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_DynamicCast_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_DynamicCast",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_2"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_2",
+                              "title":  "Get Forward Speed",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_2",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_DynamicCast_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_1",
+                              "title":  "Seconds * FrameRate",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_1",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_2"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_3",
+                              "title":  "Get MinPlowSpeed",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_3",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "snow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_2"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_2",
+                              "title":  "float \u003e float",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_2",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_3",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_IfThenElse_1",
+                              "title":  "Branch",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_1",
+                              "class":  "/Script/BlueprintGraph.K2Node_IfThenElse",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_DynamicCast_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_2",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_2",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_2"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_4",
+                              "title":  "Get TimeSinceLastUpdate",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_4",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_3",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_4",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_5",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_6",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_8"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_5",
+                              "title":  "Get UpdateRate",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_5",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_3"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_3",
+                              "title":  "float \u003e float",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_3",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_4",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_5",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_2"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_IfThenElse_2",
+                              "title":  "Branch",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_2",
+                              "class":  "/Script/BlueprintGraph.K2Node_IfThenElse",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_3",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_3",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_5"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_4",
+                              "title":  "float + float",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_4",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_4",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_Event_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_0"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_0",
+                              "title":  "Set TimeSinceLastUpdate",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_4"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_5",
+                              "title":  "float + float",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_5",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_4",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_Event_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_1",
+                              "title":  "Set TimeSinceLastUpdate",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_1",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_DynamicCast_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_5"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_6",
+                              "title":  "float + float",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_6",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_4",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_Event_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_2"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_2",
+                              "title":  "Set TimeSinceLastUpdate",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_2",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_6"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_3",
+                              "title":  "Set TimeSinceLastUpdate",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_3",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_3"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_3",
+                              "title":  "DrawPlowClearance",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_3",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "snow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_2",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_3"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_8",
+                              "title":  "float + float",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_8",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_4",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_Event_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_5"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_5",
+                              "title":  "Set TimeSinceLastUpdate",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableSet_5",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_2",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_8"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_7",
+                              "title":  "Timespan \u003c Timespan",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_PromotableOperator_7",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CommutativeAssociativeBinaryOperator_2",
+                              "title":  "AND Boolean",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_2",
+                              "class":  "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CommutativeAssociativeBinaryOperator_3",
+                              "title":  "AND Boolean",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_3",
+                              "class":  "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_7",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_4"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_4",
+                              "title":  "To Text (Boolean)",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_4",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_3",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_MakeArray_0"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_5",
+                              "title":  "To Text (Float)",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_5",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_MakeArray_0",
+                              "title":  "Make Array",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_MakeArray_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_MakeArray",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_4"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_FormatText_0",
+                              "title":  "Format Text",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_FormatText_0",
+                              "class":  "/Script/BlueprintGraph.K2Node_FormatText",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_8",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_9"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_6",
+                              "title":  "Print String",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_6",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_Event_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_IfThenElse_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_9"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_7",
+                              "title":  "In Range (Float)",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_7",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_VariableGet_1",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_3"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_8",
+                              "title":  "Make Invariant Text",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_8",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_FormatText_0"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_9",
+                              "title":  "To String (Text)",
+                              "path":  "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_9",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow",
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_FormatText_0",
+                                                        "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph.K2Node_CallFunction_6"
+                                                    ]
+                          }
+                      ]
+}

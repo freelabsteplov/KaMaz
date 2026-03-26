@@ -1,0 +1,22 @@
+{
+  "map_path": "/Game/CityPark/SnowSystem/SnowTest_Level",
+  "runtime_component_attached": true,
+  "receiver_configured": true,
+  "settings_enabled": true,
+  "source_component_bound": true,
+  "source_component_path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.KamazBP_C_0.BP_PlowBrush_Component",
+  "source_component_class": "BP_PlowBrush_Component_C",
+  "kamaz_path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.KamazBP_C_0",
+  "bridge_path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.StaticMeshActor_4",
+  "target_rvt_path": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP",
+  "rvt_volume_path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.RuntimeVirtualTextureVolume_1",
+  "rvt_bounds_center": "<Struct 'Vector' (0x000001DB573D6130) {x: 19854.919735, y: -4398.898021, z: 52.000000}>",
+  "rvt_bounds_extent": "<Struct 'Vector' (0x000001DB5739AC70) {x: 27500.000000, y: 27500.000000, z: 600.000000}>",
+  "kamaz_location_before": "<Struct 'Vector' (0x000001DB4A451B90) {x: 9805.912891, y: 792.452883, z: 84.743976}>",
+  "kamaz_location_after": "<Struct 'Vector' (0x000001DB5739AE00) {x: 19371.602356, y: -3798.603894, z: 23.000000}>",
+  "kamaz_inside_rvt_before": true,
+  "kamaz_inside_rvt_after": true,
+  "kamaz_relocated_for_rvt_zone": true,
+  "error": "",
+  "runtime_component_created": false
+}

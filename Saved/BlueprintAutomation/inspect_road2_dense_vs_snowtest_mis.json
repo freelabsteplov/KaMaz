@@ -1,0 +1,560 @@
+{
+  "materials": [
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2_Dense",
+      "exists": true,
+      "class": "/Script/Engine.MaterialInstanceConstant",
+      "parent_chain": [
+        {
+          "name": "MI_SnowRoadCarrier_Road2_Dense",
+          "path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2_Dense.MI_SnowRoadCarrier_Road2_Dense",
+          "class": "/Script/Engine.MaterialInstanceConstant"
+        },
+        {
+          "name": "M_SnowReceiver_RVT_Height_MVP",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+          "class": "/Script/Engine.Material"
+        }
+      ],
+      "scalar_values": {
+        "SnowTexUVScale": 10.0,
+        "HeightContrast": 1.0,
+        "InvertClearMask": 0.0,
+        "VisualClearMaskStrength": 1.0,
+        "DepthMaskBoost": 1.0,
+        "BaselineSnowCoverage": 0.0,
+        "BaselineHeightCm": 0.0,
+        "HeightAmplitude": -48.0,
+        "RoadSnowVisualWhitenStrength": 1.0,
+        "SnowDetailInfluence": 0.07999999821186066,
+        "RoadSnowRecoveredBehavior": 1.0,
+        "RepeatAccumulationDepth": 0.0,
+        "RightBermSharpness": 1.0,
+        "RightBermRaise": 0.0,
+        "ThinSnowMinVisualOpacity": 0.8799999952316284,
+        "SnowRoughness": 0.8999999761581421,
+        "PressedRoughness": 0.44999998807907104
+      },
+      "vector_values": {
+        "SnowColor": [
+          0.9800000190734863,
+          0.9900000095367432,
+          1.0,
+          1.0
+        ],
+        "RoadSnowVisualColor": [
+          0.9850000143051147,
+          0.9900000095367432,
+          1.0,
+          1.0
+        ],
+        "PressedSnowColor": [
+          0.36000001430511475,
+          0.4699999988079071,
+          0.6200000047683716,
+          1.0
+        ],
+        "RoadSnowRecoveredPressedColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ],
+        "ThinSnowUnderColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ]
+      },
+      "texture_values": {
+        "Snow_Diffuse": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Diffuse.T_SnowV2P1_2K_Diffuse",
+        "Snow_Normal": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Normal.T_SnowV2P1_2K_Normal",
+        "Snow_Roughness": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Roughness.T_SnowV2P1_2K_Roughness"
+      },
+      "rvt_values": {
+        "SnowRVT": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP"
+      },
+      "error": ""
+    },
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2",
+      "exists": true,
+      "class": "/Script/Engine.MaterialInstanceConstant",
+      "parent_chain": [
+        {
+          "name": "MI_SnowRoadCarrier_Road2",
+          "path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+          "class": "/Script/Engine.MaterialInstanceConstant"
+        },
+        {
+          "name": "M_SnowReceiver_RVT_Height_MVP",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+          "class": "/Script/Engine.Material"
+        }
+      ],
+      "scalar_values": {
+        "SnowTexUVScale": 10.0,
+        "HeightContrast": 1.0,
+        "InvertClearMask": 0.0,
+        "VisualClearMaskStrength": 1.0,
+        "DepthMaskBoost": 1.0,
+        "BaselineSnowCoverage": 1.0,
+        "BaselineHeightCm": 50.0,
+        "HeightAmplitude": 0.0,
+        "RoadSnowVisualWhitenStrength": 1.0,
+        "SnowDetailInfluence": 0.0,
+        "RoadSnowRecoveredBehavior": 1.0,
+        "RepeatAccumulationDepth": 0.0,
+        "RightBermSharpness": 1.0,
+        "RightBermRaise": 0.0,
+        "ThinSnowMinVisualOpacity": 0.8799999952316284,
+        "SnowRoughness": 0.7200000286102295,
+        "PressedRoughness": 0.3400000035762787
+      },
+      "vector_values": {
+        "SnowColor": [
+          1.4500000476837158,
+          1.5,
+          1.600000023841858,
+          1.0
+        ],
+        "RoadSnowVisualColor": [
+          1.75,
+          1.8200000524520874,
+          1.9500000476837158,
+          1.0
+        ],
+        "PressedSnowColor": [
+          0.36000001430511475,
+          0.4699999988079071,
+          0.6200000047683716,
+          1.0
+        ],
+        "RoadSnowRecoveredPressedColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ],
+        "ThinSnowUnderColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ]
+      },
+      "texture_values": {
+        "Snow_Diffuse": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Diffuse.T_SnowV2P1_2K_Diffuse",
+        "Snow_Normal": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Normal.T_SnowV2P1_2K_Normal",
+        "Snow_Roughness": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Roughness.T_SnowV2P1_2K_Roughness"
+      },
+      "rvt_values": {
+        "SnowRVT": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP"
+      },
+      "error": ""
+    },
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2_LocalHeight",
+      "exists": true,
+      "class": "/Script/Engine.MaterialInstanceConstant",
+      "parent_chain": [
+        {
+          "name": "MI_SnowRoadCarrier_Road2_LocalHeight",
+          "path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2_LocalHeight.MI_SnowRoadCarrier_Road2_LocalHeight",
+          "class": "/Script/Engine.MaterialInstanceConstant"
+        },
+        {
+          "name": "M_SnowReceiver_RVT_Height_MVP",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+          "class": "/Script/Engine.Material"
+        }
+      ],
+      "scalar_values": {
+        "SnowTexUVScale": 10.0,
+        "HeightContrast": 1.0,
+        "InvertClearMask": 0.0,
+        "VisualClearMaskStrength": 0.7200000286102295,
+        "DepthMaskBoost": 0.8999999761581421,
+        "BaselineSnowCoverage": 0.0,
+        "BaselineHeightCm": 0.0,
+        "HeightAmplitude": -50.0,
+        "RoadSnowVisualWhitenStrength": 0.0,
+        "SnowDetailInfluence": 0.07999999821186066,
+        "RoadSnowRecoveredBehavior": 0.0,
+        "RepeatAccumulationDepth": 0.0,
+        "RightBermSharpness": 1.0,
+        "RightBermRaise": 0.0,
+        "ThinSnowMinVisualOpacity": 0.8799999952316284,
+        "SnowRoughness": 0.8999999761581421,
+        "PressedRoughness": 0.5
+      },
+      "vector_values": {
+        "SnowColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "RoadSnowVisualColor": [
+          0.9850000143051147,
+          0.9900000095367432,
+          1.0,
+          1.0
+        ],
+        "PressedSnowColor": [
+          0.36000001430511475,
+          0.4699999988079071,
+          0.6200000047683716,
+          1.0
+        ],
+        "RoadSnowRecoveredPressedColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ],
+        "ThinSnowUnderColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ]
+      },
+      "texture_values": {
+        "Snow_Diffuse": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Diffuse.T_SnowV2P1_2K_Diffuse",
+        "Snow_Normal": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Normal.T_SnowV2P1_2K_Normal",
+        "Snow_Roughness": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Roughness.T_SnowV2P1_2K_Roughness"
+      },
+      "rvt_values": {
+        "SnowRVT": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP"
+      },
+      "error": ""
+    },
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/Receivers/M_SnowRoadCarrier_HeightRoadBase",
+      "exists": true,
+      "class": "/Script/Engine.Material",
+      "parent_chain": [
+        {
+          "name": "M_SnowRoadCarrier_HeightRoadBase",
+          "path": "/Game/CityPark/SnowSystem/Receivers/M_SnowRoadCarrier_HeightRoadBase.M_SnowRoadCarrier_HeightRoadBase",
+          "class": "/Script/Engine.Material"
+        }
+      ],
+      "scalar_values": {},
+      "vector_values": {},
+      "texture_values": {},
+      "rvt_values": {},
+      "error": "MaterialEditingLibrary: Failed to convert parameter 'instance' when calling function 'MaterialEditingLibrary.GetMaterialInstanceScalarParameterValue' on 'Default__MaterialEditingLibrary'\n  TypeError: NativizeProperty: Cannot nativize 'Material' as 'Instance' (ObjectProperty)\n    TypeError: NativizeObject: Cannot nativize 'Material' as 'Object' (allowed Class type: 'MaterialInstanceConstant')"
+    },
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP",
+      "exists": true,
+      "class": "/Script/Engine.MaterialInstanceConstant",
+      "parent_chain": [
+        {
+          "name": "MI_SnowReceiver_RVT_Height_MVP",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP.MI_SnowReceiver_RVT_Height_MVP",
+          "class": "/Script/Engine.MaterialInstanceConstant"
+        },
+        {
+          "name": "M_SnowReceiver_RVT_Height_MVP",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+          "class": "/Script/Engine.Material"
+        }
+      ],
+      "scalar_values": {
+        "SnowTexUVScale": 10.0,
+        "HeightContrast": 1.0,
+        "InvertClearMask": 0.0,
+        "VisualClearMaskStrength": 1.0,
+        "DepthMaskBoost": 1.0,
+        "BaselineSnowCoverage": 0.0,
+        "BaselineHeightCm": 0.0,
+        "HeightAmplitude": -100.0,
+        "RoadSnowVisualWhitenStrength": 0.0,
+        "SnowDetailInfluence": 0.07999999821186066,
+        "RoadSnowRecoveredBehavior": 0.0,
+        "RepeatAccumulationDepth": 0.0,
+        "RightBermSharpness": 1.0,
+        "RightBermRaise": 0.0,
+        "ThinSnowMinVisualOpacity": 0.8799999952316284,
+        "SnowRoughness": 0.8999999761581421,
+        "PressedRoughness": 0.44999998807907104
+      },
+      "vector_values": {
+        "SnowColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "RoadSnowVisualColor": [
+          0.9850000143051147,
+          0.9900000095367432,
+          1.0,
+          1.0
+        ],
+        "PressedSnowColor": [
+          0.36000001430511475,
+          0.4699999988079071,
+          0.6200000047683716,
+          1.0
+        ],
+        "RoadSnowRecoveredPressedColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ],
+        "ThinSnowUnderColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ]
+      },
+      "texture_values": {
+        "Snow_Diffuse": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Diffuse.T_SnowV2P1_2K_Diffuse",
+        "Snow_Normal": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Normal.T_SnowV2P1_2K_Normal",
+        "Snow_Roughness": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Roughness.T_SnowV2P1_2K_Roughness"
+      },
+      "rvt_values": {
+        "SnowRVT": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP"
+      },
+      "error": ""
+    },
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8",
+      "exists": true,
+      "class": "/Script/Engine.MaterialInstanceConstant",
+      "parent_chain": [
+        {
+          "name": "MI_SnowReceiver_RVT_Height_MVP_Tile8",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8",
+          "class": "/Script/Engine.MaterialInstanceConstant"
+        },
+        {
+          "name": "M_SnowReceiver_RVT_Height_MVP",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+          "class": "/Script/Engine.Material"
+        }
+      ],
+      "scalar_values": {
+        "SnowTexUVScale": 80.0,
+        "HeightContrast": 0.6000000238418579,
+        "InvertClearMask": 0.0,
+        "VisualClearMaskStrength": 1.0,
+        "DepthMaskBoost": 1.0,
+        "BaselineSnowCoverage": 0.0,
+        "BaselineHeightCm": 0.0,
+        "HeightAmplitude": 0.0,
+        "RoadSnowVisualWhitenStrength": 0.0,
+        "SnowDetailInfluence": 0.07999999821186066,
+        "RoadSnowRecoveredBehavior": 0.0,
+        "RepeatAccumulationDepth": 0.0,
+        "RightBermSharpness": 1.0,
+        "RightBermRaise": 0.0,
+        "ThinSnowMinVisualOpacity": 0.3799999952316284,
+        "SnowRoughness": 0.8999999761581421,
+        "PressedRoughness": 0.5
+      },
+      "vector_values": {
+        "SnowColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "RoadSnowVisualColor": [
+          0.9850000143051147,
+          0.9900000095367432,
+          1.0,
+          1.0
+        ],
+        "PressedSnowColor": [
+          0.2800000011920929,
+          0.28999999165534973,
+          0.3100000023841858,
+          1.0
+        ],
+        "RoadSnowRecoveredPressedColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ],
+        "ThinSnowUnderColor": [
+          0.3799999952316284,
+          0.38999998569488525,
+          0.4099999964237213,
+          1.0
+        ]
+      },
+      "texture_values": {
+        "Snow_Diffuse": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Diffuse.T_SnowV2P1_2K_Diffuse",
+        "Snow_Normal": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Normal.T_SnowV2P1_2K_Normal",
+        "Snow_Roughness": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Roughness.T_SnowV2P1_2K_Roughness"
+      },
+      "rvt_values": {
+        "SnowRVT": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP"
+      },
+      "error": ""
+    },
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+      "exists": true,
+      "class": "/Script/Engine.MaterialInstanceConstant",
+      "parent_chain": [
+        {
+          "name": "MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K.MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+          "class": "/Script/Engine.MaterialInstanceConstant"
+        },
+        {
+          "name": "M_SnowReceiver_RVT_Height_MVP",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+          "class": "/Script/Engine.Material"
+        }
+      ],
+      "scalar_values": {
+        "SnowTexUVScale": 40.0,
+        "HeightContrast": 0.6000000238418579,
+        "InvertClearMask": 0.0,
+        "VisualClearMaskStrength": 1.0,
+        "DepthMaskBoost": 1.0,
+        "BaselineSnowCoverage": 0.0,
+        "BaselineHeightCm": 0.0,
+        "HeightAmplitude": 0.0,
+        "RoadSnowVisualWhitenStrength": 0.0,
+        "SnowDetailInfluence": 0.07999999821186066,
+        "RoadSnowRecoveredBehavior": 0.0,
+        "RepeatAccumulationDepth": 0.0,
+        "RightBermSharpness": 1.0,
+        "RightBermRaise": 0.0,
+        "ThinSnowMinVisualOpacity": 0.3799999952316284,
+        "SnowRoughness": 0.8999999761581421,
+        "PressedRoughness": 0.5
+      },
+      "vector_values": {
+        "SnowColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "RoadSnowVisualColor": [
+          0.9850000143051147,
+          0.9900000095367432,
+          1.0,
+          1.0
+        ],
+        "PressedSnowColor": [
+          0.2800000011920929,
+          0.28999999165534973,
+          0.3100000023841858,
+          1.0
+        ],
+        "RoadSnowRecoveredPressedColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ],
+        "ThinSnowUnderColor": [
+          0.3799999952316284,
+          0.38999998569488525,
+          0.4099999964237213,
+          1.0
+        ]
+      },
+      "texture_values": {
+        "Snow_Diffuse": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Diffuse.T_SnowV2P1_2K_Diffuse",
+        "Snow_Normal": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Normal.T_SnowV2P1_2K_Normal",
+        "Snow_Roughness": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Roughness.T_SnowV2P1_2K_Roughness"
+      },
+      "rvt_values": {
+        "SnowRVT": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP"
+      },
+      "error": ""
+    },
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+      "exists": true,
+      "class": "/Script/Engine.MaterialInstanceConstant",
+      "parent_chain": [
+        {
+          "name": "MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4.MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+          "class": "/Script/Engine.MaterialInstanceConstant"
+        },
+        {
+          "name": "M_SnowReceiver_RVT_Height_MVP",
+          "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+          "class": "/Script/Engine.Material"
+        }
+      ],
+      "scalar_values": {
+        "SnowTexUVScale": 20.0,
+        "HeightContrast": 0.6000000238418579,
+        "InvertClearMask": 0.0,
+        "VisualClearMaskStrength": 1.0,
+        "DepthMaskBoost": 1.0,
+        "BaselineSnowCoverage": 0.0,
+        "BaselineHeightCm": 0.0,
+        "HeightAmplitude": 0.0,
+        "RoadSnowVisualWhitenStrength": 0.0,
+        "SnowDetailInfluence": 0.07999999821186066,
+        "RoadSnowRecoveredBehavior": 0.0,
+        "RepeatAccumulationDepth": 0.0,
+        "RightBermSharpness": 1.0,
+        "RightBermRaise": 0.0,
+        "ThinSnowMinVisualOpacity": 0.3799999952316284,
+        "SnowRoughness": 0.8999999761581421,
+        "PressedRoughness": 0.5
+      },
+      "vector_values": {
+        "SnowColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "RoadSnowVisualColor": [
+          0.9850000143051147,
+          0.9900000095367432,
+          1.0,
+          1.0
+        ],
+        "PressedSnowColor": [
+          0.2800000011920929,
+          0.28999999165534973,
+          0.3100000023841858,
+          1.0
+        ],
+        "RoadSnowRecoveredPressedColor": [
+          0.5199999809265137,
+          0.5199999809265137,
+          0.5400000214576721,
+          1.0
+        ],
+        "ThinSnowUnderColor": [
+          0.3799999952316284,
+          0.38999998569488525,
+          0.4099999964237213,
+          1.0
+        ]
+      },
+      "texture_values": {
+        "Snow_Diffuse": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Diffuse.T_SnowV2P1_2K_Diffuse",
+        "Snow_Normal": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Normal.T_SnowV2P1_2K_Normal",
+        "Snow_Roughness": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Roughness.T_SnowV2P1_2K_Roughness"
+      },
+      "rvt_values": {
+        "SnowRVT": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP"
+      },
+      "error": ""
+    }
+  ]
+}

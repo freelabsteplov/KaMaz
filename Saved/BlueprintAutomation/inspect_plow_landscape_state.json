@@ -1,0 +1,16 @@
+{
+  "error": "'SceneComponent' object has no attribute 'get_relative_location'",
+  "trail_actor": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "trail_component": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+  "source_override": "",
+  "bUseSourceHeightGate": false,
+  "SourceActiveMaxRelativeZ": 95.0,
+  "RuntimeHeightAmplitudeWhenActive": -100.0,
+  "RuntimeHeightAmplitudeWhenInactive": 0.0,
+  "StampSpacingCm": 30.0,
+  "plow_component": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.KamazBP_C_0.BP_PlowBrush_Component",
+  "plow_relative_z": null,
+  "plow_world_z": null,
+  "landscape": "",
+  "landscape_material": ""
+}

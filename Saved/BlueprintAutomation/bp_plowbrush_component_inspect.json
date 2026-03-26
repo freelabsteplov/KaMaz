@@ -1,0 +1,19 @@
+{
+  "blueprint_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+  "generated_class": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+  "default_object": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.Default__BP_PlowBrush_Component_C",
+  "filtered_cdo_properties": {
+    "__sizeof__": "<built-in method __sizeof__ of SceneComponent object at 0x000002813BFEE8B0>",
+    "absolute_scale": false,
+    "add_world_transform_keep_scale": "<built-in method add_world_transform_keep_scale of SceneComponent object at 0x000002813BFEE8B0>",
+    "get_world_scale": "<built-in method get_world_scale of SceneComponent object at 0x000002813BFEE8B0>",
+    "relative_scale3d": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "set_relative_scale3d": "<built-in method set_relative_scale3d of SceneComponent object at 0x000002813BFEE8B0>",
+    "set_world_scale3d": "<built-in method set_world_scale3d of SceneComponent object at 0x000002813BFEE8B0>"
+  },
+  "subobjects": []
+}

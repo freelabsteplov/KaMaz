@@ -1,0 +1,15 @@
+{
+  "error": "",
+  "map": "/Game/CityPark/SnowSystem/SnowTest_Level",
+  "trail_path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "bEnableRuntimeTrail": "True",
+  "StampSpacingCm": "30.0",
+  "bUseSourceHeightGate": "False",
+  "SourceActiveMaxRelativeZ": "95.0",
+  "PersistentPlowLengthCm": "120.0",
+  "PersistentPlowWidthCm": "320.0",
+  "bEnableRvtVisualStamp": "True",
+  "TargetRvt": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP",
+  "StampMaterial": "/Game/CityPark/SnowSystem/RVT_MVP/M_RVT_DebugWriter_MVP.M_RVT_DebugWriter_MVP",
+  "SourceComponentOverride": "None"
+}

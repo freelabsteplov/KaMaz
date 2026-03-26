@@ -1,0 +1,48 @@
+{
+  "map_path": "/Game/CityPark/SnowSystem/SnowTest_Level",
+  "kamaz_path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.KamazBP_C_0",
+  "trail_actor_path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "target_rvt_path": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP",
+  "rvt_volume_path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.RuntimeVirtualTextureVolume_1",
+  "rvt_bounds_center": "<Struct 'Vector' (0x000002D69ADD6130) {x: 19854.919735, y: -4398.898021, z: 52.000000}>",
+  "rvt_bounds_extent": "<Struct 'Vector' (0x000002D69AD9AC70) {x: 27500.000000, y: 27500.000000, z: 600.000000}>",
+  "kamaz_inside_rvt_before": true,
+  "kamaz_inside_rvt_after_move": true,
+  "trail_component_found": true,
+  "source_component_path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.KamazBP_C_0.BP_PlowBrush_Component",
+  "source_component_class": "BP_PlowBrush_Component_C",
+  "stamp_count_before": 0,
+  "stamp_count_after": 2,
+  "visual_stamp_count_before": 0,
+  "visual_stamp_count_after": 2,
+  "mark_call_1": true,
+  "mark_call_2": true,
+  "active_cells_before": [],
+  "active_cells_after": [],
+  "flush_count": 2,
+  "flushed_cells": [
+    {
+      "cell_id": {
+        "x": 2,
+        "y": -1
+      },
+      "is_dirty": false,
+      "pending_write_count": 0,
+      "dominant_surface_family": "<SnowReceiverSurfaceFamily.ROAD: 1>",
+      "save_relative_path": "SnowState/MoscowEA5/Tile_2_-1.json"
+    },
+    {
+      "cell_id": {
+        "x": 3,
+        "y": -1
+      },
+      "is_dirty": false,
+      "pending_write_count": 0,
+      "dominant_surface_family": "<SnowReceiverSurfaceFamily.ROAD: 1>",
+      "save_relative_path": "SnowState/MoscowEA5/Tile_3_-1.json"
+    }
+  ],
+  "moving_clean_trail_marked": true,
+  "trail_persists_after_move_proxy": true,
+  "error": ""
+}

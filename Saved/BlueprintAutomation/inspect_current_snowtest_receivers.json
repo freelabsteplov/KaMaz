@@ -1,0 +1,948 @@
+{
+  "map": "/Game/CityPark/SnowSystem/SnowTest_Level",
+  "roads": [
+    {
+      "label": "SnowSplineRoad_MVP",
+      "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0",
+      "snow_road_material": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K.MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+      "component_materials": [
+        {
+          "component": "SplineRoadSegment_0",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_0",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_0",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_0",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K.MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        },
+        {
+          "component": "SplineRoadSegment_1",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_1",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_1",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_1",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K.MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        },
+        {
+          "component": "SplineRoadSegment_2",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_2",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_2",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_2",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K.MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "SnowSplineRoad_V1_Original_MVP",
+      "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1",
+      "snow_road_material": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8",
+      "component_materials": [
+        {
+          "component": "SplineRoadSegment_0",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_0",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_0",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_0",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_Tile8",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        },
+        {
+          "component": "SplineRoadSegment_1",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_1",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_1",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_1",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_Tile8",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        },
+        {
+          "component": "SplineRoadSegment_2",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_2",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_2",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_2",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_Tile8",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        },
+        {
+          "component": "SplineRoadSegment_3",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_3",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_3",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_3",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_Tile8",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "SnowSplineRoad_V3_Narrow_MVP",
+      "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2",
+      "snow_road_material": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4.MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+      "component_materials": [
+        {
+          "component": "SplineRoadSegment_0",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_0",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_0",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_0",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4.MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        },
+        {
+          "component": "SplineRoadSegment_1",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_1",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_1",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_1",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4.MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        },
+        {
+          "component": "SplineRoadSegment_2",
+          "materials": [
+            {
+              "slot": 0,
+              "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_2",
+              "chain": [
+                {
+                  "name": "MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_2",
+                  "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_2",
+                  "class": "MaterialInstanceDynamic",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4.MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4",
+                  "class": "MaterialInstanceConstant",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                },
+                {
+                  "name": "M_SnowReceiver_RVT_Height_MVP",
+                  "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+                  "class": "Material",
+                  "scalar_params": [
+                    "SnowTexUVScale",
+                    "HeightContrast",
+                    "VisualClearMaskStrength",
+                    "DepthMaskBoost",
+                    "ThinSnowMinVisualOpacity",
+                    "EdgeDustingStrength",
+                    "SnowRoughness",
+                    "PressedRoughness",
+                    "HeightBias",
+                    "HeightAmplitude",
+                    "RepeatAccumulationDepth",
+                    "RightBermSharpness",
+                    "DirtyBermTintStrength",
+                    "RightBermRaise"
+                  ]
+                }
+              ],
+              "instance_scalars": {
+                "HeightAmplitude": null,
+                "EdgeRaiseAmplitude": null,
+                "RoadEdgeBlendWidth": null,
+                "RoadEdgeHeightFade": null,
+                "RightBermRaise": null,
+                "RepeatAccumulationDepth": null,
+                "WheelTrackMaskAmplify": null,
+                "WheelTrackContrast": null,
+                "WheelTrackStrength": null,
+                "WheelTrackAsphaltRoughness": null,
+                "WheelTrackSnowRoughness": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "trail": {
+    "label": "SnowRuntimeTrailBridgeActor",
+    "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+    "components": [
+      {
+        "component": "TrailComponent",
+        "class": "SnowRuntimeTrailBridgeComponent",
+        "stamp_material": "/Game/CityPark/SnowSystem/RVT_MVP/M_RVT_DebugWriter_MVP.M_RVT_DebugWriter_MVP",
+        "stamp_material_scalar_names": [
+          "StampEdgeFeatherPercent",
+          "ClearStrength",
+          "BermStrength",
+          "RepeatDepthStrength",
+          "BermOnly"
+        ],
+        "stamp_material_chain": [
+          {
+            "name": "M_RVT_DebugWriter_MVP",
+            "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_RVT_DebugWriter_MVP.M_RVT_DebugWriter_MVP",
+            "class": "Material",
+            "scalar_params": [
+              "StampEdgeFeatherPercent",
+              "ClearStrength",
+              "BermStrength",
+              "RepeatDepthStrength",
+              "BermOnly"
+            ]
+          }
+        ],
+        "props": {
+          "StampSpacingCm": 5.0,
+          "PersistentPlowLengthCm": 120.0,
+          "PersistentPlowWidthCm": 320.0,
+          "RightBermContinuationRatio": 0.0,
+          "bEnableRepeatClearingAccumulation": false,
+          "bEnableRuntimeReceiverHeightControl": true,
+          "bUseSourceHeightGate": false,
+          "RepeatAccumulationMaxPasses": 3,
+          "FirstPassClearStrength": 1.0,
+          "RepeatPassClearStrengthStep": 0.0,
+          "MaxAccumulatedClearStrength": 1.0,
+          "SourceActiveMaxRelativeZ": 95.0,
+          "MinStampEngagementToWrite": 0.18000000715255737,
+          "PlowLiftHeightForNoEffect": 1.0,
+          "RuntimeHeightAmplitudeWhenActive": -95.0,
+          "RuntimeHeightAmplitudeWhenInactive": 0.0,
+          "SourceComponentOverride": ""
+        }
+      }
+    ]
+  },
+  "error": ""
+}

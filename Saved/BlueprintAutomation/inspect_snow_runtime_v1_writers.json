@@ -1,0 +1,4 @@
+{
+  "materials": [],
+  "error": "Material: Property 'Expressions' for attribute 'expressions' on 'Material' is protected and cannot be read"
+}

@@ -1,0 +1,1 @@
+Serialized graph '/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph' to JSON.

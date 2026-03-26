@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "map_path": "/Game/Maps/MoscowEA5",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_251",
+  "actor_flags": {
+    "is_hidden_ed": true,
+    "hidden": false,
+    "hidden_in_game": false,
+    "is_editor_only_actor": false,
+    "is_temporarily_hidden_in_editor": true,
+    "bIsEditorOnlyActor": false,
+    "enable_auto_lod_generation": true,
+    "net_load_on_client": true
+  },
+  "component_flags": {
+    "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_251.StaticMeshComponent0",
+    "visible": true,
+    "hidden_in_game": false,
+    "render_in_main_pass": true,
+    "render_in_depth_pass": true,
+    "visible_in_scene_capture_only": false,
+    "hidden_in_scene_capture": false,
+    "owner_no_see": false,
+    "only_owner_see": false,
+    "render_custom_depth": false,
+    "visible_in_ray_tracing": false
+  },
+  "error": ""
+}

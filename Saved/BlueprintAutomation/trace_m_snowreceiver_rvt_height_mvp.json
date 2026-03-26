@@ -1,0 +1,101 @@
+{
+  "asset_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP",
+  "num_material_expressions": 34,
+  "property_roots": [
+    {
+      "property": "<MaterialProperty.MP_BASE_COLOR: 5>",
+      "node_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP:MaterialExpressionLinearInterpolate_0",
+      "node_name": "MaterialExpressionLinearInterpolate_0",
+      "output_name": "",
+      "error": ""
+    },
+    {
+      "property": "<MaterialProperty.MP_ROUGHNESS: 8>",
+      "node_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP:MaterialExpressionLinearInterpolate_1",
+      "node_name": "MaterialExpressionLinearInterpolate_1",
+      "output_name": "",
+      "error": ""
+    },
+    {
+      "property": "<MaterialProperty.MP_NORMAL: 10>",
+      "node_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP:MaterialExpressionTextureSampleParameter2D_1",
+      "node_name": "MaterialExpressionTextureSampleParameter2D_1",
+      "output_name": "RGB",
+      "error": ""
+    },
+    {
+      "property": "<MaterialProperty.MP_WORLD_POSITION_OFFSET: 12>",
+      "node_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP:MaterialExpressionMultiply_6",
+      "node_name": "MaterialExpressionMultiply_6",
+      "output_name": "",
+      "error": ""
+    }
+  ],
+  "visited_expressions": [
+    {
+      "name": "MaterialExpressionLinearInterpolate_0",
+      "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP:MaterialExpressionLinearInterpolate_0",
+      "class": "/Script/Engine.MaterialExpressionLinearInterpolate",
+      "parameter_name": null,
+      "default_value": null,
+      "desc": "",
+      "position": [
+        -260,
+        0
+      ],
+      "input_names": "[\"A\", \"B\", \"Alpha\"]",
+      "input_types": "[4, 4, 15]",
+      "inputs": [],
+      "input_error": "get_inputs_for_material_expression failed"
+    },
+    {
+      "name": "MaterialExpressionLinearInterpolate_1",
+      "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP:MaterialExpressionLinearInterpolate_1",
+      "class": "/Script/Engine.MaterialExpressionLinearInterpolate",
+      "parameter_name": null,
+      "default_value": null,
+      "desc": "",
+      "position": [
+        -260,
+        162
+      ],
+      "input_names": "[\"A\", \"B\", \"Alpha\"]",
+      "input_types": "[15, 15, 15]",
+      "inputs": [],
+      "input_error": "get_inputs_for_material_expression failed"
+    },
+    {
+      "name": "MaterialExpressionTextureSampleParameter2D_1",
+      "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP:MaterialExpressionTextureSampleParameter2D_1",
+      "class": "/Script/Engine.MaterialExpressionTextureSampleParameter2D",
+      "parameter_name": "Snow_Normal",
+      "default_value": null,
+      "desc": "",
+      "position": [
+        -260,
+        324
+      ],
+      "input_names": "[\"UVs\", \"Apply View MipBias\"]",
+      "input_types": "[15, 512]",
+      "inputs": [],
+      "input_error": "get_inputs_for_material_expression failed"
+    },
+    {
+      "name": "MaterialExpressionMultiply_6",
+      "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP:MaterialExpressionMultiply_6",
+      "class": "/Script/Engine.MaterialExpressionMultiply",
+      "parameter_name": null,
+      "default_value": null,
+      "desc": "",
+      "position": [
+        -260,
+        500
+      ],
+      "input_names": "[\"A\", \"B\"]",
+      "input_types": "[4, 15]",
+      "inputs": [],
+      "input_error": "get_inputs_for_material_expression failed"
+    }
+  ],
+  "num_material_expressions_error": ""
+}

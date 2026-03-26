@@ -1,0 +1,108 @@
+{
+  "success": false,
+  "map": "/Game/Maps/MoscowEA5",
+  "road_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+  "mi_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2",
+  "parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP",
+  "before": {
+    "BaselineSnowCoverage": 1.0,
+    "BaselineHeightCm": 50.0,
+    "HeightAmplitude": 0.0,
+    "HeightContrast": 1.0,
+    "SnowTexUVScale": 10.0,
+    "SnowDetailInfluence": 0.0,
+    "VisualClearMaskStrength": 1.0,
+    "DepthMaskBoost": 1.0,
+    "ThinSnowMinVisualOpacity": 0.8799999952316284,
+    "SnowRoughness": 0.7200000286102295,
+    "PressedRoughness": 0.46000000834465027,
+    "RoadSnowVisualWhitenStrength": 1.0,
+    "RoadSnowRecoveredBehavior": 1.0,
+    "BaselineSnowEmissiveStrength": 0.0,
+    "RevealOpacityThreshold": 0.8999999761581421,
+    "RevealOpacityPower": 2.0,
+    "InvertClearMask": 1.0,
+    "SnowColor": [
+      1.4500000476837158,
+      1.5,
+      1.600000023841858,
+      1.0
+    ],
+    "RoadSnowVisualColor": [
+      1.75,
+      1.8200000524520874,
+      1.9500000476837158,
+      1.0
+    ],
+    "PressedSnowColor": [
+      0.5199999809265137,
+      0.5199999809265137,
+      0.5400000214576721,
+      1.0
+    ],
+    "RoadSnowRecoveredPressedColor": [
+      0.5199999809265137,
+      0.5199999809265137,
+      0.5400000214576721,
+      1.0
+    ],
+    "ThinSnowUnderColor": [
+      0.5199999809265137,
+      0.5199999809265137,
+      0.5400000214576721,
+      1.0
+    ]
+  },
+  "after": {
+    "BaselineSnowCoverage": 1.0,
+    "BaselineHeightCm": 50.0,
+    "HeightAmplitude": 0.0,
+    "HeightContrast": 1.0,
+    "SnowTexUVScale": 10.0,
+    "SnowDetailInfluence": 0.0,
+    "VisualClearMaskStrength": 1.0,
+    "DepthMaskBoost": 1.0,
+    "ThinSnowMinVisualOpacity": 0.8799999952316284,
+    "SnowRoughness": 0.7200000286102295,
+    "PressedRoughness": 0.46000000834465027,
+    "RoadSnowVisualWhitenStrength": 1.0,
+    "RoadSnowRecoveredBehavior": 1.0,
+    "BaselineSnowEmissiveStrength": 0.0,
+    "RevealOpacityThreshold": 0.8999999761581421,
+    "RevealOpacityPower": 2.0,
+    "InvertClearMask": 0.0,
+    "SnowColor": [
+      1.4500000476837158,
+      1.5,
+      1.600000023841858,
+      1.0
+    ],
+    "RoadSnowVisualColor": [
+      1.75,
+      1.8200000524520874,
+      1.9500000476837158,
+      1.0
+    ],
+    "PressedSnowColor": [
+      0.5199999809265137,
+      0.5199999809265137,
+      0.5400000214576721,
+      1.0
+    ],
+    "RoadSnowRecoveredPressedColor": [
+      0.5199999809265137,
+      0.5199999809265137,
+      0.5400000214576721,
+      1.0
+    ],
+    "ThinSnowUnderColor": [
+      0.5199999809265137,
+      0.5199999809265137,
+      0.5400000214576721,
+      1.0
+    ]
+  },
+  "saved_assets": [],
+  "error": "Failed to save MI"
+}

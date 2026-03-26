@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "error": "",
+  "road_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+  "before": {
+    "path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_height_only_no_stamp_before",
+    "sha256": "6d505888b1238e653b39a31c33af0ba1e260404fb4cd37fbbd797fbdf210d3c5",
+    "camera_location": {
+      "x": -116005.03398437497,
+      "y": -210347.82302826457,
+      "z": -207056.87721531276
+    },
+    "camera_rotation": {
+      "pitch": -0.7909058644408277,
+      "yaw": 60.78354902196964,
+      "roll": 6.499388301270181e-09
+    }
+  },
+  "after": {
+    "path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_height_only_no_stamp_after",
+    "sha256": "0808c131147978d77a0647824f182b5b8736c0c3a90a92d8560552a144191142",
+    "camera_location": {
+      "x": -116005.03398437497,
+      "y": -210347.82302826457,
+      "z": -207056.87721531276
+    },
+    "camera_rotation": {
+      "pitch": -0.7909058644408277,
+      "yaw": 60.78354902196964,
+      "roll": 6.499388301270181e-09
+    }
+  },
+  "analysis": {
+    "mean_abs_channel_diff": null,
+    "height_only_changes_image": false
+  }
+}

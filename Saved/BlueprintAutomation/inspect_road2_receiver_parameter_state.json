@@ -1,0 +1,110 @@
+{
+  "success": true,
+  "map_path": "/Game/Maps/MoscowEA5",
+  "road": {
+    "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+    "location": {
+      "x": -67246.0,
+      "y": -123162.75271576444,
+      "z": -208508.0
+    },
+    "component": {
+      "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208.StaticMeshComponent0",
+      "visible": true,
+      "hidden_in_game": false,
+      "render_in_main_pass": true,
+      "render_in_depth_pass": true,
+      "material_slot0": {
+        "name": "M_SnowV2P1_Master",
+        "path": "/Game/CAA_SnowV2/SnowV2P1/MaterialsP1/M_SnowV2P1_Master.M_SnowV2P1_Master",
+        "class": "/Script/Engine.Material"
+      }
+    }
+  },
+  "carrier": {
+    "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+    "location": {
+      "x": -67246.0,
+      "y": -123162.75271576444,
+      "z": -208458.0
+    },
+    "component": {
+      "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224.StaticMeshComponent0",
+      "visible": true,
+      "hidden_in_game": false,
+      "render_in_main_pass": true,
+      "render_in_depth_pass": true,
+      "material_slot0": {
+        "name": "MI_SnowRoadCarrier_Road2",
+        "path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+        "class": "/Script/Engine.MaterialInstanceConstant"
+      }
+    }
+  },
+  "carrier_material_parent_chain": [
+    {
+      "name": "MI_SnowRoadCarrier_Road2",
+      "path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+      "class": "/Script/Engine.MaterialInstanceConstant"
+    },
+    {
+      "name": "M_SnowReceiver_RVT_Height_MVP_RoadEdgeBlend",
+      "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP_RoadEdgeBlend.M_SnowReceiver_RVT_Height_MVP_RoadEdgeBlend",
+      "class": "/Script/Engine.Material"
+    }
+  ],
+  "carrier_material_parameters": {
+    "scalar_names": [
+      "SnowTexUVScale",
+      "HeightContrast",
+      "SnowRoughness",
+      "PressedRoughness",
+      "HeightBias",
+      "HeightAmplitude",
+      "RoadEdgeBlendWidth",
+      "RoadEdgeBlendPower",
+      "RoadEdgeDarkenStrength",
+      "RoadEdgeRoughnessPush",
+      "RoadEdgeHeightFade"
+    ],
+    "scalar_values": {
+      "SnowTexUVScale": 10.0,
+      "HeightContrast": 1.0,
+      "SnowRoughness": 0.8999999761581421,
+      "PressedRoughness": 0.5,
+      "HeightBias": 0.0,
+      "HeightAmplitude": -50.0,
+      "RoadEdgeBlendWidth": 0.11999999731779099,
+      "RoadEdgeBlendPower": 1.149999976158142,
+      "RoadEdgeDarkenStrength": 0.3199999928474426,
+      "RoadEdgeRoughnessPush": 0.10000000149011612,
+      "RoadEdgeHeightFade": 1.0
+    },
+    "vector_names": [
+      "PressedSnowColor"
+    ],
+    "vector_values": {
+      "PressedSnowColor": [
+        0.36000001430511475,
+        0.4699999988079071,
+        0.6200000047683716,
+        1.0
+      ]
+    },
+    "texture_names": [
+      "Snow_Diffuse",
+      "Snow_Normal",
+      "Snow_Roughness"
+    ],
+    "texture_values": {
+      "Snow_Diffuse": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Diffuse.T_SnowV2P1_2K_Diffuse",
+      "Snow_Normal": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Normal.T_SnowV2P1_2K_Normal",
+      "Snow_Roughness": "/Game/CAA_SnowV2/SnowV2P1/TexturesP1/T_SnowV2P1_2K_Roughness.T_SnowV2P1_2K_Roughness"
+    },
+    "static_switch_names": [],
+    "static_switch_values": {},
+    "rvt_names": [],
+    "rvt_values": {}
+  },
+  "error": ""
+}

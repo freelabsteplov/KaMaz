@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "map_path": "/Game/Maps/MoscowEA5",
+  "trail_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "actor_found": true,
+  "actor_label": "SnowRuntimeTrailBridgeActor",
+  "components": [
+    {
+      "name": "Root",
+      "class": "SceneComponent",
+      "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.Root"
+    },
+    {
+      "name": "TrailComponent",
+      "class": "SnowRuntimeTrailBridgeComponent",
+      "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent"
+    }
+  ],
+  "instanced_components": [],
+  "error": ""
+}

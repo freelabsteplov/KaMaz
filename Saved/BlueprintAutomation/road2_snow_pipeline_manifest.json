@@ -1,0 +1,111 @@
+﻿{
+    "generated_at":  "2026-03-26T22:02:45.2849508+03:00",
+    "repository_remote":  "https://github.com/freelabsteplov/KaMaz.git",
+    "source_roots":  [
+                         "Source/Kamaz_Cleaner/Private/Snow/",
+                         "Source/Kamaz_Cleaner/Public/Snow/",
+                         "Pyton_script/unreal_tools/",
+                         "Plugins/BlueprintAutomationEditor/Source/BlueprintAutomationEditor/",
+                         "Tools/AI/"
+                     ],
+    "config_files":  [
+                         "Config/DefaultEngine.ini",
+                         "Config/DefaultGame.ini"
+                     ],
+    "blueprint_exports":  [
+                              "Saved/BlueprintAutomation/plowbrush_component_graph.json",
+                              "Saved/BlueprintAutomation/plowbrush_component_road2_snow_slice.json",
+                              "Saved/BlueprintAutomation/plowbrush_event_graph.json",
+                              "Saved/BlueprintAutomation/plowbrush_drawplowclearance_graph.json",
+                              "Saved/BlueprintAutomation/kamazbp_eventgraph_full.json",
+                              "Saved/BlueprintAutomation/kamazbp_road2_snow_slice.json",
+                              "Saved/BlueprintAutomation/kamazbp_summary.json",
+                              "Saved/BlueprintAutomation/kamazbp_compile.json"
+                          ],
+    "material_exports":  [
+                             "Saved/BlueprintAutomation/trace_m_snowreceiver_rvt_height_mvp.json",
+                             "Saved/BlueprintAutomation/inspect_m_snowreceiver_root_chains.json",
+                             "Saved/BlueprintAutomation/inspect_m_snowreceiver_lerp_inputs.json",
+                             "Saved/BlueprintAutomation/inspect_material_inputs_height_mvp.json",
+                             "Saved/BlueprintAutomation/inspect_height_m_graph.json"
+                         ],
+    "road2_diagnostics":  [
+                              "Saved/BlueprintAutomation/apply_road_height_carrier_for_road2.json",
+                              "Saved/BlueprintAutomation/apply_road2_material_only_pass.json",
+                              "Saved/BlueprintAutomation/cleanup_legacy_plow_rt_writer.json",
+                              "Saved/BlueprintAutomation/probe_spawned_plow_writer_runtime.json",
+                              "Saved/BlueprintAutomation/probe_road2_runtime_height_receiver.json",
+                              "Saved/BlueprintAutomation/probe_road2_carrier_visual_influence.json",
+                              "Saved/BlueprintAutomation/inspect_road2_receiver_parameter_state.json",
+                              "Saved/BlueprintAutomation/inspect_road2_parent_receiver_state.json",
+                              "Saved/BlueprintAutomation/inspect_road2_dense_vs_snowtest_mis.json",
+                              "Saved/BlueprintAutomation/inspect_road2_carrier_flags.json",
+                              "Saved/BlueprintAutomation/inspect_road2_carrier_visibility_toggle.json",
+                              "Saved/BlueprintAutomation/inspect_road2_trail_runtime_artifacts.json",
+                              "Saved/BlueprintAutomation/inspect_moscowea5_road2_carrier_runtime.json",
+                              "Saved/BlueprintAutomation/validate_road_height_carrier_for_road2.json",
+                              "Saved/BlueprintAutomation/verify_road2_offline_baseline_before_runtime.json",
+                              "Saved/BlueprintAutomation/verify_road2_height_only_no_stamp.json",
+                              "Saved/BlueprintAutomation/verify_road2_asphalt_reveal_after_runtime_stamp.json",
+                              "Saved/BlueprintAutomation/capture_road2_bounds_runtime_proof.json",
+                              "Saved/BlueprintAutomation/capture_road2_side_profile.json",
+                              "Saved/BlueprintAutomation/inspect_snow_runtime_v1_writers.json",
+                              "Saved/BlueprintAutomation/phase6_runtime_trail_mvp.json",
+                              "Saved/BlueprintAutomation/phase6_runtime_trail_binary_probe.json",
+                              "Saved/BlueprintAutomation/phase6_trail_component_props.json",
+                              "Saved/BlueprintAutomation/phase6_writer_material_probe.json",
+                              "Saved/BlueprintAutomation/phase6_writer_rect_apply.json"
+                          ],
+    "canonical_writer_scripts":  [
+                                     "Pyton_script/unreal_tools/apply_road_height_carrier_for_road2.py",
+                                     "Pyton_script/unreal_tools/rebuild_m_snowreceiver_rvt_height_mvp_berm.py",
+                                     "Pyton_script/unreal_tools/apply_road2_material_only_pass.py"
+                                 ],
+    "blocked_writer_scripts":  [
+                                   "Pyton_script/unreal_tools/apply_road2_height_baseline_recovery.py",
+                                   "Pyton_script/unreal_tools/apply_road2_offline_baseline_height_plus50.py",
+                                   "Pyton_script/unreal_tools/fix_road2_active_mi_baseline_scalars.py",
+                                   "Pyton_script/unreal_tools/fix_road2_receiver_visibility_baseline.py",
+                                   "Pyton_script/unreal_tools/apply_road2_visible_snow_whiten_inplace.py",
+                                   "Pyton_script/unreal_tools/apply_visible_snow_to_road_only_carrier.py",
+                                   "Pyton_script/unreal_tools/set_road2_carrier_to_localheight_baseline.py",
+                                   "Pyton_script/unreal_tools/rebuild_m_snowreceiver_rvt_height_mvp_clean.py",
+                                   "Pyton_script/unreal_tools/rebuild_visible_road_snow_receiver.py",
+                                   "Pyton_script/unreal_tools/offline_recover_road_receiver.py",
+                                   "Pyton_script/unreal_tools/recover_road_receiver_parent.py"
+                               ],
+    "question_guides":  [
+                            {
+                                "question":  "Where is snow opacity or visual reveal globally suppressed when the plow goes down?",
+                                "files":  [
+                                              "Source/Kamaz_Cleaner/Public/Snow/SnowRuntimeTrailBridgeComponent.h",
+                                              "Source/Kamaz_Cleaner/Private/Snow/SnowRuntimeTrailBridgeComponent.cpp",
+                                              "Saved/BlueprintAutomation/trace_m_snowreceiver_rvt_height_mvp.json",
+                                              "Saved/BlueprintAutomation/inspect_m_snowreceiver_root_chains.json",
+                                              "Saved/BlueprintAutomation/plowbrush_component_road2_snow_slice.json",
+                                              "Saved/BlueprintAutomation/kamazbp_road2_snow_slice.json"
+                                          ]
+                            },
+                            {
+                                "question":  "Where are directives duplicated between BP, C++, and Python?",
+                                "files":  [
+                                              "Saved/BlueprintAutomation/plowbrush_component_graph.json",
+                                              "Saved/BlueprintAutomation/kamazbp_eventgraph_full.json",
+                                              "Source/Kamaz_Cleaner/Private/Snow/",
+                                              "Source/Kamaz_Cleaner/Public/Snow/",
+                                              "Pyton_script/unreal_tools/"
+                                          ]
+                            },
+                            {
+                                "question":  "Which exact writer actually breaks Road2?",
+                                "files":  [
+                                              "Pyton_script/unreal_tools/road2_writer_policy.py",
+                                              "Saved/BlueprintAutomation/apply_road_height_carrier_for_road2.json",
+                                              "Saved/BlueprintAutomation/apply_road2_material_only_pass.json",
+                                              "Saved/BlueprintAutomation/cleanup_legacy_plow_rt_writer.json",
+                                              "Saved/BlueprintAutomation/probe_spawned_plow_writer_runtime.json",
+                                              ".ai/escalations/20260326_road2_rvt_receiver_recovery.md"
+                                          ]
+                            }
+                        ]
+}

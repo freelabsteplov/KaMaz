@@ -1,0 +1,390 @@
+{
+  "success": true,
+  "map_path": "/Game/Maps/MoscowEA5",
+  "actor_count": 1415,
+  "matches_by_label": {
+    "Road2": [
+      {
+        "actor_label": "Road2",
+        "actor_name": "StaticMeshActor_208",
+        "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": {
+          "x": -67246.0,
+          "y": -123162.75271576444,
+          "z": -208508.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 5.088887490341628e-14,
+          "roll": 0.0
+        },
+        "scale3d": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 0.999999985098839
+        },
+        "root_component": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208.StaticMeshComponent0",
+        "receiver_surface": null,
+        "trail_component": null,
+        "mesh_components": [
+          {
+            "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208.StaticMeshComponent0",
+            "static_mesh_path": "/Game/Meshes/Roads/Road.Road",
+            "visible": true,
+            "hidden_in_game": false,
+            "render_in_main_pass": true,
+            "render_in_depth_pass": true,
+            "disallow_nanite": false,
+            "mesh_nanite_enabled": true,
+            "relative_location": {
+              "x": -67246.0,
+              "y": -123162.75271576444,
+              "z": -208508.0
+            },
+            "relative_rotation": {
+              "pitch": 0.0,
+              "yaw": 5.0888874903416294e-14,
+              "roll": -0.0
+            },
+            "relative_scale3d": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 0.999999985098839
+            },
+            "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+            "cast_shadow": true,
+            "receives_decals": true,
+            "visible_in_ray_tracing": true,
+            "materials": [
+              {
+                "slot_index": 0,
+                "material_name": "M_SR_RoadSection001_Inst",
+                "material_path": "/Game/SnappyRoads/Materials/Old/M_SR_RoadSection001_Inst.M_SR_RoadSection001_Inst",
+                "HeightAmplitude": 0.0,
+                "HeightContrast": 0.0,
+                "HeightBias": 0.0,
+                "PressedSnowColor": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "slot_index": 1,
+                "material_name": "2",
+                "material_path": "/Game/Meshes/Clumba/2.2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SnowHeightBridgeSurface_Road2": [
+      {
+        "actor_label": "SnowHeightBridgeSurface_Road2",
+        "actor_name": "StaticMeshActor_224",
+        "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": {
+          "x": -67246.0,
+          "y": -123162.75271576444,
+          "z": -208507.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale3d": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 0.999999985098839
+        },
+        "root_component": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224.StaticMeshComponent0",
+        "receiver_surface": {
+          "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224.SnowReceiverSurfaceComponent_0",
+          "SurfaceFamily": "<SnowReceiverSurfaceFamily.ROAD: 1>",
+          "ReceiverPriority": 110,
+          "ReceiverSetTag": "RoadSnowCarrierHeight",
+          "bParticipatesInPersistentSnowState": true
+        },
+        "trail_component": null,
+        "mesh_components": [
+          {
+            "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224.StaticMeshComponent0",
+            "static_mesh_path": "/Game/Meshes/Roads/Road.Road",
+            "visible": true,
+            "hidden_in_game": false,
+            "render_in_main_pass": true,
+            "render_in_depth_pass": true,
+            "disallow_nanite": true,
+            "mesh_nanite_enabled": true,
+            "relative_location": {
+              "x": -67246.0,
+              "y": -123162.75271576444,
+              "z": -208507.0
+            },
+            "relative_rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": 0.0
+            },
+            "relative_scale3d": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 0.999999985098839
+            },
+            "collision_enabled": "<CollisionEnabled.NO_COLLISION: 0>",
+            "cast_shadow": false,
+            "receives_decals": false,
+            "visible_in_ray_tracing": false,
+            "materials": [
+              {
+                "slot_index": 0,
+                "material_name": "MI_SnowRoadCarrier_Road2",
+                "material_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+                "HeightAmplitude": 0.0,
+                "HeightContrast": 1.0,
+                "HeightBias": 0.0,
+                "PressedSnowColor": [
+                  0.8199999928474426,
+                  0.8500000238418579,
+                  0.8999999761581421,
+                  1.0
+                ]
+              },
+              {
+                "slot_index": 1,
+                "material_name": "MI_SnowRoadCarrier_Road2",
+                "material_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "SnowOverlay_Road2": [],
+    "SnowRoadCarrier_Road2": [],
+    "SnowRuntimeTrailBridgeActor": [
+      {
+        "actor_label": "SnowRuntimeTrailBridgeActor",
+        "actor_name": "SnowRuntimeTrailBridgeActor_0",
+        "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+        "actor_class": "/Script/Kamaz_Cleaner.SnowRuntimeTrailBridgeActor",
+        "location": {
+          "x": -67246.0,
+          "y": -123162.75271576444,
+          "z": -208507.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale3d": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "root_component": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.Root",
+        "receiver_surface": null,
+        "trail_component": {
+          "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+          "bEnableRuntimeTrail": true,
+          "bUseSourceHeightGate": false,
+          "SourceActiveMaxRelativeZ": -0.5,
+          "MinStampEngagementToWrite": 0.18000000715255737,
+          "PlowLiftHeightForNoEffect": 1.0,
+          "PersistentPlowLengthCm": 50.0,
+          "PersistentPlowWidthCm": 350.0,
+          "bEnableRuntimeReceiverHeightControl": true,
+          "RuntimeHeightAmplitudeParameterName": "HeightAmplitude",
+          "RuntimeHeightAmplitudeWhenActive": -50.0,
+          "RuntimeHeightAmplitudeWhenInactive": 0.0,
+          "SourceComponentOverride": ""
+        },
+        "mesh_components": []
+      }
+    ]
+  },
+  "matches_by_path": {
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208": [
+      {
+        "actor_label": "Road2",
+        "actor_name": "StaticMeshActor_208",
+        "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+        "actor_class": "/Script/Engine.StaticMeshActor",
+        "location": {
+          "x": -67246.0,
+          "y": -123162.75271576444,
+          "z": -208508.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 5.088887490341628e-14,
+          "roll": 0.0
+        },
+        "scale3d": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 0.999999985098839
+        },
+        "root_component": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208.StaticMeshComponent0",
+        "receiver_surface": null,
+        "trail_component": null,
+        "mesh_components": [
+          {
+            "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208.StaticMeshComponent0",
+            "static_mesh_path": "/Game/Meshes/Roads/Road.Road",
+            "visible": true,
+            "hidden_in_game": false,
+            "render_in_main_pass": true,
+            "render_in_depth_pass": true,
+            "disallow_nanite": false,
+            "mesh_nanite_enabled": true,
+            "relative_location": {
+              "x": -67246.0,
+              "y": -123162.75271576444,
+              "z": -208508.0
+            },
+            "relative_rotation": {
+              "pitch": 0.0,
+              "yaw": 5.0888874903416294e-14,
+              "roll": -0.0
+            },
+            "relative_scale3d": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 0.999999985098839
+            },
+            "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+            "cast_shadow": true,
+            "receives_decals": true,
+            "visible_in_ray_tracing": true,
+            "materials": [
+              {
+                "slot_index": 0,
+                "material_name": "M_SR_RoadSection001_Inst",
+                "material_path": "/Game/SnappyRoads/Materials/Old/M_SR_RoadSection001_Inst.M_SR_RoadSection001_Inst",
+                "HeightAmplitude": 0.0,
+                "HeightContrast": 0.0,
+                "HeightBias": 0.0,
+                "PressedSnowColor": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "slot_index": 1,
+                "material_name": "2",
+                "material_path": "/Game/Meshes/Clumba/2.2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "kamaz_candidate_count": 1,
+  "kamaz_candidates": [
+    {
+      "actor_label": "SnowRuntimeTrailBridgeActor",
+      "actor_name": "SnowRuntimeTrailBridgeActor_0",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+      "actor_class": "/Script/Kamaz_Cleaner.SnowRuntimeTrailBridgeActor",
+      "location": {
+        "x": -67246.0,
+        "y": -123162.75271576444,
+        "z": -208507.0
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "scale3d": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "root_component": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.Root",
+      "receiver_surface": null,
+      "trail_component": {
+        "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+        "bEnableRuntimeTrail": true,
+        "bUseSourceHeightGate": false,
+        "SourceActiveMaxRelativeZ": -0.5,
+        "MinStampEngagementToWrite": 0.18000000715255737,
+        "PlowLiftHeightForNoEffect": 1.0,
+        "PersistentPlowLengthCm": 50.0,
+        "PersistentPlowWidthCm": 350.0,
+        "bEnableRuntimeReceiverHeightControl": true,
+        "RuntimeHeightAmplitudeParameterName": "HeightAmplitude",
+        "RuntimeHeightAmplitudeWhenActive": -50.0,
+        "RuntimeHeightAmplitudeWhenInactive": 0.0,
+        "SourceComponentOverride": ""
+      },
+      "mesh_components": []
+    }
+  ],
+  "trail_candidate_count": 1,
+  "trail_candidates": [
+    {
+      "actor_label": "SnowRuntimeTrailBridgeActor",
+      "actor_name": "SnowRuntimeTrailBridgeActor_0",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+      "actor_class": "/Script/Kamaz_Cleaner.SnowRuntimeTrailBridgeActor",
+      "location": {
+        "x": -67246.0,
+        "y": -123162.75271576444,
+        "z": -208507.0
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "scale3d": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "root_component": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.Root",
+      "receiver_surface": null,
+      "trail_component": {
+        "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+        "bEnableRuntimeTrail": true,
+        "bUseSourceHeightGate": false,
+        "SourceActiveMaxRelativeZ": -0.5,
+        "MinStampEngagementToWrite": 0.18000000715255737,
+        "PlowLiftHeightForNoEffect": 1.0,
+        "PersistentPlowLengthCm": 50.0,
+        "PersistentPlowWidthCm": 350.0,
+        "bEnableRuntimeReceiverHeightControl": true,
+        "RuntimeHeightAmplitudeParameterName": "HeightAmplitude",
+        "RuntimeHeightAmplitudeWhenActive": -50.0,
+        "RuntimeHeightAmplitudeWhenInactive": 0.0,
+        "SourceComponentOverride": ""
+      },
+      "mesh_components": []
+    }
+  ],
+  "receiver_actor_count": 1,
+  "receiver_actors": [
+    {
+      "actor_label": "SnowHeightBridgeSurface_Road2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+      "receiver_surface": {
+        "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224.SnowReceiverSurfaceComponent_0",
+        "SurfaceFamily": "<SnowReceiverSurfaceFamily.ROAD: 1>",
+        "ReceiverPriority": 110,
+        "ReceiverSetTag": "RoadSnowCarrierHeight",
+        "bParticipatesInPersistentSnowState": true
+      }
+    }
+  ]
+}

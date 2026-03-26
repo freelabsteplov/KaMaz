@@ -1,0 +1,1187 @@
+{
+  "success": true,
+  "map_path": "/Game/Maps/MoscowEA5",
+  "road_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+  "mi_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2",
+  "mi_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+  "carrier_material_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+  "road_bounds_origin": {
+    "x": -67246.10546875,
+    "y": -123162.78396576445,
+    "z": -208490.88256861444
+  },
+  "road_bounds_extent": {
+    "x": 57363.44531250006,
+    "y": 69748.03125000006,
+    "z": 1194.0053533016762
+  },
+  "focus_origin": {
+    "x": -67246.0,
+    "y": -123162.75271576444,
+    "z": -208507.0
+  },
+  "mi_scalars": {
+    "HeightAmplitude": 0.0,
+    "VisualClearMaskStrength": 1.0,
+    "DepthMaskBoost": 1.0,
+    "ThinSnowMinVisualOpacity": 0.8799999952316284,
+    "RoadSnowVisualWhitenStrength": 1.0,
+    "RoadSnowRecoveredBehavior": 1.0
+  },
+  "captures": {
+    "with_carrier": {
+      "topdown": {
+        "capture_source_name": "SCS_FINAL_COLOR_LDR",
+        "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_offline_baseline_before_runtime_with_carrier_topdown",
+        "exported_image_sha256": "355d407d8f86c2fa4e0daa02d821d2ed4c8936d0046005347456e9113640785c",
+        "samples": {
+          "center": {
+            "r": 188.0,
+            "g": 158.0,
+            "b": 145.0,
+            "a": 255.0
+          },
+          "left": {
+            "r": 185.0,
+            "g": 155.0,
+            "b": 141.0,
+            "a": 255.0
+          },
+          "right": {
+            "r": 185.0,
+            "g": 155.0,
+            "b": 141.0,
+            "a": 255.0
+          }
+        },
+        "luma": {
+          "center": 163.43939999999998,
+          "left": 160.36720000000003,
+          "right": 160.36720000000003
+        },
+        "sample_grid": [
+          {
+            "u": 0.25,
+            "v": 0.25,
+            "rgba": {
+              "r": 178.0,
+              "g": 147.0,
+              "b": 132.0,
+              "a": 255.0
+            },
+            "luma": 152.50759999999997
+          },
+          {
+            "u": 0.5,
+            "v": 0.25,
+            "rgba": {
+              "r": 183.0,
+              "g": 153.0,
+              "b": 138.0,
+              "a": 255.0
+            },
+            "luma": 158.29499999999996
+          },
+          {
+            "u": 0.75,
+            "v": 0.25,
+            "rgba": {
+              "r": 178.0,
+              "g": 146.0,
+              "b": 131.0,
+              "a": 255.0
+            },
+            "luma": 151.7202
+          },
+          {
+            "u": 0.25,
+            "v": 0.5,
+            "rgba": {
+              "r": 183.0,
+              "g": 153.0,
+              "b": 138.0,
+              "a": 255.0
+            },
+            "luma": 158.29499999999996
+          },
+          {
+            "u": 0.5,
+            "v": 0.5,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 145.0,
+              "a": 255.0
+            },
+            "luma": 163.43939999999998
+          },
+          {
+            "u": 0.75,
+            "v": 0.5,
+            "rgba": {
+              "r": 182.0,
+              "g": 152.0,
+              "b": 137.0,
+              "a": 255.0
+            },
+            "luma": 157.295
+          },
+          {
+            "u": 0.25,
+            "v": 0.75,
+            "rgba": {
+              "r": 178.0,
+              "g": 146.0,
+              "b": 131.0,
+              "a": 255.0
+            },
+            "luma": 151.7202
+          },
+          {
+            "u": 0.5,
+            "v": 0.75,
+            "rgba": {
+              "r": 184.0,
+              "g": 153.0,
+              "b": 139.0,
+              "a": 255.0
+            },
+            "luma": 158.57979999999998
+          },
+          {
+            "u": 0.75,
+            "v": 0.75,
+            "rgba": {
+              "r": 178.0,
+              "g": 146.0,
+              "b": 131.0,
+              "a": 255.0
+            },
+            "luma": 151.7202
+          }
+        ]
+      },
+      "perspective": {
+        "capture_source_name": "SCS_FINAL_COLOR_LDR",
+        "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_offline_baseline_before_runtime_with_carrier_perspective",
+        "exported_image_sha256": "d2e22b2ccf0ca8a5a985ffcee116c9a32848b8225088a83448e490e6e1c979c1",
+        "center_sample": {
+          "r": 188.0,
+          "g": 158.0,
+          "b": 145.0,
+          "a": 255.0
+        },
+        "center_luma": 163.43939999999998,
+        "camera_location": {
+          "x": -68146.0,
+          "y": -124562.75271576444,
+          "z": -208247.0
+        },
+        "camera_rotation": {
+          "pitch": -7.699104966101102,
+          "yaw": 57.264773727892404,
+          "roll": 5.942859266066549e-08
+        },
+        "sample_grid": [
+          {
+            "u": 0.4,
+            "v": 0.48,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.48,
+            "rgba": {
+              "r": 189.0,
+              "g": 159.0,
+              "b": 146.0,
+              "a": 255.0
+            },
+            "luma": 164.4394
+          },
+          {
+            "u": 0.6,
+            "v": 0.48,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.58,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.58,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 145.0,
+              "a": 255.0
+            },
+            "luma": 163.43939999999998
+          },
+          {
+            "u": 0.6,
+            "v": 0.58,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.68,
+            "rgba": {
+              "r": 185.0,
+              "g": 154.0,
+              "b": 140.0,
+              "a": 255.0
+            },
+            "luma": 159.5798
+          },
+          {
+            "u": 0.5,
+            "v": 0.68,
+            "rgba": {
+              "r": 185.0,
+              "g": 155.0,
+              "b": 141.0,
+              "a": 255.0
+            },
+            "luma": 160.36720000000003
+          },
+          {
+            "u": 0.6,
+            "v": 0.68,
+            "rgba": {
+              "r": 184.0,
+              "g": 154.0,
+              "b": 140.0,
+              "a": 255.0
+            },
+            "luma": 159.3672
+          }
+        ]
+      },
+      "side_profile": {
+        "capture_source_name": "SCS_FINAL_COLOR_LDR",
+        "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_offline_baseline_before_runtime_with_carrier_side",
+        "exported_image_sha256": "1aa2c3069495efb41103e29992f16b013c4fc3b2804df5ff5d9975c552c8026b",
+        "center_sample": {
+          "r": 188.0,
+          "g": 158.0,
+          "b": 144.0,
+          "a": 255.0
+        },
+        "center_luma": 163.3672,
+        "camera_location": {
+          "x": -67696.0,
+          "y": -124862.75271576444,
+          "z": -208387.0
+        },
+        "camera_rotation": {
+          "pitch": -3.5792744582412483,
+          "yaw": 75.17352002964434,
+          "roll": 3.635405021260177e-08
+        },
+        "sample_grid": [
+          {
+            "u": 0.4,
+            "v": 0.5,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.5,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 145.0,
+              "a": 255.0
+            },
+            "luma": 163.43939999999998
+          },
+          {
+            "u": 0.6,
+            "v": 0.5,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.6,
+            "rgba": {
+              "r": 186.0,
+              "g": 156.0,
+              "b": 142.0,
+              "a": 255.0
+            },
+            "luma": 161.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.6,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.6,
+            "v": 0.6,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.7,
+            "rgba": {
+              "r": 184.0,
+              "g": 154.0,
+              "b": 139.0,
+              "a": 255.0
+            },
+            "luma": 159.295
+          },
+          {
+            "u": 0.5,
+            "v": 0.7,
+            "rgba": {
+              "r": 186.0,
+              "g": 155.0,
+              "b": 141.0,
+              "a": 255.0
+            },
+            "luma": 160.57979999999998
+          },
+          {
+            "u": 0.6,
+            "v": 0.7,
+            "rgba": {
+              "r": 184.0,
+              "g": 153.0,
+              "b": 139.0,
+              "a": 255.0
+            },
+            "luma": 158.57979999999998
+          }
+        ]
+      }
+    },
+    "without_carrier": {
+      "topdown": {
+        "capture_source_name": "SCS_FINAL_COLOR_LDR",
+        "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_offline_baseline_before_runtime_without_carrier_topdown",
+        "exported_image_sha256": "c88874ec60ee76654e9c76b60ea2a9ec328318d9f3e80a1126046ae1fad069ef",
+        "samples": {
+          "center": {
+            "r": 188.0,
+            "g": 158.0,
+            "b": 145.0,
+            "a": 255.0
+          },
+          "left": {
+            "r": 185.0,
+            "g": 155.0,
+            "b": 141.0,
+            "a": 255.0
+          },
+          "right": {
+            "r": 185.0,
+            "g": 155.0,
+            "b": 141.0,
+            "a": 255.0
+          }
+        },
+        "luma": {
+          "center": 163.43939999999998,
+          "left": 160.36720000000003,
+          "right": 160.36720000000003
+        },
+        "sample_grid": [
+          {
+            "u": 0.25,
+            "v": 0.25,
+            "rgba": {
+              "r": 178.0,
+              "g": 147.0,
+              "b": 132.0,
+              "a": 255.0
+            },
+            "luma": 152.50759999999997
+          },
+          {
+            "u": 0.5,
+            "v": 0.25,
+            "rgba": {
+              "r": 183.0,
+              "g": 153.0,
+              "b": 138.0,
+              "a": 255.0
+            },
+            "luma": 158.29499999999996
+          },
+          {
+            "u": 0.75,
+            "v": 0.25,
+            "rgba": {
+              "r": 178.0,
+              "g": 146.0,
+              "b": 131.0,
+              "a": 255.0
+            },
+            "luma": 151.7202
+          },
+          {
+            "u": 0.25,
+            "v": 0.5,
+            "rgba": {
+              "r": 183.0,
+              "g": 153.0,
+              "b": 138.0,
+              "a": 255.0
+            },
+            "luma": 158.29499999999996
+          },
+          {
+            "u": 0.5,
+            "v": 0.5,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 145.0,
+              "a": 255.0
+            },
+            "luma": 163.43939999999998
+          },
+          {
+            "u": 0.75,
+            "v": 0.5,
+            "rgba": {
+              "r": 182.0,
+              "g": 152.0,
+              "b": 137.0,
+              "a": 255.0
+            },
+            "luma": 157.295
+          },
+          {
+            "u": 0.25,
+            "v": 0.75,
+            "rgba": {
+              "r": 178.0,
+              "g": 146.0,
+              "b": 131.0,
+              "a": 255.0
+            },
+            "luma": 151.7202
+          },
+          {
+            "u": 0.5,
+            "v": 0.75,
+            "rgba": {
+              "r": 184.0,
+              "g": 153.0,
+              "b": 139.0,
+              "a": 255.0
+            },
+            "luma": 158.57979999999998
+          },
+          {
+            "u": 0.75,
+            "v": 0.75,
+            "rgba": {
+              "r": 178.0,
+              "g": 146.0,
+              "b": 131.0,
+              "a": 255.0
+            },
+            "luma": 151.7202
+          }
+        ]
+      },
+      "perspective": {
+        "capture_source_name": "SCS_FINAL_COLOR_LDR",
+        "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_offline_baseline_before_runtime_without_carrier_perspective",
+        "exported_image_sha256": "050c620d22b00abecdc1d16fda5a36e2cb26b41e3e338ff3f527e61b45f2fa83",
+        "center_sample": {
+          "r": 188.0,
+          "g": 158.0,
+          "b": 145.0,
+          "a": 255.0
+        },
+        "center_luma": 163.43939999999998,
+        "camera_location": {
+          "x": -68146.0,
+          "y": -124562.75271576444,
+          "z": -208247.0
+        },
+        "camera_rotation": {
+          "pitch": -7.699104966101102,
+          "yaw": 57.264773727892404,
+          "roll": 5.942859266066549e-08
+        },
+        "sample_grid": [
+          {
+            "u": 0.4,
+            "v": 0.48,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.48,
+            "rgba": {
+              "r": 189.0,
+              "g": 159.0,
+              "b": 146.0,
+              "a": 255.0
+            },
+            "luma": 164.4394
+          },
+          {
+            "u": 0.6,
+            "v": 0.48,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.58,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.58,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 145.0,
+              "a": 255.0
+            },
+            "luma": 163.43939999999998
+          },
+          {
+            "u": 0.6,
+            "v": 0.58,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.68,
+            "rgba": {
+              "r": 185.0,
+              "g": 154.0,
+              "b": 140.0,
+              "a": 255.0
+            },
+            "luma": 159.5798
+          },
+          {
+            "u": 0.5,
+            "v": 0.68,
+            "rgba": {
+              "r": 185.0,
+              "g": 155.0,
+              "b": 141.0,
+              "a": 255.0
+            },
+            "luma": 160.36720000000003
+          },
+          {
+            "u": 0.6,
+            "v": 0.68,
+            "rgba": {
+              "r": 184.0,
+              "g": 154.0,
+              "b": 140.0,
+              "a": 255.0
+            },
+            "luma": 159.3672
+          }
+        ]
+      },
+      "side_profile": {
+        "capture_source_name": "SCS_FINAL_COLOR_LDR",
+        "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_offline_baseline_before_runtime_without_carrier_side",
+        "exported_image_sha256": "c8c60d9c7be41c42f0bfa4351e169a3ca52a0995ee7e64c8c3a2f27d607a75c1",
+        "center_sample": {
+          "r": 188.0,
+          "g": 158.0,
+          "b": 144.0,
+          "a": 255.0
+        },
+        "center_luma": 163.3672,
+        "camera_location": {
+          "x": -67696.0,
+          "y": -124862.75271576444,
+          "z": -208387.0
+        },
+        "camera_rotation": {
+          "pitch": -3.5792744582412483,
+          "yaw": 75.17352002964434,
+          "roll": 3.635405021260177e-08
+        },
+        "sample_grid": [
+          {
+            "u": 0.4,
+            "v": 0.5,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.5,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 145.0,
+              "a": 255.0
+            },
+            "luma": 163.43939999999998
+          },
+          {
+            "u": 0.6,
+            "v": 0.5,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.6,
+            "rgba": {
+              "r": 186.0,
+              "g": 156.0,
+              "b": 142.0,
+              "a": 255.0
+            },
+            "luma": 161.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.6,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.6,
+            "v": 0.6,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.7,
+            "rgba": {
+              "r": 184.0,
+              "g": 154.0,
+              "b": 139.0,
+              "a": 255.0
+            },
+            "luma": 159.295
+          },
+          {
+            "u": 0.5,
+            "v": 0.7,
+            "rgba": {
+              "r": 186.0,
+              "g": 155.0,
+              "b": 141.0,
+              "a": 255.0
+            },
+            "luma": 160.57979999999998
+          },
+          {
+            "u": 0.6,
+            "v": 0.7,
+            "rgba": {
+              "r": 184.0,
+              "g": 153.0,
+              "b": 139.0,
+              "a": 255.0
+            },
+            "luma": 158.57979999999998
+          }
+        ]
+      }
+    },
+    "carrier_only": {
+      "topdown": {
+        "capture_source_name": "SCS_FINAL_COLOR_LDR",
+        "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_offline_baseline_before_runtime_carrier_only_topdown",
+        "exported_image_sha256": "b71d2a7641cf0dc46655fbd613d8f985c73415c50d313beaff6f031275e1f7a9",
+        "samples": {
+          "center": {
+            "r": 188.0,
+            "g": 158.0,
+            "b": 145.0,
+            "a": 255.0
+          },
+          "left": {
+            "r": 185.0,
+            "g": 155.0,
+            "b": 141.0,
+            "a": 255.0
+          },
+          "right": {
+            "r": 185.0,
+            "g": 155.0,
+            "b": 141.0,
+            "a": 255.0
+          }
+        },
+        "luma": {
+          "center": 163.43939999999998,
+          "left": 160.36720000000003,
+          "right": 160.36720000000003
+        },
+        "sample_grid": [
+          {
+            "u": 0.25,
+            "v": 0.25,
+            "rgba": {
+              "r": 178.0,
+              "g": 147.0,
+              "b": 132.0,
+              "a": 255.0
+            },
+            "luma": 152.50759999999997
+          },
+          {
+            "u": 0.5,
+            "v": 0.25,
+            "rgba": {
+              "r": 183.0,
+              "g": 153.0,
+              "b": 138.0,
+              "a": 255.0
+            },
+            "luma": 158.29499999999996
+          },
+          {
+            "u": 0.75,
+            "v": 0.25,
+            "rgba": {
+              "r": 178.0,
+              "g": 146.0,
+              "b": 131.0,
+              "a": 255.0
+            },
+            "luma": 151.7202
+          },
+          {
+            "u": 0.25,
+            "v": 0.5,
+            "rgba": {
+              "r": 183.0,
+              "g": 153.0,
+              "b": 138.0,
+              "a": 255.0
+            },
+            "luma": 158.29499999999996
+          },
+          {
+            "u": 0.5,
+            "v": 0.5,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 145.0,
+              "a": 255.0
+            },
+            "luma": 163.43939999999998
+          },
+          {
+            "u": 0.75,
+            "v": 0.5,
+            "rgba": {
+              "r": 182.0,
+              "g": 152.0,
+              "b": 137.0,
+              "a": 255.0
+            },
+            "luma": 157.295
+          },
+          {
+            "u": 0.25,
+            "v": 0.75,
+            "rgba": {
+              "r": 178.0,
+              "g": 146.0,
+              "b": 131.0,
+              "a": 255.0
+            },
+            "luma": 151.7202
+          },
+          {
+            "u": 0.5,
+            "v": 0.75,
+            "rgba": {
+              "r": 184.0,
+              "g": 153.0,
+              "b": 139.0,
+              "a": 255.0
+            },
+            "luma": 158.57979999999998
+          },
+          {
+            "u": 0.75,
+            "v": 0.75,
+            "rgba": {
+              "r": 178.0,
+              "g": 146.0,
+              "b": 131.0,
+              "a": 255.0
+            },
+            "luma": 151.7202
+          }
+        ]
+      },
+      "perspective": {
+        "capture_source_name": "SCS_FINAL_COLOR_LDR",
+        "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_offline_baseline_before_runtime_carrier_only_perspective",
+        "exported_image_sha256": "95d86aa62e396569355bb0220868eacc4d248f041132626e6d506ea456100730",
+        "center_sample": {
+          "r": 188.0,
+          "g": 158.0,
+          "b": 145.0,
+          "a": 255.0
+        },
+        "center_luma": 163.43939999999998,
+        "camera_location": {
+          "x": -68146.0,
+          "y": -124562.75271576444,
+          "z": -208247.0
+        },
+        "camera_rotation": {
+          "pitch": -7.699104966101102,
+          "yaw": 57.264773727892404,
+          "roll": 5.942859266066549e-08
+        },
+        "sample_grid": [
+          {
+            "u": 0.4,
+            "v": 0.48,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.48,
+            "rgba": {
+              "r": 189.0,
+              "g": 159.0,
+              "b": 146.0,
+              "a": 255.0
+            },
+            "luma": 164.4394
+          },
+          {
+            "u": 0.6,
+            "v": 0.48,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.58,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.58,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 145.0,
+              "a": 255.0
+            },
+            "luma": 163.43939999999998
+          },
+          {
+            "u": 0.6,
+            "v": 0.58,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.68,
+            "rgba": {
+              "r": 185.0,
+              "g": 154.0,
+              "b": 140.0,
+              "a": 255.0
+            },
+            "luma": 159.5798
+          },
+          {
+            "u": 0.5,
+            "v": 0.68,
+            "rgba": {
+              "r": 185.0,
+              "g": 155.0,
+              "b": 141.0,
+              "a": 255.0
+            },
+            "luma": 160.36720000000003
+          },
+          {
+            "u": 0.6,
+            "v": 0.68,
+            "rgba": {
+              "r": 184.0,
+              "g": 154.0,
+              "b": 140.0,
+              "a": 255.0
+            },
+            "luma": 159.3672
+          }
+        ]
+      },
+      "side_profile": {
+        "capture_source_name": "SCS_FINAL_COLOR_LDR",
+        "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_offline_baseline_before_runtime_carrier_only_side",
+        "exported_image_sha256": "47d8ecb1e3b879982bf3520a97a457759b78a84b603204aa12c060c8732f162a",
+        "center_sample": {
+          "r": 188.0,
+          "g": 158.0,
+          "b": 144.0,
+          "a": 255.0
+        },
+        "center_luma": 163.3672,
+        "camera_location": {
+          "x": -67696.0,
+          "y": -124862.75271576444,
+          "z": -208387.0
+        },
+        "camera_rotation": {
+          "pitch": -3.5792744582412483,
+          "yaw": 75.17352002964434,
+          "roll": 3.635405021260177e-08
+        },
+        "sample_grid": [
+          {
+            "u": 0.4,
+            "v": 0.5,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.5,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 145.0,
+              "a": 255.0
+            },
+            "luma": 163.43939999999998
+          },
+          {
+            "u": 0.6,
+            "v": 0.5,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.6,
+            "rgba": {
+              "r": 186.0,
+              "g": 156.0,
+              "b": 142.0,
+              "a": 255.0
+            },
+            "luma": 161.3672
+          },
+          {
+            "u": 0.5,
+            "v": 0.6,
+            "rgba": {
+              "r": 188.0,
+              "g": 158.0,
+              "b": 144.0,
+              "a": 255.0
+            },
+            "luma": 163.3672
+          },
+          {
+            "u": 0.6,
+            "v": 0.6,
+            "rgba": {
+              "r": 187.0,
+              "g": 157.0,
+              "b": 143.0,
+              "a": 255.0
+            },
+            "luma": 162.3672
+          },
+          {
+            "u": 0.4,
+            "v": 0.7,
+            "rgba": {
+              "r": 184.0,
+              "g": 154.0,
+              "b": 139.0,
+              "a": 255.0
+            },
+            "luma": 159.295
+          },
+          {
+            "u": 0.5,
+            "v": 0.7,
+            "rgba": {
+              "r": 186.0,
+              "g": 155.0,
+              "b": 141.0,
+              "a": 255.0
+            },
+            "luma": 160.57979999999998
+          },
+          {
+            "u": 0.6,
+            "v": 0.7,
+            "rgba": {
+              "r": 184.0,
+              "g": 153.0,
+              "b": 139.0,
+              "a": 255.0
+            },
+            "luma": 158.57979999999998
+          }
+        ]
+      }
+    }
+  },
+  "analysis": {
+    "topdown_hash_changed_vs_road_only": true,
+    "perspective_hash_changed_vs_road_only": true,
+    "side_profile_hash_changed_vs_road_only": true,
+    "topdown_center_luma_delta": 0.0,
+    "perspective_center_luma_delta": 0.0,
+    "side_profile_center_luma_delta": 0.0,
+    "topdown_max_sample_delta": 0.0,
+    "perspective_max_sample_delta": 0.0,
+    "side_profile_max_sample_delta": 0.0,
+    "carrier_only_visible_in_topdown": true,
+    "carrier_only_visible_in_perspective": true,
+    "carrier_only_visible_in_side_profile": true,
+    "visible_baseline_response_detected": false
+  },
+  "error": ""
+}

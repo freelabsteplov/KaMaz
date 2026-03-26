@@ -1,0 +1,505 @@
+{
+  "material_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP",
+  "backup_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP_Backup_BaselineRecovery",
+  "backup_created": true,
+  "saved": true,
+  "num_expressions": 122,
+  "connections": [
+    {
+      "ok": true,
+      "src": "Mask",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Base"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Exp"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": ""
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": ""
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "RGB",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "Specular",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "Roughness",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Base"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Exp"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "R",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Alpha"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "A"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "B"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Clamp01"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Base"
+    },
+    {
+      "ok": true,
+      "src": "",
+      "dst": "Exp"
+    }
+  ],
+  "error": ""
+}

@@ -2,7 +2,11 @@
 Binaries/
 DerivedDataCache/
 Intermediate/
-Saved/
+Saved/*
+!Saved/BlueprintAutomation/
+Saved/BlueprintAutomation/*
+!Saved/BlueprintAutomation/*.json
+!Saved/BlueprintAutomation/*.txt
 
 # Visual Studio
 .vs/
@@ -27,3 +31,21 @@ Saved/
 # Local caches
 *.tmp
 Thumbs.db
+
+# Local AI/IDE metadata
+.ai/*
+!.ai/.gitignore
+!.ai/README.md
+!.ai/escalations/
+.ai/escalations/*
+!.ai/escalations/*.md
+.codex/
+.continue/
+.vscode/
+
+# Temporary plugin host project artifacts
+_PluginBuild/
+
+# Python cache noise
+__pycache__/
+*.pyc

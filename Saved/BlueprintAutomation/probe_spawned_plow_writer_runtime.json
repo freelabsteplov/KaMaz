@@ -1,0 +1,174 @@
+{
+  "success": true,
+  "map_path": "/Game/Maps/MoscowEA5",
+  "kamaz_blueprint_path": "/Game/CityPark/Kamaz/model/KamazBP",
+  "spawned_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.KamazBP_C_0",
+  "spawned_actor_name": "KamazBP_C_0",
+  "spawn_location": {
+    "x": -67246.10546875,
+    "y": -123162.78396576445,
+    "z": -206996.87721531276
+  },
+  "test_road_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "test_road_origin": {
+    "x": -67246.10546875,
+    "y": -123162.78396576445,
+    "z": -208490.88256861444
+  },
+  "test_road_extent": {
+    "x": 57363.44531250006,
+    "y": 69748.03125000006,
+    "z": 1194.0053533016762
+  },
+  "owner_vehicle_before_beginplay": null,
+  "owner_vehicle_after_beginplay": null,
+  "beginplay_call_results": [
+    {
+      "function_name": "ReceiveBeginPlay",
+      "attempted": true,
+      "called": true,
+      "path": "call_method:name_only",
+      "error": "",
+      "return_value": null
+    }
+  ],
+  "plow_component_state": {
+    "name": "BP_PlowBrush_Component",
+    "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.KamazBP_C_0.BP_PlowBrush_Component",
+    "class": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+    "callable_candidates": [
+      "call_method"
+    ],
+    "BrushMaterial": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+    "RenderTargetGlobal": null,
+    "MPCSnowSystem": "/Game/CityPark/SnowSystem/MPC_SnowSystem.MPC_SnowSystem",
+    "bEnablePlowClearing": true,
+    "MinPlowSpeed": 2.0,
+    "UpdateRate": 0.05000000074505806,
+    "PlowLiftHeight": 1.0,
+    "OwnerVehicle": null,
+    "relative_location": {
+      "x": 131.59621261233315,
+      "y": 54.29130995634787,
+      "z": 115.53648237506742
+    },
+    "relative_rotation": {
+      "pitch": -5.624999259195552,
+      "yaw": 556.8749998692942,
+      "roll": 539.9999999997723
+    },
+    "relative_scale3d": {
+      "x": 1.7167382357969827,
+      "y": 1.7167382357969827,
+      "z": 1.7167382357969827
+    },
+    "world_location": null,
+    "world_rotation": null,
+    "world_scale": null
+  },
+  "all_plowish_candidates": [
+    {
+      "name": "PlowBrush",
+      "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.KamazBP_C_0.PlowBrush",
+      "class": "/Script/Engine.ChildActorComponent",
+      "callable_candidates": [
+        "call_method"
+      ],
+      "BrushMaterial": null,
+      "RenderTargetGlobal": null,
+      "MPCSnowSystem": null,
+      "bEnablePlowClearing": null,
+      "MinPlowSpeed": null,
+      "UpdateRate": null,
+      "PlowLiftHeight": null,
+      "OwnerVehicle": null,
+      "relative_location": {
+        "x": 148.30105982738172,
+        "y": 61.44843317652808,
+        "z": 17.11015685604036
+      },
+      "relative_rotation": {
+        "pitch": 6.972147352790614e-07,
+        "yaw": 194.06249972142248,
+        "roll": 179.9999999998141
+      },
+      "relative_scale3d": {
+        "x": 1.7167382357969827,
+        "y": 1.7167382357969827,
+        "z": 1.7167382357969827
+      },
+      "world_location": null,
+      "world_rotation": null,
+      "world_scale": null
+    },
+    {
+      "name": "BP_PlowBrush_Component",
+      "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.KamazBP_C_0.BP_PlowBrush_Component",
+      "class": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+      "callable_candidates": [
+        "call_method"
+      ],
+      "BrushMaterial": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+      "RenderTargetGlobal": null,
+      "MPCSnowSystem": "/Game/CityPark/SnowSystem/MPC_SnowSystem.MPC_SnowSystem",
+      "bEnablePlowClearing": true,
+      "MinPlowSpeed": 2.0,
+      "UpdateRate": 0.05000000074505806,
+      "PlowLiftHeight": 1.0,
+      "OwnerVehicle": null,
+      "relative_location": {
+        "x": 131.59621261233315,
+        "y": 54.29130995634787,
+        "z": 115.53648237506742
+      },
+      "relative_rotation": {
+        "pitch": -5.624999259195552,
+        "yaw": 556.8749998692942,
+        "roll": 539.9999999997723
+      },
+      "relative_scale3d": {
+        "x": 1.7167382357969827,
+        "y": 1.7167382357969827,
+        "z": 1.7167382357969827
+      },
+      "world_location": null,
+      "world_rotation": null,
+      "world_scale": null
+    }
+  ],
+  "draw_call_results": [
+    {
+      "function_name": "DrawPlowClearance",
+      "attempted": true,
+      "called": true,
+      "path": "call_method:name_only",
+      "error": "",
+      "return_value": null
+    }
+  ],
+  "brush_uv_before": {
+    "r": 0.5,
+    "g": 0.5,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "brush_uv_after": {
+    "r": 0.5,
+    "g": 0.5,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "rt_stats_before": {
+    "max_r": 0.0,
+    "max_g": 0.0,
+    "max_b": 0.0,
+    "non_black_samples": 0
+  },
+  "rt_stats_after": {
+    "max_r": 0.0,
+    "max_g": 0.0,
+    "max_b": 0.0,
+    "non_black_samples": 0
+  },
+  "rt_changed": false
+}

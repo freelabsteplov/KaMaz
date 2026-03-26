@@ -1,0 +1,267 @@
+{
+  "success": true,
+  "map_path": "/Game/Maps/MoscowEA5",
+  "road_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+  "trail_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "trail_component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+  "trail_source_component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.Root",
+  "road_bounds_origin": {
+    "x": -67246.10546875,
+    "y": -123162.78396576445,
+    "z": -208490.88256861444
+  },
+  "road_bounds_extent": {
+    "x": 57363.44531250006,
+    "y": 69748.03125000006,
+    "z": 1194.0053533016762
+  },
+  "focus_origin": {
+    "x": -67246.0,
+    "y": -123162.75271576444,
+    "z": -208507.0
+  },
+  "before": {
+    "topdown": {
+      "capture_source_name": "SCS_FINAL_COLOR_LDR",
+      "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_asphalt_reveal_after_runtime_stamp_before_topdown",
+      "exported_image_sha256": "4ac97958e2229326ee1c3240dc8fc6312f750fd35545cf1c0e5f2825f71384a7",
+      "samples": {
+        "center": {
+          "r": 188.0,
+          "g": 158.0,
+          "b": 145.0,
+          "a": 255.0
+        },
+        "left": {
+          "r": 185.0,
+          "g": 155.0,
+          "b": 141.0,
+          "a": 255.0
+        },
+        "right": {
+          "r": 185.0,
+          "g": 155.0,
+          "b": 141.0,
+          "a": 255.0
+        }
+      },
+      "luma": {
+        "center": 163.43939999999998,
+        "left": 160.36720000000003,
+        "right": 160.36720000000003
+      }
+    },
+    "perspective": {
+      "capture_source_name": "SCS_FINAL_COLOR_LDR",
+      "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_asphalt_reveal_after_runtime_stamp_before_perspective",
+      "exported_image_sha256": "355b1409899169ee41c865efbca1d1a9127ba3d260f8e2c1ef687b96fe097735",
+      "center_sample": {
+        "r": 188.0,
+        "g": 158.0,
+        "b": 145.0,
+        "a": 255.0
+      },
+      "center_luma": 163.43939999999998,
+      "camera_location": {
+        "x": -68146.0,
+        "y": -124562.75271576444,
+        "z": -208247.0
+      },
+      "camera_rotation": {
+        "pitch": -7.699104966101102,
+        "yaw": 57.264773727892404,
+        "roll": 5.942859266066549e-08
+      }
+    }
+  },
+  "after": {
+    "topdown": {
+      "capture_source_name": "SCS_FINAL_COLOR_LDR",
+      "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_asphalt_reveal_after_runtime_stamp_after_topdown",
+      "exported_image_sha256": "6b8e7bc9661b82a10d937f4aff071337b158af61112d793d804546196d73317e",
+      "samples": {
+        "center": {
+          "r": 188.0,
+          "g": 158.0,
+          "b": 145.0,
+          "a": 255.0
+        },
+        "left": {
+          "r": 185.0,
+          "g": 155.0,
+          "b": 141.0,
+          "a": 255.0
+        },
+        "right": {
+          "r": 185.0,
+          "g": 155.0,
+          "b": 141.0,
+          "a": 255.0
+        }
+      },
+      "luma": {
+        "center": 163.43939999999998,
+        "left": 160.36720000000003,
+        "right": 160.36720000000003
+      }
+    },
+    "perspective": {
+      "capture_source_name": "SCS_FINAL_COLOR_LDR",
+      "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_asphalt_reveal_after_runtime_stamp_after_perspective",
+      "exported_image_sha256": "5e56de9b7001ad8987febdfb8d0bc7478d95a98d8c8d6264f061cdb667ac6ac8",
+      "center_sample": {
+        "r": 188.0,
+        "g": 158.0,
+        "b": 145.0,
+        "a": 255.0
+      },
+      "center_luma": 163.43939999999998,
+      "camera_location": {
+        "x": -68146.0,
+        "y": -124562.75271576444,
+        "z": -208247.0
+      },
+      "camera_rotation": {
+        "pitch": -7.699104966101102,
+        "yaw": 57.264773727892404,
+        "roll": 5.942859266066549e-08
+      }
+    }
+  },
+  "reference_without_carrier": {
+    "topdown": {
+      "capture_source_name": "SCS_FINAL_COLOR_LDR",
+      "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_asphalt_reveal_after_runtime_stamp_reference_without_carrier_topdown",
+      "exported_image_sha256": "30655a9200254b4f3b31ecf0339c2b10f7141b0774b18ea080a94cb1469051d3",
+      "samples": {
+        "center": {
+          "r": 188.0,
+          "g": 158.0,
+          "b": 145.0,
+          "a": 255.0
+        },
+        "left": {
+          "r": 185.0,
+          "g": 155.0,
+          "b": 141.0,
+          "a": 255.0
+        },
+        "right": {
+          "r": 185.0,
+          "g": 155.0,
+          "b": 141.0,
+          "a": 255.0
+        }
+      },
+      "luma": {
+        "center": 163.43939999999998,
+        "left": 160.36720000000003,
+        "right": 160.36720000000003
+      }
+    },
+    "perspective": {
+      "capture_source_name": "SCS_FINAL_COLOR_LDR",
+      "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\verify_road2_asphalt_reveal_after_runtime_stamp_reference_without_carrier_perspective",
+      "exported_image_sha256": "6be55119c7e8cc53c88c7ba0db4742709f47cd7e538b7158a17b6d346c14274c",
+      "center_sample": {
+        "r": 188.0,
+        "g": 158.0,
+        "b": 145.0,
+        "a": 255.0
+      },
+      "center_luma": 163.43939999999998,
+      "camera_location": {
+        "x": -68146.0,
+        "y": -124562.75271576444,
+        "z": -208247.0
+      },
+      "camera_rotation": {
+        "pitch": -7.699104966101102,
+        "yaw": 57.264773727892404,
+        "roll": 5.942859266066549e-08
+      }
+    }
+  },
+  "stamp_calls": [
+    {
+      "index": 0,
+      "location": {
+        "x": -67366.10546875,
+        "y": -123162.78396576445,
+        "z": -208507.0
+      },
+      "record_trail_stamp_now": true
+    },
+    {
+      "index": 1,
+      "location": {
+        "x": -67326.10546875,
+        "y": -123162.78396576445,
+        "z": -208507.0
+      },
+      "record_trail_stamp_now": true
+    },
+    {
+      "index": 2,
+      "location": {
+        "x": -67286.10546875,
+        "y": -123162.78396576445,
+        "z": -208507.0
+      },
+      "record_trail_stamp_now": true
+    },
+    {
+      "index": 3,
+      "location": {
+        "x": -67246.10546875,
+        "y": -123162.78396576445,
+        "z": -208507.0
+      },
+      "record_trail_stamp_now": true
+    },
+    {
+      "index": 4,
+      "location": {
+        "x": -67206.10546875,
+        "y": -123162.78396576445,
+        "z": -208507.0
+      },
+      "record_trail_stamp_now": true
+    },
+    {
+      "index": 5,
+      "location": {
+        "x": -67166.10546875,
+        "y": -123162.78396576445,
+        "z": -208507.0
+      },
+      "record_trail_stamp_now": true
+    },
+    {
+      "index": 6,
+      "location": {
+        "x": -67126.10546875,
+        "y": -123162.78396576445,
+        "z": -208507.0
+      },
+      "record_trail_stamp_now": true
+    }
+  ],
+  "analysis": {
+    "before_center_luma": 163.43939999999998,
+    "before_side_avg_luma": 160.36720000000003,
+    "after_center_luma": 163.43939999999998,
+    "after_side_avg_luma": 160.36720000000003,
+    "reference_center_luma": 163.43939999999998,
+    "center_drop_from_before": 0.0,
+    "center_vs_side_after": -3.0721999999999525,
+    "center_to_reference_gap": 0.0,
+    "stamp_success_count": 7,
+    "images_changed_after_stamp": true,
+    "center_darkened_after_stamp": false,
+    "center_darker_than_sides_after_stamp": false,
+    "after_close_to_base_road_reference": true
+  },
+  "error": ""
+}

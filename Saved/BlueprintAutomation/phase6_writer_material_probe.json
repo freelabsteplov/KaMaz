@@ -1,0 +1,38 @@
+{
+  "error": "",
+  "assets": [
+    {
+      "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_RVT_DebugWriter_MVP.M_RVT_DebugWriter_MVP",
+      "loaded": true,
+      "class": "Material",
+      "scalar_params": [],
+      "vector_params": [],
+      "texture_params": []
+    },
+    {
+      "path": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush_BoxSafe.M_Snow_PlowBrush_BoxSafe",
+      "loaded": true,
+      "class": "Material",
+      "scalar_params": [
+        "BrushHeightCm",
+        "BrushWidthCm",
+        "BrushLengthCm",
+        "BrushStrength"
+      ],
+      "vector_params": [],
+      "texture_params": []
+    },
+    {
+      "path": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+      "loaded": true,
+      "class": "Material",
+      "scalar_params": [
+        "Param",
+        "Param_1",
+        "Param_2"
+      ],
+      "vector_params": [],
+      "texture_params": []
+    }
+  ]
+}

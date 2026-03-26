@@ -1,0 +1,31 @@
+{
+  "material": "/Game/CityPark/SnowSystem/RVT_MVP/M_RVT_DebugWriter_MVP",
+  "error": "",
+  "connect_basecolor": {
+    "ok": true,
+    "src": "",
+    "dst": "Base Color"
+  },
+  "connect_specular": {
+    "ok": true,
+    "src": "",
+    "dst": "Specular"
+  },
+  "connect_roughness": {
+    "ok": true,
+    "src": "",
+    "dst": "Roughness"
+  },
+  "connect_normal": {
+    "ok": true,
+    "src": "",
+    "dst": "Normal"
+  },
+  "connect_mask": {
+    "ok": true,
+    "src": "",
+    "dst": "Mask"
+  },
+  "saved": true,
+  "num_expressions": 6
+}

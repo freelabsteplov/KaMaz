@@ -1,0 +1,1303 @@
+{
+  "map": "/Game/CityPark/SnowSystem/SnowTest_Level",
+  "trail_component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+  "plow_source_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0.BP_PlowBrush_Component",
+  "plow_source_location": {
+    "x": 18858.20616307048,
+    "y": -3862.8294110812863,
+    "z": 308.9587137752484
+  },
+  "plow_source_rotation": {
+    "pitch": -173.672119140625,
+    "yaw": 0.0,
+    "roll": 0.0
+  },
+  "persistent_plow_length_cm": 120.0,
+  "persistent_plow_width_cm": 320.0,
+  "trace_hits": [
+    {
+      "offset_ratio": -0.45,
+      "trace_start": {
+        "x": 18840.315829156665,
+        "y": -3934.8294110812863,
+        "z": 556.9747902756864
+      },
+      "trace_end": {
+        "x": 18840.315829156665,
+        "y": -3934.8294110812863,
+        "z": -893.0252097243136
+      },
+      "hit": {
+        "blocking_hit": false,
+        "distance": 0.0,
+        "impact_point": null,
+        "location": null,
+        "normal": null,
+        "actor_label": "",
+        "actor_name": "",
+        "actor_path": "",
+        "actor_class": "",
+        "component_name": "",
+        "component_path": "",
+        "component_class": "",
+        "materials": []
+      }
+    },
+    {
+      "offset_ratio": -0.2,
+      "trace_start": {
+        "x": 18840.315829156665,
+        "y": -3894.8294110812863,
+        "z": 556.9747902756864
+      },
+      "trace_end": {
+        "x": 18840.315829156665,
+        "y": -3894.8294110812863,
+        "z": -893.0252097243136
+      },
+      "hit": {
+        "blocking_hit": false,
+        "distance": 0.0,
+        "impact_point": null,
+        "location": null,
+        "normal": null,
+        "actor_label": "",
+        "actor_name": "",
+        "actor_path": "",
+        "actor_class": "",
+        "component_name": "",
+        "component_path": "",
+        "component_class": "",
+        "materials": []
+      }
+    },
+    {
+      "offset_ratio": 0.0,
+      "trace_start": {
+        "x": 18840.315829156665,
+        "y": -3862.8294110812863,
+        "z": 556.9747902756864
+      },
+      "trace_end": {
+        "x": 18840.315829156665,
+        "y": -3862.8294110812863,
+        "z": -893.0252097243136
+      },
+      "hit": {
+        "blocking_hit": false,
+        "distance": 0.0,
+        "impact_point": null,
+        "location": null,
+        "normal": null,
+        "actor_label": "",
+        "actor_name": "",
+        "actor_path": "",
+        "actor_class": "",
+        "component_name": "",
+        "component_path": "",
+        "component_class": "",
+        "materials": []
+      }
+    },
+    {
+      "offset_ratio": 0.2,
+      "trace_start": {
+        "x": 18840.315829156665,
+        "y": -3830.8294110812863,
+        "z": 556.9747902756864
+      },
+      "trace_end": {
+        "x": 18840.315829156665,
+        "y": -3830.8294110812863,
+        "z": -893.0252097243136
+      },
+      "hit": {
+        "blocking_hit": false,
+        "distance": 0.0,
+        "impact_point": null,
+        "location": null,
+        "normal": null,
+        "actor_label": "",
+        "actor_name": "",
+        "actor_path": "",
+        "actor_class": "",
+        "component_name": "",
+        "component_path": "",
+        "component_class": "",
+        "materials": []
+      }
+    },
+    {
+      "offset_ratio": 0.45,
+      "trace_start": {
+        "x": 18840.315829156665,
+        "y": -3790.8294110812863,
+        "z": 556.9747902756864
+      },
+      "trace_end": {
+        "x": 18840.315829156665,
+        "y": -3790.8294110812863,
+        "z": -893.0252097243136
+      },
+      "hit": {
+        "blocking_hit": false,
+        "distance": 0.0,
+        "impact_point": null,
+        "location": null,
+        "normal": null,
+        "actor_label": "",
+        "actor_name": "",
+        "actor_path": "",
+        "actor_class": "",
+        "component_name": "",
+        "component_path": "",
+        "component_class": "",
+        "materials": []
+      }
+    }
+  ],
+  "nearby_mesh_components": [
+    {
+      "actor_label": "Kamaz_SnowTest",
+      "actor_name": "KamazBP_HandlingAudit_C_0",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0",
+      "actor_class": "KamazBP_HandlingAudit_C",
+      "component_name": "SM_FrontHitch",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0.SM_FrontHitch",
+      "component_class": "StaticMeshComponent",
+      "component_location": {
+        "x": 18918.55529107937,
+        "y": -3826.966611804735,
+        "z": 158.04699566128107
+      },
+      "bounds_origin": {
+        "x": -79.4255599975586,
+        "y": -199.11080932617188,
+        "z": 4.255584716796875
+      },
+      "bounds_extent": {
+        "x": 233.4579849243164,
+        "y": 268.275146484375,
+        "z": 148.47352600097656
+      },
+      "distance_xy_to_plow": 70.20083776838788,
+      "delta_z_to_plow": -150.9117181139673,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "M_FrontHitch",
+          "material_path": "/Game/TruckG66/Material/M_FrontHitch.M_FrontHitch",
+          "material_class": "Material",
+          "material_parent_path": ""
+        }
+      ]
+    },
+    {
+      "actor_label": "Kamaz_SnowTest",
+      "actor_name": "KamazBP_HandlingAudit_C_0",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0",
+      "actor_class": "KamazBP_HandlingAudit_C",
+      "component_name": "VehicleMesh",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0.VehicleMesh",
+      "component_class": "SkeletalMeshComponent",
+      "component_location": {
+        "x": 19371.60235593302,
+        "y": -3798.603893879046,
+        "z": 23.0
+      },
+      "bounds_origin": {
+        "x": 19239.030190218138,
+        "y": -3800.095137313141,
+        "z": 233.23985791167098
+      },
+      "bounds_extent": {
+        "x": 467.8913823371113,
+        "y": 211.0571367478169,
+        "z": 239.07917144216134
+      },
+      "distance_xy_to_plow": 517.3978816207552,
+      "delta_z_to_plow": -285.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "black_ncl1_2",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_2.black_ncl1_2",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 1,
+          "material_name": "orange_001",
+          "material_path": "/Game/CityPark/Kamaz/material/orange_001.orange_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 2,
+          "material_name": "chrom_001",
+          "material_path": "/Game/CityPark/Kamaz/material/chrom_001.chrom_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 3,
+          "material_name": "orange1_001",
+          "material_path": "/Game/CityPark/Kamaz/material/orange1_001.orange1_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 4,
+          "material_name": "steklo_polos_001",
+          "material_path": "/Game/CityPark/Kamaz/material/steklo_polos_001.steklo_polos_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 5,
+          "material_name": "plastik-catafot_001",
+          "material_path": "/Game/CityPark/Kamaz/material/plastik-catafot_001.plastik-catafot_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 6,
+          "material_name": "steklo_polos_ncl1_1_001",
+          "material_path": "/Game/CityPark/Kamaz/material/steklo_polos_ncl1_1_001.steklo_polos_ncl1_1_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 7,
+          "material_name": "blackMatte",
+          "material_path": "/Game/CityPark/Kamaz/material/blackMatte.blackMatte",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 8,
+          "material_name": "05_-_Default",
+          "material_path": "/Game/CityPark/Kamaz/material/05_-_Default.05_-_Default",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 9,
+          "material_name": "Material__38",
+          "material_path": "/Game/CityPark/Kamaz/material/Material__38.Material__38",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 10,
+          "material_name": "Material__48",
+          "material_path": "/Game/CityPark/Kamaz/material/Material__48.Material__48",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 11,
+          "material_name": "Material__49",
+          "material_path": "/Game/CityPark/Kamaz/material/Material__49.Material__49",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 12,
+          "material_name": "Material__50",
+          "material_path": "/Game/CityPark/Kamaz/material/Material__50.Material__50",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 13,
+          "material_name": "Material__63",
+          "material_path": "/Game/CityPark/Kamaz/material/Material__63.Material__63",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 14,
+          "material_name": "tkan",
+          "material_path": "/Game/CityPark/Kamaz/material/tkan.tkan",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 15,
+          "material_name": "sidenia",
+          "material_path": "/Game/CityPark/Kamaz/material/sidenia.sidenia",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 16,
+          "material_name": "bucher_001",
+          "material_path": "/Game/CityPark/Kamaz/material/bucher_001.bucher_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 17,
+          "material_name": "bucher_001",
+          "material_path": "/Game/CityPark/Kamaz/material/bucher_001.bucher_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 18,
+          "material_name": "",
+          "material_path": "",
+          "material_class": "",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 19,
+          "material_name": "alumin-bolt_ncl1_1",
+          "material_path": "/Game/CityPark/Kamaz/material/alumin-bolt_ncl1_1.alumin-bolt_ncl1_1",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 20,
+          "material_name": "logo-horse",
+          "material_path": "/Game/CityPark/Kamaz/material/logo-horse.logo-horse",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 21,
+          "material_name": "yellow_ncl1_1",
+          "material_path": "/Game/CityPark/Kamaz/material/yellow_ncl1_1.yellow_ncl1_1",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 22,
+          "material_name": "black_ncl1_4",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_4.black_ncl1_4",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 23,
+          "material_name": "black",
+          "material_path": "/Game/CityPark/Kamaz/material/black.black",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 24,
+          "material_name": "",
+          "material_path": "",
+          "material_class": "",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 25,
+          "material_name": "alumin-bolt",
+          "material_path": "/Game/CityPark/Kamaz/material/alumin-bolt.alumin-bolt",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 26,
+          "material_name": "red",
+          "material_path": "/Game/CityPark/Kamaz/material/red.red",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 27,
+          "material_name": "yellow",
+          "material_path": "/Game/CityPark/Kamaz/material/yellow.yellow",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 28,
+          "material_name": "glass_number",
+          "material_path": "/Game/CityPark/Kamaz/material/glass_number.glass_number",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 29,
+          "material_name": "black_ncl1_2",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_2.black_ncl1_2",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 30,
+          "material_name": "alumin-bolt_ncl1_1",
+          "material_path": "/Game/CityPark/Kamaz/material/alumin-bolt_ncl1_1.alumin-bolt_ncl1_1",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 31,
+          "material_name": "metla",
+          "material_path": "/Game/CityPark/Kamaz/material/metla.metla",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 32,
+          "material_name": "glass_001",
+          "material_path": "/Game/CityPark/Kamaz/material/glass_001.glass_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 33,
+          "material_name": "black_ncl1_2",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_2.black_ncl1_2",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 34,
+          "material_name": "",
+          "material_path": "",
+          "material_class": "",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 35,
+          "material_name": "yellow-orange_001",
+          "material_path": "/Game/CityPark/Kamaz/material/yellow-orange_001.yellow-orange_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 36,
+          "material_name": "white_001",
+          "material_path": "/Game/CityPark/Kamaz/material/white_001.white_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 37,
+          "material_name": "metall_001",
+          "material_path": "/Game/CityPark/Kamaz/material/metall_001.metall_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 38,
+          "material_name": "circle-opacity_001",
+          "material_path": "/Game/CityPark/Kamaz/material/circle-opacity_001.circle-opacity_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 39,
+          "material_name": "Plastic_Black_Matte_001",
+          "material_path": "/Game/CityPark/Kamaz/material/Plastic_Black_Matte_001.Plastic_Black_Matte_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 40,
+          "material_name": "",
+          "material_path": "",
+          "material_class": "",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 41,
+          "material_name": "BlackMetal",
+          "material_path": "/Game/Datasmith/samocat/Materials/BlackMetal.BlackMetal",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 42,
+          "material_name": "radiator_ncl1_2_001",
+          "material_path": "/Game/CityPark/Kamaz/material/radiator_ncl1_2_001.radiator_ncl1_2_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 43,
+          "material_name": "black_ncl1_2",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_2.black_ncl1_2",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 44,
+          "material_name": "mirror_ncl1_2_001",
+          "material_path": "/Game/CityPark/Kamaz/material/mirror_ncl1_2_001.mirror_ncl1_2_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 45,
+          "material_name": "silver",
+          "material_path": "/Game/CityPark/Kamaz/material/silver.silver",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 46,
+          "material_name": "Material__928_001",
+          "material_path": "/Game/CityPark/Kamaz/material/Material__928_001.Material__928_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 47,
+          "material_name": "black_ncl1_2",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_2.black_ncl1_2",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 48,
+          "material_name": "catafot-orange_002",
+          "material_path": "/Game/CityPark/Kamaz/material/catafot-orange_002.catafot-orange_002",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 49,
+          "material_name": "Plastic_Black_Matte_002",
+          "material_path": "/Game/CityPark/Kamaz/material/Plastic_Black_Matte_002.Plastic_Black_Matte_002",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 50,
+          "material_name": "",
+          "material_path": "",
+          "material_class": "",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 51,
+          "material_name": "znakR_001",
+          "material_path": "/Game/CityPark/Kamaz/material/znakR_001.znakR_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 52,
+          "material_name": "blue-filter_001",
+          "material_path": "/Game/CityPark/Kamaz/material/blue-filter_001.blue-filter_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 53,
+          "material_name": "bucher_001",
+          "material_path": "/Game/CityPark/Kamaz/material/bucher_001.bucher_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 54,
+          "material_name": "black_ncl1_5_001",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_5_001.black_ncl1_5_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 55,
+          "material_name": "catafot-orange_ncl1_1_001",
+          "material_path": "/Game/CityPark/Kamaz/material/catafot-orange_ncl1_1_001.catafot-orange_ncl1_1_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 56,
+          "material_name": "Plastic_Black_Matte_ncl1_1_001",
+          "material_path": "/Game/CityPark/Kamaz/material/Plastic_Black_Matte_ncl1_1_001.Plastic_Black_Matte_ncl1_1_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 57,
+          "material_name": "",
+          "material_path": "",
+          "material_class": "",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 58,
+          "material_name": "znakR_001",
+          "material_path": "/Game/CityPark/Kamaz/material/znakR_001.znakR_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 59,
+          "material_name": "znakR_001",
+          "material_path": "/Game/CityPark/Kamaz/material/znakR_001.znakR_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 60,
+          "material_name": "bucher_001",
+          "material_path": "/Game/CityPark/Kamaz/material/bucher_001.bucher_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 61,
+          "material_name": "bucher_001",
+          "material_path": "/Game/CityPark/Kamaz/material/bucher_001.bucher_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 62,
+          "material_name": "yellow_ncl1_1",
+          "material_path": "/Game/CityPark/Kamaz/material/yellow_ncl1_1.yellow_ncl1_1",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 63,
+          "material_name": "BlackMetal",
+          "material_path": "/Game/Datasmith/samocat/Materials/BlackMetal.BlackMetal",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 64,
+          "material_name": "",
+          "material_path": "",
+          "material_class": "",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 65,
+          "material_name": "silver",
+          "material_path": "/Game/CityPark/Kamaz/material/silver.silver",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 66,
+          "material_name": "metla_001",
+          "material_path": "/Game/CityPark/Kamaz/material/metla_001.metla_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 67,
+          "material_name": "04_-_Default_001",
+          "material_path": "/Game/CityPark/Kamaz/material/04_-_Default_001.04_-_Default_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 68,
+          "material_name": "Material__38_ncl1_1_001",
+          "material_path": "/Game/CityPark/Kamaz/material/Material__38_ncl1_1_001.Material__38_ncl1_1_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 69,
+          "material_name": "black_ncl1_2",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_2.black_ncl1_2",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 70,
+          "material_name": "glass_001",
+          "material_path": "/Game/CityPark/Kamaz/material/glass_001.glass_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 71,
+          "material_name": "katafot_001",
+          "material_path": "/Game/CityPark/Kamaz/material/katafot_001.katafot_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 72,
+          "material_name": "redGlass_001",
+          "material_path": "/Game/CityPark/Kamaz/material/redGlass_001.redGlass_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 73,
+          "material_name": "black_ncl1_2",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_2.black_ncl1_2",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 74,
+          "material_name": "alumin-bolt_ncl1_1",
+          "material_path": "/Game/CityPark/Kamaz/material/alumin-bolt_ncl1_1.alumin-bolt_ncl1_1",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 75,
+          "material_name": "chrom-polos_001",
+          "material_path": "/Game/CityPark/Kamaz/material/chrom-polos_001.chrom-polos_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 76,
+          "material_name": "led_white_001",
+          "material_path": "/Game/CityPark/Kamaz/material/led_white_001.led_white_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 77,
+          "material_name": "led-yeloow_001",
+          "material_path": "/Game/CityPark/Kamaz/material/led-yeloow_001.led-yeloow_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 78,
+          "material_name": "glass-bump_001",
+          "material_path": "/Game/CityPark/Kamaz/material/glass-bump_001.glass-bump_001",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 79,
+          "material_name": "silver",
+          "material_path": "/Game/CityPark/Kamaz/material/silver.silver",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 80,
+          "material_name": "Rubber",
+          "material_path": "/Game/CityPark/Kamaz/material/Rubber.Rubber",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 81,
+          "material_name": "black_ncl1_2",
+          "material_path": "/Game/CityPark/Kamaz/material/black_ncl1_2.black_ncl1_2",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 82,
+          "material_name": "silver",
+          "material_path": "/Game/CityPark/Kamaz/material/silver.silver",
+          "material_class": "Material",
+          "material_parent_path": ""
+        },
+        {
+          "slot": 83,
+          "material_name": "",
+          "material_path": "",
+          "material_class": "",
+          "material_parent_path": ""
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowHeightBridgeSurface_MVP",
+      "actor_name": "StaticMeshActor_4",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.StaticMeshActor_4",
+      "actor_class": "StaticMeshActor",
+      "component_name": "StaticMeshComponent0",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.StaticMeshActor_4.StaticMeshComponent0",
+      "component_class": "StaticMeshComponent",
+      "component_location": {
+        "x": 19631.60235593302,
+        "y": -3798.603893879046,
+        "z": -197.95255615234373
+      },
+      "bounds_origin": {
+        "x": -160.0,
+        "y": -160.0,
+        "z": -160.0
+      },
+      "bounds_extent": {
+        "x": 160.0,
+        "y": 160.0,
+        "z": 160.0
+      },
+      "distance_xy_to_plow": 776.0583664868034,
+      "delta_z_to_plow": -506.9112699275921,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MI_SnowReceiver_RVT_Height_MVP",
+          "material_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP.MI_SnowReceiver_RVT_Height_MVP",
+          "material_class": "MaterialInstanceConstant",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP"
+        }
+      ]
+    },
+    {
+      "actor_label": "Kamaz_SnowTest",
+      "actor_name": "KamazBP_HandlingAudit_C_0",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0",
+      "actor_class": "KamazBP_HandlingAudit_C",
+      "component_name": "CameraProxyMeshComponent_1",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0.CameraProxyMeshComponent_1",
+      "component_class": "CameraProxyMeshComponent",
+      "component_location": {
+        "x": 18971.260558084352,
+        "y": -2755.611528117184,
+        "z": 1197.0434003032578
+      },
+      "bounds_origin": {
+        "x": -95.1473617553711,
+        "y": -24.012368202209473,
+        "z": -24.955689430236816
+      },
+      "bounds_extent": {
+        "x": 0.4723358154296875,
+        "y": 24.01236629486084,
+        "z": 28.560507774353027
+      },
+      "distance_xy_to_plow": 1112.9747241458183,
+      "delta_z_to_plow": 888.0846865280095,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MatineeCam_mat",
+          "material_path": "/Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat",
+          "material_class": "Material",
+          "material_parent_path": ""
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_V3_Narrow_MVP",
+      "actor_name": "SnowSplineRoadActor_2",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_0",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.SplineRoadSegment_0",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": 1928.6023559999994,
+        "y": 114.39610600000015,
+        "z": 127.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 17390.50913222778,
+      "delta_z_to_plow": -181.95871377524838,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_0",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_0",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4.MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4"
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_V3_Narrow_MVP",
+      "actor_name": "SnowSplineRoadActor_2",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_1",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.SplineRoadSegment_1",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": 1928.6023559999994,
+        "y": 114.39610600000015,
+        "z": 127.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 17390.50913222778,
+      "delta_z_to_plow": -181.95871377524838,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_1",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_1",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4.MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4"
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_V3_Narrow_MVP",
+      "actor_name": "SnowSplineRoadActor_2",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_2",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.SplineRoadSegment_2",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": 1928.6023559999994,
+        "y": 114.39610600000015,
+        "z": 127.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 17390.50913222778,
+      "delta_z_to_plow": -181.95871377524838,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_2",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_2.MID_MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4_2",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4.MI_SnowReceiver_RVT_Height_MVP_V3_Narrow_Tile4"
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowHeightTestSurface_FlatDense_MVP",
+      "actor_name": "StaticMeshActor_3",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.StaticMeshActor_3",
+      "actor_class": "StaticMeshActor",
+      "component_name": "StaticMeshComponent0",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0",
+      "component_class": "StaticMeshComponent",
+      "component_location": {
+        "x": -5091.0,
+        "y": -4112.0,
+        "z": -205.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 23950.50232925471,
+      "delta_z_to_plow": -513.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MI_SnowReceiver_RVT_Height_MVP",
+          "material_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP.MI_SnowReceiver_RVT_Height_MVP",
+          "material_class": "MaterialInstanceConstant",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP"
+        }
+      ]
+    },
+    {
+      "actor_label": "VT_MVP_DebugWriter",
+      "actor_name": "StaticMeshActor_1",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.StaticMeshActor_1",
+      "actor_class": "StaticMeshActor",
+      "component_name": "StaticMeshComponent0",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0",
+      "component_class": "StaticMeshComponent",
+      "component_location": {
+        "x": -5230.0,
+        "y": -3806.0,
+        "z": -178.0
+      },
+      "bounds_origin": {
+        "x": -50.0,
+        "y": -50.0,
+        "z": -8.040613564774899e-15
+      },
+      "bounds_extent": {
+        "x": 50.0,
+        "y": 50.0,
+        "z": 8.040613564774899e-15
+      },
+      "distance_xy_to_plow": 24088.27319955813,
+      "delta_z_to_plow": -486.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "M_RVT_DebugWriter_MVP",
+          "material_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_RVT_DebugWriter_MVP.M_RVT_DebugWriter_MVP",
+          "material_class": "Material",
+          "material_parent_path": ""
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_V1_Original_MVP",
+      "actor_name": "SnowSplineRoadActor_1",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_0",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.SplineRoadSegment_0",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": 1928.6023559999994,
+        "y": -23866.603894,
+        "z": -197.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 26206.15344967371,
+      "delta_z_to_plow": -505.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_0",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_0",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8"
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_V1_Original_MVP",
+      "actor_name": "SnowSplineRoadActor_1",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_1",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.SplineRoadSegment_1",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": 1928.6023559999994,
+        "y": -23866.603894,
+        "z": -197.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 26206.15344967371,
+      "delta_z_to_plow": -505.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_1",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_1",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8"
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_V1_Original_MVP",
+      "actor_name": "SnowSplineRoadActor_1",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_2",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.SplineRoadSegment_2",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": 1928.6023559999994,
+        "y": -23866.603894,
+        "z": -197.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 26206.15344967371,
+      "delta_z_to_plow": -505.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_2",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_2",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8"
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_V1_Original_MVP",
+      "actor_name": "SnowSplineRoadActor_1",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_3",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.SplineRoadSegment_3",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": 1928.6023559999994,
+        "y": -23866.603894,
+        "z": -197.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 26206.15344967371,
+      "delta_z_to_plow": -505.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_3",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_1.MID_MI_SnowReceiver_RVT_Height_MVP_Tile8_3",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8.MI_SnowReceiver_RVT_Height_MVP_Tile8"
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_MVP",
+      "actor_name": "SnowSplineRoadActor_0",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_0",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.SplineRoadSegment_0",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": -15067.397644,
+        "y": -11866.603894,
+        "z": -197.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 34856.95052134847,
+      "delta_z_to_plow": -505.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_0",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_0",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K.MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K"
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_MVP",
+      "actor_name": "SnowSplineRoadActor_0",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_1",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.SplineRoadSegment_1",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": -15067.397644,
+        "y": -11866.603894,
+        "z": -197.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 34856.95052134847,
+      "delta_z_to_plow": -505.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_1",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_1",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K.MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K"
+        }
+      ]
+    },
+    {
+      "actor_label": "SnowSplineRoad_MVP",
+      "actor_name": "SnowSplineRoadActor_0",
+      "actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0",
+      "actor_class": "SnowSplineRoadActor",
+      "component_name": "SplineRoadSegment_2",
+      "component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.SplineRoadSegment_2",
+      "component_class": "SplineMeshComponent",
+      "component_location": {
+        "x": -15067.397644,
+        "y": -11866.603894,
+        "z": -197.0
+      },
+      "bounds_origin": {
+        "x": -500.0,
+        "y": -500.0,
+        "z": -3.061616850883256e-14
+      },
+      "bounds_extent": {
+        "x": 500.0,
+        "y": 500.0,
+        "z": 3.061616850883256e-14
+      },
+      "distance_xy_to_plow": 34856.95052134847,
+      "delta_z_to_plow": -505.9587137752484,
+      "materials": [
+        {
+          "slot": 0,
+          "material_name": "MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_2",
+          "material_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowSplineRoadActor_0.MID_MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_2",
+          "material_class": "MaterialInstanceDynamic",
+          "material_parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K.MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K"
+        }
+      ]
+    }
+  ],
+  "error": ""
+}

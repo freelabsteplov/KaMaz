@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "road_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+  "trail_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "before": {
+    "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\capture_road2_side_profile_before",
+    "camera_location": {
+      "x": -67696.0,
+      "y": -124862.75271576444,
+      "z": -208387.0
+    },
+    "camera_rotation": {
+      "pitch": 75.17352294921875,
+      "yaw": 0.0,
+      "roll": -3.5792744159698486
+    }
+  },
+  "after": {
+    "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\capture_road2_side_profile_after",
+    "camera_location": {
+      "x": -67696.0,
+      "y": -124862.75271576444,
+      "z": -208387.0
+    },
+    "camera_rotation": {
+      "pitch": 75.17352294921875,
+      "yaw": 0.0,
+      "roll": -3.5792744159698486
+    }
+  },
+  "error": ""
+}

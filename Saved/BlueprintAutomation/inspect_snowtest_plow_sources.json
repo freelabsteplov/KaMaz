@@ -1,0 +1,35 @@
+{
+  "map": "/Game/CityPark/SnowSystem/SnowTest_Level",
+  "trail_actor": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "trail_component": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+  "source_override": "",
+  "plow_candidates": [
+    {
+      "name": "PlowBrush",
+      "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0.PlowBrush",
+      "class": "ChildActorComponent",
+      "relative_location": {
+        "x": 148.30105982738172,
+        "y": 61.44843317652808,
+        "z": 242.5751101945879
+      },
+      "world_location": null,
+      "bEnablePlowClearing": null,
+      "PlowLiftHeight": null
+    },
+    {
+      "name": "BP_PlowBrush_Component",
+      "path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0.BP_PlowBrush_Component",
+      "class": "BP_PlowBrush_Component_C",
+      "relative_location": {
+        "x": 131.59621261233315,
+        "y": 54.29130995634787,
+        "z": 247.7487413018433
+      },
+      "world_location": null,
+      "bEnablePlowClearing": true,
+      "PlowLiftHeight": 1.0
+    }
+  ],
+  "error": ""
+}
