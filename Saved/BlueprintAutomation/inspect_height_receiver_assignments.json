@@ -1,0 +1,27 @@
+{
+  "error": "",
+  "map": "/Game/CityPark/SnowSystem/SnowTest_Level",
+  "actors": [
+    {
+      "actor": "Landscape",
+      "path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.Landscape_0",
+      "class": "Landscape",
+      "slot": "landscape_material",
+      "material": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_Landscape.MI_SnowReceiver_RVT_Height_MVP_CAA_P1_2K_Landscape"
+    },
+    {
+      "actor": "SnowHeightTestSurface_FlatDense_MVP",
+      "path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.StaticMeshActor_3",
+      "class": "StaticMeshActor",
+      "slot": 0,
+      "material": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP.MI_SnowReceiver_RVT_Height_MVP"
+    },
+    {
+      "actor": "SnowHeightBridgeSurface_MVP",
+      "path": "/Game/CityPark/SnowSystem/SnowTest_Level.SnowTest_Level:PersistentLevel.StaticMeshActor_4",
+      "class": "StaticMeshActor",
+      "slot": 0,
+      "material": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP.MI_SnowReceiver_RVT_Height_MVP"
+    }
+  ]
+}

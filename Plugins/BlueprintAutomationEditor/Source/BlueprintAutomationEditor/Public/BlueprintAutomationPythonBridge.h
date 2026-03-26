@@ -67,6 +67,32 @@ public:
 		FString& OutSummary);
 
 	UFUNCTION(BlueprintCallable, Category = "BlueprintAutomation")
+	static bool SetBlueprintPropertyValue(
+		const FString& BlueprintAssetPath,
+		const FString& TargetComponentName,
+		const FString& PropertyName,
+		const FString& ValueAsString,
+		bool bTargetComponentTemplate,
+		FString& OutResultJson,
+		FString& OutSummary);
+
+	UFUNCTION(BlueprintCallable, Category = "BlueprintAutomation")
+	static bool SetBlueprintPropertiesBatchJson(
+		const FString& BlueprintAssetPath,
+		const FString& TargetComponentName,
+		const FString& BatchJson,
+		bool bTargetComponentTemplate,
+		FString& OutResultJson,
+		FString& OutSummary);
+
+	UFUNCTION(BlueprintCallable, Category = "BlueprintAutomation")
+	static bool SetEnhancedInputActionsByNode(
+		const FString& BlueprintAssetPath,
+		const FString& NodeActionMapJson,
+		FString& OutResultJson,
+		FString& OutSummary);
+
+	UFUNCTION(BlueprintCallable, Category = "BlueprintAutomation")
 	static bool EnsureSnowReceiverSurfacesOnActors(
 		const FString& MapPath,
 		const TArray<FString>& ActorObjectPaths,

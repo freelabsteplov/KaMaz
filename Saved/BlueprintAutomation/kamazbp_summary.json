@@ -1,0 +1,15 @@
+{
+	"blueprint_asset_path": "/Game/CityPark/Kamaz/model/KamazBP",
+	"blueprint_object_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP",
+	"graph_object_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph",
+	"refresh_summary": "Refreshed Blueprint action index with 32560 actions.",
+	"graph_summary": "Serialized graph '/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph' to JSON.",
+	"actions_summary": "Scanned 27047 Blueprint actions.",
+	"compile_summary": "Compiled Blueprint '/Game/CityPark/Kamaz/model/KamazBP.KamazBP' and collected 0 messages.",
+	"output_directory": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation",
+	"refresh_action_index_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/kamazbp_refresh_action_index.json",
+	"graph_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/kamazbp_graph.json",
+	"actions_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/kamazbp_actions.json",
+	"compile_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/kamazbp_compile.json",
+	"summary_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/kamazbp_summary.json"
+}

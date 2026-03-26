@@ -1,0 +1,1222 @@
+{
+	"name": "DrawPlowClearance",
+	"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance",
+	"class": "/Script/Engine.EdGraph",
+	"schema": "/Script/BlueprintGraph.EdGraphSchema_K2",
+	"nodes": [
+		{
+			"name": "K2Node_FunctionEntry_0",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_FunctionEntry_0",
+			"class": "/Script/BlueprintGraph.K2Node_FunctionEntry",
+			"title": "DrawPlowClearance",
+			"guid": "19933bd3-4388-bad6-67bb-7994a609bd3e",
+			"pos_x": 0,
+			"pos_y": 2597,
+			"comment": "",
+			"pins": [
+				{
+					"name": "then",
+					"direction": 1,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_IfThenElse_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_IfThenElse_0",
+							"pin_name": "execute"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_VariableGet_0",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_0",
+			"class": "/Script/BlueprintGraph.K2Node_VariableGet",
+			"title": "Get RenderTargetGlobal",
+			"guid": "d71b6f52-419e-939d-1412-d89502bea169",
+			"pos_x": 0,
+			"pos_y": 1901,
+			"comment": "",
+			"pins": [
+				{
+					"name": "RenderTargetGlobal",
+					"direction": 1,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.TextureRenderTarget2D",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallFunction_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_0",
+							"pin_name": "Object"
+						},
+						{
+							"node_name": "K2Node_CallFunction_4",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_4",
+							"pin_name": "TextureRenderTarget"
+						}
+					]
+				},
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+					"linked_to": []
+				}
+			]
+		},
+		{
+			"name": "K2Node_VariableGet_1",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_1",
+			"class": "/Script/BlueprintGraph.K2Node_VariableGet",
+			"title": "Get BrushMaterial",
+			"guid": "1de30bb2-4831-5942-2742-4c94e87c1925",
+			"pos_x": 0,
+			"pos_y": 2061,
+			"comment": "",
+			"pins": [
+				{
+					"name": "BrushMaterial",
+					"direction": 1,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.MaterialInterface",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallFunction_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_1",
+							"pin_name": "Object"
+						},
+						{
+							"node_name": "K2Node_CallFunction_4",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_4",
+							"pin_name": "Material"
+						}
+					]
+				},
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+					"linked_to": []
+				}
+			]
+		},
+		{
+			"name": "K2Node_VariableGet_2",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_2",
+			"class": "/Script/BlueprintGraph.K2Node_VariableGet",
+			"title": "Get MPCSnowSystem",
+			"guid": "72fb8d6d-4863-22f5-e595-0daddc8a2f9a",
+			"pos_x": 0,
+			"pos_y": 2437,
+			"comment": "",
+			"pins": [
+				{
+					"name": "MPCSnowSystem",
+					"direction": 1,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.MaterialParameterCollection",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_0",
+							"pin_name": "Collection"
+						},
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_1",
+							"pin_name": "Collection"
+						},
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_2",
+							"pin_name": "Collection"
+						}
+					]
+				},
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+					"linked_to": []
+				}
+			]
+		},
+		{
+			"name": "K2Node_CallFunction_0",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_0",
+			"class": "/Script/BlueprintGraph.K2Node_CallFunction",
+			"title": "Is Valid",
+			"guid": "2702941c-40e6-4521-7c5b-8dae7190e607",
+			"pos_x": 200,
+			"pos_y": 1882,
+			"comment": "",
+			"pins": [
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "/Script/Engine.Default__KismetSystemLibrary",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.KismetSystemLibrary",
+					"linked_to": []
+				},
+				{
+					"name": "Object",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Object",
+					"linked_to": [
+						{
+							"node_name": "K2Node_VariableGet_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_0",
+							"pin_name": "RenderTargetGlobal"
+						}
+					]
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "bool",
+					"subcategory": "None",
+					"default_value": "false",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CommutativeAssociativeBinaryOperator_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CommutativeAssociativeBinaryOperator_0",
+							"pin_name": "A"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_CallFunction_1",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_1",
+			"class": "/Script/BlueprintGraph.K2Node_CallFunction",
+			"title": "Is Valid",
+			"guid": "74bf9ca9-48a9-93d0-8eff-09a1c63ea7de",
+			"pos_x": 200,
+			"pos_y": 2042,
+			"comment": "",
+			"pins": [
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "/Script/Engine.Default__KismetSystemLibrary",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.KismetSystemLibrary",
+					"linked_to": []
+				},
+				{
+					"name": "Object",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Object",
+					"linked_to": [
+						{
+							"node_name": "K2Node_VariableGet_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_1",
+							"pin_name": "BrushMaterial"
+						}
+					]
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "bool",
+					"subcategory": "None",
+					"default_value": "false",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CommutativeAssociativeBinaryOperator_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CommutativeAssociativeBinaryOperator_0",
+							"pin_name": "B"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_CallFunction_2",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_2",
+			"class": "/Script/BlueprintGraph.K2Node_CallFunction",
+			"title": "Get World Location",
+			"guid": "166c8b02-4466-6909-4235-51a25f900be2",
+			"pos_x": 200,
+			"pos_y": 2788,
+			"comment": "",
+			"pins": [
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.SceneComponent",
+					"linked_to": [
+						{
+							"node_name": "K2Node_Self_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_Self_0",
+							"pin_name": "self"
+						}
+					]
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "0, 0, 0",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Vector",
+					"linked_to": [
+						{
+							"node_name": "K2Node_PromotableOperator_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_0",
+							"pin_name": "A"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_CallMaterialParameterCollectionFunction_0",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_0",
+			"class": "/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction",
+			"title": "Get Vector Parameter Value",
+			"guid": "1996c863-435a-6370-cdde-71bd580f0ed6",
+			"pos_x": 848,
+			"pos_y": 2256,
+			"comment": "",
+			"pins": [
+				{
+					"name": "execute",
+					"direction": 0,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_IfThenElse_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_IfThenElse_0",
+							"pin_name": "then"
+						}
+					]
+				},
+				{
+					"name": "then",
+					"direction": 1,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_1",
+							"pin_name": "execute"
+						}
+					]
+				},
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "/Script/Engine.Default__KismetMaterialLibrary",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.KismetMaterialLibrary",
+					"linked_to": []
+				},
+				{
+					"name": "WorldContextObject",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Object",
+					"linked_to": [
+						{
+							"node_name": "K2Node_Self_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_Self_0",
+							"pin_name": "self"
+						}
+					]
+				},
+				{
+					"name": "Collection",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.MaterialParameterCollection",
+					"linked_to": [
+						{
+							"node_name": "K2Node_VariableGet_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_2",
+							"pin_name": "MPCSnowSystem"
+						}
+					]
+				},
+				{
+					"name": "ParameterName",
+					"direction": 0,
+					"category": "name",
+					"subcategory": "None",
+					"default_value": "WorldBoundsMin",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": []
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.LinearColor",
+					"linked_to": [
+						{
+							"node_name": "K2Node_PromotableOperator_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_0",
+							"pin_name": "B"
+						},
+						{
+							"node_name": "K2Node_PromotableOperator_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_1",
+							"pin_name": "B"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_CallMaterialParameterCollectionFunction_1",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_1",
+			"class": "/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction",
+			"title": "Get Vector Parameter Value",
+			"guid": "e7aaff8c-4598-0de9-7851-51bf8de5f73b",
+			"pos_x": 1000,
+			"pos_y": 2540,
+			"comment": "",
+			"pins": [
+				{
+					"name": "execute",
+					"direction": 0,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_0",
+							"pin_name": "then"
+						}
+					]
+				},
+				{
+					"name": "then",
+					"direction": 1,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_2",
+							"pin_name": "execute"
+						}
+					]
+				},
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "/Script/Engine.Default__KismetMaterialLibrary",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.KismetMaterialLibrary",
+					"linked_to": []
+				},
+				{
+					"name": "WorldContextObject",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Object",
+					"linked_to": [
+						{
+							"node_name": "K2Node_Self_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_Self_0",
+							"pin_name": "self"
+						}
+					]
+				},
+				{
+					"name": "Collection",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.MaterialParameterCollection",
+					"linked_to": [
+						{
+							"node_name": "K2Node_VariableGet_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_2",
+							"pin_name": "MPCSnowSystem"
+						}
+					]
+				},
+				{
+					"name": "ParameterName",
+					"direction": 0,
+					"category": "name",
+					"subcategory": "None",
+					"default_value": "WorldBoundsMax",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": []
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.LinearColor",
+					"linked_to": [
+						{
+							"node_name": "K2Node_PromotableOperator_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_1",
+							"pin_name": "A"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_CallFunction_3",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_3",
+			"class": "/Script/BlueprintGraph.K2Node_CallFunction",
+			"title": "To LinearColor (Vector)",
+			"guid": "69f3aeeb-49a3-899c-6250-4fbcd7b0acfe",
+			"pos_x": 1600,
+			"pos_y": 2747,
+			"comment": "",
+			"pins": [
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "/Script/Engine.Default__KismetMathLibrary",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.KismetMathLibrary",
+					"linked_to": []
+				},
+				{
+					"name": "InVec",
+					"direction": 0,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "0, 0, 0",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Vector",
+					"linked_to": [
+						{
+							"node_name": "K2Node_PromotableOperator_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_2",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.LinearColor",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_2",
+							"pin_name": "ParameterValue"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_CallMaterialParameterCollectionFunction_2",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_2",
+			"class": "/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction",
+			"title": "Set Vector Parameter Value",
+			"guid": "3e67d43a-4da2-a720-2340-7793d6604d24",
+			"pos_x": 1800,
+			"pos_y": 2485,
+			"comment": "",
+			"pins": [
+				{
+					"name": "execute",
+					"direction": 0,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_1",
+							"pin_name": "then"
+						}
+					]
+				},
+				{
+					"name": "then",
+					"direction": 1,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallFunction_4",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_4",
+							"pin_name": "execute"
+						}
+					]
+				},
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "/Script/Engine.Default__KismetMaterialLibrary",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.KismetMaterialLibrary",
+					"linked_to": []
+				},
+				{
+					"name": "WorldContextObject",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Object",
+					"linked_to": [
+						{
+							"node_name": "K2Node_Self_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_Self_0",
+							"pin_name": "self"
+						}
+					]
+				},
+				{
+					"name": "Collection",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.MaterialParameterCollection",
+					"linked_to": [
+						{
+							"node_name": "K2Node_VariableGet_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_2",
+							"pin_name": "MPCSnowSystem"
+						}
+					]
+				},
+				{
+					"name": "ParameterName",
+					"direction": 0,
+					"category": "name",
+					"subcategory": "None",
+					"default_value": "BrushUV",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": []
+				},
+				{
+					"name": "ParameterValue",
+					"direction": 0,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.LinearColor",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallFunction_3",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_3",
+							"pin_name": "ReturnValue"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_CallFunction_4",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_4",
+			"class": "/Script/BlueprintGraph.K2Node_CallFunction",
+			"title": "Draw Material to Render Target",
+			"guid": "75324414-42b4-5476-7be8-90bbf683ca03",
+			"pos_x": 2000,
+			"pos_y": 2198,
+			"comment": "",
+			"pins": [
+				{
+					"name": "execute",
+					"direction": 0,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_2",
+							"pin_name": "then"
+						}
+					]
+				},
+				{
+					"name": "then",
+					"direction": 1,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": []
+				},
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "/Script/Engine.Default__KismetRenderingLibrary",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.KismetRenderingLibrary",
+					"linked_to": []
+				},
+				{
+					"name": "WorldContextObject",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Object",
+					"linked_to": [
+						{
+							"node_name": "K2Node_Self_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_Self_0",
+							"pin_name": "self"
+						}
+					]
+				},
+				{
+					"name": "TextureRenderTarget",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.TextureRenderTarget2D",
+					"linked_to": [
+						{
+							"node_name": "K2Node_VariableGet_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_0",
+							"pin_name": "RenderTargetGlobal"
+						}
+					]
+				},
+				{
+					"name": "Material",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.MaterialInterface",
+					"linked_to": [
+						{
+							"node_name": "K2Node_VariableGet_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_VariableGet_1",
+							"pin_name": "BrushMaterial"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_CommutativeAssociativeBinaryOperator_0",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CommutativeAssociativeBinaryOperator_0",
+			"class": "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+			"title": "AND Boolean",
+			"guid": "dc5bfb00-4af7-6d28-ee0a-909c0cf4590f",
+			"pos_x": 400,
+			"pos_y": 2083,
+			"comment": "",
+			"pins": [
+				{
+					"name": "self",
+					"direction": 0,
+					"category": "object",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "/Script/Engine.Default__KismetMathLibrary",
+					"default_text": "",
+					"subcategory_object": "/Script/Engine.KismetMathLibrary",
+					"linked_to": []
+				},
+				{
+					"name": "A",
+					"direction": 0,
+					"category": "bool",
+					"subcategory": "None",
+					"default_value": "false",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallFunction_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_0",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "B",
+					"direction": 0,
+					"category": "bool",
+					"subcategory": "None",
+					"default_value": "false",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallFunction_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_1",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "bool",
+					"subcategory": "None",
+					"default_value": "false",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_IfThenElse_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_IfThenElse_0",
+							"pin_name": "Condition"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_PromotableOperator_0",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_0",
+			"class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+			"title": "vector - vector",
+			"guid": "43c935c6-4bb1-35ee-245f-84b6dec5a030",
+			"pos_x": 1000,
+			"pos_y": 2806,
+			"comment": "",
+			"pins": [
+				{
+					"name": "A",
+					"direction": 0,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Vector",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallFunction_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_2",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "B",
+					"direction": 0,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.LinearColor",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_0",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Vector",
+					"linked_to": [
+						{
+							"node_name": "K2Node_PromotableOperator_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_2",
+							"pin_name": "A"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_PromotableOperator_1",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_1",
+			"class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+			"title": "vector - vector",
+			"guid": "f5475ba2-4046-59cd-23d0-e6b598f28a2b",
+			"pos_x": 1360,
+			"pos_y": 2640,
+			"comment": "",
+			"pins": [
+				{
+					"name": "A",
+					"direction": 0,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.LinearColor",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_1",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "B",
+					"direction": 0,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.LinearColor",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_0",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Vector",
+					"linked_to": [
+						{
+							"node_name": "K2Node_PromotableOperator_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_2",
+							"pin_name": "B"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_PromotableOperator_2",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_2",
+			"class": "/Script/BlueprintGraph.K2Node_PromotableOperator",
+			"title": "vector / vector",
+			"guid": "0f1431ea-459d-1249-d59a-db8522a31c87",
+			"pos_x": 1400,
+			"pos_y": 2862,
+			"comment": "",
+			"pins": [
+				{
+					"name": "A",
+					"direction": 0,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Vector",
+					"linked_to": [
+						{
+							"node_name": "K2Node_PromotableOperator_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_0",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "B",
+					"direction": 0,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Vector",
+					"linked_to": [
+						{
+							"node_name": "K2Node_PromotableOperator_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_PromotableOperator_1",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "ReturnValue",
+					"direction": 1,
+					"category": "struct",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"subcategory_object": "/Script/CoreUObject.Vector",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallFunction_3",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_3",
+							"pin_name": "InVec"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "K2Node_IfThenElse_0",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_IfThenElse_0",
+			"class": "/Script/BlueprintGraph.K2Node_IfThenElse",
+			"title": "Branch",
+			"guid": "5a8b34ec-4ec6-938a-9f91-2fa1722a5a38",
+			"pos_x": 600,
+			"pos_y": 2425,
+			"comment": "",
+			"pins": [
+				{
+					"name": "execute",
+					"direction": 0,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_FunctionEntry_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_FunctionEntry_0",
+							"pin_name": "then"
+						}
+					]
+				},
+				{
+					"name": "Condition",
+					"direction": 0,
+					"category": "bool",
+					"subcategory": "None",
+					"default_value": "true",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CommutativeAssociativeBinaryOperator_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CommutativeAssociativeBinaryOperator_0",
+							"pin_name": "ReturnValue"
+						}
+					]
+				},
+				{
+					"name": "then",
+					"direction": 1,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_0",
+							"pin_name": "execute"
+						}
+					]
+				},
+				{
+					"name": "else",
+					"direction": 1,
+					"category": "exec",
+					"subcategory": "None",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": []
+				}
+			]
+		},
+		{
+			"name": "K2Node_Self_0",
+			"path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_Self_0",
+			"class": "/Script/BlueprintGraph.K2Node_Self",
+			"title": "Self-Reference",
+			"guid": "89854830-4532-5019-ddc9-658a0e90026f",
+			"pos_x": 0,
+			"pos_y": 2757,
+			"comment": "",
+			"pins": [
+				{
+					"name": "self",
+					"direction": 1,
+					"category": "object",
+					"subcategory": "self",
+					"default_value": "",
+					"default_object": "",
+					"default_text": "",
+					"linked_to": [
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_0",
+							"pin_name": "WorldContextObject"
+						},
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_1",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_1",
+							"pin_name": "WorldContextObject"
+						},
+						{
+							"node_name": "K2Node_CallMaterialParameterCollectionFunction_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallMaterialParameterCollectionFunction_2",
+							"pin_name": "WorldContextObject"
+						},
+						{
+							"node_name": "K2Node_CallFunction_4",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_4",
+							"pin_name": "WorldContextObject"
+						},
+						{
+							"node_name": "K2Node_CallFunction_2",
+							"node_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:DrawPlowClearance.K2Node_CallFunction_2",
+							"pin_name": "self"
+						}
+					]
+				}
+			]
+		}
+	]
+}

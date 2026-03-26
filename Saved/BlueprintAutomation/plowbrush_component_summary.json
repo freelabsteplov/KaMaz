@@ -1,0 +1,15 @@
+{
+	"blueprint_asset_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+	"blueprint_object_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component",
+	"graph_object_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph",
+	"refresh_summary": "Refreshed Blueprint action index with 32556 actions.",
+	"graph_summary": "Serialized graph '/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph' to JSON.",
+	"actions_summary": "Scanned 26723 Blueprint actions.",
+	"compile_summary": "Compiled Blueprint '/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component' and collected 0 messages.",
+	"output_directory": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation",
+	"refresh_action_index_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/plowbrush_component_refresh_action_index.json",
+	"graph_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/plowbrush_component_graph.json",
+	"actions_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/plowbrush_component_actions.json",
+	"compile_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/plowbrush_component_compile.json",
+	"summary_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation/plowbrush_component_summary.json"
+}

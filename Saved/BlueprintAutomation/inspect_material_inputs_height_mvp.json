@@ -1,0 +1,21 @@
+{
+  "error": "",
+  "mat_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP",
+  "class": "Material",
+  "base_color": {
+    "error": "Material: Failed to find property 'base_color' for attribute 'base_color' on 'Material'"
+  },
+  "roughness": {
+    "error": "Material: Property 'Roughness' for attribute 'roughness' on 'Material' is protected and cannot be read"
+  },
+  "normal": {
+    "error": "Material: Property 'Normal' for attribute 'normal' on 'Material' is protected and cannot be read"
+  },
+  "world_position_offset": {
+    "error": "Material: Failed to find property 'world_position_offset' for attribute 'world_position_offset' on 'Material'"
+  },
+  "emissive_color": {
+    "error": "Material: Failed to find property 'emissive_color' for attribute 'emissive_color' on 'Material'"
+  },
+  "expr_error": "Material: Property 'Expressions' for attribute 'expressions' on 'Material' is protected and cannot be read"
+}

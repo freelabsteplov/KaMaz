@@ -1,0 +1,71 @@
+{
+  "map": "/Game/CityPark/SnowSystem/SnowTest_Level",
+  "kamaz_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0",
+  "trail_actor_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "trail_component_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+  "plow_source_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0.BP_PlowBrush_Component",
+  "plow_owner_path": "/Game/CityPark/SnowSystem/SnowLevel.SnowLevel:PersistentLevel.KamazBP_HandlingAudit_C_0",
+  "settings_before": {
+    "StampSpacingCm": 5.0,
+    "MinStampEngagementToWrite": 0.18000000715255737,
+    "PlowLiftHeightForNoEffect": 1.0,
+    "bUseSourceHeightGate": false
+  },
+  "owner_before": {
+    "PlowLiftHeight": 1.0,
+    "TargetPlowHeight": 1.0
+  },
+  "source_before": {
+    "bEnablePlowClearing": true,
+    "PlowLiftHeight": 1.0
+  },
+  "engaged_probe": {
+    "applied_plow_lift_height": 0.0,
+    "observed_owner_plow_lift_height": 0.0,
+    "observed_owner_target_plow_height": 1.0,
+    "observed_plow_lift_height": 1.0,
+    "observed_bEnablePlowClearing": true,
+    "counts_before": {
+      "stamp_count": 0,
+      "visual_stamp_count": 0
+    },
+    "record_trail_stamp_now": true,
+    "counts_after": {
+      "stamp_count": 1,
+      "visual_stamp_count": 1
+    }
+  },
+  "lifted_probe": {
+    "applied_plow_lift_height": 1.0,
+    "observed_owner_plow_lift_height": 1.0,
+    "observed_owner_target_plow_height": 1.0,
+    "observed_plow_lift_height": 1.0,
+    "observed_bEnablePlowClearing": true,
+    "counts_before": {
+      "stamp_count": 1,
+      "visual_stamp_count": 1
+    },
+    "record_trail_stamp_now": false,
+    "counts_after": {
+      "stamp_count": 1,
+      "visual_stamp_count": 1
+    }
+  },
+  "error": "",
+  "disabled_probe": {
+    "applied_plow_lift_height": 0.0,
+    "observed_owner_plow_lift_height": 0.0,
+    "observed_owner_target_plow_height": 1.0,
+    "observed_plow_lift_height": 1.0,
+    "observed_bEnablePlowClearing": false,
+    "counts_before": {
+      "stamp_count": 1,
+      "visual_stamp_count": 1
+    },
+    "record_trail_stamp_now": true,
+    "counts_after": {
+      "stamp_count": 2,
+      "visual_stamp_count": 2
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "map": "/Game/Maps/MoscowEA5",
+  "trail_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "carrier_actor_label": "SnowHeightBridgeSurface_Road2",
+  "trail_component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+  "trail_component_state": {
+    "RuntimeHeightAmplitudeWhenInactive": 0.0,
+    "RuntimeHeightAmplitudeWhenActive": -50.0,
+    "StampSpacingCm": 5.0,
+    "bEnableRvtVisualStamp": true,
+    "bEnableRuntimeTrail": true,
+    "bUseSourceHeightGate": false
+  },
+  "target_runtime_height_when_active": -50.0,
+  "before": [
+    {
+      "slot": 0,
+      "material_class": "MaterialInstanceConstant",
+      "material_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+      "parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+      "height_amplitude": 0.0
+    },
+    {
+      "slot": 1,
+      "material_class": "MaterialInstanceConstant",
+      "material_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+      "parent_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+      "height_amplitude": 0.0
+    }
+  ],
+  "after": [
+    {
+      "slot": 0,
+      "material_class": "MaterialInstanceDynamic",
+      "material_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224.StaticMeshComponent0.MID_MI_SnowRoadCarrier_Road2_0",
+      "parent_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+      "height_amplitude": -50.0
+    },
+    {
+      "slot": 1,
+      "material_class": "MaterialInstanceDynamic",
+      "material_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224.StaticMeshComponent0.MID_MI_SnowRoadCarrier_Road2_1",
+      "parent_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+      "height_amplitude": -50.0
+    }
+  ],
+  "stamp_written": true,
+  "error": ""
+}

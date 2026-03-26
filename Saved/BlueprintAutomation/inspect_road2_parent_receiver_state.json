@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "parent_material": {
+    "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+    "blend_mode": "<BlendMode.BLEND_MASKED: 1>",
+    "two_sided": true,
+    "opacity_mask_clip_value": 0.009999999776482582,
+    "base_color_node": "MaterialExpressionLinearInterpolate",
+    "roughness_node": "MaterialExpressionLinearInterpolate",
+    "wpo_node": "MaterialExpressionLinearInterpolate",
+    "opacity_mask_node": "MaterialExpressionLinearInterpolate",
+    "base_color_output": "",
+    "roughness_output": "",
+    "wpo_output": "",
+    "opacity_mask_output": ""
+  },
+  "road2_mi": {
+    "path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2_Dense.MI_SnowRoadCarrier_Road2_Dense",
+    "parent": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP.M_SnowReceiver_RVT_Height_MVP",
+    "scalar_params": {
+      "HeightAmplitude": -48.0,
+      "RoadSnowVisualWhitenStrength": 1.0,
+      "RoadSnowRecoveredBehavior": 1.0,
+      "ThinSnowMinVisualOpacity": 0.8799999952316284,
+      "VisualClearMaskStrength": 1.0
+    },
+    "vector_params": {
+      "SnowColor": [
+        0.9800000190734863,
+        0.9900000095367432,
+        1.0,
+        1.0
+      ],
+      "PressedSnowColor": [
+        0.36000001430511475,
+        0.4699999988079071,
+        0.6200000047683716,
+        1.0
+      ],
+      "RoadSnowVisualColor": [
+        0.9850000143051147,
+        0.9900000095367432,
+        1.0,
+        1.0
+      ],
+      "RoadSnowRecoveredPressedColor": [
+        0.5199999809265137,
+        0.5199999809265137,
+        0.5400000214576721,
+        1.0
+      ]
+    }
+  },
+  "road2_actor": {
+    "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+    "label": "Road2",
+    "location": {
+      "x": -67246.0,
+      "y": -123162.75271576444,
+      "z": -208508.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 5.088887490341628e-14,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 0.999999985098839
+    },
+    "component": {
+      "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208.StaticMeshComponent0",
+      "static_mesh": "/Game/Meshes/Roads/Road.Road",
+      "visible": true,
+      "hidden_in_game": false,
+      "render_in_main_pass": true,
+      "render_in_depth_pass": true,
+      "disallow_nanite": false,
+      "cast_shadow": true,
+      "cast_dynamic_shadow": true,
+      "receives_decals": true,
+      "use_as_occluder": true
+    }
+  },
+  "carrier_actor": {
+    "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+    "label": "SnowHeightBridgeSurface_Road2",
+    "location": {
+      "x": -67246.0,
+      "y": -123162.75271576444,
+      "z": -208458.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 25.0,
+      "y": 2.6,
+      "z": 1.0
+    },
+    "component": {
+      "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224.StaticMeshComponent0",
+      "static_mesh": "/Engine/EditorMeshes/PlanarReflectionPlane.PlanarReflectionPlane",
+      "visible": true,
+      "hidden_in_game": false,
+      "render_in_main_pass": true,
+      "render_in_depth_pass": true,
+      "disallow_nanite": true,
+      "cast_shadow": false,
+      "cast_dynamic_shadow": false,
+      "receives_decals": false,
+      "use_as_occluder": true
+    }
+  },
+  "error": ""
+}

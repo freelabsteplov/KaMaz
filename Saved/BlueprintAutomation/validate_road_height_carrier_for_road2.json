@@ -1,0 +1,237 @@
+{
+  "success": true,
+  "map_path": "/Game/Maps/MoscowEA5",
+  "target_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "carrier_actor_label": "SnowHeightBridgeSurface_Road2",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+  "carrier_actor_paths": [
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224"
+  ],
+  "target_actor_mesh_path": "/Game/Meshes/Roads/Road.Road",
+  "runtime_trail_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "carrier_scale": {
+    "actor_x": 1.0,
+    "actor_y": 1.0,
+    "actor_z": 0.999999985098839,
+    "target_actor_x": 1.0,
+    "target_actor_y": 1.0,
+    "target_actor_z": 0.999999985098839,
+    "target_location_z": -208508.0,
+    "carrier_location_z": -208507.0,
+    "relative_x": 1.0,
+    "relative_y": 1.0,
+    "relative_z": 0.999999985098839
+  },
+  "checks": {
+    "carrier_label_is_unique": true,
+    "actor_label": true,
+    "actor_path_present": true,
+    "component_present": true,
+    "carrier_mode_matches_config": true,
+    "collision_is_no_collision": true,
+    "casts_shadow_disabled": true,
+    "decals_disabled": true,
+    "ray_tracing_disabled": true,
+    "material_assigned": true,
+    "mesh_matches_target_actor": true,
+    "actor_scale_matches_target": true,
+    "actor_location_matches_target_with_offset": true
+  },
+  "material_checks": {
+    "material_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2.MI_SnowRoadCarrier_Road2",
+    "rvt_path": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP",
+    "rvt_matches": true,
+    "BaselineSnowCoverage": {
+      "expected": 1.0,
+      "actual": 1.0,
+      "matches": true
+    },
+    "BaselineHeightCm": {
+      "expected": 50.0,
+      "actual": 50.0,
+      "matches": true
+    },
+    "SnowTexUVScale": {
+      "expected": 10.0,
+      "actual": 10.0,
+      "matches": true
+    },
+    "SnowDetailInfluence": {
+      "expected": 0.85,
+      "actual": 0.8500000238418579,
+      "matches": true
+    },
+    "HeightAmplitude": {
+      "expected": 0.0,
+      "actual": 0.0,
+      "matches": true
+    },
+    "HeightContrast": {
+      "expected": 1.0,
+      "actual": 1.0,
+      "matches": true
+    },
+    "SnowRoughness": {
+      "expected": 0.9,
+      "actual": 0.8999999761581421,
+      "matches": true
+    },
+    "PressedRoughness": {
+      "expected": 0.45,
+      "actual": 0.44999998807907104,
+      "matches": true
+    },
+    "VisualClearMaskStrength": {
+      "expected": 1.0,
+      "actual": 1.0,
+      "matches": true
+    },
+    "DepthMaskBoost": {
+      "expected": 1.0,
+      "actual": 1.0,
+      "matches": true
+    },
+    "RightBermRaise": {
+      "expected": 0.0,
+      "actual": 0.0,
+      "matches": true
+    },
+    "RightBermSharpness": {
+      "expected": 1.0,
+      "actual": 1.0,
+      "matches": true
+    },
+    "RepeatAccumulationDepth": {
+      "expected": 0.0,
+      "actual": 0.0,
+      "matches": true
+    },
+    "ThinSnowMinVisualOpacity": {
+      "expected": 1.0,
+      "actual": 1.0,
+      "matches": true
+    },
+    "RoadSnowVisualWhitenStrength": {
+      "expected": 0.0,
+      "actual": 0.0,
+      "matches": true
+    },
+    "RoadSnowRecoveredBehavior": {
+      "expected": 1.0,
+      "actual": 1.0,
+      "matches": true
+    },
+    "BaselineSnowEmissiveStrength": {
+      "expected": 0.35,
+      "actual": 0.3499999940395355,
+      "matches": true
+    },
+    "SnowColor": {
+      "expected": [
+        0.98,
+        0.99,
+        1.0,
+        1.0
+      ],
+      "actual": [
+        0.9800000190734863,
+        0.9900000095367432,
+        1.0,
+        1.0
+      ],
+      "matches": true
+    },
+    "PressedSnowColor": {
+      "expected": [
+        0.36,
+        0.47,
+        0.62,
+        1.0
+      ],
+      "actual": [
+        0.36000001430511475,
+        0.4699999988079071,
+        0.6200000047683716,
+        1.0
+      ],
+      "matches": true
+    },
+    "ThinSnowUnderColor": {
+      "expected": [
+        0.52,
+        0.52,
+        0.54,
+        1.0
+      ],
+      "actual": [
+        0.5199999809265137,
+        0.5199999809265137,
+        0.5400000214576721,
+        1.0
+      ],
+      "matches": true
+    },
+    "RoadSnowVisualColor": {
+      "expected": [
+        0.985,
+        0.99,
+        1.0,
+        1.0
+      ],
+      "actual": [
+        0.9850000143051147,
+        0.9900000095367432,
+        1.0,
+        1.0
+      ],
+      "matches": true
+    },
+    "RoadSnowRecoveredPressedColor": {
+      "expected": [
+        0.52,
+        0.52,
+        0.54,
+        1.0
+      ],
+      "actual": [
+        0.5199999809265137,
+        0.5199999809265137,
+        0.5400000214576721,
+        1.0
+      ],
+      "matches": true
+    }
+  },
+  "receiver_checks": {
+    "receiver_present": true,
+    "surface_family_is_road": true,
+    "receiver_priority_matches": true,
+    "receiver_set_tag_matches": true,
+    "persistent_state_enabled": true
+  },
+  "runtime_trail_checks": {
+    "trail_actor_present": true,
+    "trail_component_present": true,
+    "runtime_trail_enabled": true,
+    "runtime_height_control_matches": true,
+    "serialized_source_height_gate_disabled": true,
+    "serialized_persistent_plow_length_matches": true,
+    "serialized_persistent_plow_width_matches": true,
+    "serialized_runtime_height_active_matches": true,
+    "serialized_runtime_height_inactive_matches": true
+  },
+  "rvt_volume_checks": {
+    "volume_present": true,
+    "volume_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1",
+    "component_present": true,
+    "bound_asset_path": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP",
+    "bound_asset_matches": true,
+    "carrier_inside_volume": true,
+    "target_actor_inside_volume": true
+  },
+  "target_render_checks": {
+    "hidden_in_game_matches": true,
+    "collision_preserved": true
+  },
+  "errors": []
+}

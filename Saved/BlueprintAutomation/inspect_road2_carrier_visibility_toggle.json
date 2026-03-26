@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "road_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_251",
+  "road_component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208.StaticMeshComponent0",
+  "carrier_component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_251.StaticMeshComponent0",
+  "captures": {
+    "both_visible": {
+      "capture_source_name": "SCS_BASE_COLOR",
+      "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\inspect_road2_carrier_visibility_toggle_both_visible",
+      "exported_image_sha256": "a1cf35e62285d15bb185315a4babdd2954e8fade1ab2671d1e4d939b42fc01ea",
+      "center_sample": {
+        "r": 129.0,
+        "g": 166.0,
+        "b": 220.0,
+        "a": 0.0
+      },
+      "left_sample": {
+        "r": 129.0,
+        "g": 166.0,
+        "b": 220.0,
+        "a": 0.0
+      },
+      "right_sample": {
+        "r": 129.0,
+        "g": 166.0,
+        "b": 220.0,
+        "a": 0.0
+      }
+    },
+    "carrier_only": {
+      "capture_source_name": "SCS_BASE_COLOR",
+      "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\inspect_road2_carrier_visibility_toggle_carrier_only",
+      "exported_image_sha256": "2cbb861ef9ddb03829f19cef0187f3b32ff3fcbbf5e2d72e49ada79f373687f7",
+      "center_sample": {
+        "r": 129.0,
+        "g": 166.0,
+        "b": 220.0,
+        "a": 0.0
+      },
+      "left_sample": {
+        "r": 129.0,
+        "g": 166.0,
+        "b": 220.0,
+        "a": 0.0
+      },
+      "right_sample": {
+        "r": 129.0,
+        "g": 166.0,
+        "b": 220.0,
+        "a": 0.0
+      }
+    },
+    "road_only": {
+      "capture_source_name": "SCS_BASE_COLOR",
+      "exported_image_path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\inspect_road2_carrier_visibility_toggle_road_only",
+      "exported_image_sha256": "a1cf35e62285d15bb185315a4babdd2954e8fade1ab2671d1e4d939b42fc01ea",
+      "center_sample": {
+        "r": 129.0,
+        "g": 166.0,
+        "b": 220.0,
+        "a": 0.0
+      },
+      "left_sample": {
+        "r": 129.0,
+        "g": 166.0,
+        "b": 220.0,
+        "a": 0.0
+      },
+      "right_sample": {
+        "r": 129.0,
+        "g": 166.0,
+        "b": 220.0,
+        "a": 0.0
+      }
+    }
+  },
+  "error": ""
+}

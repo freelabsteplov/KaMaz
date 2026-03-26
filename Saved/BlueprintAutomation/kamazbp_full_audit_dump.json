@@ -1,0 +1,10 @@
+{
+  "snapshot_error": "Bridge result does not contain a bool status: ('{\\r\\n\\t\"indexed_actions\": 30150\\r\\n}', 'Refreshed Blueprint action index with 30150 actions.')",
+  "graphs": [
+    {
+      "name": "EventGraph",
+      "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph",
+      "class": "/Script/Engine.EdGraph"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "error": "Material: Property 'Expressions' for attribute 'expressions' on 'Material' is protected and cannot be read",
+  "mat": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP",
+  "expressions": [],
+  "num_expressions": 0
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "EventGraph",
+    "path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component:EventGraph",
+    "class": "/Script/Engine.EdGraph"
+  }
+]

@@ -19,6 +19,15 @@ ACTION_ASSET_PATHS = {
 }
 
 OUTPUT_BASENAME = "vehicle_template_input_fix"
+PAWN_BASE_NODE_NAME_FALLBACK_ACTIONS = {
+    "K2Node_EnhancedInputAction_0": "throttle",
+    "K2Node_EnhancedInputAction_1": "brake",
+    "K2Node_EnhancedInputAction_2": "handbrake",
+    "K2Node_EnhancedInputAction_3": "lookaround",
+    "K2Node_EnhancedInputAction_5": "reset",
+    "K2Node_EnhancedInputAction_6": "steering",
+    "K2Node_EnhancedInputAction_7": "togglecamera",
+}
 
 
 def _log(message: str) -> None:
@@ -111,6 +120,140 @@ def _load_blueprint_asset(asset_path: str):
     return asset
 
 
+def _normalize_bridge_result(raw_result, expected_string_count: int):
+    strings = []
+    success = None
+
+    if isinstance(raw_result, bool):
+        success = raw_result
+    elif isinstance(raw_result, str):
+        strings.append(raw_result)
+        success = True
+    elif isinstance(raw_result, tuple):
+        for item in raw_result:
+            if isinstance(item, bool):
+                success = item
+            elif isinstance(item, str):
+                strings.append(item)
+
+        if success is None:
+            success = len(strings) > 0
+    else:
+        success = False
+
+    while len(strings) < expected_string_count:
+        strings.append("")
+
+    return bool(success), strings[:expected_string_count]
+
+
+def _load_object_by_path(object_path: str):
+    if not object_path:
+        return None
+
+    loader = getattr(unreal, "load_object", None)
+    if loader is not None:
+        try:
+            return loader(None, object_path)
+        except Exception:
+            pass
+
+    finder = getattr(unreal, "find_object", None)
+    if finder is not None:
+        try:
+            return finder(None, object_path)
+        except Exception:
+            try:
+                return finder(name=object_path)
+            except Exception:
+                pass
+
+    return None
+
+
+def _inspect_event_graph_nodes(blueprint_asset_path: str):
+    bridge = getattr(unreal, "BlueprintAutomationPythonBridge", None)
+    if bridge is None:
+        return False, [], "BlueprintAutomationPythonBridge is not available."
+
+    try:
+        raw_result = bridge.inspect_blueprint_event_graph(blueprint_asset_path, True, True)
+    except Exception as exc:
+        return False, [], f"inspect_blueprint_event_graph raised: {exc}"
+
+    success, [graph_json, summary] = _normalize_bridge_result(raw_result, 2)
+    if not success or not graph_json:
+        return False, [], summary
+
+    try:
+        graph_payload = json.loads(graph_json)
+    except Exception as exc:
+        return False, [], f"Failed to parse inspect graph JSON: {exc}"
+
+    return True, graph_payload.get("nodes", []), summary
+
+
+def _node_snapshot_is_enhanced_input(node_snapshot: dict) -> bool:
+    class_path = str(node_snapshot.get("class", ""))
+    title = str(node_snapshot.get("title", ""))
+    return "K2Node_EnhancedInputAction" in class_path or "EnhancedInputAction" in title
+
+
+def _snapshot_current_action_object_path(node_snapshot: dict) -> str:
+    for pin in node_snapshot.get("pins", []):
+        if str(pin.get("name", "")) == "InputAction":
+            return str(pin.get("default_object", "") or "")
+    return ""
+
+
+def _collect_snapshot_context(node_snapshot: dict, nodes_by_name: dict) -> str:
+    parts = [
+        str(node_snapshot.get("title", "")),
+        str(node_snapshot.get("name", "")),
+        str(node_snapshot.get("comment", "")),
+    ]
+
+    for pin in node_snapshot.get("pins", []):
+        for linked in pin.get("linked_to", []):
+            linked_name = str(linked.get("node_name", ""))
+            parts.append(linked_name)
+            linked_node = nodes_by_name.get(linked_name) or {}
+            parts.append(str(linked_node.get("title", "")))
+            parts.append(str(linked_node.get("comment", "")))
+
+    return " | ".join([p for p in parts if p]).lower()
+
+
+def _guess_action_key_from_snapshot(blueprint_asset_path: str, node_snapshot: dict, nodes_by_name: dict) -> str:
+    text = _collect_snapshot_context(node_snapshot, nodes_by_name)
+
+    if "handbrake" in text:
+        return "handbrake"
+    if "brake" in text:
+        return "brake"
+    if "throttle" in text:
+        return "throttle"
+    if "steering" in text:
+        return "steering"
+    if "reset" in text:
+        return "reset"
+    if "look" in text or "yaw" in text or "pitch" in text:
+        return "lookaround"
+    if "toggle" in text or "camera" in text or "view" in text:
+        return "togglecamera"
+    if "headlight" in text or "light" in text:
+        return "headlights"
+
+    node_name = str(node_snapshot.get("name", ""))
+    if blueprint_asset_path == PAWN_BASE_ASSET_PATH:
+        return PAWN_BASE_NODE_NAME_FALLBACK_ACTIONS.get(node_name, "")
+
+    if blueprint_asset_path == SPORTSCAR_ASSET_PATH:
+        return "headlights"
+
+    return ""
+
+
 def _find_event_graph(blueprint):
     blueprint_editor_library = getattr(unreal, "BlueprintEditorLibrary", None)
     if blueprint_editor_library is not None:
@@ -130,6 +273,15 @@ def _iter_candidate_graphs(blueprint):
 
     blueprint_editor_library = getattr(unreal, "BlueprintEditorLibrary", None)
     if blueprint_editor_library is not None:
+        event_graph = _safe_call(blueprint_editor_library, "find_event_graph", blueprint)
+        if event_graph:
+            graph_path = _object_path(event_graph)
+            if graph_path not in seen:
+                seen.add(graph_path)
+                yield event_graph
+
+        # UE 5.7 Python API may not expose get_all_graphs / graph arrays on Blueprint.
+        # Keep best-effort call for engines that still expose it.
         graphs = _safe_call(blueprint_editor_library, "get_all_graphs", blueprint) or []
         for graph in graphs:
             graph_path = _object_path(graph)
@@ -273,33 +425,27 @@ def _compile_and_save_blueprint(blueprint_asset_path: str) -> dict:
 
     try:
         compile_result = bridge.compile_blueprint(blueprint_asset_path)
-        if isinstance(compile_result, tuple):
-            for item in compile_result:
-                if isinstance(item, bool):
-                    compile_success = item
-                elif isinstance(item, str):
-                    if not compile_report_json:
-                        compile_report_json = item
-                    else:
-                        compile_summary = item
-        elif isinstance(compile_result, bool):
-            compile_success = compile_result
+        compile_success, [compile_report_json, compile_summary] = _normalize_bridge_result(compile_result, 2)
+        if compile_report_json:
+            try:
+                report = json.loads(compile_report_json)
+                report_status = str(report.get("status", "")).lower()
+                if report_status == "error":
+                    compile_success = False
+                elif report_status in ("success", "up_to_date"):
+                    compile_success = True
+            except Exception:
+                pass
     except Exception as exc:
         compile_summary = f"compile_blueprint raised: {exc}"
 
     try:
         save_result = bridge.save_blueprint(blueprint_asset_path)
-        if isinstance(save_result, tuple):
-            for item in save_result:
-                if isinstance(item, bool):
-                    save_success = item
-                elif isinstance(item, str):
-                    if not save_result_json:
-                        save_result_json = item
-                    else:
-                        save_summary = item
-        elif isinstance(save_result, bool):
-            save_success = save_result
+        save_success, save_strings = _normalize_bridge_result(save_result, 2)
+        if save_strings:
+            save_result_json = save_strings[0]
+        if len(save_strings) > 1:
+            save_summary = save_strings[1]
     except Exception as exc:
         save_summary = f"save_blueprint raised: {exc}"
 
@@ -313,57 +459,151 @@ def _compile_and_save_blueprint(blueprint_asset_path: str) -> dict:
     }
 
 
+def _apply_enhanced_input_actions_by_node(blueprint_asset_path: str, node_actions: list):
+    bridge = getattr(unreal, "BlueprintAutomationPythonBridge", None)
+    if bridge is None:
+        return False, {}, "BlueprintAutomationPythonBridge is not available."
+
+    bridge_method = getattr(bridge, "set_enhanced_input_actions_by_node", None)
+    if bridge_method is None:
+        return False, {}, "set_enhanced_input_actions_by_node bridge method is not available."
+
+    payload = {"node_actions": node_actions}
+
+    try:
+        raw_result = bridge_method(blueprint_asset_path, json.dumps(payload, ensure_ascii=False))
+    except Exception as exc:
+        return False, {}, f"set_enhanced_input_actions_by_node raised: {exc}"
+
+    success, [result_json, summary] = _normalize_bridge_result(raw_result, 2)
+
+    result_payload = {}
+    if result_json:
+        try:
+            result_payload = json.loads(result_json)
+        except Exception:
+            result_payload = {}
+
+    return success, result_payload, summary
+
+
 def fix_blueprint_null_input_actions(blueprint_asset_path: str) -> dict:
-    blueprint = _load_blueprint_asset(blueprint_asset_path)
+    _load_blueprint_asset(blueprint_asset_path)
 
     changes = []
     unresolved = []
     scanned_nodes = []
+    inspect_success, node_snapshots, inspect_summary = _inspect_event_graph_nodes(blueprint_asset_path)
+    nodes_by_name = {str(node.get("name", "")): node for node in node_snapshots}
+    pending_entries = []
+    pending_node_actions = []
+    apply_success = False
+    apply_summary = ""
+    apply_result_payload = {}
 
-    for graph in _iter_candidate_graphs(blueprint):
-        graph_name = _object_name(graph)
-        for node in _iter_enhanced_input_nodes(graph):
-            current_action = _safe_get_editor_property(node, "input_action") or _safe_get_editor_property(node, "InputAction")
+    if inspect_success:
+        for node_snapshot in node_snapshots:
+            if not _node_snapshot_is_enhanced_input(node_snapshot):
+                continue
+
+            node_name = str(node_snapshot.get("name", ""))
+            node_path = str(node_snapshot.get("path", ""))
+            class_path = str(node_snapshot.get("class", ""))
+            node_title = str(node_snapshot.get("title", ""))
+            current_action_path = _snapshot_current_action_object_path(node_snapshot)
+
             scanned_nodes.append(
                 {
-                    "graph_name": graph_name,
-                    "node_name": _object_name(node),
-                    "node_path": _object_path(node),
-                    "class_path": _class_path(node),
-                    "node_title": str(_safe_call(node, "get_node_title") or _object_name(node)),
-                    "current_action": _object_path(current_action),
+                    "graph_name": "EventGraph",
+                    "node_name": node_name,
+                    "node_path": node_path,
+                    "class_path": class_path,
+                    "node_title": node_title,
+                    "current_action": current_action_path,
                 }
             )
 
-            if current_action:
+            if current_action_path:
                 continue
 
-            action_key = _guess_action_key(blueprint_asset_path, node)
+            action_key = _guess_action_key_from_snapshot(blueprint_asset_path, node_snapshot, nodes_by_name)
             action_asset_path = ACTION_ASSET_PATHS.get(action_key, "")
-            action_asset = _load_asset(action_asset_path) if action_asset_path else None
 
             entry = {
-                "graph_name": graph_name,
-                "node_name": _object_name(node),
-                "node_path": _object_path(node),
-                "class_path": _class_path(node),
-                "node_title": str(_safe_call(node, "get_node_title") or _object_name(node)),
+                "graph_name": "EventGraph",
+                "node_name": node_name,
+                "node_path": node_path,
+                "class_path": class_path,
+                "node_title": node_title,
                 "guessed_action_key": action_key,
                 "action_asset_path": action_asset_path,
-                "context": _collect_node_text(node),
+                "context": _collect_snapshot_context(node_snapshot, nodes_by_name),
             }
 
-            if action_asset and _set_node_input_action(node, action_asset):
-                entry["status"] = "fixed"
-                changes.append(entry)
-            else:
+            if not action_asset_path:
                 entry["status"] = "unresolved"
+                entry["reason"] = "action_key_not_resolved"
                 unresolved.append(entry)
+                continue
+
+            try:
+                _load_asset(action_asset_path)
+            except Exception:
+                entry["status"] = "unresolved"
+                entry["reason"] = f"action_asset_not_found: {action_asset_path}"
+                unresolved.append(entry)
+                continue
+
+            pending_entries.append(entry)
+            pending_node_actions.append(
+                {
+                    "node_name": node_name,
+                    "action_asset_path": action_asset_path,
+                }
+            )
+
+        if pending_node_actions:
+            apply_success, apply_result_payload, apply_summary = _apply_enhanced_input_actions_by_node(
+                blueprint_asset_path, pending_node_actions
+            )
+            per_node_results = {
+                str(item.get("node_name", "")): item for item in apply_result_payload.get("results", []) if item
+            }
+            for entry in pending_entries:
+                node_name = entry.get("node_name", "")
+                node_result = per_node_results.get(node_name, {})
+                if bool(node_result.get("applied", False)):
+                    entry["status"] = "fixed"
+                    changes.append(entry)
+                else:
+                    entry["status"] = "unresolved"
+                    entry["reason"] = str(node_result.get("reason", "bridge_apply_failed"))
+                    unresolved.append(entry)
+    else:
+        unresolved.append(
+            {
+                "graph_name": "EventGraph",
+                "node_name": "",
+                "node_path": "",
+                "class_path": "",
+                "node_title": "",
+                "guessed_action_key": "",
+                "action_asset_path": "",
+                "context": "",
+                "status": "unresolved",
+                "reason": f"inspect_failed: {inspect_summary}",
+            }
+        )
 
     compile_and_save = _compile_and_save_blueprint(blueprint_asset_path)
 
     result = {
         "blueprint_asset_path": blueprint_asset_path,
+        "inspect_success": inspect_success,
+        "inspect_summary": inspect_summary,
+        "apply_success": apply_success,
+        "apply_summary": apply_summary,
+        "apply_result": apply_result_payload,
         "scanned_nodes": scanned_nodes,
         "changes": changes,
         "unresolved": unresolved,

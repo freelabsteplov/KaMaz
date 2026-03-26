@@ -9,11 +9,14 @@ public class Kamaz_Cleaner : ModuleRules
         PublicDependencyModuleNames.AddRange(
             new[]
             {
+                "ChaosVehicles",
                 "Core",
                 "CoreUObject",
                 "DeveloperSettings",
                 "Engine",
-                "Json"
+                "InputCore",
+                "Json",
+                "Landscape"
             }
         );
     }

@@ -4,8 +4,11 @@ import os
 import unreal
 
 
-ASSET_PATH = "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush"
-OUTPUT_BASENAME = "trace_m_snow_plow_brush_graph"
+ASSET_PATH = os.environ.get(
+    "KAMAZ_MATERIAL_PATH",
+    "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush",
+)
+OUTPUT_BASENAME = os.environ.get("KAMAZ_TRACE_BASENAME", "trace_m_snow_plow_brush_graph")
 
 
 def _saved_output_dir() -> str:

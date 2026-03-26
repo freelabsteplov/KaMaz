@@ -1,0 +1,561 @@
+﻿{
+    "source_file":  "kamazbp_eventgraph_full.json",
+    "asset_label":  "/Game/CityPark/Kamaz/model/KamazBP",
+    "graph_name":  "EventGraph",
+    "graph_path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph",
+    "keyword_regex":  "road2|snow|plow|rvt|carrier|receiver|trail|runtime|opacity|height",
+    "matched_node_count":  38,
+    "matched_nodes":  [
+                          {
+                              "name":  "K2Node_VariableGet_31",
+                              "title":  "Get SnowTraceComponent",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_31",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_DynamicCast_1",
+                              "title":  "Cast To BP_WheelSnowTrace_Component",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_1",
+                              "class":  "/Script/BlueprintGraph.K2Node_DynamicCast",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_ExecutionSequence_2",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_35",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_31"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_35",
+                              "title":  "Set OwnerVehicle",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_35",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_1",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_Self_0"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_EnhancedInputAction_0",
+                              "title":  "EnhancedInputAction IA_PlowLift",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_0",
+                              "class":  "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_7",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_97",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_PromotableOperator_22"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_7",
+                              "title":  "Set TargetPlowHeight",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_7",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_0",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_104"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_4",
+                              "title":  "Get PlowLiftHeight",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_4",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_21",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_25"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_5",
+                              "title":  "Get TargetPlowHeight",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_5",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_21"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_21",
+                              "title":  "FInterp To",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_21",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_4",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_5",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_Event_3",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_27"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_27",
+                              "title":  "Set PlowLiftHeight",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_27",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_83",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_24",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_21"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_25",
+                              "title":  "Lerp",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_25",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_4",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_27"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_23",
+                              "title":  "Get PlowLiftHeight",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_23",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_33"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_33",
+                              "title":  "To String (Float)",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_33",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_23",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_4"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CommutativeAssociativeBinaryOperator_4",
+                              "title":  "Append",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_4",
+                              "class":  "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_33"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_34",
+                              "title":  "Get TargetPlowHeight",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_34",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_PromotableOperator_23"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_PromotableOperator_23",
+                              "title":  "float + float",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_PromotableOperator_23",
+                              "class":  "/Script/BlueprintGraph.K2Node_PromotableOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_34",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_PromotableOperator_22",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_104"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_104",
+                              "title":  "Clamp (Float)",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_104",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_PromotableOperator_23",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_105",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_106",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_7"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_37",
+                              "title":  "Get PlowBrushComponent",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_37",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_122",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_4"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_122",
+                              "title":  "Is Valid",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_122",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_37",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_22"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_123",
+                              "title":  "Get Component by Class",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_123",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_Self_1",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_41"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_41",
+                              "title":  "Set PlowBrushComponent",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_41",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_22",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_23",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_123"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_38",
+                              "title":  "Get PlowBrushComponent",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_38",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_124",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_5"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_124",
+                              "title":  "Is Valid",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_124",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_38",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_23"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_DynamicCast_4",
+                              "title":  "Cast To BP_PlowBrush_Component",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_4",
+                              "class":  "/Script/BlueprintGraph.K2Node_DynamicCast",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_22",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_42",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_37"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_42",
+                              "title":  "Set OwnerVehicle",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_42",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_4",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_Self_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_DynamicCast_5",
+                              "title":  "Cast To BP_PlowBrush_Component",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_5",
+                              "class":  "/Script/BlueprintGraph.K2Node_DynamicCast",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_23",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_43",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_38"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_43",
+                              "title":  "Set OwnerVehicle",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_43",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_DynamicCast_5",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_Self_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_39",
+                              "title":  "Get PlowBrushComponent",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_39",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_126"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_126",
+                              "title":  "Is Valid",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_126",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_39",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_24"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_40",
+                              "title":  "Get PlowLiftHeight",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_40",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_44"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableSet_44",
+                              "title":  "Set PlowLiftHeight",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_44",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableSet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_MacroInstance_2",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_40"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_44",
+                              "title":  "Get PlowLiftHeight",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_44",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_132"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_132",
+                              "title":  "To String (Float)",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_132",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_44",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_8"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CommutativeAssociativeBinaryOperator_8",
+                              "title":  "Append",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_8",
+                              "class":  "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow",
+                                                    "height"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_132",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_133"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_VariableGet_46",
+                              "title":  "Get PlowBrushComponent",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_46",
+                              "class":  "/Script/BlueprintGraph.K2Node_VariableGet",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_136"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_136",
+                              "title":  "Is Valid",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_136",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_46",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_137"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CommutativeAssociativeBinaryOperator_11",
+                              "title":  "Append",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_11",
+                              "class":  "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "plow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_137",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_138"
+                                                    ]
+                          },
+                          {
+                              "name":  "K2Node_CallFunction_139",
+                              "title":  "Print String",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_139",
+                              "class":  "/Script/BlueprintGraph.K2Node_CallFunction",
+                              "comment":  "",
+                              "matched_terms":  [
+                                                    "snow"
+                                                ],
+                              "linked_node_paths":  [
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_30",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_133",
+                                                        "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_Self_1"
+                                                    ]
+                          },
+                          {
+                              "name":  "EdGraphNode_Comment_0",
+                              "title":  "Comment",
+                              "path":  "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.EdGraphNode_Comment_0",
+                              "class":  "/Script/UnrealEd.EdGraphNode_Comment",
+                              "comment":  "wheelSnow",
+                              "matched_terms":  [
+                                                    "snow"
+                                                ],
+                              "linked_node_paths":  [
+
+                                                    ]
+                          }
+                      ]
+}

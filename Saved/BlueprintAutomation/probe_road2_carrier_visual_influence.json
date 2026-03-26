@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "map_path": "/Game/Maps/MoscowEA5",
+  "mi_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2",
+  "road_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_251",
+  "carrier_visible_before": true,
+  "mi_values_before": {
+    "HeightAmplitude": 0.0,
+    "VisualClearMaskStrength": 1.0,
+    "ThinSnowMinVisualOpacity": 1.0,
+    "PressedSnowColor": [
+      0.36000001430511475,
+      0.4699999988079071,
+      0.6200000047683716,
+      1.0
+    ],
+    "ThinSnowUnderColor": [
+      0.5199999809265137,
+      0.5199999809265137,
+      0.5400000214576721,
+      1.0
+    ]
+  },
+  "mi_values_test": {
+    "HeightAmplitude": -50.0,
+    "VisualClearMaskStrength": 0.0,
+    "ThinSnowMinVisualOpacity": 1.0
+  },
+  "capture_carrier_on": {
+    "sample": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 255.0
+    },
+    "luma": 0.0
+  },
+  "capture_carrier_off": {
+    "sample": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 255.0
+    },
+    "luma": 0.0
+  },
+  "delta": {
+    "luma_delta_on_minus_off": 0.0,
+    "carrier_affects_frame": false,
+    "on_center_sample": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 255.0
+    },
+    "off_center_sample": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 255.0
+    }
+  },
+  "error": ""
+}

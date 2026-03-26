@@ -11,7 +11,7 @@ if TOOLS_DIR not in sys.path:
 
 
 OUTPUT_BASENAME = "probe_active_pie_snow_rt"
-RT_PATH = "/Game/CityPark/SnowSystem/RT_SnowTest_WheelTracks.RT_SnowTest_WheelTracks"
+RT_PATH = "/Game/CityPark/SnowSystem/RT_SnowTest_WheelTracks"
 MPC_PATH = "/Game/CityPark/SnowSystem/MPC_SnowSystem"
 
 
@@ -58,11 +58,27 @@ def _serialize_color(sample) -> dict:
     }
 
 
+def _candidate_asset_paths(asset_path: str) -> list[str]:
+    candidates = [asset_path]
+    if "." in asset_path:
+        package_path = asset_path.rsplit(".", 1)[0]
+        if package_path not in candidates:
+            candidates.append(package_path)
+    return candidates
+
+
 def _load_asset(asset_path: str):
-    asset = unreal.EditorAssetLibrary.load_asset(asset_path)
-    if asset is None:
-        raise RuntimeError(f"Could not load asset: {asset_path}")
-    return asset
+    last_error = None
+    for candidate in _candidate_asset_paths(asset_path):
+        try:
+            asset = unreal.EditorAssetLibrary.load_asset(candidate)
+            if asset is not None:
+                return asset
+        except Exception as exc:
+            last_error = exc
+    if last_error is not None:
+        raise RuntimeError(f"Could not load asset: {asset_path} ({last_error})")
+    raise RuntimeError(f"Could not load asset: {asset_path}")
 
 
 def _get_pie_world():
@@ -193,52 +209,60 @@ def _sample_rt_grid(world, render_target) -> dict:
 def run(output_dir: str | None = None) -> dict:
     output_dir = output_dir or _saved_output_dir()
 
-    world = _get_pie_world()
-    render_target = _load_asset(RT_PATH)
-    mpc_asset = _load_asset(MPC_PATH)
-    kamaz_actor = _find_kamaz_actor(world)
-    plow_component = _find_plow_component(kamaz_actor)
+    try:
+        world = _get_pie_world()
+        render_target = _load_asset(RT_PATH)
+        mpc_asset = _load_asset(MPC_PATH)
+        kamaz_actor = _find_kamaz_actor(world)
+        plow_component = _find_plow_component(kamaz_actor)
 
-    bounds_min = _get_mpc_vector_default(mpc_asset, "WorldBoundsMin")
-    bounds_max = _get_mpc_vector_default(mpc_asset, "WorldBoundsMax")
+        bounds_min = _get_mpc_vector_default(mpc_asset, "WorldBoundsMin")
+        bounds_max = _get_mpc_vector_default(mpc_asset, "WorldBoundsMax")
 
-    render_lib = unreal.RenderingLibrary
-    grid_stats = _sample_rt_grid(world, render_target)
+        render_lib = unreal.RenderingLibrary
+        grid_stats = _sample_rt_grid(world, render_target)
 
-    brush_uv = None
-    brush_sample = None
-    plow_component_location = None
-    if plow_component is not None:
-        try:
-            plow_component_location = plow_component.get_world_location()
-        except Exception:
-            owner = kamaz_actor
-            plow_component_location = owner.get_actor_location() if owner is not None else None
+        brush_uv = None
+        brush_sample = None
+        plow_component_location = None
+        if plow_component is not None:
+            try:
+                plow_component_location = plow_component.get_world_location()
+            except Exception:
+                owner = kamaz_actor
+                plow_component_location = owner.get_actor_location() if owner is not None else None
 
-    if plow_component_location is not None:
-        brush_uv = _compute_brush_uv(plow_component_location, bounds_min, bounds_max)
-        sample = render_lib.read_render_target_raw_uv(world, render_target, float(brush_uv["u"]), float(brush_uv["v"]))
-        brush_sample = _serialize_color(sample)
+        if plow_component_location is not None:
+            brush_uv = _compute_brush_uv(plow_component_location, bounds_min, bounds_max)
+            sample = render_lib.read_render_target_raw_uv(world, render_target, float(brush_uv["u"]), float(brush_uv["v"]))
+            brush_sample = _serialize_color(sample)
 
-    payload = {
-        "success": True,
-        "pie_world_path": _object_path(world),
-        "rt_path": _object_path(render_target),
-        "kamaz_actor_name": _object_name(kamaz_actor),
-        "kamaz_actor_path": _object_path(kamaz_actor),
-        "plow_component_name": _object_name(plow_component),
-        "plow_component_path": _object_path(plow_component),
-        "plow_component_world_location": {
-            "x": float(plow_component_location.x),
-            "y": float(plow_component_location.y),
-            "z": float(plow_component_location.z),
-        } if plow_component_location is not None else None,
-        "world_bounds_min": {"x": float(bounds_min.r), "y": float(bounds_min.g), "z": float(bounds_min.b)},
-        "world_bounds_max": {"x": float(bounds_max.r), "y": float(bounds_max.g), "z": float(bounds_max.b)},
-        "grid_stats": grid_stats,
-        "brush_uv": brush_uv,
-        "brush_uv_sample": brush_sample,
-    }
+        payload = {
+            "success": True,
+            "pie_world_path": _object_path(world),
+            "rt_path": _object_path(render_target),
+            "kamaz_actor_name": _object_name(kamaz_actor),
+            "kamaz_actor_path": _object_path(kamaz_actor),
+            "plow_component_name": _object_name(plow_component),
+            "plow_component_path": _object_path(plow_component),
+            "plow_component_world_location": {
+                "x": float(plow_component_location.x),
+                "y": float(plow_component_location.y),
+                "z": float(plow_component_location.z),
+            } if plow_component_location is not None else None,
+            "world_bounds_min": {"x": float(bounds_min.r), "y": float(bounds_min.g), "z": float(bounds_min.b)},
+            "world_bounds_max": {"x": float(bounds_max.r), "y": float(bounds_max.g), "z": float(bounds_max.b)},
+            "grid_stats": grid_stats,
+            "brush_uv": brush_uv,
+            "brush_uv_sample": brush_sample,
+        }
+    except Exception as exc:
+        payload = {
+            "success": False,
+            "error": str(exc),
+            "rt_path_requested": RT_PATH,
+            "rt_path_candidates": _candidate_asset_paths(RT_PATH),
+        }
 
     output_path = os.path.join(output_dir, f"{OUTPUT_BASENAME}.json")
     _write_json(output_path, payload)

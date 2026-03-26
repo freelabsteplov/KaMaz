@@ -1,0 +1,8 @@
+# Generated artifacts
+escalations/*
+logs/*
+
+# Keep folder placeholders
+!escalations/.gitkeep
+!escalations/*.md
+!logs/.gitkeep

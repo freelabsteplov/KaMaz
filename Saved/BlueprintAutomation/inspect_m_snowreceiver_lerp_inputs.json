@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "material_path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP",
+  "root_inputs": {
+    "base_color": {
+      "expression": "",
+      "expression_path": "",
+      "output_name": ""
+    },
+    "roughness": {
+      "expression": "",
+      "expression_path": "",
+      "output_name": ""
+    },
+    "normal": {
+      "expression": "",
+      "expression_path": "",
+      "output_name": ""
+    },
+    "world_position_offset": {
+      "expression": "",
+      "expression_path": "",
+      "output_name": ""
+    },
+    "opacity_mask": {
+      "expression": "",
+      "expression_path": "",
+      "output_name": ""
+    },
+    "emissive_color": {
+      "expression": "",
+      "expression_path": "",
+      "output_name": ""
+    }
+  },
+  "lerps": [],
+  "error": ""
+}

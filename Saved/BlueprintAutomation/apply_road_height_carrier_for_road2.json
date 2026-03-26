@@ -1,0 +1,164 @@
+{
+  "success": true,
+  "summary": "Configured road height carrier for StaticMeshActor_208: carrier=/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224 material=/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2",
+  "target_actor_label": "Road2",
+  "target_actor_name": "StaticMeshActor_208",
+  "target_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "target_resolution": "path",
+  "target_height_cm": 2388.0107066033675,
+  "carrier_actor_label": "SnowHeightBridgeSurface_Road2",
+  "carrier_actor_name": "StaticMeshActor_224",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+  "carrier_creation_mode": "respawned",
+  "carrier_mode": "target_mesh",
+  "removed_stale_actor_labels": [],
+  "removed_stale_actor_paths": [
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_251"
+  ],
+  "carrier_component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224.StaticMeshComponent0",
+  "carrier_mesh_path": "/Game/Meshes/Roads/Road.Road",
+  "carrier_location": {
+    "x": -67246.0,
+    "y": -123162.75271576444,
+    "z": -208507.0
+  },
+  "carrier_scale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.999999985098839
+  },
+  "carrier_actor_scale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 0.999999985098839
+  },
+  "target_length_cm": 139496.0625,
+  "target_width_cm": 114726.890625,
+  "carrier_size_source": "target_mesh_transform",
+  "desired_length_cm": 139496.0625,
+  "desired_width_cm": 114726.890625,
+  "receiver_configured": true,
+  "receiver_error": "",
+  "receiver_priority": 110,
+  "receiver_set_tag": "RoadSnowCarrierHeight",
+  "target_render_proxy": {
+    "configured": true,
+    "error": "",
+    "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208.StaticMeshComponent0",
+    "hidden_in_game": false,
+    "collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "render_flags": {
+      "cast_shadow": true,
+      "cast_dynamic_shadow": true,
+      "cast_far_shadow": true,
+      "cast_contact_shadow": true,
+      "cast_hidden_shadow": false,
+      "receives_decals": true,
+      "visible_in_ray_tracing": true
+    }
+  },
+  "material": {
+    "source_mi_path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP_Tile8",
+    "target_mi_path": "/Game/CityPark/SnowSystem/Receivers/MI_SnowRoadCarrier_Road2",
+    "target_mi_created": false,
+    "target_mi_saved": true,
+    "target_mi_reused_without_save": false,
+    "rvt_path": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP",
+    "parameter_results": {
+      "rvt_set": true,
+      "scalar_set": {
+        "BaselineSnowCoverage": true,
+        "BaselineHeightCm": true,
+        "SnowTexUVScale": true,
+        "SnowDetailInfluence": true,
+        "HeightAmplitude": true,
+        "HeightContrast": true,
+        "SnowRoughness": true,
+        "PressedRoughness": true,
+        "VisualClearMaskStrength": true,
+        "DepthMaskBoost": true,
+        "RightBermRaise": true,
+        "RightBermSharpness": true,
+        "RepeatAccumulationDepth": true,
+        "ThinSnowMinVisualOpacity": true,
+        "RoadSnowVisualWhitenStrength": true,
+        "RoadSnowRecoveredBehavior": true,
+        "BaselineSnowEmissiveStrength": true
+      },
+      "vector_set": {
+        "SnowColor": true,
+        "PressedSnowColor": true,
+        "ThinSnowUnderColor": true,
+        "RoadSnowVisualColor": true,
+        "RoadSnowRecoveredPressedColor": true
+      }
+    }
+  },
+  "runtime_trail": {
+    "enabled": true,
+    "configured": true,
+    "error": "",
+    "creation_mode": "existing",
+    "actor_label": "SnowRuntimeTrailBridgeActor",
+    "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+    "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0.TrailComponent",
+    "target_rvt_path": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP",
+    "values": {
+      "bEnableRuntimeTrail": "True",
+      "StampSpacingCm": "5.0",
+      "bUseSourceHeightGate": "False",
+      "SourceActiveMaxRelativeZ": "-0.5",
+      "bMarkPersistentSnowState": "True",
+      "PersistentPlowLengthCm": "50.0",
+      "PersistentPlowWidthCm": "350.0",
+      "PersistentSurfaceFamily": "<SnowReceiverSurfaceFamily.ROAD: 1>",
+      "bEnableRvtVisualStamp": "True",
+      "bEnableRuntimeReceiverHeightControl": "True",
+      "RuntimeHeightAmplitudeWhenActive": "-50.0",
+      "RuntimeHeightAmplitudeWhenInactive": "0.0",
+      "SourceComponentOverride": ""
+    }
+  },
+  "runtime_virtual_texture_volume": {
+    "enabled": true,
+    "configured": true,
+    "error": "",
+    "creation_mode": "existing_label",
+    "actor_label": "SnowRuntimeVirtualTextureVolume_Road2",
+    "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1",
+    "component_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1.VirtualTextureComponent",
+    "target_rvt_path": "/Game/CityPark/SnowSystem/RVT_MVP/RVT_SnowMask_MVP.RVT_SnowMask_MVP",
+    "bound_property_name": "virtual_texture",
+    "actor_location": {
+      "x": -124909.55078125,
+      "y": -193210.81521576445,
+      "z": -209933.88792191612
+    },
+    "actor_scale": {
+      "x": 125209.55078125,
+      "y": 193510.81521576445,
+      "z": 210183.88792191612
+    },
+    "bounds_center": {
+      "x": -62304.775390625,
+      "y": -96455.40760788223,
+      "z": -104841.94396095806
+    },
+    "bounds_extent": {
+      "x": 62604.775390625,
+      "y": 96755.40760788223,
+      "z": 105091.94396095806
+    },
+    "anchors_inside_volume": {
+      "SnowHeightBridgeSurface_Road2": true,
+      "SnowRuntimeTrailBridgeActor": true
+    }
+  },
+  "material_saved_ok": true,
+  "map_saved_ok": true,
+  "save_result": {
+    "saved_current_level": true,
+    "saved_dirty_packages": true,
+    "error": ""
+  }
+}

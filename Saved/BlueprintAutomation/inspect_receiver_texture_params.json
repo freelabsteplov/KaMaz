@@ -1,0 +1,43 @@
+{
+  "error": "",
+  "targets": [
+    {
+      "path": "/Game/CityPark/SnowSystem/RVT_MVP/MI_SnowReceiver_RVT_Height_MVP",
+      "class": "MaterialInstanceConstant",
+      "texture_param_names": [
+        "Snow_Diffuse",
+        "Snow_Roughness",
+        "Snow_Normal"
+      ],
+      "scalar_param_names": [
+        "HeightBias",
+        "EdgeRaiseAmplitude",
+        "PressedRoughness",
+        "SnowTexUVScale",
+        "SnowRoughness",
+        "HeightContrast",
+        "HeightAmplitude",
+        "EdgeSharpness"
+      ]
+    },
+    {
+      "path": "/Game/CityPark/SnowSystem/RVT_MVP/M_SnowReceiver_RVT_Height_MVP",
+      "class": "Material",
+      "texture_param_names": [
+        "Snow_Diffuse",
+        "Snow_Roughness",
+        "Snow_Normal"
+      ],
+      "scalar_param_names": [
+        "HeightBias",
+        "EdgeRaiseAmplitude",
+        "PressedRoughness",
+        "SnowTexUVScale",
+        "SnowRoughness",
+        "HeightContrast",
+        "HeightAmplitude",
+        "EdgeSharpness"
+      ]
+    }
+  ]
+}

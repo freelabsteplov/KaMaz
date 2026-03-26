@@ -1,0 +1,172 @@
+{
+  "success": true,
+  "error": "",
+  "road_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+  "carrier_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_224",
+  "trail_actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.SnowRuntimeTrailBridgeActor_0",
+  "road_bounds_origin": {
+    "x": -67246.10546875,
+    "y": -123162.78396576445,
+    "z": -208490.88256861444
+  },
+  "road_bounds_extent": {
+    "x": 57363.44531250006,
+    "y": 69748.03125000006,
+    "z": 1194.0053533016762
+  },
+  "before": {
+    "topdown": {
+      "path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\capture_road2_bounds_runtime_proof_before_topdown",
+      "sha256": "6ba8cc6e3c1a439efd1558e9843589732d65bc46a22fabb8ee31558faf21596f",
+      "camera_location": {
+        "x": -67246.10546875,
+        "y": -123162.78396576445,
+        "z": -206670.88256861444
+      },
+      "camera_rotation": {
+        "pitch": -90.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      }
+    },
+    "perspective": {
+      "path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\capture_road2_bounds_runtime_proof_before_perspective",
+      "sha256": "b24f21b9edae6dfc617ce640c8d572b19a93022601a410b08109f3f01bdfa445",
+      "camera_location": {
+        "x": -116005.03398437497,
+        "y": -210347.82302826457,
+        "z": -207056.87721531276
+      },
+      "camera_rotation": {
+        "pitch": -0.7909058644408277,
+        "yaw": 60.78354902196964,
+        "roll": 6.499388301270181e-09
+      }
+    }
+  },
+  "after": {
+    "topdown": {
+      "path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\capture_road2_bounds_runtime_proof_after_topdown",
+      "sha256": "43d2187108887534114eea056453683303480397251339c7d5f0aa601f16b87e",
+      "camera_location": {
+        "x": -67246.10546875,
+        "y": -123162.78396576445,
+        "z": -206670.88256861444
+      },
+      "camera_rotation": {
+        "pitch": -90.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      }
+    },
+    "perspective": {
+      "path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\capture_road2_bounds_runtime_proof_after_perspective",
+      "sha256": "ce7e19a03b2d041f7eb5c1ac804fc02b25dd41e174d8d67068ba28c68787764a",
+      "camera_location": {
+        "x": -116005.03398437497,
+        "y": -210347.82302826457,
+        "z": -207056.87721531276
+      },
+      "camera_rotation": {
+        "pitch": -0.7909058644408277,
+        "yaw": 60.78354902196964,
+        "roll": 6.499388301270181e-09
+      }
+    }
+  },
+  "reference_without_carrier": {
+    "topdown": {
+      "path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\capture_road2_bounds_runtime_proof_reference_topdown",
+      "sha256": "86b627eefcf6846440ed17950bf1b07c70ff5e98d928124389acabaee85c9ebb",
+      "camera_location": {
+        "x": -67246.10546875,
+        "y": -123162.78396576445,
+        "z": -206670.88256861444
+      },
+      "camera_rotation": {
+        "pitch": -90.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      }
+    },
+    "perspective": {
+      "path": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/BlueprintAutomation\\capture_road2_bounds_runtime_proof_reference_perspective",
+      "sha256": "81e1d81cfcd8e0ec71fdd6f0d981700afec3dc412cc0a1e28dc8651671e25f44",
+      "camera_location": {
+        "x": -116005.03398437497,
+        "y": -210347.82302826457,
+        "z": -207056.87721531276
+      },
+      "camera_rotation": {
+        "pitch": -0.7909058644408277,
+        "yaw": 60.78354902196964,
+        "roll": 6.499388301270181e-09
+      }
+    }
+  },
+  "stamp_locations": [
+    {
+      "index": 0,
+      "ok": true,
+      "x": -67726.10546875,
+      "y": -123162.78396576445,
+      "z": -208507.0
+    },
+    {
+      "index": 1,
+      "ok": true,
+      "x": -67606.10546875,
+      "y": -123162.78396576445,
+      "z": -208507.0
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "x": -67486.10546875,
+      "y": -123162.78396576445,
+      "z": -208507.0
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "x": -67366.10546875,
+      "y": -123162.78396576445,
+      "z": -208507.0
+    },
+    {
+      "index": 4,
+      "ok": true,
+      "x": -67246.10546875,
+      "y": -123162.78396576445,
+      "z": -208507.0
+    },
+    {
+      "index": 5,
+      "ok": true,
+      "x": -67126.10546875,
+      "y": -123162.78396576445,
+      "z": -208507.0
+    },
+    {
+      "index": 6,
+      "ok": true,
+      "x": -67006.10546875,
+      "y": -123162.78396576445,
+      "z": -208507.0
+    },
+    {
+      "index": 7,
+      "ok": true,
+      "x": -66886.10546875,
+      "y": -123162.78396576445,
+      "z": -208507.0
+    },
+    {
+      "index": 8,
+      "ok": true,
+      "x": -66766.10546875,
+      "y": -123162.78396576445,
+      "z": -208507.0
+    }
+  ]
+}

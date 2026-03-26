@@ -1,0 +1,134 @@
+{
+  "success": true,
+  "plow_component_blueprint": {
+    "asset_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+    "default_object_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.Default__BP_PlowBrush_Component_C",
+    "components": [
+      {
+        "before": {
+          "component_name": "Default__BP_PlowBrush_Component_C",
+          "component_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.Default__BP_PlowBrush_Component_C",
+          "component_class": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+          "RenderTargetGlobal": "/Game/CityPark/SnowSystem/RT_SnowPersistence_Global.RT_SnowPersistence_Global",
+          "BrushMaterial": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+          "BrushDMI": "",
+          "MPCSnowSystem": "/Game/CityPark/SnowSystem/MPC_SnowSystem.MPC_SnowSystem",
+          "bEnablePlowClearing": true,
+          "PlowLiftHeight": 1.0
+        },
+        "after": {
+          "component_name": "Default__BP_PlowBrush_Component_C",
+          "component_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.Default__BP_PlowBrush_Component_C",
+          "component_class": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+          "RenderTargetGlobal": "",
+          "BrushMaterial": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+          "BrushDMI": "",
+          "MPCSnowSystem": "/Game/CityPark/SnowSystem/MPC_SnowSystem.MPC_SnowSystem",
+          "bEnablePlowClearing": true,
+          "PlowLiftHeight": 1.0
+        },
+        "set_render_target_global": {
+          "ok": true,
+          "error": ""
+        },
+        "set_brush_dmi": {
+          "ok": false,
+          "error": "SceneComponent: Failed to find property 'BrushDMI' for attribute 'BrushDMI' on 'BP_PlowBrush_Component_C'"
+        }
+      }
+    ],
+    "compile_save": {
+      "asset_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+      "compiled": false,
+      "compile_summary": "Compiled Blueprint '/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component' and collected 0 messages.",
+      "saved": false,
+      "save_summary": "[{\"method\": \"save_asset\", \"success\": false}, {\"method\": \"save_loaded_asset\", \"success\": false}]"
+    },
+    "error": ""
+  },
+  "kamaz_blueprint": {
+    "asset_path": "/Game/CityPark/Kamaz/model/KamazBP",
+    "default_object_path": "/Game/CityPark/Kamaz/model/KamazBP.Default__KamazBP_C",
+    "components": [
+      {
+        "before": {
+          "component_name": "BP_PlowBrush_Component_GEN_VARIABLE",
+          "component_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C:BP_PlowBrush_Component_GEN_VARIABLE",
+          "component_class": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+          "RenderTargetGlobal": "",
+          "BrushMaterial": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+          "BrushDMI": "",
+          "MPCSnowSystem": "/Game/CityPark/SnowSystem/MPC_SnowSystem.MPC_SnowSystem",
+          "bEnablePlowClearing": true,
+          "PlowLiftHeight": 1.0
+        },
+        "after": {
+          "component_name": "BP_PlowBrush_Component_GEN_VARIABLE",
+          "component_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C:BP_PlowBrush_Component_GEN_VARIABLE",
+          "component_class": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+          "RenderTargetGlobal": "",
+          "BrushMaterial": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+          "BrushDMI": "",
+          "MPCSnowSystem": "/Game/CityPark/SnowSystem/MPC_SnowSystem.MPC_SnowSystem",
+          "bEnablePlowClearing": true,
+          "PlowLiftHeight": 1.0
+        },
+        "set_render_target_global": {
+          "ok": true,
+          "error": ""
+        },
+        "set_brush_dmi": {
+          "ok": false,
+          "error": "SceneComponent: Failed to find property 'BrushDMI' for attribute 'BrushDMI' on 'BP_PlowBrush_Component_C'"
+        }
+      },
+      {
+        "before": {
+          "component_name": "PlowBrush_GEN_VARIABLE",
+          "component_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C:PlowBrush_GEN_VARIABLE",
+          "component_class": "/Script/Engine.ChildActorComponent",
+          "RenderTargetGlobal": "",
+          "BrushMaterial": "",
+          "BrushDMI": "",
+          "MPCSnowSystem": "",
+          "bEnablePlowClearing": false,
+          "PlowLiftHeight": null
+        },
+        "after": {
+          "component_name": "PlowBrush_GEN_VARIABLE",
+          "component_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C:PlowBrush_GEN_VARIABLE",
+          "component_class": "/Script/Engine.ChildActorComponent",
+          "RenderTargetGlobal": "",
+          "BrushMaterial": "",
+          "BrushDMI": "",
+          "MPCSnowSystem": "",
+          "bEnablePlowClearing": false,
+          "PlowLiftHeight": null
+        },
+        "set_render_target_global": {
+          "ok": false,
+          "error": "ChildActorComponent: Failed to find property 'RenderTargetGlobal' for attribute 'RenderTargetGlobal' on 'ChildActorComponent'"
+        },
+        "set_brush_dmi": {
+          "ok": false,
+          "error": "ChildActorComponent: Failed to find property 'BrushDMI' for attribute 'BrushDMI' on 'ChildActorComponent'"
+        }
+      }
+    ],
+    "compile_save": {
+      "asset_path": "/Game/CityPark/Kamaz/model/KamazBP",
+      "compiled": false,
+      "compile_summary": "Compiled Blueprint '/Game/CityPark/Kamaz/model/KamazBP.KamazBP' and collected 0 messages.",
+      "saved": false,
+      "save_summary": "[{\"method\": \"save_asset\", \"success\": false}, {\"method\": \"save_loaded_asset\", \"success\": false}]"
+    },
+    "error": ""
+  },
+  "map_instances": {
+    "map_path": "/Game/Maps/MoscowEA5",
+    "components": [],
+    "saved_level": true,
+    "error": ""
+  },
+  "error": ""
+}

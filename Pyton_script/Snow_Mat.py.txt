@@ -1,0 +1,48 @@
+import unreal
+
+RVT_PATH = "/Game/CityPark/SnowSystem/RVT/RVT_Snow.RVT_Snow"
+
+def log(msg):
+    unreal.log("[RVT_SETUP] " + msg)
+
+def warn(msg):
+    unreal.log_warning("[RVT_SETUP] " + msg)
+
+def try_set_prop(obj, prop_name, value):
+    try:
+        obj.set_editor_property(prop_name, value)
+        log(f"{obj.get_name()}: set {prop_name}")
+        return True
+    except Exception:
+        return False
+
+actor_subsystem = unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
+actors = actor_subsystem.get_all_level_actors()
+
+def class_name(actor):
+    return actor.get_class().get_name()
+
+landscapes = [a for a in actors if class_name(a) == "Landscape"]
+if not landscapes:
+    landscapes = [a for a in actors if "Landscape" in class_name(a)]
+
+volumes = [a for a in actors if class_name(a) == "RuntimeVirtualTextureVolume"]
+
+if not landscapes:
+    raise RuntimeError("Landscape not found in current level")
+
+if not volumes:
+    raise RuntimeError("RuntimeVirtualTextureVolume not found in current level")
+
+landscape = landscapes[0]
+volume = volumes[0]
+
+rvt_asset = unreal.EditorAssetLibrary.load_asset(RVT_PATH)
+if not rvt_asset:
+    raise RuntimeError(f"RVT asset not found: {RVT_PATH}")
+
+log(f"Landscape: {landscape.get_name()}")
+log(f"RVT Volume: {volume.get_name()}")
+log(f"RVT Asset: {rvt_asset.get_name()}")
+
+# 1. Assign RVT to the
