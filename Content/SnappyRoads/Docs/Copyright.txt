@@ -1,0 +1,13 @@
+Textures/Rocks006
+	author = "ambientCG (ambientCG.com)"
+	copyright = "CC0 1.0 Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/)"
+	generator = "ambientCG USD Script (v2)"
+	title = "Rocks006 by ambientCG"
+	url = "https://ambientcg.com/a/Rocks006"
+
+Meshes/Props/Fence
+        string author = "ambientCG (ambientCG.com)"
+        string copyright = "CC0 1.0 Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/)"
+        string generator = "ambientCG USD Script (v2)"
+        string title = "Fence003 by ambientCG"
+        string url = "https://ambientcg.com/a/Fence003"

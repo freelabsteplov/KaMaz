@@ -7,6 +7,8 @@
 
 #include "EdGraph/EdGraph.h"
 #include "EdGraph/EdGraphNode.h"
+#include "EdGraph/EdGraphPin.h"
+#include "EdGraph/EdGraphSchema.h"
 #include "Engine/Blueprint.h"
 #include "Engine/Level.h"
 #include "Engine/SCS_Node.h"
@@ -14,6 +16,9 @@
 #include "Engine/World.h"
 #include "FileHelpers.h"
 #include "GameFramework/Actor.h"
+#include "PhysicsEngine/BodySetup.h"
+#include "PhysicsEngine/PhysicsAsset.h"
+#include "PhysicsEngine/SkeletalBodySetup.h"
 #include "Dom/JsonObject.h"
 #include "Kismet2/BlueprintEditorUtils.h"
 #include "Serialization/JsonSerializer.h"
@@ -703,6 +708,13 @@ bool UBlueprintAutomationPythonBridge::InspectBlueprintEventGraph(
 		return false;
 	}
 
+	const UEdGraphSchema* Schema = EventGraph ? EventGraph->GetSchema() : nullptr;
+	if (!Schema)
+	{
+		OutSummary = TEXT("EventGraph has no schema.");
+		return false;
+	}
+
 	const FBlueprintGraphAutomationResult InspectResult =
 		FBlueprintGraphAutomationService::InspectGraphToJson(EventGraph, bIncludePins, bIncludeLinkedPins);
 	OutGraphJson = InspectResult.JsonPayload;
@@ -1298,6 +1310,529 @@ bool UBlueprintAutomationPythonBridge::SetEnhancedInputActionsByNode(
 		NodeNameToActionPath.Num(),
 		ScannedEnhancedNodes,
 		AppliedCount,
+		bSuccess ? TEXT("true") : TEXT("false"));
+	return bSuccess;
+}
+
+bool UBlueprintAutomationPythonBridge::RewireGraphPinLinksByNode(
+	const FString& BlueprintAssetPath,
+	const FString& PinRewireJson,
+	FString& OutResultJson,
+	FString& OutSummary)
+{
+	OutResultJson.Empty();
+
+	UBlueprint* Blueprint = nullptr;
+	if (!BlueprintAutomationPythonBridgePrivate::LoadBlueprint(BlueprintAssetPath, Blueprint, OutSummary))
+	{
+		return false;
+	}
+
+	UEdGraph* EventGraph = nullptr;
+	if (!BlueprintAutomationPythonBridgePrivate::ResolveEventGraph(Blueprint, EventGraph, OutSummary))
+	{
+		return false;
+	}
+
+	const UEdGraphSchema* Schema = EventGraph ? EventGraph->GetSchema() : nullptr;
+	if (!Schema)
+	{
+		OutSummary = TEXT("EventGraph has no schema.");
+		return false;
+	}
+
+	TSharedPtr<FJsonObject> RootObject;
+	const TSharedRef<TJsonReader<>> Reader = TJsonReaderFactory<>::Create(PinRewireJson);
+	if (!FJsonSerializer::Deserialize(Reader, RootObject) || !RootObject.IsValid())
+	{
+		OutSummary = TEXT("PinRewireJson is not a valid JSON object.");
+		return false;
+	}
+
+	const TArray<TSharedPtr<FJsonValue>>* RewireItems = nullptr;
+	if (!RootObject->TryGetArrayField(TEXT("rewires"), RewireItems) || !RewireItems)
+	{
+		OutSummary = TEXT("PinRewireJson must contain a 'rewires' array.");
+		return false;
+	}
+
+	auto FindNodeByNameOrPath =
+		[EventGraph](const FString& NodeName, const FString& NodePath) -> UEdGraphNode*
+	{
+		if (!EventGraph)
+		{
+			return nullptr;
+		}
+
+		if (!NodePath.IsEmpty())
+		{
+			for (UEdGraphNode* Node : EventGraph->Nodes)
+			{
+				if (Node && Node->GetPathName() == NodePath)
+				{
+					return Node;
+				}
+			}
+		}
+
+		if (!NodeName.IsEmpty())
+		{
+			for (UEdGraphNode* Node : EventGraph->Nodes)
+			{
+				if (Node && Node->GetName() == NodeName)
+				{
+					return Node;
+				}
+			}
+		}
+
+		return nullptr;
+	};
+
+	TArray<TSharedPtr<FJsonValue>> ResultItems;
+	ResultItems.Reserve(RewireItems->Num());
+
+	int32 RequestedCount = 0;
+	int32 AppliedCount = 0;
+	int32 DisconnectedCount = 0;
+	int32 ConnectedCount = 0;
+	bool bAnyChanged = false;
+	bool bAllApplied = true;
+
+	for (const TSharedPtr<FJsonValue>& RewireValue : *RewireItems)
+	{
+		++RequestedCount;
+
+		TSharedPtr<FJsonObject> ResultObject = MakeShared<FJsonObject>();
+		ResultObject->SetBoolField(TEXT("applied"), false);
+
+		const TSharedPtr<FJsonObject>* RewireObject = nullptr;
+		if (!RewireValue.IsValid() || !RewireValue->TryGetObject(RewireObject) || !RewireObject || !RewireObject->IsValid())
+		{
+			ResultObject->SetStringField(TEXT("reason"), TEXT("invalid_rewire_entry"));
+			ResultItems.Add(MakeShared<FJsonValueObject>(ResultObject));
+			bAllApplied = false;
+			continue;
+		}
+
+		FString SourceNodeName;
+		FString SourceNodePath;
+		FString SourcePinName;
+		(*RewireObject)->TryGetStringField(TEXT("source_node_name"), SourceNodeName);
+		(*RewireObject)->TryGetStringField(TEXT("source_node_path"), SourceNodePath);
+		(*RewireObject)->TryGetStringField(TEXT("source_pin"), SourcePinName);
+
+		ResultObject->SetStringField(TEXT("source_node_name"), SourceNodeName);
+		ResultObject->SetStringField(TEXT("source_node_path"), SourceNodePath);
+		ResultObject->SetStringField(TEXT("source_pin"), SourcePinName);
+
+		if (SourcePinName.IsEmpty())
+		{
+			ResultObject->SetStringField(TEXT("reason"), TEXT("missing_source_pin"));
+			ResultItems.Add(MakeShared<FJsonValueObject>(ResultObject));
+			bAllApplied = false;
+			continue;
+		}
+
+		UEdGraphNode* SourceNode = FindNodeByNameOrPath(SourceNodeName, SourceNodePath);
+		if (!SourceNode)
+		{
+			ResultObject->SetStringField(TEXT("reason"), TEXT("source_node_not_found"));
+			ResultItems.Add(MakeShared<FJsonValueObject>(ResultObject));
+			bAllApplied = false;
+			continue;
+		}
+
+		const FBlueprintGraphAutomationResult SourcePinResult =
+			FBlueprintGraphAutomationService::FindPinByDirection(SourceNode, FName(*SourcePinName), EGPD_Output);
+		UEdGraphPin* SourcePin = SourcePinResult.Pin;
+		if (!SourcePinResult.IsSuccess() || !SourcePin)
+		{
+			ResultObject->SetStringField(TEXT("reason"), TEXT("source_pin_not_found"));
+			ResultItems.Add(MakeShared<FJsonValueObject>(ResultObject));
+			bAllApplied = false;
+			continue;
+		}
+
+		TArray<TSharedPtr<FJsonValue>> DisconnectResults;
+		bool bDisconnectFailure = false;
+		const TArray<TSharedPtr<FJsonValue>>* DisconnectTargets = nullptr;
+		if ((*RewireObject)->TryGetArrayField(TEXT("disconnect_targets"), DisconnectTargets) && DisconnectTargets)
+		{
+			for (const TSharedPtr<FJsonValue>& TargetValue : *DisconnectTargets)
+			{
+				TSharedPtr<FJsonObject> TargetResult = MakeShared<FJsonObject>();
+				TargetResult->SetBoolField(TEXT("disconnected"), false);
+
+				const TSharedPtr<FJsonObject>* TargetObject = nullptr;
+				if (!TargetValue.IsValid() || !TargetValue->TryGetObject(TargetObject) || !TargetObject || !TargetObject->IsValid())
+				{
+					TargetResult->SetStringField(TEXT("reason"), TEXT("invalid_target_entry"));
+					DisconnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+					bDisconnectFailure = true;
+					continue;
+				}
+
+				FString TargetNodeName;
+				FString TargetNodePath;
+				FString TargetPinName;
+				(*TargetObject)->TryGetStringField(TEXT("node_name"), TargetNodeName);
+				(*TargetObject)->TryGetStringField(TEXT("node_path"), TargetNodePath);
+				(*TargetObject)->TryGetStringField(TEXT("pin_name"), TargetPinName);
+
+				TargetResult->SetStringField(TEXT("node_name"), TargetNodeName);
+				TargetResult->SetStringField(TEXT("node_path"), TargetNodePath);
+				TargetResult->SetStringField(TEXT("pin_name"), TargetPinName);
+
+				UEdGraphNode* TargetNode = FindNodeByNameOrPath(TargetNodeName, TargetNodePath);
+				if (!TargetNode || TargetPinName.IsEmpty())
+				{
+					TargetResult->SetStringField(TEXT("reason"), TEXT("target_node_or_pin_not_found"));
+					DisconnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+					bDisconnectFailure = true;
+					continue;
+				}
+
+				const FBlueprintGraphAutomationResult TargetPinResult =
+					FBlueprintGraphAutomationService::FindPinByDirection(TargetNode, FName(*TargetPinName), EGPD_Input);
+				UEdGraphPin* TargetPin = TargetPinResult.Pin;
+				if (!TargetPinResult.IsSuccess() || !TargetPin)
+				{
+					TargetResult->SetStringField(TEXT("reason"), TEXT("target_pin_not_found"));
+					DisconnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+					bDisconnectFailure = true;
+					continue;
+				}
+
+				const bool bWasLinked = SourcePin->LinkedTo.Contains(TargetPin);
+				if (bWasLinked)
+				{
+					SourceNode->Modify();
+					TargetNode->Modify();
+					SourcePin->BreakLinkTo(TargetPin);
+					TargetPin->BreakLinkTo(SourcePin);
+					TargetResult->SetBoolField(TEXT("disconnected"), true);
+					TargetResult->SetStringField(TEXT("reason"), TEXT("ok"));
+					++DisconnectedCount;
+					bAnyChanged = true;
+				}
+				else
+				{
+					TargetResult->SetStringField(TEXT("reason"), TEXT("not_linked"));
+				}
+
+				DisconnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+			}
+		}
+		ResultObject->SetArrayField(TEXT("disconnect_targets"), DisconnectResults);
+
+		TArray<TSharedPtr<FJsonValue>> ConnectResults;
+		bool bConnectFailure = false;
+		const TArray<TSharedPtr<FJsonValue>>* ConnectTargets = nullptr;
+		if ((*RewireObject)->TryGetArrayField(TEXT("connect_targets"), ConnectTargets) && ConnectTargets)
+		{
+			for (const TSharedPtr<FJsonValue>& TargetValue : *ConnectTargets)
+			{
+				TSharedPtr<FJsonObject> TargetResult = MakeShared<FJsonObject>();
+				TargetResult->SetBoolField(TEXT("connected"), false);
+
+				const TSharedPtr<FJsonObject>* TargetObject = nullptr;
+				if (!TargetValue.IsValid() || !TargetValue->TryGetObject(TargetObject) || !TargetObject || !TargetObject->IsValid())
+				{
+					TargetResult->SetStringField(TEXT("reason"), TEXT("invalid_target_entry"));
+					ConnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+					bConnectFailure = true;
+					continue;
+				}
+
+				FString TargetNodeName;
+				FString TargetNodePath;
+				FString TargetPinName;
+				(*TargetObject)->TryGetStringField(TEXT("node_name"), TargetNodeName);
+				(*TargetObject)->TryGetStringField(TEXT("node_path"), TargetNodePath);
+				(*TargetObject)->TryGetStringField(TEXT("pin_name"), TargetPinName);
+
+				TargetResult->SetStringField(TEXT("node_name"), TargetNodeName);
+				TargetResult->SetStringField(TEXT("node_path"), TargetNodePath);
+				TargetResult->SetStringField(TEXT("pin_name"), TargetPinName);
+
+				UEdGraphNode* TargetNode = FindNodeByNameOrPath(TargetNodeName, TargetNodePath);
+				if (!TargetNode || TargetPinName.IsEmpty())
+				{
+					TargetResult->SetStringField(TEXT("reason"), TEXT("target_node_or_pin_not_found"));
+					ConnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+					bConnectFailure = true;
+					continue;
+				}
+
+				const FBlueprintGraphAutomationResult TargetPinResult =
+					FBlueprintGraphAutomationService::FindPinByDirection(TargetNode, FName(*TargetPinName), EGPD_Input);
+				UEdGraphPin* TargetPin = TargetPinResult.Pin;
+				if (!TargetPinResult.IsSuccess() || !TargetPin)
+				{
+					TargetResult->SetStringField(TEXT("reason"), TEXT("target_pin_not_found"));
+					ConnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+					bConnectFailure = true;
+					continue;
+				}
+
+				if (SourcePin->LinkedTo.Contains(TargetPin))
+				{
+					TargetResult->SetBoolField(TEXT("connected"), true);
+					TargetResult->SetStringField(TEXT("reason"), TEXT("already_connected"));
+					ConnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+					continue;
+				}
+
+				SourceNode->Modify();
+				TargetNode->Modify();
+				if (!Schema->TryCreateConnection(SourcePin, TargetPin))
+				{
+					TargetResult->SetStringField(TEXT("reason"), TEXT("create_connection_failed"));
+					ConnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+					bConnectFailure = true;
+					continue;
+				}
+
+				TargetResult->SetBoolField(TEXT("connected"), true);
+				TargetResult->SetStringField(TEXT("reason"), TEXT("ok"));
+				ConnectResults.Add(MakeShared<FJsonValueObject>(TargetResult));
+				++ConnectedCount;
+				bAnyChanged = true;
+			}
+		}
+		ResultObject->SetArrayField(TEXT("connect_targets"), ConnectResults);
+
+		const bool bApplied = !bDisconnectFailure && !bConnectFailure;
+		ResultObject->SetBoolField(TEXT("applied"), bApplied);
+		ResultObject->SetStringField(TEXT("reason"), bApplied ? TEXT("ok") : TEXT("target_resolution_failed"));
+		ResultItems.Add(MakeShared<FJsonValueObject>(ResultObject));
+
+		AppliedCount += bApplied ? 1 : 0;
+		bAllApplied &= bApplied;
+	}
+
+	if (bAnyChanged)
+	{
+		EventGraph->Modify();
+		EventGraph->NotifyGraphChanged();
+		FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(Blueprint);
+		Blueprint->MarkPackageDirty();
+	}
+
+	TSharedPtr<FJsonObject> SummaryObject = MakeShared<FJsonObject>();
+	SummaryObject->SetStringField(TEXT("blueprint_asset_path"), BlueprintAssetPath);
+	SummaryObject->SetNumberField(TEXT("requested"), RequestedCount);
+	SummaryObject->SetNumberField(TEXT("applied"), AppliedCount);
+	SummaryObject->SetNumberField(TEXT("disconnected"), DisconnectedCount);
+	SummaryObject->SetNumberField(TEXT("connected"), ConnectedCount);
+	SummaryObject->SetArrayField(TEXT("results"), ResultItems);
+
+	const TSharedRef<TJsonWriter<>> Writer = TJsonWriterFactory<>::Create(&OutResultJson);
+	FJsonSerializer::Serialize(SummaryObject.ToSharedRef(), Writer);
+
+	const bool bSuccess = RequestedCount > 0 && bAllApplied;
+	OutSummary = FString::Printf(
+		TEXT("RewireGraphPinLinksByNode requested=%d applied=%d disconnected=%d connected=%d success=%s"),
+		RequestedCount,
+		AppliedCount,
+		DisconnectedCount,
+		ConnectedCount,
+		bSuccess ? TEXT("true") : TEXT("false"));
+	return bSuccess;
+}
+
+bool UBlueprintAutomationPythonBridge::SetPhysicsAssetWheelSphereRadius(
+	const FString& PhysicsAssetPath,
+	const TArray<FString>& BoneNames,
+	const float RadiusCm,
+	FString& OutResultJson,
+	FString& OutSummary)
+{
+	OutResultJson.Empty();
+
+	if (PhysicsAssetPath.IsEmpty())
+	{
+		OutSummary = TEXT("PhysicsAssetPath is required.");
+		return false;
+	}
+
+	if (BoneNames.Num() == 0)
+	{
+		OutSummary = TEXT("BoneNames must contain at least one entry.");
+		return false;
+	}
+
+	UPhysicsAsset* PhysicsAsset = LoadObject<UPhysicsAsset>(nullptr, *PhysicsAssetPath);
+	if (!PhysicsAsset)
+	{
+		OutSummary = FString::Printf(TEXT("Could not load physics asset '%s'."), *PhysicsAssetPath);
+		return false;
+	}
+
+	struct FWheelSphereUpdateResult
+	{
+		FString BoneName;
+		FString BodyPath;
+		TArray<double> RadiiBefore;
+		TArray<double> RadiiAfter;
+		bool bUpdated = false;
+		FString Reason;
+	};
+
+	TSet<FName> TargetBoneNames;
+	for (const FString& BoneNameString : BoneNames)
+	{
+		if (!BoneNameString.IsEmpty())
+		{
+			TargetBoneNames.Add(FName(*BoneNameString));
+		}
+	}
+
+	if (TargetBoneNames.Num() == 0)
+	{
+		OutSummary = TEXT("BoneNames contained no valid bone names.");
+		return false;
+	}
+
+	TSet<FName> MatchedBoneNames;
+	TArray<FWheelSphereUpdateResult> UpdateResults;
+	UpdateResults.Reserve(TargetBoneNames.Num());
+
+	bool bAnyChanged = false;
+	int32 UpdatedBodyCount = 0;
+
+	PhysicsAsset->Modify();
+
+	for (USkeletalBodySetup* BodySetup : PhysicsAsset->SkeletalBodySetups)
+	{
+		if (!BodySetup)
+		{
+			continue;
+		}
+
+		const FName BoneName = BodySetup->BoneName;
+		if (!TargetBoneNames.Contains(BoneName))
+		{
+			continue;
+		}
+
+		MatchedBoneNames.Add(BoneName);
+
+		FWheelSphereUpdateResult Result;
+		Result.BoneName = BoneName.ToString();
+		Result.BodyPath = BodySetup->GetPathName();
+
+		if (BodySetup->AggGeom.SphereElems.Num() == 0)
+		{
+			Result.Reason = TEXT("no_sphere_elems");
+			UpdateResults.Add(MoveTemp(Result));
+			continue;
+		}
+
+		BodySetup->Modify();
+
+		bool bBodyChanged = false;
+		for (FKSphereElem& SphereElem : BodySetup->AggGeom.SphereElems)
+		{
+			Result.RadiiBefore.Add(static_cast<double>(SphereElem.Radius));
+			if (!FMath::IsNearlyEqual(SphereElem.Radius, RadiusCm))
+			{
+				SphereElem.Radius = RadiusCm;
+				bBodyChanged = true;
+			}
+			Result.RadiiAfter.Add(static_cast<double>(SphereElem.Radius));
+		}
+
+		if (bBodyChanged)
+		{
+			BodySetup->InvalidatePhysicsData();
+			BodySetup->CreatePhysicsMeshes();
+			BodySetup->MarkPackageDirty();
+			Result.bUpdated = true;
+			Result.Reason = TEXT("updated");
+			++UpdatedBodyCount;
+			bAnyChanged = true;
+		}
+		else
+		{
+			Result.Reason = TEXT("already_set");
+		}
+
+		UpdateResults.Add(MoveTemp(Result));
+	}
+
+	bool bSaved = false;
+	if (UPackage* Package = PhysicsAsset->GetPackage())
+	{
+		Package->MarkPackageDirty();
+		PhysicsAsset->MarkPackageDirty();
+		PhysicsAsset->RefreshPhysicsAssetChange();
+
+		if (bAnyChanged)
+		{
+			TArray<UPackage*> PackagesToSave;
+			PackagesToSave.Add(Package);
+			bSaved = UEditorLoadingAndSavingUtils::SavePackages(PackagesToSave, false);
+		}
+	}
+
+	TSharedPtr<FJsonObject> RootObject = MakeShared<FJsonObject>();
+	RootObject->SetStringField(TEXT("physics_asset_path"), PhysicsAssetPath);
+	RootObject->SetNumberField(TEXT("target_radius_cm"), RadiusCm);
+	RootObject->SetBoolField(TEXT("any_changed"), bAnyChanged);
+	RootObject->SetBoolField(TEXT("saved"), bSaved);
+	RootObject->SetNumberField(TEXT("requested_bone_count"), TargetBoneNames.Num());
+	RootObject->SetNumberField(TEXT("matched_bone_count"), MatchedBoneNames.Num());
+	RootObject->SetNumberField(TEXT("updated_body_count"), UpdatedBodyCount);
+
+	TArray<TSharedPtr<FJsonValue>> RequestedBonesJson;
+	for (const FName BoneName : TargetBoneNames)
+	{
+		RequestedBonesJson.Add(MakeShared<FJsonValueString>(BoneName.ToString()));
+	}
+	RootObject->SetArrayField(TEXT("requested_bones"), RequestedBonesJson);
+
+	TArray<TSharedPtr<FJsonValue>> UpdatedBodiesJson;
+	for (const FWheelSphereUpdateResult& Result : UpdateResults)
+	{
+		TSharedPtr<FJsonObject> ResultObject = MakeShared<FJsonObject>();
+		ResultObject->SetStringField(TEXT("bone_name"), Result.BoneName);
+		ResultObject->SetStringField(TEXT("body_path"), Result.BodyPath);
+		ResultObject->SetBoolField(TEXT("updated"), Result.bUpdated);
+		ResultObject->SetStringField(TEXT("reason"), Result.Reason);
+
+		TArray<TSharedPtr<FJsonValue>> BeforeJson;
+		for (const double RadiusValue : Result.RadiiBefore)
+		{
+			BeforeJson.Add(MakeShared<FJsonValueNumber>(RadiusValue));
+		}
+		ResultObject->SetArrayField(TEXT("radii_before"), BeforeJson);
+
+		TArray<TSharedPtr<FJsonValue>> AfterJson;
+		for (const double RadiusValue : Result.RadiiAfter)
+		{
+			AfterJson.Add(MakeShared<FJsonValueNumber>(RadiusValue));
+		}
+		ResultObject->SetArrayField(TEXT("radii_after"), AfterJson);
+
+		UpdatedBodiesJson.Add(MakeShared<FJsonValueObject>(ResultObject));
+	}
+	RootObject->SetArrayField(TEXT("results"), UpdatedBodiesJson);
+
+	const TSharedRef<TJsonWriter<>> Writer = TJsonWriterFactory<>::Create(&OutResultJson);
+	FJsonSerializer::Serialize(RootObject.ToSharedRef(), Writer);
+
+	const bool bSuccess =
+		MatchedBoneNames.Num() == TargetBoneNames.Num() &&
+		(!bAnyChanged || bSaved);
+
+	OutSummary = FString::Printf(
+		TEXT("SetPhysicsAssetWheelSphereRadius requested=%d matched=%d updated=%d saved=%s success=%s"),
+		TargetBoneNames.Num(),
+		MatchedBoneNames.Num(),
+		UpdatedBodyCount,
+		bSaved ? TEXT("true") : TEXT("false"),
 		bSuccess ? TEXT("true") : TEXT("false"));
 	return bSuccess;
 }

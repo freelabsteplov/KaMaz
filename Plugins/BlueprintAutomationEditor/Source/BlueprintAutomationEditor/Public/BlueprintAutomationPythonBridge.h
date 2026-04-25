@@ -93,6 +93,21 @@ public:
 		FString& OutSummary);
 
 	UFUNCTION(BlueprintCallable, Category = "BlueprintAutomation")
+	static bool RewireGraphPinLinksByNode(
+		const FString& BlueprintAssetPath,
+		const FString& PinRewireJson,
+		FString& OutResultJson,
+		FString& OutSummary);
+
+	UFUNCTION(BlueprintCallable, Category = "BlueprintAutomation")
+	static bool SetPhysicsAssetWheelSphereRadius(
+		const FString& PhysicsAssetPath,
+		const TArray<FString>& BoneNames,
+		float RadiusCm,
+		FString& OutResultJson,
+		FString& OutSummary);
+
+	UFUNCTION(BlueprintCallable, Category = "BlueprintAutomation")
 	static bool EnsureSnowReceiverSurfacesOnActors(
 		const FString& MapPath,
 		const TArray<FString>& ActorObjectPaths,

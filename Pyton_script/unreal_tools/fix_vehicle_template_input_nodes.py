@@ -18,6 +18,28 @@ ACTION_ASSET_PATHS = {
     "headlights": "/Game/VehicleTemplate/Input/Actions/IA_Headlights",
 }
 
+ACTION_TEMPLATE_SOURCE_PATHS = {
+    "throttle": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Throttle",
+    "steering": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Steering",
+    "brake": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Throttle",
+    "handbrake": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Handbrake",
+    "reset": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Handbrake",
+    "lookaround": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_LookAround",
+    "togglecamera": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_SwitchCamera",
+    "headlights": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Handbrake",
+}
+
+ACTION_VALUE_TYPES = {
+    "throttle": "AXIS1D",
+    "steering": "AXIS1D",
+    "brake": "AXIS1D",
+    "handbrake": "BOOLEAN",
+    "reset": "BOOLEAN",
+    "lookaround": "AXIS2D",
+    "togglecamera": "BOOLEAN",
+    "headlights": "BOOLEAN",
+}
+
 OUTPUT_BASENAME = "vehicle_template_input_fix"
 PAWN_BASE_NODE_NAME_FALLBACK_ACTIONS = {
     "K2Node_EnhancedInputAction_0": "throttle",
@@ -29,6 +51,64 @@ PAWN_BASE_NODE_NAME_FALLBACK_ACTIONS = {
     "K2Node_EnhancedInputAction_7": "togglecamera",
 }
 
+PAWN_BASE_AXIS_VALUE_REWIRES = [
+    {
+        "source_node_name": "K2Node_EnhancedInputAction_0",
+        "source_pin": "ActionValue",
+        "disconnect_targets": [
+            {
+                "node_name": "K2Node_CallFunction_14",
+                "pin_name": "InBool",
+            }
+        ],
+        "connect_targets": [
+            {
+                "node_name": "K2Node_CallFunction_30",
+                "pin_name": "Throttle",
+            }
+        ],
+    },
+    {
+        "source_node_name": "K2Node_EnhancedInputAction_1",
+        "source_pin": "ActionValue",
+        "disconnect_targets": [
+            {
+                "node_name": "K2Node_CallFunction_24",
+                "pin_name": "InBool",
+            },
+            {
+                "node_name": "K2Node_CallFunction_25",
+                "pin_name": "InBool",
+            },
+        ],
+        "connect_targets": [
+            {
+                "node_name": "K2Node_CallFunction_39",
+                "pin_name": "Brake",
+            },
+            {
+                "node_name": "K2Node_CallFunction_31",
+                "pin_name": "Brake",
+            },
+        ],
+    },
+    {
+        "source_node_name": "K2Node_EnhancedInputAction_6",
+        "source_pin": "ActionValue",
+        "disconnect_targets": [
+            {
+                "node_name": "K2Node_CallFunction_37",
+                "pin_name": "InBool",
+            }
+        ],
+        "connect_targets": [
+            {
+                "node_name": "K2Node_CallFunction_34",
+                "pin_name": "Steering",
+            }
+        ],
+    },
+]
 
 def _log(message: str) -> None:
     unreal.log(f"[fix_vehicle_template_input_nodes] {message}")
@@ -118,6 +198,132 @@ def _load_blueprint_asset(asset_path: str):
         if blueprint:
             return blueprint
     return asset
+
+
+def _action_key_from_text(text: str) -> str:
+    normalized = str(text or "").strip().lower()
+    if not normalized:
+        return ""
+
+    if "handbrake" in normalized:
+        return "handbrake"
+    if "headlight" in normalized or "headlights" in normalized:
+        return "headlights"
+    if "steering" in normalized:
+        return "steering"
+    if "throttle" in normalized:
+        return "throttle"
+    if "brake" in normalized:
+        return "brake"
+    if "reset" in normalized:
+        return "reset"
+    if "lookaround" in normalized or "look around" in normalized or "yaw" in normalized or "pitch" in normalized:
+        return "lookaround"
+    if (
+        "togglecamera" in normalized
+        or "toggle camera" in normalized
+        or "switchcamera" in normalized
+        or "switch camera" in normalized
+        or "camera" in normalized
+        or "view" in normalized
+    ):
+        return "togglecamera"
+
+    return ""
+
+
+def _ensure_asset_directory(asset_path: str) -> None:
+    package_path, _ = asset_path.rsplit("/", 1)
+    try:
+        unreal.EditorAssetLibrary.make_directory(package_path)
+    except Exception:
+        pass
+
+
+def _resolve_input_action_value_type(enum_name: str):
+    if not enum_name:
+        return None
+
+    enum_obj = getattr(unreal, "InputActionValueType", None)
+    if enum_obj is None:
+        return None
+
+    return getattr(enum_obj, enum_name, None)
+
+
+def _set_input_action_value_type(asset, action_key: str) -> bool:
+    desired_enum_name = ACTION_VALUE_TYPES.get(action_key, "")
+    desired_value = _resolve_input_action_value_type(desired_enum_name)
+    if asset is None or desired_value is None:
+        return False
+
+    try:
+        asset.set_editor_property("value_type", desired_value)
+        return True
+    except Exception:
+        return False
+
+
+def _ensure_action_asset(action_key: str) -> dict:
+    target_asset_path = ACTION_ASSET_PATHS.get(action_key, "")
+    source_asset_path = ACTION_TEMPLATE_SOURCE_PATHS.get(action_key, "")
+    result = {
+        "action_key": action_key,
+        "target_asset_path": target_asset_path,
+        "source_asset_path": source_asset_path,
+        "created": False,
+        "loaded": False,
+        "saved": False,
+        "value_type_set": False,
+        "error": "",
+    }
+
+    if not target_asset_path:
+        result["error"] = "missing_target_asset_path"
+        return result
+
+    try:
+        asset = unreal.EditorAssetLibrary.load_asset(target_asset_path)
+    except Exception:
+        asset = None
+
+    if asset is None:
+        if not source_asset_path:
+            result["error"] = "missing_source_asset_path"
+            return result
+
+        if not unreal.EditorAssetLibrary.does_asset_exist(source_asset_path):
+            result["error"] = f"missing_source_asset: {source_asset_path}"
+            return result
+
+        _ensure_asset_directory(target_asset_path)
+
+        if not unreal.EditorAssetLibrary.duplicate_asset(source_asset_path, target_asset_path):
+            result["error"] = f"duplicate_asset_failed: {source_asset_path} -> {target_asset_path}"
+            return result
+
+        result["created"] = True
+        try:
+            asset = _load_asset(target_asset_path)
+        except Exception as exc:
+            result["error"] = f"load_after_duplicate_failed: {exc}"
+            return result
+
+    result["loaded"] = asset is not None
+    result["value_type_set"] = _set_input_action_value_type(asset, action_key)
+
+    try:
+        result["saved"] = bool(unreal.EditorAssetLibrary.save_loaded_asset(asset, False))
+    except Exception:
+        try:
+            result["saved"] = bool(unreal.EditorAssetLibrary.save_asset(target_asset_path, False))
+        except Exception as exc:
+            result["error"] = f"save_failed: {exc}"
+
+    if asset is None and not result["error"]:
+        result["error"] = "asset_not_loaded"
+
+    return result
 
 
 def _normalize_bridge_result(raw_result, expected_string_count: int):
@@ -225,24 +431,15 @@ def _collect_snapshot_context(node_snapshot: dict, nodes_by_name: dict) -> str:
 
 
 def _guess_action_key_from_snapshot(blueprint_asset_path: str, node_snapshot: dict, nodes_by_name: dict) -> str:
-    text = _collect_snapshot_context(node_snapshot, nodes_by_name)
-
-    if "handbrake" in text:
-        return "handbrake"
-    if "brake" in text:
-        return "brake"
-    if "throttle" in text:
-        return "throttle"
-    if "steering" in text:
-        return "steering"
-    if "reset" in text:
-        return "reset"
-    if "look" in text or "yaw" in text or "pitch" in text:
-        return "lookaround"
-    if "toggle" in text or "camera" in text or "view" in text:
-        return "togglecamera"
-    if "headlight" in text or "light" in text:
-        return "headlights"
+    current_action_path = _snapshot_current_action_object_path(node_snapshot)
+    for candidate_text in (
+        current_action_path,
+        str(node_snapshot.get("title", "")),
+        _collect_snapshot_context(node_snapshot, nodes_by_name),
+    ):
+        action_key = _action_key_from_text(candidate_text)
+        if action_key:
+            return action_key
 
     node_name = str(node_snapshot.get("name", ""))
     if blueprint_asset_path == PAWN_BASE_ASSET_PATH:
@@ -354,24 +551,15 @@ def _collect_node_text(node) -> str:
 
 
 def _guess_action_key(blueprint_asset_path: str, node) -> str:
-    text = _collect_node_text(node)
-
-    if "handbrake" in text:
-        return "handbrake"
-    if "brake" in text:
-        return "brake"
-    if "throttle" in text:
-        return "throttle"
-    if "steering" in text:
-        return "steering"
-    if "reset" in text:
-        return "reset"
-    if "look" in text or "yaw" in text or "pitch" in text:
-        return "lookaround"
-    if "toggle" in text or "camera" in text or "view" in text:
-        return "togglecamera"
-    if "headlight" in text or "light" in text:
-        return "headlights"
+    for candidate_text in (
+        _object_path(_safe_get_editor_property(node, "input_action", None)),
+        _object_path(_safe_get_editor_property(node, "InputAction", None)),
+        _safe_call(node, "get_node_title"),
+        _collect_node_text(node),
+    ):
+        action_key = _action_key_from_text(candidate_text)
+        if action_key:
+            return action_key
 
     if blueprint_asset_path == SPORTSCAR_ASSET_PATH:
         return "headlights"
@@ -487,12 +675,42 @@ def _apply_enhanced_input_actions_by_node(blueprint_asset_path: str, node_action
     return success, result_payload, summary
 
 
+def _rewire_graph_pin_links_by_node(blueprint_asset_path: str, rewires: list):
+    bridge = getattr(unreal, "BlueprintAutomationPythonBridge", None)
+    if bridge is None:
+        return False, {}, "BlueprintAutomationPythonBridge is not available."
+
+    bridge_method = getattr(bridge, "rewire_graph_pin_links_by_node", None)
+    if bridge_method is None:
+        return False, {}, "rewire_graph_pin_links_by_node bridge method is not available."
+
+    payload = {"rewires": rewires}
+
+    try:
+        raw_result = bridge_method(blueprint_asset_path, json.dumps(payload, ensure_ascii=False))
+    except Exception as exc:
+        return False, {}, f"rewire_graph_pin_links_by_node raised: {exc}"
+
+    success, [result_json, summary] = _normalize_bridge_result(raw_result, 2)
+
+    result_payload = {}
+    if result_json:
+        try:
+            result_payload = json.loads(result_json)
+        except Exception:
+            result_payload = {}
+
+    return success, result_payload, summary
+
+
 def fix_blueprint_null_input_actions(blueprint_asset_path: str) -> dict:
     _load_blueprint_asset(blueprint_asset_path)
 
     changes = []
     unresolved = []
     scanned_nodes = []
+    ensured_action_assets = []
+    ensured_action_assets_by_key = {}
     inspect_success, node_snapshots, inspect_summary = _inspect_event_graph_nodes(blueprint_asset_path)
     nodes_by_name = {str(node.get("name", "")): node for node in node_snapshots}
     pending_entries = []
@@ -500,6 +718,9 @@ def fix_blueprint_null_input_actions(blueprint_asset_path: str) -> dict:
     apply_success = False
     apply_summary = ""
     apply_result_payload = {}
+    rewire_success = False
+    rewire_summary = ""
+    rewire_result_payload = {}
 
     if inspect_success:
         for node_snapshot in node_snapshots:
@@ -523,9 +744,6 @@ def fix_blueprint_null_input_actions(blueprint_asset_path: str) -> dict:
                 }
             )
 
-            if current_action_path:
-                continue
-
             action_key = _guess_action_key_from_snapshot(blueprint_asset_path, node_snapshot, nodes_by_name)
             action_asset_path = ACTION_ASSET_PATHS.get(action_key, "")
 
@@ -537,23 +755,30 @@ def fix_blueprint_null_input_actions(blueprint_asset_path: str) -> dict:
                 "node_title": node_title,
                 "guessed_action_key": action_key,
                 "action_asset_path": action_asset_path,
+                "current_action": current_action_path,
                 "context": _collect_snapshot_context(node_snapshot, nodes_by_name),
             }
 
             if not action_asset_path:
+                if current_action_path:
+                    continue
                 entry["status"] = "unresolved"
                 entry["reason"] = "action_key_not_resolved"
                 unresolved.append(entry)
                 continue
 
-            try:
-                _load_asset(action_asset_path)
-            except Exception:
+            ensure_result = ensured_action_assets_by_key.get(action_key)
+            if ensure_result is None:
+                ensure_result = _ensure_action_asset(action_key)
+                ensured_action_assets_by_key[action_key] = ensure_result
+                ensured_action_assets.append(ensure_result)
+            if ensure_result.get("error"):
                 entry["status"] = "unresolved"
-                entry["reason"] = f"action_asset_not_found: {action_asset_path}"
+                entry["reason"] = ensure_result["error"]
                 unresolved.append(entry)
                 continue
 
+            entry["repair_mode"] = "refresh_existing_action" if current_action_path else "repair_null_action"
             pending_entries.append(entry)
             pending_node_actions.append(
                 {
@@ -573,7 +798,7 @@ def fix_blueprint_null_input_actions(blueprint_asset_path: str) -> dict:
                 node_name = entry.get("node_name", "")
                 node_result = per_node_results.get(node_name, {})
                 if bool(node_result.get("applied", False)):
-                    entry["status"] = "fixed"
+                    entry["status"] = "refreshed" if entry.get("current_action") else "fixed"
                     changes.append(entry)
                 else:
                     entry["status"] = "unresolved"
@@ -595,6 +820,11 @@ def fix_blueprint_null_input_actions(blueprint_asset_path: str) -> dict:
             }
         )
 
+    if blueprint_asset_path == PAWN_BASE_ASSET_PATH:
+        rewire_success, rewire_result_payload, rewire_summary = _rewire_graph_pin_links_by_node(
+            blueprint_asset_path, PAWN_BASE_AXIS_VALUE_REWIRES
+        )
+
     compile_and_save = _compile_and_save_blueprint(blueprint_asset_path)
 
     result = {
@@ -604,7 +834,11 @@ def fix_blueprint_null_input_actions(blueprint_asset_path: str) -> dict:
         "apply_success": apply_success,
         "apply_summary": apply_summary,
         "apply_result": apply_result_payload,
+        "rewire_success": rewire_success,
+        "rewire_summary": rewire_summary,
+        "rewire_result": rewire_result_payload,
         "scanned_nodes": scanned_nodes,
+        "ensured_action_assets": ensured_action_assets,
         "changes": changes,
         "unresolved": unresolved,
         **compile_and_save,
