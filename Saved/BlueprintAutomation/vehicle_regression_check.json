@@ -1,0 +1,114 @@
+{
+  "project_saved_dir": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/",
+  "vehicle_template": {
+    "compile_checks": [
+      {
+        "asset_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase",
+        "exists": true,
+        "object_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase",
+        "class_name": "Blueprint",
+        "compile_success": true,
+        "compile_raw_success": null,
+        "compile_summary": "Compiled Blueprint '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase' and collected 0 messages.",
+        "compile_report": {
+          "blueprint_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase",
+          "status": "up_to_date",
+          "num_errors": 0,
+          "num_warnings": 0,
+          "messages": []
+        }
+      },
+      {
+        "asset_path": "/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar",
+        "exists": true,
+        "object_path": "/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar",
+        "class_name": "Blueprint",
+        "compile_success": true,
+        "compile_raw_success": null,
+        "compile_summary": "Compiled Blueprint '/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar' and collected 0 messages.",
+        "compile_report": {
+          "blueprint_path": "/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar",
+          "status": "up_to_date",
+          "num_errors": 0,
+          "num_warnings": 0,
+          "messages": []
+        }
+      }
+    ],
+    "overall_ok": true
+  },
+  "kamaz": {
+    "gamemode": {
+      "asset_path": "/Game/BPs/BP_KamazGameMode",
+      "exists": true,
+      "generated_class": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C",
+      "cdo": "/Game/BPs/BP_KamazGameMode.Default__BP_KamazGameMode_C",
+      "expected_game_state_class": "/Script/Engine.GameStateBase",
+      "actual_game_state_class": "/Script/Engine.GameStateBase",
+      "overall_ok": true
+    },
+    "mapping_context": {
+      "blueprint": {
+        "asset_path": "/Game/CityPark/Kamaz/model/KamazBP",
+        "exists": true,
+        "object_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP",
+        "class_name": "Blueprint"
+      },
+      "mapping_context_asset": {
+        "asset_path": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz",
+        "exists": true,
+        "object_path": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+        "class_name": "InputMappingContext"
+      },
+      "graph_success": true,
+      "graph_raw_success": null,
+      "graph_summary": "Serialized graph '/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph' to JSON.",
+      "node_found": true,
+      "node_match_mode": "path",
+      "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_29",
+      "node_title": "Add Mapping Context",
+      "pin_found": true,
+      "pin_name": "MappingContext",
+      "expected_default_object": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+      "actual_default_object": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+      "overall_ok": true
+    },
+    "input_assets": {
+      "input_assets": [
+        {
+          "asset_path": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz",
+          "exists": true,
+          "object_path": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+          "class_name": "InputMappingContext"
+        },
+        {
+          "asset_path": "/Game/CityPark/Kamaz/inputs/IA_GAZ",
+          "exists": true,
+          "object_path": "/Game/CityPark/Kamaz/inputs/IA_GAZ.IA_GAZ",
+          "class_name": "InputAction"
+        },
+        {
+          "asset_path": "/Game/CityPark/Kamaz/inputs/IA_TORM",
+          "exists": true,
+          "object_path": "/Game/CityPark/Kamaz/inputs/IA_TORM.IA_TORM",
+          "class_name": "InputAction"
+        },
+        {
+          "asset_path": "/Game/CityPark/Kamaz/inputs/IA_RUL",
+          "exists": true,
+          "object_path": "/Game/CityPark/Kamaz/inputs/IA_RUL.IA_RUL",
+          "class_name": "InputAction"
+        },
+        {
+          "asset_path": "/Game/CityPark/Kamaz/inputs/IA_Handbrake_Digital",
+          "exists": true,
+          "object_path": "/Game/CityPark/Kamaz/inputs/IA_Handbrake_Digital.IA_Handbrake_Digital",
+          "class_name": "InputAction"
+        }
+      ],
+      "overall_ok": true
+    },
+    "overall_ok": true
+  },
+  "overall_ok": true
+}

@@ -1,0 +1,40 @@
+{
+  "target_wheel_radius_cm": 50.0,
+  "front": {
+    "blueprint_path": "/Game/CityPark/Kamaz/model/Front_wheels",
+    "generated_class": "/Game/CityPark/Kamaz/model/Front_wheels.Front_wheels_C",
+    "default_object": "/Engine/Transient.Default__Front_wheels_C",
+    "wheel_radius_before": 45.0,
+    "wheel_radius_after": 50.0,
+    "compile": {
+      "success": true,
+      "method": "BlueprintAutomationPythonBridge.compile_blueprint",
+      "summary": "Compiled Blueprint '/Game/CityPark/Kamaz/model/Front_wheels.Front_wheels' and collected 0 messages.",
+      "payload": "{\r\n\t\"blueprint_path\": \"/Game/CityPark/Kamaz/model/Front_wheels.Front_wheels\",\r\n\t\"status\": \"up_to_date\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 0,\r\n\t\"messages\": []\r\n}"
+    },
+    "save": {
+      "success": true,
+      "method": "BlueprintAutomationPythonBridge.save_blueprint",
+      "summary": "Saved Blueprint '/Game/CityPark/Kamaz/model/Front_wheels.Front_wheels'."
+    }
+  },
+  "rear": {
+    "blueprint_path": "/Game/CityPark/Kamaz/model/Rear_wheels",
+    "generated_class": "/Game/CityPark/Kamaz/model/Rear_wheels.Rear_wheels_C",
+    "default_object": "/Engine/Transient.Default__Rear_wheels_C",
+    "wheel_radius_before": 45.0,
+    "wheel_radius_after": 50.0,
+    "compile": {
+      "success": true,
+      "method": "BlueprintAutomationPythonBridge.compile_blueprint",
+      "summary": "Compiled Blueprint '/Game/CityPark/Kamaz/model/Rear_wheels.Rear_wheels' and collected 0 messages.",
+      "payload": "{\r\n\t\"blueprint_path\": \"/Game/CityPark/Kamaz/model/Rear_wheels.Rear_wheels\",\r\n\t\"status\": \"up_to_date\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 0,\r\n\t\"messages\": []\r\n}"
+    },
+    "save": {
+      "success": true,
+      "method": "BlueprintAutomationPythonBridge.save_blueprint",
+      "summary": "Saved Blueprint '/Game/CityPark/Kamaz/model/Rear_wheels.Rear_wheels'."
+    }
+  },
+  "error": ""
+}

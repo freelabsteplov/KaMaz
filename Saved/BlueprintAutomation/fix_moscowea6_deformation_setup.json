@@ -1,0 +1,48 @@
+{
+  "map_path": "/Game/Maps/MoscowEA6",
+  "player_start_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.PlayerStart_0",
+  "bp_capture": {
+    "before": {
+      "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1",
+      "location": {
+        "x": 114628534.79880682,
+        "y": 22401135.01706039,
+        "z": -280514925.0
+      },
+      "scale": {
+        "x": 5242.88,
+        "y": 5242.88,
+        "z": 4949.0
+      }
+    },
+    "after": {
+      "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1",
+      "location": {
+        "x": -29071.0,
+        "y": -78192.99999999999,
+        "z": -208982.14099997282
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    }
+  },
+  "sphere": {
+    "created": false,
+    "actor_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.StaticMeshActor_224",
+    "location": {
+      "x": -29089.524,
+      "y": -82513.212,
+      "z": -206722.141
+    },
+    "mesh_path": "/Engine/BasicShapes/Sphere.Sphere",
+    "material_path": "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial",
+    "render_custom_depth": true,
+    "simulate_physics": true,
+    "mobility": "<ComponentMobility.MOVABLE: 2>"
+  },
+  "saved": true,
+  "error": ""
+}

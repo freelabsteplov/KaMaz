@@ -1,0 +1,19 @@
+{
+  "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "error": "'SnowMapKamazPlowCaptureDeformerActor' object has no attribute 'get_root_component'",
+  "pie_world_path": "/Game/LandscapeDeformation/Maps/UEDPIE_0_SnowMap.SnowMap",
+  "pawn": {
+    "path": "/Game/LandscapeDeformation/Maps/UEDPIE_0_SnowMap.SnowMap:PersistentLevel.SpectatorPawn_0",
+    "class": "/Script/Engine.SpectatorPawn",
+    "location": {
+      "x": 19098.523546241846,
+      "y": 33742.211762744424,
+      "z": 124.14109775911176
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  }
+}

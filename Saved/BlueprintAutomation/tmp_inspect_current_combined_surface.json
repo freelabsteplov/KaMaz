@@ -1,0 +1,153 @@
+{
+  "map_path": "/Game/Maps/SnowMap_MoscowEA5",
+  "player_start": {
+    "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.PlayerStart_0",
+    "label": "PlayerStart",
+    "location": {
+      "x": 19098.52354624185,
+      "y": 33742.21176274441,
+      "z": 424.1410977591004
+    }
+  },
+  "landscape": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.Landscape_0",
+    "bounds": {
+      "origin": {
+        "x": 24276.528890426824,
+        "y": 48218.311268092075,
+        "z": -38.28125
+      },
+      "extent": {
+        "x": 83289.85647548296,
+        "y": 83289.85647548296,
+        "z": 4125.78125
+      },
+      "min": {
+        "x": -59013.32758505613,
+        "y": -35071.54520739088,
+        "z": -4164.0625
+      },
+      "max": {
+        "x": 107566.38536590978,
+        "y": 131508.16774357503,
+        "z": 4087.5
+      }
+    },
+    "location": {
+      "x": -59013.32758505613,
+      "y": -35071.54520739088,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 330.5153034741387,
+      "y": 330.5153034741387,
+      "z": 100.0
+    }
+  },
+  "vhm": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.VirtualHeightfieldMesh_1",
+    "bounds": {
+      "origin": {
+        "x": 24276.528890426816,
+        "y": 48218.311268092075,
+        "z": 2014.0625
+      },
+      "extent": {
+        "x": 83289.85647548296,
+        "y": 83289.85647548296,
+        "z": 2073.4375
+      },
+      "min": {
+        "x": -59013.32758505614,
+        "y": -35071.54520739088,
+        "z": -59.375
+      },
+      "max": {
+        "x": 107566.38536590978,
+        "y": 131508.16774357503,
+        "z": 4087.5
+      }
+    },
+    "location": {
+      "x": -59013.32758505614,
+      "y": -35071.54520739088,
+      "z": -59.375
+    },
+    "scale": {
+      "x": 166579.7129509659,
+      "y": 166579.7129509659,
+      "z": 4146.875
+    }
+  },
+  "bp_capture": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.BP_Capture_C_1",
+    "location": {
+      "x": 19098.52354624185,
+      "y": 33742.21176274441,
+      "z": -2000.0
+    }
+  },
+  "rvt_height": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1",
+    "location": {
+      "x": -59013.32758505614,
+      "y": -35071.54520739088,
+      "z": -59.375
+    },
+    "scale": {
+      "x": 166579.7129509659,
+      "y": 166579.7129509659,
+      "z": 4146.875
+    }
+  },
+  "rvt_material": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_2",
+    "location": {
+      "x": -59013.32758505614,
+      "y": -35071.54520739088,
+      "z": -59.375
+    },
+    "scale": {
+      "x": 166579.7129509659,
+      "y": 166579.7129509659,
+      "z": 4146.875
+    }
+  },
+  "nearby_covering_static_meshes": [
+    {
+      "actor_label": "BP_SplineTool_Tiedtke_Deformation63",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SplineTool_Tiedtke_Deformation_C_0",
+      "class_path": "/Game/BPs/Spline_Tools/BP_SplineTool_Tiedtke_Deformation.BP_SplineTool_Tiedtke_Deformation_C",
+      "distance_xy_to_player": 75452.3483255207,
+      "location": {
+        "x": -33286.740086758145,
+        "y": -20561.020387255587,
+        "z": -24.879497240908677
+      },
+      "bounds": {
+        "origin": {
+          "x": 5422.49750399826,
+          "y": 27738.758165975632,
+          "z": -834.231416590056
+        },
+        "extent": {
+          "x": 59255.48189679719,
+          "y": 56489.51710293566,
+          "z": 819.3142039141193
+        },
+        "min": {
+          "x": -53832.98439279893,
+          "y": -28750.758936960025,
+          "z": -1653.5456205041753
+        },
+        "max": {
+          "x": 64677.97940079545,
+          "y": 84228.2752689113,
+          "z": -14.917212675936753
+        }
+      },
+      "mesh_path": "/Game/SnappyRoads/Meshes/Road/Misc/SM_Road_NoCollision.SM_Road_NoCollision",
+      "materials": []
+    }
+  ]
+}

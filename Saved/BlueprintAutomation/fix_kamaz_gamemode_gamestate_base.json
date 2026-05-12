@@ -1,0 +1,44 @@
+{
+  "blueprint_path": "/Game/BPs/BP_KamazGameMode",
+  "expected_game_state_class": "/Script/Engine.GameStateBase",
+  "before_game_state_class": "/Script/Engine.GameState",
+  "after_game_state_class": "/Script/Engine.GameStateBase",
+  "set_property": {
+    "success": null,
+    "json": "{\r\n\t\"success\": true,\r\n\t\"blueprint_asset_path\": \"/Game/BPs/BP_KamazGameMode\",\r\n\t\"target_mode\": \"class_default_object\",\r\n\t\"target_object_path\": \"/Game/BPs/BP_KamazGameMode.Default__BP_KamazGameMode_C\",\r\n\t\"component_name\": \"\",\r\n\t\"property_name\": \"GameStateClass\",\r\n\t\"property_class\": \"ClassProperty\",\r\n\t\"value_as_string\": \"/Script/Engine.GameStateBase\",\r\n\t\"before_value\": \"/Script/Engine.GameState\",\r\n\t\"after_value\": \"/Script/Engine.GameStateBase\",\r\n\t\"compiled\": true,\r\n\t\"saved\": true,\r\n\t\"compile_summary\": \"Compiled Blueprint '/Game/BPs/BP_KamazGameMode.BP_KamazGameMode'.\",\r\n\t\"save_summary\": \"Saved Blueprint '/Game/BPs/BP_KamazGameMode.BP_KamazGameMode'.\",\r\n\t\"error\": \"\"\r\n}",
+    "summary": "SetBlueprintPropertyValue blueprint='/Game/BPs/BP_KamazGameMode' target='/Game/BPs/BP_KamazGameMode.Default__BP_KamazGameMode_C' property='GameStateClass' success=true",
+    "raw_repr": "('{\\r\\n\\t\"success\": true,\\r\\n\\t\"blueprint_asset_path\": \"/Game/BPs/BP_KamazGameMode\",\\r\\n\\t\"target_mode\": \"class_default_object\",\\r\\n\\t\"target_object_path\": \"/Game/BPs/BP_KamazGameMode.Default__BP_KamazGameMode_C\",\\r\\n\\t\"component_name\": \"\",\\r\\n\\t\"property_name\": \"GameStateClass\",\\r\\n\\t\"property_class\": \"ClassProperty\",\\r\\n\\t\"value_as_string\": \"/Script/Engine.GameStateBase\",\\r\\n\\t\"before_value\": \"/Script/Engine.GameState\",\\r\\n\\t\"after_value\": \"/Script/Engine.GameStateBase\",\\r\\n\\t\"compiled\": true,\\r\\n\\t\"saved\": true,\\r\\n\\t\"compile_summary\": \"Compiled Blueprint \\'/Game/BPs/BP_KamazGameMode.BP_KamazGameMode\\'.\",\\r\\n\\t\"save_summary\": \"Saved Blueprint \\'/Game/BPs/BP_KamazGameMode.BP_KamazGameMode\\'.\",\\r\\n\\t\"error\": \"\"\\r\\n}', \"SetBlueprintPropertyValue blueprint='/Game/BPs/BP_KamazGameMode' target='/Game/BPs/BP_KamazGameMode.Default__BP_KamazGameMode_C' property='GameStateClass' success=true\")",
+    "result": {
+      "success": true,
+      "blueprint_asset_path": "/Game/BPs/BP_KamazGameMode",
+      "target_mode": "class_default_object",
+      "target_object_path": "/Game/BPs/BP_KamazGameMode.Default__BP_KamazGameMode_C",
+      "component_name": "",
+      "property_name": "GameStateClass",
+      "property_class": "ClassProperty",
+      "value_as_string": "/Script/Engine.GameStateBase",
+      "before_value": "/Script/Engine.GameState",
+      "after_value": "/Script/Engine.GameStateBase",
+      "compiled": true,
+      "saved": true,
+      "compile_summary": "Compiled Blueprint '/Game/BPs/BP_KamazGameMode.BP_KamazGameMode'.",
+      "save_summary": "Saved Blueprint '/Game/BPs/BP_KamazGameMode.BP_KamazGameMode'.",
+      "error": ""
+    }
+  },
+  "compile": {
+    "success": null,
+    "json": "{\r\n\t\"blueprint_path\": \"/Game/BPs/BP_KamazGameMode.BP_KamazGameMode\",\r\n\t\"status\": \"up_to_date\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 0,\r\n\t\"messages\": []\r\n}",
+    "summary": "Compiled Blueprint '/Game/BPs/BP_KamazGameMode.BP_KamazGameMode' and collected 0 messages.",
+    "raw_repr": "('{\\r\\n\\t\"blueprint_path\": \"/Game/BPs/BP_KamazGameMode.BP_KamazGameMode\",\\r\\n\\t\"status\": \"up_to_date\",\\r\\n\\t\"num_errors\": 0,\\r\\n\\t\"num_warnings\": 0,\\r\\n\\t\"messages\": []\\r\\n}', \"Compiled Blueprint '/Game/BPs/BP_KamazGameMode.BP_KamazGameMode' and collected 0 messages.\")",
+    "result": {
+      "blueprint_path": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode",
+      "status": "up_to_date",
+      "num_errors": 0,
+      "num_warnings": 0,
+      "messages": []
+    }
+  },
+  "saved": true,
+  "error": ""
+}

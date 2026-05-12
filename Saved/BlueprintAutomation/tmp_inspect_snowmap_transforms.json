@@ -1,0 +1,190 @@
+{
+  "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "Landscape": {
+    "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.Landscape_0",
+    "class": "/Script/Landscape.Landscape",
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 100.0,
+      "y": 100.0,
+      "z": 100.0
+    },
+    "bounds_origin": {
+      "x": 25200.0,
+      "y": 25200.0,
+      "z": 2043.75
+    },
+    "bounds_extent": {
+      "x": 25200.0,
+      "y": 25200.0,
+      "z": 2043.75
+    },
+    "bottom_z": 0.0,
+    "top_z": 4087.5
+  },
+  "RVT_SnowHeight": {
+    "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_1",
+    "class": "/Script/Engine.RuntimeVirtualTextureVolume",
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 50000.0,
+      "y": 50000.0,
+      "z": 8000.0
+    },
+    "bounds_origin": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bounds_extent": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bottom_z": 0.0,
+    "top_z": 0.0
+  },
+  "RVT_SnowMaterial": {
+    "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_2",
+    "class": "/Script/Engine.RuntimeVirtualTextureVolume",
+    "location": {
+      "x": 10.0,
+      "y": 10.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 50000.0,
+      "y": 50000.0,
+      "z": 8000.0
+    },
+    "bounds_origin": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bounds_extent": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bottom_z": 0.0,
+    "top_z": 0.0
+  },
+  "VirtualHeightfieldMesh1": {
+    "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.VirtualHeightfieldMesh_1",
+    "class": "/Script/VirtualHeightfieldMesh.VirtualHeightfieldMesh",
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 50000.0,
+      "y": 50000.0,
+      "z": 8000.0
+    },
+    "bounds_origin": {
+      "x": 25000.0,
+      "y": 25000.0,
+      "z": 4000.0
+    },
+    "bounds_extent": {
+      "x": 25000.0,
+      "y": 25000.0,
+      "z": 4000.0
+    },
+    "bottom_z": 0.0,
+    "top_z": 8000.0
+  },
+  "BP_Capture": {
+    "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1",
+    "class": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C",
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -2000.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "bounds_origin": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bounds_extent": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bottom_z": 0.0,
+    "top_z": 0.0
+  },
+  "PlayerStart": {
+    "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.PlayerStart_1",
+    "class": "/Script/Engine.PlayerStart",
+    "location": {
+      "x": 19098.523546241846,
+      "y": 33742.211762744424,
+      "z": 124.14109775911176
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "bounds_origin": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bounds_extent": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "bottom_z": 0.0,
+    "top_z": 0.0
+  },
+  "Sphere": {}
+}

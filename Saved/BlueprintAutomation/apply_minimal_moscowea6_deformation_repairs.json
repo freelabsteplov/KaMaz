@@ -1,0 +1,103 @@
+{
+  "map_path": "/Game/Maps/MoscowEA6",
+  "bp_capture": {
+    "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1",
+    "location": {
+      "x": -29071.0,
+      "y": -78192.99999999999,
+      "z": -208982.14099997282
+    },
+    "rotation": {
+      "pitch": -0.0,
+      "yaw": -42.18749967320009,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    }
+  },
+  "sphere": {
+    "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.StaticMeshActor_224",
+    "location": {
+      "x": -28721.0,
+      "y": -78193.0,
+      "z": -206678.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "render_custom_depth": true,
+    "simulate_physics": true,
+    "material_0": "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"
+  },
+  "snow_rvt_alignment": {
+    "height_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_0",
+    "material_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_1",
+    "height_transform": {
+      "location": {
+        "x": -392460.0,
+        "y": -85969.0,
+        "z": -213463.0
+      },
+      "rotation": {
+        "pitch": -0.0,
+        "yaw": -42.18749967320009,
+        "roll": 0.0
+      },
+      "scale": {
+        "x": 524288.0,
+        "y": 524288.0,
+        "z": 4949.0
+      }
+    },
+    "material_transform": {
+      "location": {
+        "x": -392460.0,
+        "y": -85969.0,
+        "z": -213463.0
+      },
+      "rotation": {
+        "pitch": -0.0,
+        "yaw": -42.18749967320009,
+        "roll": 0.0
+      },
+      "scale": {
+        "x": 524288.0,
+        "y": 524288.0,
+        "z": 4949.0
+      }
+    }
+  },
+  "virtual_heightfield_mesh": {
+    "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.VirtualHeightfieldMesh_1",
+    "location": {
+      "x": -104828.79999999999,
+      "y": -109883.08000000005,
+      "z": -68213.72
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 1.2722218725854065e-14,
+      "roll": -0.0
+    },
+    "scale": {
+      "x": 128.0,
+      "y": 128.0,
+      "z": 2.56
+    },
+    "material_0": "/Game/LandscapeDeformation/Material/MI_VHM_SnowLand.MI_VHM_SnowLand",
+    "virtual_texture": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_0",
+    "min_max_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight_MinMax.RVT_SnowHeight_MinMax"
+  },
+  "saved": true,
+  "error": ""
+}

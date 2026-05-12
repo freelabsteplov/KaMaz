@@ -1,0 +1,44 @@
+{
+  "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "bp_capture": {
+    "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1",
+    "scene_capture_component": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1.TRASH_SceneCaptureComponent2D_1",
+    "landscape_span_cm": 50400.0,
+    "ortho_width_before": 2048.0,
+    "ortho_width_after": 16400.0
+  },
+  "rt_capture": {
+    "before": {
+      "path": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture",
+      "size_x": 256,
+      "size_y": 256,
+      "format": "<TextureRenderTargetFormat.RTF_RGBA16F: 6>"
+    },
+    "after": {
+      "size_x": 2048,
+      "size_y": 2048,
+      "saved": false
+    }
+  },
+  "rt_persistent": {
+    "before": {
+      "path": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Persistent.RT_Persistent",
+      "size_x": 256,
+      "size_y": 256,
+      "format": "<TextureRenderTargetFormat.RTF_RGBA16F: 6>"
+    },
+    "after": {
+      "size_x": 2048,
+      "size_y": 2048,
+      "saved": false
+    }
+  },
+  "vhm_material": {
+    "path": "/Game/LandscapeDeformation/Material/MI_VHM_SnowLand.MI_VHM_SnowLand",
+    "displacement_height_before": 25.0,
+    "displacement_height_after": 50.0,
+    "saved": false
+  },
+  "save_ok": false,
+  "error": ""
+}

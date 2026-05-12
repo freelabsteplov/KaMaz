@@ -1,0 +1,22 @@
+{
+  "physics_asset_path": "/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset.kamaz_ue5_PhysicsAsset",
+  "physics_asset_class": "PhysicsAsset",
+  "outer": "<Object '/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset' (0x00000134CFB3D800) Class 'Package'>",
+  "outermost": "<Object '/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset' (0x00000134CFB3D800) Class 'Package'>",
+  "asset_subsystem_methods": [
+    "save_asset",
+    "save_directory",
+    "save_loaded_asset",
+    "save_loaded_assets"
+  ],
+  "has_editor_loading_and_saving_utils": true,
+  "editor_loading_and_saving_utils_methods": [
+    "save_current_level",
+    "save_dirty_packages",
+    "save_dirty_packages_with_dialog",
+    "save_map",
+    "save_packages",
+    "save_packages_with_dialog"
+  ],
+  "error": ""
+}

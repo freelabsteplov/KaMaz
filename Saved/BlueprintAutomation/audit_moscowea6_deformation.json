@@ -1,0 +1,929 @@
+{
+  "target_map": {
+    "map_path": "/Game/Maps/MoscowEA6",
+    "actor_count": 1354,
+    "landscapes": [
+      {
+        "label": "Landscape",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.Landscape_0",
+        "class": "Landscape",
+        "transform": {
+          "location": {
+            "x": -243728.0,
+            "y": -309293.0,
+            "z": -213207.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": -42.187,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 128.0,
+            "y": 128.0,
+            "z": 256.0
+          }
+        },
+        "landscape_material": "/Game/DeformableSnowSystem/Materials/Master/M_Snow.M_Snow",
+        "draw_in_virtual_textures": [
+          "/Game/LandscapeDeformation/Textures/RVT_Height.RVT_Height",
+          "/Game/LandscapeDeformation/Textures/RVT_Material.RVT_Material"
+        ],
+        "runtime_virtual_textures": [
+          "/Game/LandscapeDeformation/Textures/RVT_Height.RVT_Height",
+          "/Game/LandscapeDeformation/Textures/RVT_Material.RVT_Material"
+        ],
+        "bounds": {
+          "center": {
+            "x": -24531.159,
+            "y": -67446.551,
+            "z": -213207.0
+          },
+          "extent": {
+            "x": 179887.395,
+            "y": 188947.237,
+            "z": 256.0
+          },
+          "span_cm": {
+            "x": 359774.789,
+            "y": 377894.475,
+            "z": 512.0
+          }
+        }
+      },
+      {
+        "label": "Landscape2",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.Landscape_1",
+        "class": "Landscape",
+        "transform": {
+          "location": {
+            "x": -249246.229,
+            "y": -167891.893,
+            "z": -208614.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": -45.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 100.0,
+            "y": 100.0,
+            "z": 100.0
+          }
+        },
+        "landscape_material": "/Game/LandscapeDeformation/Material/M_Snow.M_Snow",
+        "draw_in_virtual_textures": [
+          "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight.RVT_SnowHeight",
+          "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowMaterial.RVT_SnowMaterial"
+        ],
+        "runtime_virtual_textures": [
+          "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight.RVT_SnowHeight",
+          "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowMaterial.RVT_SnowMaterial"
+        ],
+        "bounds": {
+          "center": {
+            "x": -68934.0,
+            "y": -95767.0,
+            "z": -208614.0
+          },
+          "extent": {
+            "x": 180312.229,
+            "y": 180312.23,
+            "z": 100.0
+          },
+          "span_cm": {
+            "x": 360624.458,
+            "y": 360624.459,
+            "z": 200.0
+          }
+        }
+      }
+    ],
+    "runtime_virtual_texture_volumes": [
+      {
+        "label": "RuntimeVirtualTextureVolume2",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_2",
+        "class": "RuntimeVirtualTextureVolume",
+        "transform": {
+          "location": {
+            "x": -429558.458,
+            "y": -95767.002,
+            "z": -213463.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": -45.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 510000.0,
+            "y": 510000.0,
+            "z": 4849.0
+          }
+        },
+        "bounds": {
+          "center": {
+            "x": -68934.0,
+            "y": -95767.0,
+            "z": -211038.5
+          },
+          "extent": {
+            "x": 360624.458,
+            "y": 360624.458,
+            "z": 2424.5
+          },
+          "span_cm": {
+            "x": 721248.917,
+            "y": 721248.917,
+            "z": 4849.0
+          }
+        },
+        "virtual_texture": "/Game/LandscapeDeformation/Textures/RVT_Height.RVT_Height",
+        "component_class": "RuntimeVirtualTextureComponent",
+        "component_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_2.VirtualTextureComponent"
+      },
+      {
+        "label": "RVTV_Height",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_0",
+        "class": "RuntimeVirtualTextureVolume",
+        "transform": {
+          "location": {
+            "x": -392460.0,
+            "y": -85969.0,
+            "z": -213463.0
+          },
+          "rotation": {
+            "pitch": -0.0,
+            "yaw": -42.187,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 524288.0,
+            "y": 524288.0,
+            "z": 4949.0
+          }
+        },
+        "bounds": {
+          "center": {
+            "x": -22178.958,
+            "y": -67778.257,
+            "z": -210988.5
+          },
+          "extent": {
+            "x": 370281.042,
+            "y": 370281.042,
+            "z": 2474.5
+          },
+          "span_cm": {
+            "x": 740562.085,
+            "y": 740562.085,
+            "z": 4949.0
+          }
+        },
+        "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight.RVT_SnowHeight",
+        "component_class": "RuntimeVirtualTextureComponent",
+        "component_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_0.VirtualTextureComponent"
+      },
+      {
+        "label": "RVTV_Material",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_1",
+        "class": "RuntimeVirtualTextureVolume",
+        "transform": {
+          "location": {
+            "x": -392455.958,
+            "y": -85966.621,
+            "z": -213463.0
+          },
+          "rotation": {
+            "pitch": -0.0,
+            "yaw": -42.187,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 520353.953,
+            "y": 521611.318,
+            "z": 4949.0
+          }
+        },
+        "bounds": {
+          "center": {
+            "x": -24531.159,
+            "y": -67446.551,
+            "z": -210988.5
+          },
+          "extent": {
+            "x": 367924.799,
+            "y": 367968.425,
+            "z": 2474.5
+          },
+          "span_cm": {
+            "x": 735849.598,
+            "y": 735936.85,
+            "z": 4949.0
+          }
+        },
+        "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowMaterial.RVT_SnowMaterial",
+        "component_class": "RuntimeVirtualTextureComponent",
+        "component_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_1.VirtualTextureComponent"
+      }
+    ],
+    "rvt_transform_match": {
+      "same_transform": false
+    },
+    "rvt_landscape_coverage": {
+      "volumes": [
+        {
+          "label": "RuntimeVirtualTextureVolume2",
+          "virtual_texture": "/Game/LandscapeDeformation/Textures/RVT_Height.RVT_Height",
+          "covers_landscape": true
+        },
+        {
+          "label": "RVTV_Height",
+          "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight.RVT_SnowHeight",
+          "covers_landscape": true
+        },
+        {
+          "label": "RVTV_Material",
+          "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowMaterial.RVT_SnowMaterial",
+          "covers_landscape": true
+        }
+      ]
+    },
+    "virtual_heightfield_meshes": [
+      {
+        "label": "VirtualHeightfieldMesh",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.VirtualHeightfieldMesh_1",
+        "class": "VirtualHeightfieldMesh",
+        "transform": {
+          "location": {
+            "x": -104828.8,
+            "y": -109883.08,
+            "z": -68213.72
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": -0.0
+          },
+          "scale": {
+            "x": 128.0,
+            "y": 128.0,
+            "z": 2.56
+          }
+        },
+        "bounds": {
+          "center": {
+            "x": -104764.8,
+            "y": -109819.08,
+            "z": -68212.44
+          },
+          "extent": {
+            "x": 64.0,
+            "y": 64.0,
+            "z": 1.28
+          },
+          "span_cm": {
+            "x": 128.0,
+            "y": 128.0,
+            "z": 2.56
+          }
+        },
+        "component_class": "VirtualHeightfieldMeshComponent",
+        "component_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.VirtualHeightfieldMesh_1.VirtualHeightfieldMeshComponent",
+        "property_snapshot": {
+          "virtual_texture": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_0",
+          "VirtualTexture": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_0",
+          "min_max_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight_MinMax.RVT_SnowHeight_MinMax",
+          "MinMaxTexture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight_MinMax.RVT_SnowHeight_MinMax",
+          "lod_distribution": 2.0,
+          "lod0_screen_size": 1.0,
+          "num_occlusion_lods": 0
+        },
+        "materials": []
+      }
+    ],
+    "bp_capture_actors": [
+      {
+        "label": "BP_Capture",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1",
+        "class": "BP_Capture_C",
+        "transform": {
+          "location": {
+            "x": -29071.0,
+            "y": -78193.0,
+            "z": -208982.141
+          },
+          "rotation": {
+            "pitch": -0.0,
+            "yaw": -42.187,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "components": [
+          {
+            "name": "DefaultSceneRoot",
+            "class": "SceneComponent",
+            "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1.DefaultSceneRoot"
+          },
+          {
+            "name": "BillboardComponent_1",
+            "class": "BillboardComponent",
+            "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1.BillboardComponent_1"
+          },
+          {
+            "name": "SceneCapture",
+            "class": "SceneCaptureComponent2D",
+            "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1.SceneCapture",
+            "texture_target": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture",
+            "capture_source": "<SceneCaptureSource.SCS_FINAL_COLOR_LDR: 2>",
+            "primitive_render_mode": "<SceneCapturePrimitiveRenderMode.PRM_LEGACY_SCENE_CAPTURE: 0>",
+            "capture_every_frame": true,
+            "capture_on_movement": true
+          },
+          {
+            "name": "StaticMeshComponent_1",
+            "class": "StaticMeshComponent",
+            "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1.StaticMeshComponent_1"
+          },
+          {
+            "name": "DrawFrustumComponent_1",
+            "class": "DrawFrustumComponent",
+            "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1.DrawFrustumComponent_1"
+          }
+        ]
+      }
+    ],
+    "sphere_like_actors": [
+      {
+        "label": "Sphere",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.StaticMeshActor_224",
+        "class": "StaticMeshActor",
+        "transform": {
+          "location": {
+            "x": -29089.524,
+            "y": -82513.212,
+            "z": -206722.141
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "mesh_path": "/Engine/BasicShapes/Sphere.Sphere",
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 0,
+        "component_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.StaticMeshActor_224.StaticMeshComponent0",
+        "simulate_physics": true,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "collision_profile_name": null,
+        "materials": [
+          "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"
+        ]
+      },
+      {
+        "label": "BP_Sphera",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Sphera_C_1",
+        "class": "BP_Sphera_C",
+        "transform": {
+          "location": {
+            "x": -28579.0,
+            "y": -79513.0,
+            "z": -207939.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "mesh_path": "/Engine/BasicShapes/Sphere.Sphere",
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "component_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Sphera_C_1.Sphere",
+        "simulate_physics": true,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "collision_profile_name": null,
+        "materials": [
+          "/Game/DeformableSnowSystem/Blueprints/M_Sphera.M_Sphera"
+        ]
+      }
+    ],
+    "player_starts": [
+      {
+        "label": "PlayerStart",
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.PlayerStart_0",
+        "class": "PlayerStart",
+        "transform": {
+          "location": {
+            "x": -29071.0,
+            "y": -78193.0,
+            "z": -206858.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "bounds": {
+          "center": {
+            "x": -29015.0,
+            "y": -78193.0,
+            "z": -206858.0
+          },
+          "extent": {
+            "x": 184.0,
+            "y": 128.0,
+            "z": 128.0
+          },
+          "span_cm": {
+            "x": 368.0,
+            "y": 256.0,
+            "z": 256.0
+          }
+        }
+      }
+    ],
+    "reference_like_composition": [
+      {
+        "label": "PlayerStart",
+        "class": "PlayerStart"
+      },
+      {
+        "label": "Landscape",
+        "class": "Landscape"
+      },
+      {
+        "label": "RuntimeVirtualTextureVolume2",
+        "class": "RuntimeVirtualTextureVolume"
+      },
+      {
+        "label": "Sphere",
+        "class": "StaticMeshActor"
+      },
+      {
+        "label": "RVTV_Height",
+        "class": "RuntimeVirtualTextureVolume"
+      },
+      {
+        "label": "RVTV_Material",
+        "class": "RuntimeVirtualTextureVolume"
+      },
+      {
+        "label": "VirtualHeightfieldMesh",
+        "class": "VirtualHeightfieldMesh"
+      },
+      {
+        "label": "BP_Capture",
+        "class": "BP_Capture_C"
+      }
+    ]
+  },
+  "reference_map": {
+    "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+    "actor_count": 14,
+    "landscapes": [
+      {
+        "label": "Landscape",
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.Landscape_0",
+        "class": "Landscape",
+        "transform": {
+          "location": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 100.0,
+            "y": 100.0,
+            "z": 100.0
+          }
+        },
+        "landscape_material": "/Game/LandscapeDeformation/Material/M_Snow.M_Snow",
+        "draw_in_virtual_textures": [
+          "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight.RVT_SnowHeight",
+          "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowMaterial.RVT_SnowMaterial"
+        ],
+        "runtime_virtual_textures": [
+          "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight.RVT_SnowHeight",
+          "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowMaterial.RVT_SnowMaterial"
+        ],
+        "bounds": {
+          "center": {
+            "x": 25200.0,
+            "y": -107100.0,
+            "z": 37.5
+          },
+          "extent": {
+            "x": 25200.0,
+            "y": 157500.0,
+            "z": 137.5
+          },
+          "span_cm": {
+            "x": 50400.0,
+            "y": 315000.0,
+            "z": 275.0
+          }
+        }
+      }
+    ],
+    "runtime_virtual_texture_volumes": [
+      {
+        "label": "RVT_SnowHeight",
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_1",
+        "class": "RuntimeVirtualTextureVolume",
+        "transform": {
+          "location": {
+            "x": 0.0,
+            "y": -264600.0,
+            "z": -100.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 50400.0,
+            "y": 315000.0,
+            "z": 275.0
+          }
+        },
+        "bounds": {
+          "center": {
+            "x": 25200.0,
+            "y": -107100.0,
+            "z": 37.5
+          },
+          "extent": {
+            "x": 25200.0,
+            "y": 157500.0,
+            "z": 137.5
+          },
+          "span_cm": {
+            "x": 50400.0,
+            "y": 315000.0,
+            "z": 275.0
+          }
+        },
+        "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight.RVT_SnowHeight",
+        "component_class": "RuntimeVirtualTextureComponent",
+        "component_path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_1.VirtualTextureComponent"
+      },
+      {
+        "label": "RVT_SnowMaterial",
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_2",
+        "class": "RuntimeVirtualTextureVolume",
+        "transform": {
+          "location": {
+            "x": 0.0,
+            "y": -264600.0,
+            "z": -100.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 50400.0,
+            "y": 315000.0,
+            "z": 275.0
+          }
+        },
+        "bounds": {
+          "center": {
+            "x": 25200.0,
+            "y": -107100.0,
+            "z": 37.5
+          },
+          "extent": {
+            "x": 25200.0,
+            "y": 157500.0,
+            "z": 137.5
+          },
+          "span_cm": {
+            "x": 50400.0,
+            "y": 315000.0,
+            "z": 275.0
+          }
+        },
+        "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowMaterial.RVT_SnowMaterial",
+        "component_class": "RuntimeVirtualTextureComponent",
+        "component_path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_2.VirtualTextureComponent"
+      }
+    ],
+    "rvt_transform_match": {
+      "same_transform": true
+    },
+    "rvt_landscape_coverage": {
+      "volumes": [
+        {
+          "label": "RVT_SnowHeight",
+          "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight.RVT_SnowHeight",
+          "covers_landscape": true
+        },
+        {
+          "label": "RVT_SnowMaterial",
+          "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowMaterial.RVT_SnowMaterial",
+          "covers_landscape": true
+        }
+      ]
+    },
+    "virtual_heightfield_meshes": [
+      {
+        "label": "VirtualHeightfieldMesh1",
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.VirtualHeightfieldMesh_1",
+        "class": "VirtualHeightfieldMesh",
+        "transform": {
+          "location": {
+            "x": 0.0,
+            "y": 4987.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "bounds": {
+          "center": {
+            "x": 0.5,
+            "y": 4987.5,
+            "z": 0.5
+          },
+          "extent": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "span_cm": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "component_class": "VirtualHeightfieldMeshComponent",
+        "component_path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.VirtualHeightfieldMesh_1.VirtualHeightfieldMeshComponent",
+        "property_snapshot": {
+          "virtual_texture": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_1",
+          "VirtualTexture": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_1",
+          "min_max_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight_MinMax.RVT_SnowHeight_MinMax",
+          "MinMaxTexture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight_MinMax.RVT_SnowHeight_MinMax",
+          "lod_distribution": 2.0,
+          "lod0_screen_size": 1.0,
+          "num_occlusion_lods": 0
+        },
+        "materials": []
+      }
+    ],
+    "bp_capture_actors": [
+      {
+        "label": "BP_Capture",
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1",
+        "class": "BP_Capture_C",
+        "transform": {
+          "location": {
+            "x": 0.0,
+            "y": 3573.0,
+            "z": -2000.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "components": [
+          {
+            "name": "DefaultSceneRoot",
+            "class": "SceneComponent",
+            "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1.DefaultSceneRoot"
+          },
+          {
+            "name": "BillboardComponent_1",
+            "class": "BillboardComponent",
+            "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1.BillboardComponent_1"
+          },
+          {
+            "name": "SceneCapture",
+            "class": "SceneCaptureComponent2D",
+            "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1.SceneCapture",
+            "texture_target": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture",
+            "capture_source": "<SceneCaptureSource.SCS_FINAL_COLOR_LDR: 2>",
+            "primitive_render_mode": "<SceneCapturePrimitiveRenderMode.PRM_LEGACY_SCENE_CAPTURE: 0>",
+            "capture_every_frame": true,
+            "capture_on_movement": true
+          },
+          {
+            "name": "StaticMeshComponent_1",
+            "class": "StaticMeshComponent",
+            "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1.StaticMeshComponent_1"
+          },
+          {
+            "name": "DrawFrustumComponent_1",
+            "class": "DrawFrustumComponent",
+            "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1.DrawFrustumComponent_1"
+          }
+        ]
+      }
+    ],
+    "sphere_like_actors": [
+      {
+        "label": "SM_SkySphere",
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.StaticMeshActor_1",
+        "class": "StaticMeshActor",
+        "transform": {
+          "location": {
+            "x": 0.0,
+            "y": 4780.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 400.0,
+            "y": 400.0,
+            "z": 400.0
+          }
+        },
+        "mesh_path": "/Engine/EngineSky/SM_SkySphere.SM_SkySphere",
+        "render_custom_depth": false,
+        "custom_depth_stencil_value": 0,
+        "component_path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.StaticMeshActor_1.StaticMeshComponent0",
+        "simulate_physics": false,
+        "mobility": "<ComponentMobility.STATIC: 0>",
+        "collision_profile_name": null,
+        "materials": [
+          "/Engine/EngineSky/M_SimpleSkyDome.M_SimpleSkyDome"
+        ]
+      },
+      {
+        "label": "Sphere",
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.StaticMeshActor_2",
+        "class": "StaticMeshActor",
+        "transform": {
+          "location": {
+            "x": 19080.0,
+            "y": 34250.0,
+            "z": 260.0
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "mesh_path": "/Engine/BasicShapes/Sphere.Sphere",
+        "render_custom_depth": true,
+        "custom_depth_stencil_value": 0,
+        "component_path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0",
+        "simulate_physics": true,
+        "mobility": "<ComponentMobility.MOVABLE: 2>",
+        "collision_profile_name": null,
+        "materials": [
+          "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"
+        ]
+      }
+    ],
+    "player_starts": [
+      {
+        "label": "PlayerStart",
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.PlayerStart_1",
+        "class": "PlayerStart",
+        "transform": {
+          "location": {
+            "x": 19098.524,
+            "y": 38570.212,
+            "z": 124.141
+          },
+          "rotation": {
+            "pitch": 0.0,
+            "yaw": 0.0,
+            "roll": 0.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "bounds": {
+          "center": {
+            "x": 19154.524,
+            "y": 38570.212,
+            "z": 124.141
+          },
+          "extent": {
+            "x": 184.0,
+            "y": 128.0,
+            "z": 128.0
+          },
+          "span_cm": {
+            "x": 368.0,
+            "y": 256.0,
+            "z": 256.0
+          }
+        }
+      }
+    ],
+    "reference_like_composition": [
+      {
+        "label": "SM_SkySphere",
+        "class": "StaticMeshActor"
+      },
+      {
+        "label": "Landscape",
+        "class": "Landscape"
+      },
+      {
+        "label": "PlayerStart",
+        "class": "PlayerStart"
+      },
+      {
+        "label": "RVT_SnowHeight",
+        "class": "RuntimeVirtualTextureVolume"
+      },
+      {
+        "label": "RVT_SnowMaterial",
+        "class": "RuntimeVirtualTextureVolume"
+      },
+      {
+        "label": "VirtualHeightfieldMesh1",
+        "class": "VirtualHeightfieldMesh"
+      },
+      {
+        "label": "Sphere",
+        "class": "StaticMeshActor"
+      },
+      {
+        "label": "BP_Capture",
+        "class": "BP_Capture_C"
+      }
+    ]
+  },
+  "bp_capture_blueprint": {
+    "asset_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture",
+    "graphs": [
+      {
+        "name": "EventGraph",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph",
+        "class": "/Script/Engine.EdGraph"
+      }
+    ],
+    "event_graph_summary": [
+      "inspect_failed: Serialized graph '/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph' to JSON."
+    ],
+    "movecapture_summary": [
+      "inspect_failed: Serialized graph '/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture' to JSON."
+    ],
+    "error": ""
+  },
+  "error": ""
+}

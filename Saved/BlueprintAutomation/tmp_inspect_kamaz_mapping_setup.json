@@ -1,0 +1,277 @@
+{
+  "bp_path": "/Game/CityPark/Kamaz/model/KamazBP",
+  "imc_path": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz",
+  "mapping_node": {
+    "title": "Add Mapping Context",
+    "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_29",
+    "pos_x": 256,
+    "pos_y": -8192,
+    "pins": [
+      {
+        "name": "execute",
+        "category": "exec",
+        "sub_category": null,
+        "sub_category_object": null,
+        "direction": 0,
+        "default_value": "",
+        "default_object": "",
+        "linked_to": [
+          {
+            "node_name": "K2Node_CallFunction_5",
+            "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_5",
+            "pin_name": "then"
+          }
+        ]
+      },
+      {
+        "name": "then",
+        "category": "exec",
+        "sub_category": null,
+        "sub_category_object": null,
+        "direction": 1,
+        "default_value": "",
+        "default_object": "",
+        "linked_to": [
+          {
+            "node_name": "K2Node_CallFunction_48",
+            "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_48",
+            "pin_name": "execute"
+          }
+        ]
+      },
+      {
+        "name": "self",
+        "category": "interface",
+        "sub_category": null,
+        "sub_category_object": null,
+        "direction": 0,
+        "default_value": "",
+        "default_object": "",
+        "linked_to": [
+          {
+            "node_name": "K2Node_GetSubsystemFromPC_0",
+            "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_GetSubsystemFromPC_0",
+            "pin_name": "ReturnValue"
+          }
+        ]
+      },
+      {
+        "name": "MappingContext",
+        "category": "object",
+        "sub_category": null,
+        "sub_category_object": null,
+        "direction": 0,
+        "default_value": "",
+        "default_object": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+        "linked_to": []
+      },
+      {
+        "name": "Priority",
+        "category": "int",
+        "sub_category": null,
+        "sub_category_object": null,
+        "direction": 0,
+        "default_value": "0",
+        "default_object": "",
+        "linked_to": []
+      },
+      {
+        "name": "Options",
+        "category": "struct",
+        "sub_category": null,
+        "sub_category_object": null,
+        "direction": 0,
+        "default_value": "(bIgnoreAllPressedKeysUntilRelease=True,bForceImmediately=False,bNotifyUserSettings=False)",
+        "default_object": "",
+        "linked_to": []
+      }
+    ]
+  },
+  "upstream_nodes": [
+    {
+      "title": "Set Throttle Input",
+      "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_48",
+      "pos_x": 624,
+      "pos_y": -8192,
+      "pins": [
+        {
+          "name": "execute",
+          "category": "exec",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 0,
+          "default_value": "",
+          "default_object": "",
+          "linked_to": [
+            {
+              "node_name": "K2Node_CallFunction_29",
+              "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_29",
+              "pin_name": "then"
+            }
+          ]
+        },
+        {
+          "name": "then",
+          "category": "exec",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 1,
+          "default_value": "",
+          "default_object": "",
+          "linked_to": [
+            {
+              "node_name": "K2Node_CallFunction_4",
+              "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_4",
+              "pin_name": "execute"
+            }
+          ]
+        },
+        {
+          "name": "self",
+          "category": "object",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 0,
+          "default_value": "",
+          "default_object": "",
+          "linked_to": [
+            {
+              "node_name": "K2Node_VariableGet_1",
+              "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_1",
+              "pin_name": "VehicleMovementComponent"
+            }
+          ]
+        },
+        {
+          "name": "Throttle",
+          "category": "real",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 0,
+          "default_value": "0.0",
+          "default_object": "",
+          "linked_to": []
+        }
+      ]
+    },
+    {
+      "title": "Set Target Gear",
+      "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_5",
+      "pos_x": -10656,
+      "pos_y": -9504,
+      "pins": [
+        {
+          "name": "execute",
+          "category": "exec",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 0,
+          "default_value": "",
+          "default_object": "",
+          "linked_to": [
+            {
+              "node_name": "K2Node_CallFunction_55",
+              "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_55",
+              "pin_name": "then"
+            }
+          ]
+        },
+        {
+          "name": "then",
+          "category": "exec",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 1,
+          "default_value": "",
+          "default_object": "",
+          "linked_to": [
+            {
+              "node_name": "K2Node_CallFunction_29",
+              "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_29",
+              "pin_name": "execute"
+            }
+          ]
+        },
+        {
+          "name": "self",
+          "category": "object",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 0,
+          "default_value": "",
+          "default_object": "",
+          "linked_to": [
+            {
+              "node_name": "K2Node_VariableGet_1",
+              "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableGet_1",
+              "pin_name": "VehicleMovementComponent"
+            }
+          ]
+        },
+        {
+          "name": "GearNum",
+          "category": "int",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 0,
+          "default_value": "0",
+          "default_object": "",
+          "linked_to": []
+        },
+        {
+          "name": "bImmediate",
+          "category": "bool",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 0,
+          "default_value": "True",
+          "default_object": "",
+          "linked_to": []
+        }
+      ]
+    },
+    {
+      "title": "Get EnhancedInputLocalPlayerSubsystem",
+      "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_GetSubsystemFromPC_0",
+      "pos_x": 0,
+      "pos_y": -8192,
+      "pins": [
+        {
+          "name": "PlayerController",
+          "category": "object",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 0,
+          "default_value": "",
+          "default_object": "",
+          "linked_to": [
+            {
+              "node_name": "K2Node_CallFunction_23",
+              "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_23",
+              "pin_name": "ReturnValue"
+            }
+          ]
+        },
+        {
+          "name": "ReturnValue",
+          "category": "object",
+          "sub_category": null,
+          "sub_category_object": null,
+          "direction": 1,
+          "default_value": "",
+          "default_object": "",
+          "linked_to": [
+            {
+              "node_name": "K2Node_CallFunction_29",
+              "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_29",
+              "pin_name": "self"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imc_mappings": [],
+  "error": "",
+  "summary": "Serialized graph '/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph' to JSON."
+}

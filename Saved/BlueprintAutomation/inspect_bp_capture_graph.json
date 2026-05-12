@@ -1,0 +1,761 @@
+{
+  "success": null,
+  "strings": [
+    "{\r\n\t\"name\": \"EventGraph\",\r\n\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph\",\r\n\t\"class\": \"/Script/Engine.EdGraph\",\r\n\t\"schema\": \"/Script/BlueprintGraph.EdGraphSchema_K2\",\r\n\t\"nodes\": [\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_Event_0\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_0\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_Event\",\r\n\t\t\t\"title\": \"Event BeginPlay\",\r\n\t\t\t\"guid\": \"ed1df83a-4a12-8129-f2c0-11a5c1ef79aa\",\r\n\t\t\t\"pos_x\": -48,\r\n\t\t\t\"pos_y\": 0,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"OutputDelegate\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"delegate\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_Event_2\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_2\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_Event\",\r\n\t\t\t\"title\": \"Event Tick\",\r\n\t\t\t\"guid\": \"a1408879-494c-e0a1-63b0-94bd32d85212\",\r\n\t\t\t\"pos_x\": 0,\r\n\t\t\t\"pos_y\": 400,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"OutputDelegate\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"delegate\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"DeltaSeconds\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_VariableGet_0\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_0\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableGet\",\r\n\t\t\t\"title\": \"Get SceneCapture\",\r\n\t\t\t\"guid\": \"7701bf18-4e0d-3b7f-0e8f-53a0955eaad6\",\r\n\t\t\t\"pos_x\": -112,\r\n\t\t\t\"pos_y\": 144,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"SceneCapture\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.SceneCaptureComponent2D\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableGet_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallMaterialParameterCollectionFunction_0\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction\",\r\n\t\t\t\"title\": \"Set Scalar Parameter Value\",\r\n\t\t\t\"guid\": \"0dfda6b6-4f39-bd05-cc53-b5b3eda71073\",\r\n\t\t\t\"pos_x\": 320,\r\n\t\t\t\"pos_y\": 0,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_Event_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Script/Engine.Default__KismetMaterialLibrary\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.KismetMaterialLibrary\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"WorldContextObject\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Collection\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Game/LandscapeDeformation/Material/MPC_Capture.MPC_Capture\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.MaterialParameterCollection\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ParameterName\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"name\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"CaptureSize\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ParameterValue\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableGet_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"OrthoWidth\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_VariableGet_1\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_1\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableGet\",\r\n\t\t\t\"title\": \"Get OrthoWidth\",\r\n\t\t\t\"guid\": \"644bf841-4b21-17f7-63a8-6eb6b8bd7503\",\r\n\t\t\t\"pos_x\": 48,\r\n\t\t\t\"pos_y\": 160,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"OrthoWidth\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"ParameterValue\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.SceneCaptureComponent2D\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableGet_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"SceneCapture\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallMaterialParameterCollectionFunction_1\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction\",\r\n\t\t\t\"title\": \"Create Dynamic Material Instance\",\r\n\t\t\t\"guid\": \"fb9fc980-4dda-7cd8-7171-c9ae7073b272\",\r\n\t\t\t\"pos_x\": 608,\r\n\t\t\t\"pos_y\": 0,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableSet_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Script/Engine.Default__KismetMaterialLibrary\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.KismetMaterialLibrary\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"WorldContextObject\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Parent\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Game/LandscapeDeformation/Material/M_DrawToPersistent.M_DrawToPersistent\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.MaterialInterface\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"OptionalName\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"name\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"None\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"CreationFlags\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"byte\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"None\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.EMIDCreationFlags\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ReturnValue\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.MaterialInstanceDynamic\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableSet_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"DrawMaterial\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_VariableSet_0\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableSet\",\r\n\t\t\t\"title\": \"Set DrawMaterial\",\r\n\t\t\t\"guid\": \"ebcb7bb5-4a9e-012a-bb6f-fdb6373895b8\",\r\n\t\t\t\"pos_x\": 960,\r\n\t\t\t\"pos_y\": 16,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"DrawMaterial\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.MaterialInstanceDynamic\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"ReturnValue\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Output_Get\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.MaterialInstanceDynamic\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_1\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_1\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"Clear Render Target 2D\",\r\n\t\t\t\"guid\": \"993fa7f9-4411-c987-d6cd-ad9d7fc28f20\",\r\n\t\t\t\"pos_x\": 1168,\r\n\t\t\t\"pos_y\": 0,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableSet_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Script/Engine.Default__KismetRenderingLibrary\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.KismetRenderingLibrary\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"WorldContextObject\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"TextureRenderTarget\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.TextureRenderTarget2D\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ClearColor\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"struct\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"(R=0.000000,G=0.000000,B=0.000000,A=1.000000)\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.LinearColor\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_0\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_0\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"Clear Render Target 2D\",\r\n\t\t\t\"guid\": \"3f6b6759-4669-2c18-eb49-57bede86d85c\",\r\n\t\t\t\"pos_x\": 1408,\r\n\t\t\t\"pos_y\": 0,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Script/Engine.Default__KismetRenderingLibrary\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.KismetRenderingLibrary\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"WorldContextObject\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"TextureRenderTarget\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Game/LandscapeDeformation/Textures/RenderTargets/RT_Persistent.RT_Persistent\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.TextureRenderTarget2D\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ClearColor\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"struct\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"(R=0.000000,G=0.000000,B=0.000000,A=1.000000)\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.LinearColor\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_2\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_2\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"DrawToPersistent\",\r\n\t\t\t\"guid\": \"3ce76ab0-4ebe-bd1a-c8c7-f08079da8184\",\r\n\t\t\t\"pos_x\": 384,\r\n\t\t\t\"pos_y\": 384,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"self\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_3\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_3\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"MoveCapture\",\r\n\t\t\t\"guid\": \"435c14cc-440c-77eb-6fa3-c887bf063fa3\",\r\n\t\t\t\"pos_x\": 176,\r\n\t\t\t\"pos_y\": 384,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_Event_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"self\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}",
+    "Serialized graph '/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph' to JSON."
+  ],
+  "raw_repr": "('{\\r\\n\\t\"name\": \"EventGraph\",\\r\\n\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph\",\\r\\n\\t\"class\": \"/Script/Engine.EdGraph\",\\r\\n\\t\"schema\": \"/Script/BlueprintGraph.EdGraphSchema_K2\",\\r\\n\\t\"nodes\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_Event_0\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_0\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_Event\",\\r\\n\\t\\t\\t\"title\": \"Event BeginPlay\",\\r\\n\\t\\t\\t\"guid\": \"ed1df83a-4a12-8129-f2c0-11a5c1ef79aa\",\\r\\n\\t\\t\\t\"pos_x\": -48,\\r\\n\\t\\t\\t\"pos_y\": 0,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"OutputDelegate\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"delegate\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"then\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"execute\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_Event_2\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_2\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_Event\",\\r\\n\\t\\t\\t\"title\": \"Event Tick\",\\r\\n\\t\\t\\t\"guid\": \"a1408879-494c-e0a1-63b0-94bd32d85212\",\\r\\n\\t\\t\\t\"pos_x\": 0,\\r\\n\\t\\t\\t\"pos_y\": 400,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"OutputDelegate\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"delegate\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"then\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallFunction_3\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_3\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"execute\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"DeltaSeconds\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"real\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"float\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"0.0\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_VariableGet_0\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_0\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableGet\",\\r\\n\\t\\t\\t\"title\": \"Get SceneCapture\",\\r\\n\\t\\t\\t\"guid\": \"7701bf18-4e0d-3b7f-0e8f-53a0955eaad6\",\\r\\n\\t\\t\\t\"pos_x\": -112,\\r\\n\\t\\t\\t\"pos_y\": 144,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"SceneCapture\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.SceneCaptureComponent2D\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_VariableGet_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"self\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_CallMaterialParameterCollectionFunction_0\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction\",\\r\\n\\t\\t\\t\"title\": \"Set Scalar Parameter Value\",\\r\\n\\t\\t\\t\"guid\": \"0dfda6b6-4f39-bd05-cc53-b5b3eda71073\",\\r\\n\\t\\t\\t\"pos_x\": 320,\\r\\n\\t\\t\\t\"pos_y\": 0,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"execute\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_Event_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"then\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"then\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"execute\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"/Script/Engine.Default__KismetMaterialLibrary\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.KismetMaterialLibrary\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"WorldContextObject\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"Collection\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"/Game/LandscapeDeformation/Material/MPC_Capture.MPC_Capture\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.MaterialParameterCollection\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"ParameterName\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"name\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"CaptureSize\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"ParameterValue\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"real\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"float\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"0.0\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_VariableGet_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"OrthoWidth\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_VariableGet_1\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_1\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableGet\",\\r\\n\\t\\t\\t\"title\": \"Get OrthoWidth\",\\r\\n\\t\\t\\t\"guid\": \"644bf841-4b21-17f7-63a8-6eb6b8bd7503\",\\r\\n\\t\\t\\t\"pos_x\": 48,\\r\\n\\t\\t\\t\"pos_y\": 160,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"OrthoWidth\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"real\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"float\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"0.0\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"ParameterValue\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.SceneCaptureComponent2D\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_VariableGet_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"SceneCapture\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_CallMaterialParameterCollectionFunction_1\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction\",\\r\\n\\t\\t\\t\"title\": \"Create Dynamic Material Instance\",\\r\\n\\t\\t\\t\"guid\": \"fb9fc980-4dda-7cd8-7171-c9ae7073b272\",\\r\\n\\t\\t\\t\"pos_x\": 608,\\r\\n\\t\\t\\t\"pos_y\": 0,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"execute\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"then\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"then\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_VariableSet_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"execute\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"/Script/Engine.Default__KismetMaterialLibrary\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.KismetMaterialLibrary\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"WorldContextObject\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"Parent\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"/Game/LandscapeDeformation/Material/M_DrawToPersistent.M_DrawToPersistent\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.MaterialInterface\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"OptionalName\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"name\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"CreationFlags\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"byte\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.EMIDCreationFlags\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"ReturnValue\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.MaterialInstanceDynamic\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_VariableSet_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"DrawMaterial\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_VariableSet_0\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableSet\",\\r\\n\\t\\t\\t\"title\": \"Set DrawMaterial\",\\r\\n\\t\\t\\t\"guid\": \"ebcb7bb5-4a9e-012a-bb6f-fdb6373895b8\",\\r\\n\\t\\t\\t\"pos_x\": 960,\\r\\n\\t\\t\\t\"pos_y\": 16,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"execute\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"then\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"then\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"execute\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"DrawMaterial\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.MaterialInstanceDynamic\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallMaterialParameterCollectionFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"ReturnValue\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"Output_Get\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.MaterialInstanceDynamic\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_CallFunction_1\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_1\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\\r\\n\\t\\t\\t\"title\": \"Clear Render Target 2D\",\\r\\n\\t\\t\\t\"guid\": \"993fa7f9-4411-c987-d6cd-ad9d7fc28f20\",\\r\\n\\t\\t\\t\"pos_x\": 1168,\\r\\n\\t\\t\\t\"pos_y\": 0,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"execute\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_VariableSet_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"then\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"then\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallFunction_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_0\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"execute\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"/Script/Engine.Default__KismetRenderingLibrary\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.KismetRenderingLibrary\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"WorldContextObject\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"TextureRenderTarget\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.TextureRenderTarget2D\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"ClearColor\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"struct\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"(R=0.000000,G=0.000000,B=0.000000,A=1.000000)\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/CoreUObject.LinearColor\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_CallFunction_0\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_0\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\\r\\n\\t\\t\\t\"title\": \"Clear Render Target 2D\",\\r\\n\\t\\t\\t\"guid\": \"3f6b6759-4669-2c18-eb49-57bede86d85c\",\\r\\n\\t\\t\\t\"pos_x\": 1408,\\r\\n\\t\\t\\t\"pos_y\": 0,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"execute\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_1\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"then\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"then\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"/Script/Engine.Default__KismetRenderingLibrary\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.KismetRenderingLibrary\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"WorldContextObject\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"TextureRenderTarget\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"/Game/LandscapeDeformation/Textures/RenderTargets/RT_Persistent.RT_Persistent\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/Engine.TextureRenderTarget2D\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"ClearColor\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"struct\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"(R=0.000000,G=0.000000,B=0.000000,A=1.000000)\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"subcategory_object\": \"/Script/CoreUObject.LinearColor\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_CallFunction_2\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_2\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\\r\\n\\t\\t\\t\"title\": \"DrawToPersistent\",\\r\\n\\t\\t\\t\"guid\": \"3ce76ab0-4ebe-bd1a-c8c7-f08079da8184\",\\r\\n\\t\\t\\t\"pos_x\": 384,\\r\\n\\t\\t\\t\"pos_y\": 384,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"execute\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallFunction_3\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_3\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"then\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"then\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"name\": \"K2Node_CallFunction_3\",\\r\\n\\t\\t\\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_3\",\\r\\n\\t\\t\\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\\r\\n\\t\\t\\t\"title\": \"MoveCapture\",\\r\\n\\t\\t\\t\"guid\": \"435c14cc-440c-77eb-6fa3-c887bf063fa3\",\\r\\n\\t\\t\\t\"pos_x\": 176,\\r\\n\\t\\t\\t\"pos_y\": 384,\\r\\n\\t\\t\\t\"comment\": \"\",\\r\\n\\t\\t\\t\"pins\": [\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"execute\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_Event_2\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_2\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"then\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"then\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 1,\\r\\n\\t\\t\\t\\t\\t\"category\": \"exec\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"None\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": [\\r\\n\\t\\t\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_name\": \"K2Node_CallFunction_2\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"node_path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_2\",\\r\\n\\t\\t\\t\\t\\t\\t\\t\"pin_name\": \"execute\"\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t]\\r\\n\\t\\t\\t\\t},\\r\\n\\t\\t\\t\\t{\\r\\n\\t\\t\\t\\t\\t\"name\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"direction\": 0,\\r\\n\\t\\t\\t\\t\\t\"category\": \"object\",\\r\\n\\t\\t\\t\\t\\t\"subcategory\": \"self\",\\r\\n\\t\\t\\t\\t\\t\"default_value\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_object\": \"\",\\r\\n\\t\\t\\t\\t\\t\"default_text\": \"\",\\r\\n\\t\\t\\t\\t\\t\"linked_to\": []\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t]\\r\\n\\t\\t}\\r\\n\\t]\\r\\n}', \"Serialized graph '/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph' to JSON.\")",
+  "json_0": {
+    "name": "EventGraph",
+    "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph",
+    "class": "/Script/Engine.EdGraph",
+    "schema": "/Script/BlueprintGraph.EdGraphSchema_K2",
+    "nodes": [
+      {
+        "name": "K2Node_Event_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_0",
+        "class": "/Script/BlueprintGraph.K2Node_Event",
+        "title": "Event BeginPlay",
+        "guid": "ed1df83a-4a12-8129-f2c0-11a5c1ef79aa",
+        "pos_x": -48,
+        "pos_y": 0,
+        "comment": "",
+        "pins": [
+          {
+            "name": "OutputDelegate",
+            "direction": 1,
+            "category": "delegate",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0",
+                "pin_name": "execute"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_Event_2",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_2",
+        "class": "/Script/BlueprintGraph.K2Node_Event",
+        "title": "Event Tick",
+        "guid": "a1408879-494c-e0a1-63b0-94bd32d85212",
+        "pos_x": 0,
+        "pos_y": 400,
+        "comment": "",
+        "pins": [
+          {
+            "name": "OutputDelegate",
+            "direction": 1,
+            "category": "delegate",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_3",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_3",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "DeltaSeconds",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableGet_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_0",
+        "class": "/Script/BlueprintGraph.K2Node_VariableGet",
+        "title": "Get SceneCapture",
+        "guid": "7701bf18-4e0d-3b7f-0e8f-53a0955eaad6",
+        "pos_x": -112,
+        "pos_y": 144,
+        "comment": "",
+        "pins": [
+          {
+            "name": "SceneCapture",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.SceneCaptureComponent2D",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableGet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_1",
+                "pin_name": "self"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallMaterialParameterCollectionFunction_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0",
+        "class": "/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction",
+        "title": "Set Scalar Parameter Value",
+        "guid": "0dfda6b6-4f39-bd05-cc53-b5b3eda71073",
+        "pos_x": 320,
+        "pos_y": 0,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_Event_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_0",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallMaterialParameterCollectionFunction_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetMaterialLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetMaterialLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "WorldContextObject",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": []
+          },
+          {
+            "name": "Collection",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Game/LandscapeDeformation/Material/MPC_Capture.MPC_Capture",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.MaterialParameterCollection",
+            "linked_to": []
+          },
+          {
+            "name": "ParameterName",
+            "direction": 0,
+            "category": "name",
+            "subcategory": "None",
+            "default_value": "CaptureSize",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "ParameterValue",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableGet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_1",
+                "pin_name": "OrthoWidth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableGet_1",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_1",
+        "class": "/Script/BlueprintGraph.K2Node_VariableGet",
+        "title": "Get OrthoWidth",
+        "guid": "644bf841-4b21-17f7-63a8-6eb6b8bd7503",
+        "pos_x": 48,
+        "pos_y": 160,
+        "comment": "",
+        "pins": [
+          {
+            "name": "OrthoWidth",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0",
+                "pin_name": "ParameterValue"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.SceneCaptureComponent2D",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableGet_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableGet_0",
+                "pin_name": "SceneCapture"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallMaterialParameterCollectionFunction_1",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1",
+        "class": "/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction",
+        "title": "Create Dynamic Material Instance",
+        "guid": "fb9fc980-4dda-7cd8-7171-c9ae7073b272",
+        "pos_x": 608,
+        "pos_y": 0,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_0",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetMaterialLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetMaterialLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "WorldContextObject",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": []
+          },
+          {
+            "name": "Parent",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Game/LandscapeDeformation/Material/M_DrawToPersistent.M_DrawToPersistent",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.MaterialInterface",
+            "linked_to": []
+          },
+          {
+            "name": "OptionalName",
+            "direction": 0,
+            "category": "name",
+            "subcategory": "None",
+            "default_value": "None",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "CreationFlags",
+            "direction": 0,
+            "category": "byte",
+            "subcategory": "None",
+            "default_value": "None",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.EMIDCreationFlags",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.MaterialInstanceDynamic",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0",
+                "pin_name": "DrawMaterial"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableSet_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0",
+        "class": "/Script/BlueprintGraph.K2Node_VariableSet",
+        "title": "Set DrawMaterial",
+        "guid": "ebcb7bb5-4a9e-012a-bb6f-fdb6373895b8",
+        "pos_x": 960,
+        "pos_y": 16,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallMaterialParameterCollectionFunction_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_1",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "DrawMaterial",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.MaterialInstanceDynamic",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallMaterialParameterCollectionFunction_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallMaterialParameterCollectionFunction_1",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "Output_Get",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.MaterialInstanceDynamic",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_1",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_1",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Clear Render Target 2D",
+        "guid": "993fa7f9-4411-c987-d6cd-ad9d7fc28f20",
+        "pos_x": 1168,
+        "pos_y": 0,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_VariableSet_0",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_0",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetRenderingLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetRenderingLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "WorldContextObject",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": []
+          },
+          {
+            "name": "TextureRenderTarget",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.TextureRenderTarget2D",
+            "linked_to": []
+          },
+          {
+            "name": "ClearColor",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "(R=0.000000,G=0.000000,B=0.000000,A=1.000000)",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.LinearColor",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_0",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Clear Render Target 2D",
+        "guid": "3f6b6759-4669-2c18-eb49-57bede86d85c",
+        "pos_x": 1408,
+        "pos_y": 0,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_1",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetRenderingLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetRenderingLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "WorldContextObject",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": []
+          },
+          {
+            "name": "TextureRenderTarget",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Persistent.RT_Persistent",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.TextureRenderTarget2D",
+            "linked_to": []
+          },
+          {
+            "name": "ClearColor",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "(R=0.000000,G=0.000000,B=0.000000,A=1.000000)",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.LinearColor",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_2",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_2",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "DrawToPersistent",
+        "guid": "3ce76ab0-4ebe-bd1a-c8c7-f08079da8184",
+        "pos_x": 384,
+        "pos_y": 384,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_3",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_3",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "self",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_3",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_3",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "MoveCapture",
+        "guid": "435c14cc-440c-77eb-6fa3-c887bf063fa3",
+        "pos_x": 176,
+        "pos_y": 384,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_Event_2",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_Event_2",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_2",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph.K2Node_CallFunction_2",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "self",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      }
+    ]
+  },
+  "text_1": "Serialized graph '/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:EventGraph' to JSON."
+}

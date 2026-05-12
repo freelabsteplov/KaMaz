@@ -1,0 +1,1382 @@
+{
+  "bp_path": "/Game/BPs/BP_KamazPlayerController",
+  "raw": [
+    "{\r\n\t\"name\": \"EventGraph\",\r\n\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph\",\r\n\t\"class\": \"/Script/Engine.EdGraph\",\r\n\t\"schema\": \"/Script/BlueprintGraph.EdGraphSchema_K2\",\r\n\t\"nodes\": [\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_Event_1\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Event_1\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_Event\",\r\n\t\t\t\"title\": \"Event Tick\",\r\n\t\t\t\"guid\": \"396b083d-4dab-0c4a-af9b-8398b5f12fc1\",\r\n\t\t\t\"pos_x\": 0,\r\n\t\t\t\"pos_y\": 208,\r\n\t\t\t\"comment\": \"This node is disabled and will not be called.\\nDrag off pins to build functionality.\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"OutputDelegate\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"delegate\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"DeltaSeconds\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_Event_2\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Event_2\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_Event\",\r\n\t\t\t\"title\": \"Event BeginPlay\",\r\n\t\t\t\"guid\": \"32d7a520-44a9-7898-e43e-8fbce4be6665\",\r\n\t\t\t\"pos_x\": 0,\r\n\t\t\t\"pos_y\": 946,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"OutputDelegate\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"delegate\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_Self_1\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_Self\",\r\n\t\t\t\"title\": \"Self-Reference\",\r\n\t\t\t\"guid\": \"855b8be1-45a5-b70f-3acc-2ba2bdc89ed3\",\r\n\t\t\t\"pos_x\": 0,\r\n\t\t\t\"pos_y\": 1426,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"self\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_GetSubsystemFromPC_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_GetSubsystemFromPC_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"PlayerController\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"OwningPlayer\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_5\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_5\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"WorldContextObject\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_6\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_6\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"Object\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_GetSubsystemFromPC_1\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_GetSubsystemFromPC_1\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_GetSubsystemFromPC\",\r\n\t\t\t\"title\": \"Get EnhancedInputLocalPlayerSubsystem\",\r\n\t\t\t\"guid\": \"6b727418-4dbb-4944-f596-6d839e18d62b\",\r\n\t\t\t\"pos_x\": 160,\r\n\t\t\t\"pos_y\": 1024,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"PlayerController\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.PlayerController\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_Self_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ReturnValue\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/EnhancedInput.EnhancedInputLocalPlayerSubsystem\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_2\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"Add Mapping Context\",\r\n\t\t\t\"guid\": \"e937bc4a-4b1b-eff3-15c7-e1972ab185e7\",\r\n\t\t\t\"pos_x\": 400,\r\n\t\t\t\"pos_y\": 1145,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_Event_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Event_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"interface\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/EnhancedInput.EnhancedInputSubsystemInterface\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_GetSubsystemFromPC_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_GetSubsystemFromPC_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"ReturnValue\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"MappingContext\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/EnhancedInput.InputMappingContext\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableGet_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"VehicleMappingContext\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Priority\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"int\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Options\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"struct\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"(bIgnoreAllPressedKeysUntilRelease=True,bForceImmediately=False,bNotifyUserSettings=False)\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/EnhancedInput.ModifyContextOptions\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_VariableGet_0\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_0\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableGet\",\r\n\t\t\t\"title\": \"Get VehicleMappingContext\",\r\n\t\t\t\"guid\": \"5355d228-4419-3897-9f96-12a0cdf4b660\",\r\n\t\t\t\"pos_x\": 0,\r\n\t\t\t\"pos_y\": 1266,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"VehicleMappingContext\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/EnhancedInput.InputMappingContext\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"MappingContext\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CreateWidget_0\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0\",\r\n\t\t\t\"class\": \"/Script/UMGEditor.K2Node_CreateWidget\",\r\n\t\t\t\"title\": \"Create Widget\",\r\n\t\t\t\"guid\": \"93241567-4179-6afc-a71c-6abd112c5f8d\",\r\n\t\t\t\"pos_x\": 416,\r\n\t\t\t\"pos_y\": 1584,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableSet_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Class\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"class\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/UMG.UserWidget\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ReturnValue\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableSet_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"ClusterWidget\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_9\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_9\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"OwningPlayer\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.PlayerController\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_Self_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_3\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_3\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"Add to Viewport\",\r\n\t\t\t\"guid\": \"ab63dc4a-4fe1-6507-a197-e3aeb6e1f9b9\",\r\n\t\t\t\"pos_x\": 1120,\r\n\t\t\t\"pos_y\": 1408,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableSet_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_6\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_6\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/UMG.UserWidget\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableSet_2\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"Output_Get\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ZOrder\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"int\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"100\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_VariableSet_2\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableSet\",\r\n\t\t\t\"title\": \"Set ClusterWidget\",\r\n\t\t\t\"guid\": \"4e64f2a3-4469-0223-7eed-1b8ff86e3206\",\r\n\t\t\t\"pos_x\": 800,\r\n\t\t\t\"pos_y\": 1480,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ClusterWidget\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/UMG.UserWidget\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"ReturnValue\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Output_Get\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/UMG.UserWidget\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"self\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_5\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_5\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"Print String\",\r\n\t\t\t\"guid\": \"800d2860-48e4-fa76-e208-b58d4aa17802\",\r\n\t\t\t\"pos_x\": 1728,\r\n\t\t\t\"pos_y\": 1504,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_6\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_6\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Script/Engine.Default__KismetSystemLibrary\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.KismetSystemLibrary\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"WorldContextObject\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_Self_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"InString\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"string\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"Cluster Widget Created!\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"bPrintToScreen\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"bool\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"true\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"bPrintToLog\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"bool\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"true\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"TextColor\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"struct\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"(R=0.0,G=1.0,B=0.0,A=1.0)\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.LinearColor\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Duration\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"5.0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Key\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"name\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"None\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_6\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_6\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"Set Timer by Function Name\",\r\n\t\t\t\"guid\": \"b5d490eb-4d8d-cd4f-7f59-1a9cbca1f66a\",\r\n\t\t\t\"pos_x\": 1424,\r\n\t\t\t\"pos_y\": 1504,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_3\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_5\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_5\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Script/Engine.Default__KismetSystemLibrary\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.KismetSystemLibrary\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Object\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_Self_1\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"FunctionName\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"string\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"UpdateClusterTelemetry\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Time\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.05\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"bLooping\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"bool\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"true\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"bMaxOncePerFrame\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"bool\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"false\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"InitialStartDelay\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.000000\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"InitialStartDelayVariance\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.000000\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ReturnValue\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"struct\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.TimerHandle\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CustomEvent_0\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CustomEvent_0\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CustomEvent\",\r\n\t\t\t\"title\": \"UpdateClusterTelemetry\",\r\n\t\t\t\"guid\": \"207f5ddc-49aa-fa89-8b29-80844042c28b\",\r\n\t\t\t\"pos_x\": 0,\r\n\t\t\t\"pos_y\": 2944,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"OutputDelegate\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"delegate\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_IfThenElse_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_IfThenElse_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_7\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_7\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"Get Controlled Pawn\",\r\n\t\t\t\"guid\": \"eedef2c7-41e4-efc0-21cc-49a95c1af004\",\r\n\t\t\t\"pos_x\": 0,\r\n\t\t\t\"pos_y\": 2716,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"self\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.Controller\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ReturnValue\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.Pawn\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_10\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_10\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"Object\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"Object\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_9\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_9\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"UpdateCluster\",\r\n\t\t\t\"guid\": \"293e9ac1-4a1e-7508-b2ad-6097b52061ce\",\r\n\t\t\t\"pos_x\": 800,\r\n\t\t\t\"pos_y\": 2047,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"ReturnValue\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"DeltaTime\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_VariableGet_2\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_2\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableGet\",\r\n\t\t\t\"title\": \"Get ClusterWidget\",\r\n\t\t\t\"guid\": \"c562e6a7-45ce-21bc-8393-889e10153cdc\",\r\n\t\t\t\"pos_x\": 0,\r\n\t\t\t\"pos_y\": 2784,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ClusterWidget\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/UMG.UserWidget\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_CallFunction_10\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_10\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_CallFunction\",\r\n\t\t\t\"title\": \"Is Valid\",\r\n\t\t\t\"guid\": \"087ddd16-4140-705f-340b-7aae7e74c7e6\",\r\n\t\t\t\"pos_x\": 128,\r\n\t\t\t\"pos_y\": 2704,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"/Script/Engine.Default__KismetSystemLibrary\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/Engine.KismetSystemLibrary\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Object\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_7\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_7\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"ReturnValue\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"ReturnValue\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"bool\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"false\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_IfThenElse_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_IfThenElse_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"Condition\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_IfThenElse_0\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_IfThenElse_0\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_IfThenElse\",\r\n\t\t\t\"title\": \"Branch\",\r\n\t\t\t\"guid\": \"da038c0a-458c-2f7e-f449-0796360c38d0\",\r\n\t\t\t\"pos_x\": 400,\r\n\t\t\t\"pos_y\": 2791,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CustomEvent_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CustomEvent_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Condition\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"bool\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"true\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_10\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_10\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"ReturnValue\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"else\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_DynamicCast_0\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_DynamicCast\",\r\n\t\t\t\"title\": \"Cast To KamazBP\",\r\n\t\t\t\"guid\": \"e9d454ac-444d-e359-bd43-fdb780a338f3\",\r\n\t\t\t\"pos_x\": 600,\r\n\t\t\t\"pos_y\": 2731,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"execute\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_IfThenElse_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_IfThenElse_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"then\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"then\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_9\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_9\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"execute\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"CastFailed\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"exec\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"Object\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Script/CoreUObject.Object\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_CallFunction_7\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_7\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"ReturnValue\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"AsKamaz BP\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableGet_3\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_3\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableGet_4\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_4\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_VariableGet_5\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_5\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"self\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"bSuccess\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"bool\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_VariableGet_3\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_3\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableGet\",\r\n\t\t\t\"title\": \"Get TelemetrySpeedKmh\",\r\n\t\t\t\"guid\": \"cb19e115-488e-3e57-2f5f-68bc3a48a866\",\r\n\t\t\t\"pos_x\": 800,\r\n\t\t\t\"pos_y\": 2753,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"TelemetrySpeedKmh\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"AsKamaz BP\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_VariableGet_4\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_4\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableGet\",\r\n\t\t\t\"title\": \"Get TelemetryRpm\",\r\n\t\t\t\"guid\": \"b157153b-486a-69b3-2066-3bb55a51fe36\",\r\n\t\t\t\"pos_x\": 800,\r\n\t\t\t\"pos_y\": 2913,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"TelemetryRpm\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"real\",\r\n\t\t\t\t\t\"subcategory\": \"float\",\r\n\t\t\t\t\t\"default_value\": \"0.0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"AsKamaz BP\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_VariableGet_5\",\r\n\t\t\t\"path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_5\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_VariableGet\",\r\n\t\t\t\"title\": \"Get TelemetryGear\",\r\n\t\t\t\"guid\": \"6aa8974e-4bfb-3674-b768-e5a95afd954f\",\r\n\t\t\t\"pos_x\": 800,\r\n\t\t\t\"pos_y\": 3073,\r\n\t\t\t\"comment\": \"\",\r\n\t\t\t\"pins\": [\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"TelemetryGear\",\r\n\t\t\t\t\t\"direction\": 1,\r\n\t\t\t\t\t\"category\": \"int\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"0\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"linked_to\": []\r\n\t\t\t\t},\r\n\t\t\t\t{\r\n\t\t\t\t\t\"name\": \"self\",\r\n\t\t\t\t\t\"direction\": 0,\r\n\t\t\t\t\t\"category\": \"object\",\r\n\t\t\t\t\t\"subcategory\": \"None\",\r\n\t\t\t\t\t\"default_value\": \"\",\r\n\t\t\t\t\t\"default_object\": \"\",\r\n\t\t\t\t\t\"default_text\": \"\",\r\n\t\t\t\t\t\"subcategory_object\": \"/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C\",\r\n\t\t\t\t\t\"linked_to\": [\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\"node_name\": \"K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"node_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0\",\r\n\t\t\t\t\t\t\t\"pin_name\": \"AsKamaz BP\"\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t]\r\n\t\t\t\t}\r\n\t\t\t]\r\n\t\t}\r\n\t]\r\n}",
+    "Serialized graph '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph' to JSON."
+  ],
+  "success": null,
+  "summary": "Serialized graph '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph' to JSON.",
+  "graph": {
+    "name": "EventGraph",
+    "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph",
+    "class": "/Script/Engine.EdGraph",
+    "schema": "/Script/BlueprintGraph.EdGraphSchema_K2",
+    "nodes": [
+      {
+        "name": "K2Node_Event_1",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Event_1",
+        "class": "/Script/BlueprintGraph.K2Node_Event",
+        "title": "Event Tick",
+        "guid": "396b083d-4dab-0c4a-af9b-8398b5f12fc1",
+        "pos_x": 0,
+        "pos_y": 208,
+        "comment": "This node is disabled and will not be called.\nDrag off pins to build functionality.",
+        "pins": [
+          {
+            "name": "OutputDelegate",
+            "direction": 1,
+            "category": "delegate",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "DeltaSeconds",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_Event_2",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Event_2",
+        "class": "/Script/BlueprintGraph.K2Node_Event",
+        "title": "Event BeginPlay",
+        "guid": "32d7a520-44a9-7898-e43e-8fbce4be6665",
+        "pos_x": 0,
+        "pos_y": 946,
+        "comment": "",
+        "pins": [
+          {
+            "name": "OutputDelegate",
+            "direction": 1,
+            "category": "delegate",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_2",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2",
+                "pin_name": "execute"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_Self_1",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1",
+        "class": "/Script/BlueprintGraph.K2Node_Self",
+        "title": "Self-Reference",
+        "guid": "855b8be1-45a5-b70f-3acc-2ba2bdc89ed3",
+        "pos_x": 0,
+        "pos_y": 1426,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "self",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_GetSubsystemFromPC_1",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_GetSubsystemFromPC_1",
+                "pin_name": "PlayerController"
+              },
+              {
+                "node_name": "K2Node_CreateWidget_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0",
+                "pin_name": "OwningPlayer"
+              },
+              {
+                "node_name": "K2Node_CallFunction_5",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_5",
+                "pin_name": "WorldContextObject"
+              },
+              {
+                "node_name": "K2Node_CallFunction_6",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_6",
+                "pin_name": "Object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_GetSubsystemFromPC_1",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_GetSubsystemFromPC_1",
+        "class": "/Script/BlueprintGraph.K2Node_GetSubsystemFromPC",
+        "title": "Get EnhancedInputLocalPlayerSubsystem",
+        "guid": "6b727418-4dbb-4944-f596-6d839e18d62b",
+        "pos_x": 160,
+        "pos_y": 1024,
+        "comment": "",
+        "pins": [
+          {
+            "name": "PlayerController",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.PlayerController",
+            "linked_to": [
+              {
+                "node_name": "K2Node_Self_1",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1",
+                "pin_name": "self"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/EnhancedInput.EnhancedInputLocalPlayerSubsystem",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_2",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2",
+                "pin_name": "self"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_2",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Add Mapping Context",
+        "guid": "e937bc4a-4b1b-eff3-15c7-e1972ab185e7",
+        "pos_x": 400,
+        "pos_y": 1145,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_Event_2",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Event_2",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CreateWidget_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "interface",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/EnhancedInput.EnhancedInputSubsystemInterface",
+            "linked_to": [
+              {
+                "node_name": "K2Node_GetSubsystemFromPC_1",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_GetSubsystemFromPC_1",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "MappingContext",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/EnhancedInput.InputMappingContext",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableGet_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_0",
+                "pin_name": "VehicleMappingContext"
+              }
+            ]
+          },
+          {
+            "name": "Priority",
+            "direction": 0,
+            "category": "int",
+            "subcategory": "None",
+            "default_value": "0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "Options",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "(bIgnoreAllPressedKeysUntilRelease=True,bForceImmediately=False,bNotifyUserSettings=False)",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/EnhancedInput.ModifyContextOptions",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableGet_0",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_0",
+        "class": "/Script/BlueprintGraph.K2Node_VariableGet",
+        "title": "Get VehicleMappingContext",
+        "guid": "5355d228-4419-3897-9f96-12a0cdf4b660",
+        "pos_x": 0,
+        "pos_y": 1266,
+        "comment": "",
+        "pins": [
+          {
+            "name": "VehicleMappingContext",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/EnhancedInput.InputMappingContext",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_2",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2",
+                "pin_name": "MappingContext"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CreateWidget_0",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0",
+        "class": "/Script/UMGEditor.K2Node_CreateWidget",
+        "title": "Create Widget",
+        "guid": "93241567-4179-6afc-a71c-6abd112c5f8d",
+        "pos_x": 416,
+        "pos_y": 1584,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_2",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_2",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_2",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "Class",
+            "direction": 0,
+            "category": "class",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C",
+            "default_text": "",
+            "subcategory_object": "/Script/UMG.UserWidget",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_2",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2",
+                "pin_name": "ClusterWidget"
+              },
+              {
+                "node_name": "K2Node_CallFunction_9",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_9",
+                "pin_name": "self"
+              }
+            ]
+          },
+          {
+            "name": "OwningPlayer",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.PlayerController",
+            "linked_to": [
+              {
+                "node_name": "K2Node_Self_1",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1",
+                "pin_name": "self"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_3",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_3",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Add to Viewport",
+        "guid": "ab63dc4a-4fe1-6507-a197-e3aeb6e1f9b9",
+        "pos_x": 1120,
+        "pos_y": 1408,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_2",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_6",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_6",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/UMG.UserWidget",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_2",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2",
+                "pin_name": "Output_Get"
+              }
+            ]
+          },
+          {
+            "name": "ZOrder",
+            "direction": 0,
+            "category": "int",
+            "subcategory": "None",
+            "default_value": "100",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableSet_2",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableSet_2",
+        "class": "/Script/BlueprintGraph.K2Node_VariableSet",
+        "title": "Set ClusterWidget",
+        "guid": "4e64f2a3-4469-0223-7eed-1b8ff86e3206",
+        "pos_x": 800,
+        "pos_y": 1480,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CreateWidget_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_3",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_3",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "ClusterWidget",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/UMG.UserWidget",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CreateWidget_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "Output_Get",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/UMG.UserWidget",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_3",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_3",
+                "pin_name": "self"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "self",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_5",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_5",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Print String",
+        "guid": "800d2860-48e4-fa76-e208-b58d4aa17802",
+        "pos_x": 1728,
+        "pos_y": 1504,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_6",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_6",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetSystemLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetSystemLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "WorldContextObject",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": [
+              {
+                "node_name": "K2Node_Self_1",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1",
+                "pin_name": "self"
+              }
+            ]
+          },
+          {
+            "name": "InString",
+            "direction": 0,
+            "category": "string",
+            "subcategory": "None",
+            "default_value": "Cluster Widget Created!",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "bPrintToScreen",
+            "direction": 0,
+            "category": "bool",
+            "subcategory": "None",
+            "default_value": "true",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "bPrintToLog",
+            "direction": 0,
+            "category": "bool",
+            "subcategory": "None",
+            "default_value": "true",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "TextColor",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "(R=0.0,G=1.0,B=0.0,A=1.0)",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.LinearColor",
+            "linked_to": []
+          },
+          {
+            "name": "Duration",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "5.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "Key",
+            "direction": 0,
+            "category": "name",
+            "subcategory": "None",
+            "default_value": "None",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_6",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_6",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Set Timer by Function Name",
+        "guid": "b5d490eb-4d8d-cd4f-7f59-1a9cbca1f66a",
+        "pos_x": 1424,
+        "pos_y": 1504,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_3",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_3",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_5",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_5",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetSystemLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetSystemLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "Object",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": [
+              {
+                "node_name": "K2Node_Self_1",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_Self_1",
+                "pin_name": "self"
+              }
+            ]
+          },
+          {
+            "name": "FunctionName",
+            "direction": 0,
+            "category": "string",
+            "subcategory": "None",
+            "default_value": "UpdateClusterTelemetry",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "Time",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.05",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "bLooping",
+            "direction": 0,
+            "category": "bool",
+            "subcategory": "None",
+            "default_value": "true",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "bMaxOncePerFrame",
+            "direction": 0,
+            "category": "bool",
+            "subcategory": "None",
+            "default_value": "false",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "InitialStartDelay",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.000000",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "InitialStartDelayVariance",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.000000",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.TimerHandle",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CustomEvent_0",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CustomEvent_0",
+        "class": "/Script/BlueprintGraph.K2Node_CustomEvent",
+        "title": "UpdateClusterTelemetry",
+        "guid": "207f5ddc-49aa-fa89-8b29-80844042c28b",
+        "pos_x": 0,
+        "pos_y": 2944,
+        "comment": "",
+        "pins": [
+          {
+            "name": "OutputDelegate",
+            "direction": 1,
+            "category": "delegate",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_IfThenElse_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_IfThenElse_0",
+                "pin_name": "execute"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_7",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_7",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Get Controlled Pawn",
+        "guid": "eedef2c7-41e4-efc0-21cc-49a95c1af004",
+        "pos_x": 0,
+        "pos_y": 2716,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "self",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.Controller",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.Pawn",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_10",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_10",
+                "pin_name": "Object"
+              },
+              {
+                "node_name": "K2Node_DynamicCast_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0",
+                "pin_name": "Object"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_9",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_9",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "UpdateCluster",
+        "guid": "293e9ac1-4a1e-7508-b2ad-6097b52061ce",
+        "pos_x": 800,
+        "pos_y": 2047,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_DynamicCast_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CreateWidget_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CreateWidget_0",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "DeltaTime",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableGet_2",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_2",
+        "class": "/Script/BlueprintGraph.K2Node_VariableGet",
+        "title": "Get ClusterWidget",
+        "guid": "c562e6a7-45ce-21bc-8393-889e10153cdc",
+        "pos_x": 0,
+        "pos_y": 2784,
+        "comment": "",
+        "pins": [
+          {
+            "name": "ClusterWidget",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/UMG.UserWidget",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_10",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_10",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Is Valid",
+        "guid": "087ddd16-4140-705f-340b-7aae7e74c7e6",
+        "pos_x": 128,
+        "pos_y": 2704,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetSystemLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetSystemLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "Object",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_7",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_7",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "bool",
+            "subcategory": "None",
+            "default_value": "false",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_IfThenElse_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_IfThenElse_0",
+                "pin_name": "Condition"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_IfThenElse_0",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_IfThenElse_0",
+        "class": "/Script/BlueprintGraph.K2Node_IfThenElse",
+        "title": "Branch",
+        "guid": "da038c0a-458c-2f7e-f449-0796360c38d0",
+        "pos_x": 400,
+        "pos_y": 2791,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CustomEvent_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CustomEvent_0",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "Condition",
+            "direction": 0,
+            "category": "bool",
+            "subcategory": "None",
+            "default_value": "true",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_10",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_10",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_DynamicCast_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "else",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_DynamicCast_0",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0",
+        "class": "/Script/BlueprintGraph.K2Node_DynamicCast",
+        "title": "Cast To KamazBP",
+        "guid": "e9d454ac-444d-e359-bd43-fdb780a338f3",
+        "pos_x": 600,
+        "pos_y": 2731,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_IfThenElse_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_IfThenElse_0",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_9",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_9",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "CastFailed",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "Object",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_7",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_CallFunction_7",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "AsKamaz BP",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableGet_3",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_3",
+                "pin_name": "self"
+              },
+              {
+                "node_name": "K2Node_VariableGet_4",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_4",
+                "pin_name": "self"
+              },
+              {
+                "node_name": "K2Node_VariableGet_5",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_5",
+                "pin_name": "self"
+              }
+            ]
+          },
+          {
+            "name": "bSuccess",
+            "direction": 1,
+            "category": "bool",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableGet_3",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_3",
+        "class": "/Script/BlueprintGraph.K2Node_VariableGet",
+        "title": "Get TelemetrySpeedKmh",
+        "guid": "cb19e115-488e-3e57-2f5f-68bc3a48a866",
+        "pos_x": 800,
+        "pos_y": 2753,
+        "comment": "",
+        "pins": [
+          {
+            "name": "TelemetrySpeedKmh",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+            "linked_to": [
+              {
+                "node_name": "K2Node_DynamicCast_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0",
+                "pin_name": "AsKamaz BP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableGet_4",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_4",
+        "class": "/Script/BlueprintGraph.K2Node_VariableGet",
+        "title": "Get TelemetryRpm",
+        "guid": "b157153b-486a-69b3-2066-3bb55a51fe36",
+        "pos_x": 800,
+        "pos_y": 2913,
+        "comment": "",
+        "pins": [
+          {
+            "name": "TelemetryRpm",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+            "linked_to": [
+              {
+                "node_name": "K2Node_DynamicCast_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0",
+                "pin_name": "AsKamaz BP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableGet_5",
+        "path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_VariableGet_5",
+        "class": "/Script/BlueprintGraph.K2Node_VariableGet",
+        "title": "Get TelemetryGear",
+        "guid": "6aa8974e-4bfb-3674-b768-e5a95afd954f",
+        "pos_x": 800,
+        "pos_y": 3073,
+        "comment": "",
+        "pins": [
+          {
+            "name": "TelemetryGear",
+            "direction": 1,
+            "category": "int",
+            "subcategory": "None",
+            "default_value": "0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+            "linked_to": [
+              {
+                "node_name": "K2Node_DynamicCast_0",
+                "node_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph.K2Node_DynamicCast_0",
+                "pin_name": "AsKamaz BP"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

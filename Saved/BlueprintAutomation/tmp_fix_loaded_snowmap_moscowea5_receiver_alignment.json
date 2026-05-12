@@ -1,0 +1,87 @@
+{
+  "target_map": "/Game/Maps/SnowMap_MoscowEA5",
+  "error": "",
+  "before": {
+    "player_start": {
+      "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.PlayerStart_0",
+      "location": {
+        "x": 19098.52354624185,
+        "y": 33742.21176274441,
+        "z": 424.1410977591004
+      }
+    },
+    "rvt_height": {
+      "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1",
+      "location": {
+        "x": -59013.32758505614,
+        "y": -35071.54520739088,
+        "z": -59.375
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "scale": {
+        "x": 166579.7129509659,
+        "y": 166579.7129509659,
+        "z": 4146.875
+      }
+    },
+    "vhm": {
+      "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.VirtualHeightfieldMesh_1",
+      "location": {
+        "x": 10690.67241494386,
+        "y": 40657.45479260912,
+        "z": 0.0
+      },
+      "scale": {
+        "x": 165257.65173706936,
+        "y": 165257.65173706936,
+        "z": 8000.0
+      }
+    },
+    "bp_capture": {
+      "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.BP_Capture_C_1",
+      "location": {
+        "x": 10690.67241494386,
+        "y": 40657.45479260912,
+        "z": -2000.0
+      }
+    }
+  },
+  "after": {
+    "vhm": {
+      "location": {
+        "x": -59013.32758505614,
+        "y": -35071.54520739088,
+        "z": -59.375
+      },
+      "scale": {
+        "x": 166579.7129509659,
+        "y": 166579.7129509659,
+        "z": 4146.875
+      }
+    },
+    "rvt_material": {
+      "location": {
+        "x": -59013.32758505614,
+        "y": -35071.54520739088,
+        "z": -59.375
+      },
+      "scale": {
+        "x": 166579.7129509659,
+        "y": 166579.7129509659,
+        "z": 4146.875
+      }
+    },
+    "bp_capture": {
+      "location": {
+        "x": 19098.52354624185,
+        "y": 33742.21176274441,
+        "z": -2000.0
+      }
+    }
+  },
+  "save_ok": true
+}

@@ -1,0 +1,187 @@
+{
+  "error": "",
+  "player_start": {
+    "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.PlayerStart_0",
+    "location": {
+      "x": 19098.52354624185,
+      "y": 33742.21176274441,
+      "z": 424.1410977591004
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "bounds_origin": {
+      "x": 19154.52354624185,
+      "y": 33742.21176274441,
+      "z": 424.1410977591004
+    },
+    "bounds_extent": {
+      "x": 184.0,
+      "y": 128.0,
+      "z": 128.0
+    }
+  },
+  "landscape": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.Landscape_0",
+    "location": {
+      "x": -59013.32758505613,
+      "y": -35071.54520739088,
+      "z": 0.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 330.5153034741387,
+      "y": 330.5153034741387,
+      "z": 100.0
+    },
+    "bounds_origin": {
+      "x": 24276.528890426824,
+      "y": 48218.311268092075,
+      "z": -38.28125
+    },
+    "bounds_extent": {
+      "x": 83289.85647548296,
+      "y": 83289.85647548296,
+      "z": 4125.78125
+    }
+  },
+  "bp_capture": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.BP_Capture_C_1",
+    "location": {
+      "x": 19098.52354624185,
+      "y": 33742.21176274441,
+      "z": -2000.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "bounds_origin": {
+      "x": 19098.52354624185,
+      "y": 33742.21176274441,
+      "z": -2000.0
+    },
+    "bounds_extent": {
+      "x": 1000.0,
+      "y": 1000.0,
+      "z": 1000.0
+    },
+    "ortho_width": 16400.0
+  },
+  "rvt_height": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1",
+    "location": {
+      "x": -59013.32758505614,
+      "y": -35071.54520739088,
+      "z": -59.375
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 166579.7129509659,
+      "y": 166579.7129509659,
+      "z": 4146.875
+    },
+    "bounds_origin": {
+      "x": 24276.528890426816,
+      "y": 48218.311268092075,
+      "z": 2014.0625
+    },
+    "bounds_extent": {
+      "x": 83289.85647548296,
+      "y": 83289.85647548296,
+      "z": 2073.4375
+    }
+  },
+  "rvt_material": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_2",
+    "location": {
+      "x": -59013.32758505614,
+      "y": -35071.54520739088,
+      "z": -59.375
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 166579.7129509659,
+      "y": 166579.7129509659,
+      "z": 4146.875
+    },
+    "bounds_origin": {
+      "x": 24276.528890426816,
+      "y": 48218.311268092075,
+      "z": 2014.0625
+    },
+    "bounds_extent": {
+      "x": 83289.85647548296,
+      "y": 83289.85647548296,
+      "z": 2073.4375
+    }
+  },
+  "vhm": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.VirtualHeightfieldMesh_1",
+    "location": {
+      "x": -59013.32758505614,
+      "y": -35071.54520739088,
+      "z": -59.375
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 166579.7129509659,
+      "y": 166579.7129509659,
+      "z": 4146.875
+    },
+    "bounds_origin": {
+      "x": 24276.528890426816,
+      "y": 48218.311268092075,
+      "z": 2014.0625
+    },
+    "bounds_extent": {
+      "x": 83289.85647548296,
+      "y": 83289.85647548296,
+      "z": 2073.4375
+    }
+  },
+  "moscow_actor_count": 1344,
+  "landscape_vs_rvt_height": {
+    "distance_xy": 7.275957614183426e-12
+  },
+  "rvt_height_vs_rvt_material": {
+    "distance_xy": 0.0
+  },
+  "rvt_height_vs_vhm": {
+    "distance_xy": 0.0
+  },
+  "player_vs_capture": {
+    "distance_xy": 0.0,
+    "capture_half_width": 8200.0,
+    "inside_capture_square": true
+  }
+}

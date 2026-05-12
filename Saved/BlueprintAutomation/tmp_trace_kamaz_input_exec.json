@@ -1,0 +1,402 @@
+{
+  "bp_path": "/Game/CityPark/Kamaz/model/KamazBP",
+  "summary": "Serialized graph '/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph' to JSON.",
+  "traces": {
+    "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_1": {
+      "title": "EnhancedInputAction IA_GAZ",
+      "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_1",
+      "pins": {
+        "Triggered": [
+          [
+            {
+              "title": "Set ThrottleValue",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_19",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "ThrottleValue": "0.0",
+                "Output_Get": "0.0"
+              },
+              "next_exec": {
+                "then": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_15",
+                    "node_title": "Branch",
+                    "pin_name": "execute"
+                  }
+                ],
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_1",
+                    "node_title": "EnhancedInputAction IA_GAZ",
+                    "pin_name": "Triggered"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Branch",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_15",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "Condition": "true"
+              },
+              "next_exec": {
+                "then": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_20",
+                    "node_title": "Set bStartBrakeApplied",
+                    "pin_name": "execute"
+                  }
+                ],
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_19",
+                    "node_title": "Set ThrottleValue",
+                    "pin_name": "then"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Set bStartBrakeApplied",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_20",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "bStartBrakeApplied": "false",
+                "Output_Get": "false"
+              },
+              "next_exec": {
+                "then": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_16",
+                    "node_title": "Set Brake Input",
+                    "pin_name": "execute"
+                  }
+                ],
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_15",
+                    "node_title": "Branch",
+                    "pin_name": "then"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Set Brake Input",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_16",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "Brake": "0.0"
+              },
+              "next_exec": {
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_20",
+                    "node_title": "Set bStartBrakeApplied",
+                    "pin_name": "then"
+                  }
+                ]
+              }
+            }
+          ]
+        ],
+        "Completed": [
+          [
+            {
+              "title": "Set ThrottleValue",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_25",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "ThrottleValue": "0.0",
+                "Output_Get": "0.0"
+              },
+              "next_exec": {
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_1",
+                    "node_title": "EnhancedInputAction IA_GAZ",
+                    "pin_name": "Completed"
+                  }
+                ]
+              }
+            }
+          ]
+        ]
+      }
+    },
+    "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_2": {
+      "title": "EnhancedInputAction IA_TORM",
+      "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_2",
+      "pins": {
+        "Triggered": [
+          [
+            {
+              "title": "Set BrakeValue",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_21",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "BrakeValue": "0.0",
+                "Output_Get": "0.0"
+              },
+              "next_exec": {
+                "then": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_16",
+                    "node_title": "Branch",
+                    "pin_name": "execute"
+                  }
+                ],
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_2",
+                    "node_title": "EnhancedInputAction IA_TORM",
+                    "pin_name": "Triggered"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Branch",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_16",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "Condition": "true"
+              },
+              "next_exec": {
+                "then": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_22",
+                    "node_title": "Set bStartBrakeApplied",
+                    "pin_name": "execute"
+                  }
+                ],
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_21",
+                    "node_title": "Set BrakeValue",
+                    "pin_name": "then"
+                  }
+                ],
+                "else": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_1",
+                    "node_title": "Set Brake Input",
+                    "pin_name": "execute"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Set bStartBrakeApplied",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_22",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "bStartBrakeApplied": "false",
+                "Output_Get": "false"
+              },
+              "next_exec": {
+                "then": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_1",
+                    "node_title": "Set Brake Input",
+                    "pin_name": "execute"
+                  }
+                ],
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_16",
+                    "node_title": "Branch",
+                    "pin_name": "then"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Set Brake Input",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_1",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "Brake": "0.0"
+              },
+              "next_exec": {
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_22",
+                    "node_title": "Set bStartBrakeApplied",
+                    "pin_name": "then"
+                  },
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_16",
+                    "node_title": "Branch",
+                    "pin_name": "else"
+                  },
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_26",
+                    "node_title": "Set BrakeValue",
+                    "pin_name": "then"
+                  }
+                ]
+              }
+            }
+          ]
+        ],
+        "Completed": [
+          [
+            {
+              "title": "Set BrakeValue",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_26",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "BrakeValue": "0.0",
+                "Output_Get": "0.0"
+              },
+              "next_exec": {
+                "then": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_1",
+                    "node_title": "Set Brake Input",
+                    "pin_name": "execute"
+                  }
+                ],
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_2",
+                    "node_title": "EnhancedInputAction IA_TORM",
+                    "pin_name": "Completed"
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Set Brake Input",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_1",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "Brake": "0.0"
+              },
+              "next_exec": {
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_22",
+                    "node_title": "Set bStartBrakeApplied",
+                    "pin_name": "then"
+                  },
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_IfThenElse_16",
+                    "node_title": "Branch",
+                    "pin_name": "else"
+                  },
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_26",
+                    "node_title": "Set BrakeValue",
+                    "pin_name": "then"
+                  }
+                ]
+              }
+            }
+          ]
+        ]
+      }
+    },
+    "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_3": {
+      "title": "EnhancedInputAction IA_RUL",
+      "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_3",
+      "pins": {
+        "Triggered": [
+          [
+            {
+              "title": "Set TargetSteering",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_15",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "TargetSteering": "0.0",
+                "Output_Get": "0.0"
+              },
+              "next_exec": {
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_3",
+                    "node_title": "EnhancedInputAction IA_RUL",
+                    "pin_name": "Triggered"
+                  }
+                ]
+              }
+            }
+          ]
+        ],
+        "Completed": [
+          [
+            {
+              "title": "Set TargetSteering",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_VariableSet_16",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "TargetSteering": "0.0",
+                "Output_Get": "0.0"
+              },
+              "next_exec": {
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_3",
+                    "node_title": "EnhancedInputAction IA_RUL",
+                    "pin_name": "Completed"
+                  }
+                ]
+              }
+            }
+          ]
+        ]
+      }
+    },
+    "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_13": {
+      "title": "EnhancedInputAction IA_Handbrake_Digital",
+      "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_13",
+      "pins": {
+        "Triggered": [
+          [
+            {
+              "title": "Set Handbrake Input",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_13",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "bNewHandbrake": "True"
+              },
+              "next_exec": {
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_13",
+                    "node_title": "EnhancedInputAction IA_Handbrake_Digital",
+                    "pin_name": "Triggered"
+                  }
+                ]
+              }
+            }
+          ]
+        ],
+        "Completed": [
+          [
+            {
+              "title": "Set Handbrake Input",
+              "path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_CallFunction_14",
+              "entered_via_pin": "execute",
+              "defaults": {
+                "bNewHandbrake": "false"
+              },
+              "next_exec": {
+                "execute": [
+                  {
+                    "node_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP:EventGraph.K2Node_EnhancedInputAction_13",
+                    "node_title": "EnhancedInputAction IA_Handbrake_Digital",
+                    "pin_name": "Completed"
+                  }
+                ]
+              }
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "error": ""
+}

@@ -1,0 +1,25 @@
+{
+  "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "pie_world_path": "/Game/LandscapeDeformation/Maps/UEDPIE_0_SnowMap.SnowMap",
+  "pawn_path": "/Game/LandscapeDeformation/Maps/UEDPIE_0_SnowMap.SnowMap:PersistentLevel.KamazBP_C_0",
+  "pawn_class": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+  "helper_actor_path": "/Game/LandscapeDeformation/Maps/UEDPIE_0_SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0",
+  "helper_actor_class": "/Script/Kamaz_Cleaner.SnowMapKamazPlowCaptureDeformerActor",
+  "helper_attach_parent_path": "/Game/LandscapeDeformation/Maps/UEDPIE_0_SnowMap.SnowMap:PersistentLevel.KamazBP_C_0.PlowBrush",
+  "helper_attach_parent_name": "PlowBrush",
+  "helper_mesh_path": "/Game/LandscapeDeformation/Maps/UEDPIE_0_SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0.PlowDeformerMesh",
+  "helper_mesh_flags": {
+    "visible": true,
+    "render_custom_depth": true,
+    "visible_in_scene_capture_only": false,
+    "hidden_in_scene_capture": false,
+    "render_in_main_pass": true,
+    "render_in_depth_pass": true
+  },
+  "driver_probe_skipped": true,
+  "movement_distance_xy": 0.0,
+  "rt_before_drive": {},
+  "rt_after_drive": {},
+  "rt_changed": false,
+  "error": ""
+}

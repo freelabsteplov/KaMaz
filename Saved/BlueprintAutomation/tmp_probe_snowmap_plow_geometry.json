@@ -1,0 +1,23 @@
+{
+  "map": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "pie_world": "",
+  "pawn": "",
+  "capture_actor": "",
+  "capture_component": "",
+  "capture_ortho_width": null,
+  "capture_location": null,
+  "helper_actor": "",
+  "helper_mesh": "",
+  "helper_location": null,
+  "helper_bounds_origin": null,
+  "helper_bounds_extent": null,
+  "helper_bottom_z": null,
+  "plow_source": "",
+  "plow_source_location": null,
+  "player_location": null,
+  "helper_xy_offset_from_capture": null,
+  "plow_xy_offset_from_capture": null,
+  "ground_hit_under_helper": null,
+  "ground_hit_under_plow": null,
+  "error": "'HitResult' object has no attribute 'impact_point'"
+}

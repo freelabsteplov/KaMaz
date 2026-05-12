@@ -1,0 +1,10 @@
+{
+  "has_BodySetup": true,
+  "has_get_objects_of_class": false,
+  "has_ObjectIterator": true,
+  "BodySetup_dir": [
+    "acquire_editor_element_handle"
+  ],
+  "sample_paths": [],
+  "error": ""
+}

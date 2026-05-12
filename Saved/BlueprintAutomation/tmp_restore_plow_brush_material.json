@@ -1,0 +1,9 @@
+{
+  "blueprint_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+  "brush_material_path": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush",
+  "before": "/Game/CityPark/SnowSystem/BrushMaterials/MI_Snow_PlowBrush_BoxSafe_350x50x100.MI_Snow_PlowBrush_BoxSafe_350x50x100",
+  "after": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+  "saved": true,
+  "compiled": false,
+  "error": ""
+}

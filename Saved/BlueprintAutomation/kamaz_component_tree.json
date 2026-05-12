@@ -1,0 +1,59 @@
+{
+  "blueprint_path": "/Game/CityPark/Kamaz/model/KamazBP",
+  "num_nodes": 2,
+  "nodes": [
+    {
+      "node_name": "VehicleMesh",
+      "variable_name": "VehicleMesh",
+      "parent_name": "",
+      "parent_variable_name": "",
+      "component_class": "/Script/Engine.SkeletalMeshComponent",
+      "component_template_path": "/Game/CityPark/Kamaz/model/KamazBP.Default__KamazBP_C:VehicleMesh",
+      "attach_socket_name": "",
+      "relative_location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "relative_rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "relative_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "mesh_property": "skeletal_mesh",
+      "mesh_name": "kamaz_ue5",
+      "mesh_path": "/Game/CityPark/Kamaz/model/kamaz_ue5.kamaz_ue5",
+      "mesh_bounds": {
+        "origin": {
+          "x": 57.75048828125,
+          "y": 0.051300048828125,
+          "z": 175.2066135406494
+        },
+        "box_extent": {
+          "x": 350.494140625,
+          "y": 149.9095458984375,
+          "z": 175.9862575531006
+        },
+        "sphere_radius": 419.8692384677392
+      }
+    },
+    {
+      "node_name": "VehicleMovementComp",
+      "variable_name": "VehicleMovementComp",
+      "parent_name": "",
+      "parent_variable_name": "",
+      "component_class": "/Script/ChaosVehicles.ChaosWheeledVehicleMovementComponent",
+      "component_template_path": "/Game/CityPark/Kamaz/model/KamazBP.Default__KamazBP_C:VehicleMovementComp",
+      "attach_socket_name": "",
+      "relative_location": null,
+      "relative_rotation": null,
+      "relative_scale": null
+    }
+  ],
+  "interesting_nodes": []
+}

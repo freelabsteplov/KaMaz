@@ -1,0 +1,26 @@
+{
+  "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "actor_class_path": "/Script/Kamaz_Cleaner.SnowMapKamazPlowCaptureDeformerActor",
+  "destroyed": [
+    "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_1"
+  ],
+  "destroyed_test_deformers": [],
+  "spawned_actor": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0",
+  "spawned_location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "spawned_rotation": {
+    "pitch": 0.0,
+    "yaw": 0.0,
+    "roll": 0.0
+  },
+  "save_ok": true,
+  "error": "",
+  "deformer_relative_location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -30.0
+  }
+}

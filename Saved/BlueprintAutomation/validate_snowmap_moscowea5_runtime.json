@@ -1,0 +1,32 @@
+{
+  "map_path": "/Game/Maps/SnowMap_MoscowEA5",
+  "pie_world_path": "/Game/Maps/UEDPIE_0_SnowMap_MoscowEA5.SnowMap_MoscowEA5",
+  "pawn_path": "/Game/Maps/UEDPIE_0_SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.KamazBP_C_0",
+  "pawn_class": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+  "pawn_location": {
+    "x": 19098.52354624185,
+    "y": 33742.21176274441,
+    "z": 424.1410977591004
+  },
+  "bp_capture_path": "/Game/Maps/UEDPIE_0_SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.BP_Capture_C_1",
+  "bp_capture_location": {
+    "x": 19098.52354624185,
+    "y": 33742.21176274441,
+    "z": -2000.0
+  },
+  "bp_capture_distance_xy_to_pawn": 0.0,
+  "helper_actor_path": "/Game/Maps/UEDPIE_0_SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0",
+  "helper_attach_parent_name": "PlowBrush",
+  "helper_mesh_flags": {
+    "visible": true,
+    "render_custom_depth": true,
+    "visible_in_scene_capture_only": false,
+    "hidden_in_scene_capture": false,
+    "render_in_main_pass": true,
+    "render_in_depth_pass": true
+  },
+  "rt_before": {},
+  "rt_after": {},
+  "rt_changed": false,
+  "error": ""
+}

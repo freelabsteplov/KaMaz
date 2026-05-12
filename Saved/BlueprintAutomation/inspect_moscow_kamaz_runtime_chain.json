@@ -1,0 +1,64 @@
+{
+  "map": "/Game/Maps/MoscowEA5",
+  "world_settings": {
+    "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.WorldSettings",
+    "default_game_mode": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C",
+    "game_mode_override": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C"
+  },
+  "assets": {
+    "/Game/BPs/BP_KamazGameMode": {
+      "asset_found": true,
+      "asset_object_path": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode",
+      "class_object_path": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C",
+      "class_class_path": "/Script/Engine.BlueprintGeneratedClass",
+      "cdo_object_path": "/Game/BPs/BP_KamazGameMode.Default__BP_KamazGameMode_C",
+      "default_pawn_class": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+      "player_controller_class": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C",
+      "hud_class": "/Script/Engine.HUD",
+      "game_state_class": "/Script/Engine.GameState",
+      "spectator_class": "/Script/Engine.SpectatorPawn",
+      "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>",
+      "input_priority": 0,
+      "block_input": false
+    },
+    "/Game/BPs/BP_KamazPlayerController": {
+      "asset_found": true,
+      "asset_object_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController",
+      "class_object_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C",
+      "class_class_path": "/Script/Engine.BlueprintGeneratedClass",
+      "cdo_object_path": "/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C",
+      "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>",
+      "input_priority": 0,
+      "block_input": false
+    },
+    "/Game/CityPark/Kamaz/model/KamazBP": {
+      "asset_found": true,
+      "asset_object_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP",
+      "class_object_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+      "class_class_path": "/Script/Engine.BlueprintGeneratedClass",
+      "cdo_object_path": "/Game/CityPark/Kamaz/model/KamazBP.Default__KamazBP_C",
+      "auto_possess_player": "<AutoReceiveInput.DISABLED: 0>",
+      "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>",
+      "input_priority": 0,
+      "block_input": false
+    },
+    "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvGameMode": {
+      "asset_found": true,
+      "asset_object_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvGameMode.BP_VehicleAdvGameMode",
+      "class_object_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvGameMode.BP_VehicleAdvGameMode_C",
+      "class_class_path": "/Script/Engine.BlueprintGeneratedClass",
+      "cdo_object_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvGameMode.Default__BP_VehicleAdvGameMode_C",
+      "default_pawn_class": "/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar_C",
+      "player_controller_class": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController.BP_VehicleAdvPlayerController_C",
+      "hud_class": "/Script/Engine.HUD",
+      "game_state_class": "/Script/Engine.GameStateBase",
+      "spectator_class": "/Script/Engine.SpectatorPawn",
+      "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>",
+      "input_priority": 0,
+      "block_input": false
+    }
+  },
+  "player_starts": [],
+  "kamaz_actors": [],
+  "error": ""
+}

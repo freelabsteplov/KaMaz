@@ -49,3 +49,6 @@ _PluginBuild/
 # Python cache noise
 __pycache__/
 *.pyc
+
+# Unreal per-user editor settings; may contain local/API secrets
+Config/DefaultEditorPerProjectUserSettings.ini

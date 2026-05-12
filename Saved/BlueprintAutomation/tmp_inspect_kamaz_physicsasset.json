@@ -1,0 +1,157 @@
+{
+  "physics_asset_path": "/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset",
+  "skeletal_mesh_path": "/Game/CityPark/Kamaz/model/kamaz_ue5",
+  "preview_mesh": "",
+  "body_count": 5,
+  "bodies": [
+    {
+      "body_name": "SkeletalBodySetup_1",
+      "bone_name": "Root",
+      "physics_type": "<PhysicsType.PHYS_TYPE_DEFAULT: 0>",
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_SIMPLE_AS_COMPLEX: 2>",
+      "spheres": [],
+      "boxes": [],
+      "sphyls": []
+    },
+    {
+      "body_name": "SkeletalBodySetup_5",
+      "bone_name": "WFL",
+      "physics_type": "<PhysicsType.PHYS_TYPE_DEFAULT: 0>",
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_SIMPLE_AS_COMPLEX: 2>",
+      "spheres": [
+        {
+          "center": {
+            "x": 2.8610537456908933e-05,
+            "y": 0.008284138512432305,
+            "z": 0.0017784927412542073
+          },
+          "radius": 55.64104080200195,
+          "rotation": null
+        }
+      ],
+      "boxes": [],
+      "sphyls": []
+    },
+    {
+      "body_name": "SkeletalBodySetup_6",
+      "bone_name": "WFR",
+      "physics_type": "<PhysicsType.PHYS_TYPE_DEFAULT: 0>",
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_SIMPLE_AS_COMPLEX: 2>",
+      "spheres": [
+        {
+          "center": {
+            "x": -2.090262410566618e-05,
+            "y": -0.008404458519216352,
+            "z": 0.001816487491842888
+          },
+          "radius": 55.0,
+          "rotation": null
+        }
+      ],
+      "boxes": [],
+      "sphyls": []
+    },
+    {
+      "body_name": "SkeletalBodySetup_7",
+      "bone_name": "WRL",
+      "physics_type": "<PhysicsType.PHYS_TYPE_DEFAULT: 0>",
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_SIMPLE_AS_COMPLEX: 2>",
+      "spheres": [
+        {
+          "center": {
+            "x": -5.8667482436741597e-05,
+            "y": -2.6703714513237264e-05,
+            "z": 6.14951805321852e-05
+          },
+          "radius": 55.641841888427734,
+          "rotation": null
+        }
+      ],
+      "boxes": [],
+      "sphyls": []
+    },
+    {
+      "body_name": "SkeletalBodySetup_8",
+      "bone_name": "WRR",
+      "physics_type": "<PhysicsType.PHYS_TYPE_DEFAULT: 0>",
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_SIMPLE_AS_COMPLEX: 2>",
+      "spheres": [
+        {
+          "center": {
+            "x": 3.946574580029548e-05,
+            "y": -2.6703499295172415e-05,
+            "z": -2.5569590084085885e-05
+          },
+          "radius": 55.64104080200195,
+          "rotation": null
+        }
+      ],
+      "boxes": [],
+      "sphyls": []
+    }
+  ],
+  "lowest_shapes": [
+    {
+      "bone_name": "WRL",
+      "shape_type": "sphere",
+      "shape_index": 0,
+      "min_z": -55.6417803932472,
+      "data": {
+        "center": {
+          "x": -5.8667482436741597e-05,
+          "y": -2.6703714513237264e-05,
+          "z": 6.14951805321852e-05
+        },
+        "radius": 55.641841888427734,
+        "rotation": null
+      }
+    },
+    {
+      "bone_name": "WRR",
+      "shape_type": "sphere",
+      "shape_index": 0,
+      "min_z": -55.64106637159204,
+      "data": {
+        "center": {
+          "x": 3.946574580029548e-05,
+          "y": -2.6703499295172415e-05,
+          "z": -2.5569590084085885e-05
+        },
+        "radius": 55.64104080200195,
+        "rotation": null
+      }
+    },
+    {
+      "bone_name": "WFL",
+      "shape_type": "sphere",
+      "shape_index": 0,
+      "min_z": -55.6392623092607,
+      "data": {
+        "center": {
+          "x": 2.8610537456908933e-05,
+          "y": 0.008284138512432305,
+          "z": 0.0017784927412542073
+        },
+        "radius": 55.64104080200195,
+        "rotation": null
+      }
+    },
+    {
+      "bone_name": "WFR",
+      "shape_type": "sphere",
+      "shape_index": 0,
+      "min_z": -54.998183512508156,
+      "data": {
+        "center": {
+          "x": -2.090262410566618e-05,
+          "y": -0.008404458519216352,
+          "z": 0.001816487491842888
+        },
+        "radius": 55.0,
+        "rotation": null
+      }
+    }
+  ],
+  "error": "",
+  "assigned_physics_asset_on_mesh": "/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset.kamaz_ue5_PhysicsAsset"
+}

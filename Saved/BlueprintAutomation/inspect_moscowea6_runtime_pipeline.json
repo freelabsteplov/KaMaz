@@ -1,0 +1,179 @@
+{
+  "maps": [
+    {
+      "map_path": "/Game/Maps/MoscowEA6",
+      "world_settings": {
+        "game_mode_override": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C",
+        "default_game_mode_prop": "",
+        "world_settings_class": "/Script/Engine.WorldSettings"
+      },
+      "player_start": {
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.PlayerStart_0",
+        "location": {
+          "x": -29071.0,
+          "y": -78193.0,
+          "z": -206858.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        }
+      },
+      "sphere": {
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.StaticMeshActor_224",
+        "location": {
+          "x": -28721.0,
+          "y": -78193.0,
+          "z": -206678.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "render_custom_depth": true,
+        "simulate_physics": true,
+        "material_0": "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"
+      },
+      "bp_capture": {
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1",
+        "location": {
+          "x": -29071.0,
+          "y": -78192.99999999999,
+          "z": -208982.14099997282
+        },
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": -42.18749967320009,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "ortho_width": 2048.0,
+        "projection_type": "<CameraProjectionMode.ORTHOGRAPHIC: 1>",
+        "texture_target": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture"
+      },
+      "virtual_heightfield_mesh": {
+        "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.VirtualHeightfieldMesh_1",
+        "location": {
+          "x": -104828.79999999999,
+          "y": -109883.08000000005,
+          "z": -68213.72
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 1.2722218725854065e-14,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 128.0,
+          "y": 128.0,
+          "z": 2.56
+        },
+        "material_0": "/Game/LandscapeDeformation/Material/MI_VHM_SnowLand.MI_VHM_SnowLand",
+        "num_materials": 0,
+        "virtual_texture": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.RuntimeVirtualTextureVolume_0",
+        "min_max_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight_MinMax.RVT_SnowHeight_MinMax"
+      },
+      "trace_down_from_sphere_or_start": [
+        {
+          "actor_label": "",
+          "actor_path": "",
+          "location": null
+        }
+      ]
+    },
+    {
+      "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+      "world_settings": {
+        "game_mode_override": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C",
+        "default_game_mode_prop": "",
+        "world_settings_class": "/Script/Engine.WorldSettings"
+      },
+      "player_start": {
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.PlayerStart_1",
+        "location": {
+          "x": 19098.523546241846,
+          "y": 38570.211762744424,
+          "z": 124.14109775911176
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        }
+      },
+      "sphere": {
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.StaticMeshActor_2",
+        "location": {
+          "x": 19080.0,
+          "y": 34250.0,
+          "z": 260.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "render_custom_depth": true,
+        "simulate_physics": true,
+        "material_0": "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial"
+      },
+      "bp_capture": {
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1",
+        "location": {
+          "x": 0.0,
+          "y": 3573.0,
+          "z": -2000.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "ortho_width": 2048.0,
+        "projection_type": "<CameraProjectionMode.ORTHOGRAPHIC: 1>",
+        "texture_target": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture"
+      },
+      "virtual_heightfield_mesh": {
+        "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.VirtualHeightfieldMesh_1",
+        "location": {
+          "x": 0.0,
+          "y": 4987.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "material_0": "/Game/LandscapeDeformation/Material/MI_VHM_SnowLand.MI_VHM_SnowLand",
+        "num_materials": 0,
+        "virtual_texture": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_1",
+        "min_max_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight_MinMax.RVT_SnowHeight_MinMax"
+      },
+      "trace_down_from_sphere_or_start": [
+        {
+          "actor_label": "",
+          "actor_path": "",
+          "location": null
+        }
+      ]
+    }
+  ],
+  "error": ""
+}

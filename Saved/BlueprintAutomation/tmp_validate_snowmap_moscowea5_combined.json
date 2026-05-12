@@ -1,0 +1,37 @@
+{
+  "target_map_path": "/Game/Maps/SnowMap_MoscowEA5",
+  "loaded_world": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5",
+  "moved_receiver_present": {
+    "Landscape": true,
+    "RVT_SnowHeight": true,
+    "RVT_SnowMaterial": true,
+    "VirtualHeightfieldMesh1": true,
+    "BP_Capture": true
+  },
+  "moscow_actor_count": 1344,
+  "moscow_actor_examples": [
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tveskaya_4_C_0",
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_5_C_0",
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_7_C_0",
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_tverskaya_9_C_0",
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_10_C_2",
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_11_C_2",
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_13_C_2",
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_8_C_2",
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_12_C_1",
+    "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_12_2_C_1"
+  ],
+  "player_starts": [
+    {
+      "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.PlayerStart_0",
+      "label": "PlayerStart",
+      "location": {
+        "x": 19098.52354624185,
+        "y": 33742.21176274441,
+        "z": 424.1410977591004
+      }
+    }
+  ],
+  "streaming_levels": [],
+  "error": "World: Failed to find property 'streaming_levels' for attribute 'streaming_levels' on 'World'"
+}

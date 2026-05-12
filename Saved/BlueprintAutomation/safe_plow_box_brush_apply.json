@@ -1,0 +1,29 @@
+{
+  "master_material_path": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush_BoxSafe",
+  "material_instance_path": "/Game/CityPark/SnowSystem/BrushMaterials/MI_Snow_PlowBrush_BoxSafe_350x50x100",
+  "blueprint_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+  "requested_dimensions_cm": {
+    "length": 50.0,
+    "width": 350.0,
+    "height": 100.0
+  },
+  "notes": [
+    "BrushHeightCm is stored as metadata/default parameter.",
+    "Current draw-to-render-target writer uses 2D footprint from BrushLengthCm and BrushWidthCm.",
+    "No changes were made to Kamaz input or MOZA input assets."
+  ],
+  "master_material_object_path": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush_BoxSafe.M_Snow_PlowBrush_BoxSafe",
+  "material_instance_object_path": "/Game/CityPark/SnowSystem/BrushMaterials/MI_Snow_PlowBrush_BoxSafe_350x50x100.MI_Snow_PlowBrush_BoxSafe_350x50x100",
+  "apply_result": {
+    "blueprint_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+    "brush_material_instance_path": "/Game/CityPark/SnowSystem/BrushMaterials/MI_Snow_PlowBrush_BoxSafe_350x50x100",
+    "compiled": false,
+    "saved": true,
+    "before_brush_material": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+    "after_brush_material": "/Game/CityPark/SnowSystem/BrushMaterials/MI_Snow_PlowBrush_BoxSafe_350x50x100.MI_Snow_PlowBrush_BoxSafe_350x50x100",
+    "compile_summary": "Compiled Blueprint '/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component' and collected 0 messages.",
+    "compile_json": "{\r\n\t\"blueprint_path\": \"/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component\",\r\n\t\"status\": \"up_to_date\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 0,\r\n\t\"messages\": []\r\n}"
+  },
+  "success": true,
+  "summary": "Applied safe plow box brush /Game/CityPark/SnowSystem/BrushMaterials/MI_Snow_PlowBrush_BoxSafe_350x50x100 to /Game/CityPark/SnowSystem/BP_PlowBrush_Component; before=/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush after=/Game/CityPark/SnowSystem/BrushMaterials/MI_Snow_PlowBrush_BoxSafe_350x50x100.MI_Snow_PlowBrush_BoxSafe_350x50x100 compiled=False saved=True"
+}

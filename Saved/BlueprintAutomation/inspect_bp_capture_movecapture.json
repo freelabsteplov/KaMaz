@@ -1,0 +1,1164 @@
+{
+  "graph": {
+    "name": "MoveCapture",
+    "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture",
+    "class": "/Script/Engine.EdGraph",
+    "schema": "/Script/BlueprintGraph.EdGraphSchema_K2",
+    "nodes": [
+      {
+        "name": "K2Node_FunctionEntry_9",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_FunctionEntry_9",
+        "class": "/Script/BlueprintGraph.K2Node_FunctionEntry",
+        "title": "MoveCapture",
+        "guid": "7f8c639f-4b7c-0f39-9078-cca83c47bde7",
+        "pos_x": 0,
+        "pos_y": 0,
+        "comment": "",
+        "pins": [
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableSet_1",
+                "pin_name": "execute"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_0",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Get Player Character",
+        "guid": "6e299f04-43cf-931a-dd10-63ae3048cc1c",
+        "pos_x": -640,
+        "pos_y": 64,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__GameplayStatics",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.GameplayStatics",
+            "linked_to": []
+          },
+          {
+            "name": "WorldContextObject",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": []
+          },
+          {
+            "name": "PlayerIndex",
+            "direction": 0,
+            "category": "int",
+            "subcategory": "None",
+            "default_value": "0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.Character",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_1",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_1",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Get Actor Location",
+        "guid": "f13b6ee2-4982-a35e-d516-1a9a277c6be0",
+        "pos_x": -176,
+        "pos_y": 96,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.Actor",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_13",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_13",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "0, 0, 0",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue_X",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_MacroInstance_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_MacroInstance_0",
+                "pin_name": "PlayerX"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue_Y",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_MacroInstance_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_MacroInstance_0",
+                "pin_name": "PlayerY"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue_Z",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_MacroInstance_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_MacroInstance_0",
+        "class": "/Script/BlueprintGraph.K2Node_MacroInstance",
+        "title": "Snap to Pixel World Size",
+        "guid": "7682681e-4d0a-515f-316e-6b9968bf6c77",
+        "pos_x": 96,
+        "pos_y": 128,
+        "comment": "",
+        "pins": [
+          {
+            "name": "PlayerX",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_1",
+                "pin_name": "ReturnValue_X"
+              }
+            ]
+          },
+          {
+            "name": "PlayerY",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_1",
+                "pin_name": "ReturnValue_Y"
+              }
+            ]
+          },
+          {
+            "name": "PixelWorldSize",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CommutativeAssociativeBinaryOperator_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CommutativeAssociativeBinaryOperator_0",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_4",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_4",
+                "pin_name": "A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableGet_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableGet_0",
+        "class": "/Script/BlueprintGraph.K2Node_VariableGet",
+        "title": "Get SceneCapture",
+        "guid": "828d8c39-4b06-1f53-657b-68b089c1d75f",
+        "pos_x": -496,
+        "pos_y": 256,
+        "comment": "",
+        "pins": [
+          {
+            "name": "SceneCapture",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.SceneCaptureComponent2D",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableGet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableGet_1",
+                "pin_name": "self"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableGet_1",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableGet_1",
+        "class": "/Script/BlueprintGraph.K2Node_VariableGet",
+        "title": "Get OrthoWidth",
+        "guid": "83458620-49bb-ae97-0a69-d1a454acac5a",
+        "pos_x": -336,
+        "pos_y": 256,
+        "comment": "",
+        "pins": [
+          {
+            "name": "OrthoWidth",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "float",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CommutativeAssociativeBinaryOperator_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CommutativeAssociativeBinaryOperator_0",
+                "pin_name": "A"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.SceneCaptureComponent2D",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableGet_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableGet_0",
+                "pin_name": "SceneCapture"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CommutativeAssociativeBinaryOperator_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CommutativeAssociativeBinaryOperator_0",
+        "class": "/Script/BlueprintGraph.K2Node_CommutativeAssociativeBinaryOperator",
+        "title": "float * float",
+        "guid": "aca3447d-4e5b-be13-4ea0-ec9956bffef5",
+        "pos_x": -112,
+        "pos_y": 256,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetMathLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetMathLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "A",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableGet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableGet_1",
+                "pin_name": "OrthoWidth"
+              }
+            ]
+          },
+          {
+            "name": "B",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_3",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_3",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_MacroInstance_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_MacroInstance_0",
+                "pin_name": "PixelWorldSize"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_3",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_3",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "float / float",
+        "guid": "5068586b-43db-9fca-a037-55bac2d6d60e",
+        "pos_x": -320,
+        "pos_y": 320,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetMathLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetMathLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "A",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "1.000000",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "B",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "256.000000",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CommutativeAssociativeBinaryOperator_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CommutativeAssociativeBinaryOperator_0",
+                "pin_name": "B"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_4",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_4",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "vector - vector",
+        "guid": "f08eecf6-4c91-4160-827e-d89cd2442d6b",
+        "pos_x": 368,
+        "pos_y": 144,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetMathLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetMathLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "A",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "0, 0, 0",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector",
+            "linked_to": [
+              {
+                "node_name": "K2Node_MacroInstance_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_MacroInstance_0",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "B",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "0, 0, 0",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_5",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_5",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "0, 0, 0",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue_X",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableSet_1",
+                "pin_name": "MoveOffset_X"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue_Y",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableSet_1",
+                "pin_name": "MoveOffset_Y"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue_Z",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_5",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_5",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Get Actor Location",
+        "guid": "dea039c5-40f4-7314-7a73-e4a3db512986",
+        "pos_x": 112,
+        "pos_y": 256,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.Actor",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "0, 0, 0",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_4",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_4",
+                "pin_name": "B"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_VariableSet_1",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableSet_1",
+        "class": "/Script/BlueprintGraph.K2Node_VariableSet",
+        "title": "Set",
+        "guid": "78ddb105-4e7d-079e-c326-a680a589c138",
+        "pos_x": 576,
+        "pos_y": 16,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_FunctionEntry_9",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_FunctionEntry_9",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_8",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_8",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "MoveOffset",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector2D",
+            "linked_to": []
+          },
+          {
+            "name": "MoveOffset_X",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_4",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_4",
+                "pin_name": "ReturnValue_X"
+              }
+            ]
+          },
+          {
+            "name": "MoveOffset_Y",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_4",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_4",
+                "pin_name": "ReturnValue_Y"
+              }
+            ]
+          },
+          {
+            "name": "Output_Get",
+            "direction": 1,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector2D",
+            "linked_to": []
+          },
+          {
+            "name": "Output_Get_X",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_8",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_8",
+                "pin_name": "DeltaLocation_X"
+              }
+            ]
+          },
+          {
+            "name": "Output_Get_Y",
+            "direction": 1,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_8",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_8",
+                "pin_name": "DeltaLocation_Y"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_8",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_8",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Add Actor World Offset",
+        "guid": "1501baac-4181-1d26-ccf8-499c59d35de3",
+        "pos_x": 848,
+        "pos_y": -16,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableSet_1",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallMaterialParameterCollectionFunction_0",
+                "pin_name": "execute"
+              }
+            ]
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.Actor",
+            "linked_to": []
+          },
+          {
+            "name": "DeltaLocation",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "0, 0, 0",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector",
+            "linked_to": []
+          },
+          {
+            "name": "DeltaLocation_X",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableSet_1",
+                "pin_name": "Output_Get_X"
+              }
+            ]
+          },
+          {
+            "name": "DeltaLocation_Y",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_VariableSet_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_VariableSet_1",
+                "pin_name": "Output_Get_Y"
+              }
+            ]
+          },
+          {
+            "name": "DeltaLocation_Z",
+            "direction": 0,
+            "category": "real",
+            "subcategory": "double",
+            "default_value": "0.0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "bSweep",
+            "direction": 0,
+            "category": "bool",
+            "subcategory": "None",
+            "default_value": "false",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "SweepHitResult",
+            "direction": 1,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.HitResult",
+            "linked_to": []
+          },
+          {
+            "name": "bTeleport",
+            "direction": 0,
+            "category": "bool",
+            "subcategory": "None",
+            "default_value": "false",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_11",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_11",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Get Actor Location",
+        "guid": "c7d3c8d3-4149-17c6-ab04-b8ae57bce44d",
+        "pos_x": 848,
+        "pos_y": 288,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.Actor",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "0, 0, 0",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_2",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_2",
+                "pin_name": "InVec"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallMaterialParameterCollectionFunction_0",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallMaterialParameterCollectionFunction_0",
+        "class": "/Script/BlueprintGraph.K2Node_CallMaterialParameterCollectionFunction",
+        "title": "Set Vector Parameter Value",
+        "guid": "dda46340-4abf-2512-b725-cd997d6f9cce",
+        "pos_x": 1376,
+        "pos_y": 0,
+        "comment": "",
+        "pins": [
+          {
+            "name": "execute",
+            "direction": 0,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_8",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_8",
+                "pin_name": "then"
+              }
+            ]
+          },
+          {
+            "name": "then",
+            "direction": 1,
+            "category": "exec",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetMaterialLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetMaterialLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "WorldContextObject",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": []
+          },
+          {
+            "name": "Collection",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Game/LandscapeDeformation/Material/MPC_Capture.MPC_Capture",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.MaterialParameterCollection",
+            "linked_to": []
+          },
+          {
+            "name": "ParameterName",
+            "direction": 0,
+            "category": "name",
+            "subcategory": "None",
+            "default_value": "CaptureLocation",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "ParameterValue",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.LinearColor",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_2",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_2",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_2",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_2",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "To LinearColor (Vector)",
+        "guid": "9cc4f764-4232-3181-bdcd-35bbc9094d24",
+        "pos_x": 1136,
+        "pos_y": 320,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__KismetMathLibrary",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.KismetMathLibrary",
+            "linked_to": []
+          },
+          {
+            "name": "InVec",
+            "direction": 0,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "0, 0, 0",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Vector",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_11",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_11",
+                "pin_name": "ReturnValue"
+              }
+            ]
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "struct",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.LinearColor",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallMaterialParameterCollectionFunction_0",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallMaterialParameterCollectionFunction_0",
+                "pin_name": "ParameterValue"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K2Node_CallFunction_13",
+        "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_13",
+        "class": "/Script/BlueprintGraph.K2Node_CallFunction",
+        "title": "Get Player Pawn",
+        "guid": "0c673d69-401d-bcd1-1bab-e08620aab0e9",
+        "pos_x": -624,
+        "pos_y": -32,
+        "comment": "",
+        "pins": [
+          {
+            "name": "self",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "/Script/Engine.Default__GameplayStatics",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.GameplayStatics",
+            "linked_to": []
+          },
+          {
+            "name": "WorldContextObject",
+            "direction": 0,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/CoreUObject.Object",
+            "linked_to": []
+          },
+          {
+            "name": "PlayerIndex",
+            "direction": 0,
+            "category": "int",
+            "subcategory": "None",
+            "default_value": "0",
+            "default_object": "",
+            "default_text": "",
+            "linked_to": []
+          },
+          {
+            "name": "ReturnValue",
+            "direction": 1,
+            "category": "object",
+            "subcategory": "None",
+            "default_value": "",
+            "default_object": "",
+            "default_text": "",
+            "subcategory_object": "/Script/Engine.Pawn",
+            "linked_to": [
+              {
+                "node_name": "K2Node_CallFunction_1",
+                "node_path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_CallFunction_1",
+                "pin_name": "self"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tuple_items": [
+    {
+      "type": "<class 'str'>",
+      "repr": "{\r\n\t\"name\": \"MoveCapture\",\r\n\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture\",\r\n\t\"class\": \"/Script/Engine.EdGraph\",\r\n\t\"schema\": \"/Script/BlueprintGraph.EdGraphSchema_K2\",\r\n\t\"nodes\": [\r\n\t\t{\r\n\t\t\t\"name\": \"K2Node_FunctionEntry_9\",\r\n\t\t\t\"path\": \"/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture.K2Node_FunctionEntry_9\",\r\n\t\t\t\"class\": \"/Script/BlueprintGraph.K2Node_FunctionEntry\",\r\n\t\t\t\"title\": \"MoveCapture\",\r\n\t\t\t\"guid\": \"7f8c639f-4b7c-0f39-9078-cca83"
+    },
+    {
+      "type": "<class 'str'>",
+      "repr": "Serialized graph '/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture:MoveCapture' to JSON."
+    }
+  ],
+  "error": ""
+}

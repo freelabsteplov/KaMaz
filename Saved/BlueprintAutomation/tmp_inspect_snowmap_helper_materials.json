@@ -1,0 +1,37 @@
+{
+  "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "actor_path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0",
+  "components": [
+    {
+      "name": "PlowDeformerMesh",
+      "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0.PlowDeformerMesh",
+      "mesh": "/Engine/BasicShapes/Cube.Cube",
+      "material_0": "/Game/LandscapeDeformation/Materials/M_SnowCaptureDeformer_Brown.M_SnowCaptureDeformer_Brown"
+    },
+    {
+      "name": "FrontLeftWheelDeformerMesh",
+      "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0.FrontLeftWheelDeformerMesh",
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+      "material_0": "/Game/LandscapeDeformation/Materials/M_SnowCaptureDeformer_Brown.M_SnowCaptureDeformer_Brown"
+    },
+    {
+      "name": "FrontRightWheelDeformerMesh",
+      "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0.FrontRightWheelDeformerMesh",
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+      "material_0": "/Game/LandscapeDeformation/Materials/M_SnowCaptureDeformer_Brown.M_SnowCaptureDeformer_Brown"
+    },
+    {
+      "name": "RearLeftWheelDeformerMesh",
+      "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0.RearLeftWheelDeformerMesh",
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+      "material_0": "/Game/LandscapeDeformation/Materials/M_SnowCaptureDeformer_Brown.M_SnowCaptureDeformer_Brown"
+    },
+    {
+      "name": "RearRightWheelDeformerMesh",
+      "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0.RearRightWheelDeformerMesh",
+      "mesh": "/Engine/BasicShapes/Sphere.Sphere",
+      "material_0": "/Game/LandscapeDeformation/Materials/M_SnowCaptureDeformer_Brown.M_SnowCaptureDeformer_Brown"
+    }
+  ],
+  "error": ""
+}

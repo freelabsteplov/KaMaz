@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "function": "ReceiveBeginPlay",
+      "attempted": true,
+      "called": true,
+      "error": "",
+      "return_value": "None"
+    },
+    {
+      "function": "K2_ReceiveBeginPlay",
+      "attempted": true,
+      "called": false,
+      "error": "Actor: Failed to find function 'K2_ReceiveBeginPlay' on 'BP_Capture_C'",
+      "return_value": null
+    },
+    {
+      "function": "MoveCapture",
+      "attempted": true,
+      "called": true,
+      "error": "",
+      "return_value": "None"
+    },
+    {
+      "function": "DrawToPersistent",
+      "attempted": true,
+      "called": true,
+      "error": "",
+      "return_value": "None"
+    }
+  ],
+  "error": "",
+  "actor_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1",
+  "sphere_path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.StaticMeshActor_224",
+  "call_method_available": true,
+  "rt_before": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "rt_after": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  }
+}

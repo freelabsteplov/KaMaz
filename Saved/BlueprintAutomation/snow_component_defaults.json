@@ -1,0 +1,41 @@
+{
+  "project_saved_dir": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Saved/",
+  "targets": [
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+      "exists": true,
+      "blueprint_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component",
+      "generated_class_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.BP_PlowBrush_Component_C",
+      "default_object_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component.Default__BP_PlowBrush_Component_C",
+      "properties": {
+        "RenderTargetGlobal": "/Game/CityPark/SnowSystem/RT_SnowPersistence_Global.RT_SnowPersistence_Global",
+        "BrushMaterial": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_PlowBrush.M_Snow_PlowBrush",
+        "BrushDMI": null,
+        "MPCSnowSystem": "/Game/CityPark/SnowSystem/MPC_SnowSystem.MPC_SnowSystem",
+        "OwnerVehicle": null,
+        "PlowLiftHeight": 1.0,
+        "bEnablePlowClearing": true
+      }
+    },
+    {
+      "asset_path": "/Game/CityPark/SnowSystem/BP_WheelSnowTrace_Component",
+      "exists": true,
+      "blueprint_path": "/Game/CityPark/SnowSystem/BP_WheelSnowTrace_Component.BP_WheelSnowTrace_Component",
+      "generated_class_path": "/Game/CityPark/SnowSystem/BP_WheelSnowTrace_Component.BP_WheelSnowTrace_Component_C",
+      "default_object_path": "/Game/CityPark/SnowSystem/BP_WheelSnowTrace_Component.Default__BP_WheelSnowTrace_Component_C",
+      "properties": {
+        "RenderTargetGlobal": "/Game/CityPark/SnowSystem/RT_SnowTest_WheelTracks.RT_SnowTest_WheelTracks",
+        "BrushMaterial": "/Game/CityPark/SnowSystem/BrushMaterials/M_Snow_WheelBrush.M_Snow_WheelBrush",
+        "BrushDMI": null,
+        "OwnerVehicle": null,
+        "WheelBoneNames": [
+          "Wheel_FL",
+          "Wheel_FR",
+          "Wheel_RL",
+          "Wheel_RR"
+        ],
+        "bEnableSnowTraces": true
+      }
+    }
+  ]
+}

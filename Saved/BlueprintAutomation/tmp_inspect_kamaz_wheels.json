@@ -1,0 +1,78 @@
+{
+  "blueprint_path": "/Game/CityPark/Kamaz/model/KamazBP",
+  "movement_component_path": "/Game/CityPark/Kamaz/model/KamazBP.Default__KamazBP_C:VehicleMovementComp",
+  "wheel_setups": [
+    {
+      "index": 0,
+      "wheel_class": "/Game/CityPark/Kamaz/model/Front_wheels.Front_wheels_C",
+      "bone_name": "WFL",
+      "offset": null,
+      "additional_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "index": 1,
+      "wheel_class": "/Game/CityPark/Kamaz/model/Front_wheels.Front_wheels_C",
+      "bone_name": "WFR",
+      "offset": null,
+      "additional_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "index": 2,
+      "wheel_class": "/Game/CityPark/Kamaz/model/Rear_wheels.Rear_wheels_C",
+      "bone_name": "WRL",
+      "offset": null,
+      "additional_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "index": 3,
+      "wheel_class": "/Game/CityPark/Kamaz/model/Rear_wheels.Rear_wheels_C",
+      "bone_name": "WRR",
+      "offset": null,
+      "additional_offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "wheel_assets": [
+    {
+      "asset_path": "/Game/CityPark/Kamaz/model/Front_wheels",
+      "loaded_path": "/Game/CityPark/Kamaz/model/Front_wheels.Front_wheels",
+      "class": "/Script/Engine.Blueprint",
+      "default_object_path": "/Game/CityPark/Kamaz/model/Front_wheels.Default__Front_wheels_C",
+      "default_object_class": "/Game/CityPark/Kamaz/model/Front_wheels.Front_wheels_C",
+      "wheel_radius": 50.0,
+      "wheel_width": 25.0,
+      "suspension_max_raise": 10.0,
+      "suspension_max_drop": 10.0,
+      "suspension_natural_frequency": null,
+      "spring_rate": 250.0
+    },
+    {
+      "asset_path": "/Game/CityPark/Kamaz/model/Rear_wheels",
+      "loaded_path": "/Game/CityPark/Kamaz/model/Rear_wheels.Rear_wheels",
+      "class": "/Script/Engine.Blueprint",
+      "default_object_path": "/Game/CityPark/Kamaz/model/Rear_wheels.Default__Rear_wheels_C",
+      "default_object_class": "/Game/CityPark/Kamaz/model/Rear_wheels.Rear_wheels_C",
+      "wheel_radius": 50.0,
+      "wheel_width": 35.0,
+      "suspension_max_raise": 10.0,
+      "suspension_max_drop": 10.0,
+      "suspension_natural_frequency": null,
+      "spring_rate": 250.0
+    }
+  ]
+}

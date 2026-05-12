@@ -1,0 +1,22 @@
+{
+  "pie_world_path": "",
+  "pawn_path": "",
+  "pawn_location": null,
+  "capture_actor_path": "",
+  "capture_actor_label": "",
+  "capture_location": null,
+  "capture_component_path": "",
+  "capture_ortho_width": null,
+  "helper_actor_path": "",
+  "helper_mesh_path": "",
+  "helper_location": null,
+  "helper_relative_location": null,
+  "helper_relative_scale": null,
+  "attach_parent_path": "",
+  "attach_parent_name": "",
+  "attach_parent_location": null,
+  "helper_xy_from_capture": null,
+  "helper_xy_from_pawn": null,
+  "plowish_components": [],
+  "error": "'StaticMeshComponent' object has no attribute 'get_relative_location'"
+}

@@ -1,0 +1,3848 @@
+{
+  "map_path": "/Game/Maps/MoscowEA5",
+  "matches": [
+    {
+      "actor_label": "BP_SignMaster_MainRoad",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad_C_1",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -26315.2466162255,
+        "y": -69850.81116318142,
+        "z": -209165.36302279818
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678329612594
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_19",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -27072.93171636502,
+        "y": -77402.06937708032,
+        "z": -208963.58732782854
+      },
+      "extent": {
+        "x": 29.89402719174541,
+        "y": 29.89402735848853,
+        "z": 56.937935510184616
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var3",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_21",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -27535.143662108683,
+        "y": -78253.84395648199,
+        "z": -208942.50262680184
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_22",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -27455.72955351363,
+        "y": -78123.28891619906,
+        "z": -208946.918067422
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_23",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -27397.520108891353,
+        "y": -78013.5843266533,
+        "z": -208953.40220511358
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var6",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_24",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -27331.901673394903,
+        "y": -77900.13062882266,
+        "z": -208961.96642197814
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_25",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -27242.44016765814,
+        "y": -77728.56893450336,
+        "z": -208968.341445936
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var8",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_26",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -27143.236847611985,
+        "y": -77531.83329481131,
+        "z": -208974.37655173682
+      },
+      "extent": {
+        "x": 29.953649566810782,
+        "y": 29.95364956681442,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_27",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -29172.996443444274,
+        "y": -81255.53150506748,
+        "z": -208783.04851595245
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_28",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -29074.07612148779,
+        "y": -81073.57460930203,
+        "z": -208790.3420870873
+      },
+      "extent": {
+        "x": 29.77562291195136,
+        "y": 29.775622911954997,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_29",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28992.862971491766,
+        "y": -80923.81594007868,
+        "z": -208795.8894645768
+      },
+      "extent": {
+        "x": 29.77562291195136,
+        "y": 29.775622911954997,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var12",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_30",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28910.812516202517,
+        "y": -80796.83976632121,
+        "z": -208809.02006012073
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var13",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_31",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28861.611254566822,
+        "y": -80691.1580271452,
+        "z": -208809.8740364553
+      },
+      "extent": {
+        "x": 29.775622844623285,
+        "y": 29.775622844623285,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var15",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_33",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28782.788535013482,
+        "y": -80559.03524576768,
+        "z": -208825.21236529684
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var16",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_34",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28664.012458843783,
+        "y": -80331.6388821314,
+        "z": -208829.11941201016
+      },
+      "extent": {
+        "x": 29.775622844623285,
+        "y": 29.775622844623285,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var18",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_36",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28533.141963318143,
+        "y": -80109.47753440207,
+        "z": -208839.18420530763
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var19",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_37",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28467.13637371388,
+        "y": -79972.0190088289,
+        "z": -208848.19930217028
+      },
+      "extent": {
+        "x": 29.775622844623285,
+        "y": 29.775622844623285,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var21",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_39",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28352.391273276276,
+        "y": -79757.14723900476,
+        "z": -208853.98263818613
+      },
+      "extent": {
+        "x": 29.775622844623285,
+        "y": 29.775622844623285,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var22",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_40",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28204.48365135224,
+        "y": -79491.2736447796,
+        "z": -208864.89710451316
+      },
+      "extent": {
+        "x": 29.775622844623285,
+        "y": 29.775622844623285,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var23",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_41",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28140.876137191568,
+        "y": -79376.52454868013,
+        "z": -208879.7505472399
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var24",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_42",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28072.587651514077,
+        "y": -79238.68548618746,
+        "z": -208888.2008159368
+      },
+      "extent": {
+        "x": 29.775622844623285,
+        "y": 29.775622844623285,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var25",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_43",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28012.122090001307,
+        "y": -79130.09640325376,
+        "z": -208892.92910635684
+      },
+      "extent": {
+        "x": 29.775622844623285,
+        "y": 29.775622844623285,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoadTurn",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoadTurn_C_1",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -31634.5645043971,
+        "y": -78997.48138996807,
+        "z": -208721.2536274384
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var14",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_63",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -39822.79886529204,
+        "y": -100948.99793142015,
+        "z": -207894.28489686808
+      },
+      "extent": {
+        "x": 33.49548518766096,
+        "y": 33.495485187653685,
+        "z": 70.39599456786527
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var17",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_64",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -39895.359522874176,
+        "y": -101101.4536700205,
+        "z": -207892.93136138117
+      },
+      "extent": {
+        "x": 33.495485175306385,
+        "y": 33.49548517531366,
+        "z": 70.39599456786527
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var20",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_65",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -39978.06389795992,
+        "y": -101252.17967737193,
+        "z": -207892.93136729332
+      },
+      "extent": {
+        "x": 33.495497154232,
+        "y": 33.495497154232,
+        "z": 70.39599456786527
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var26",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_66",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -40105.37910904967,
+        "y": -101462.96559464344,
+        "z": -207892.93137071983
+      },
+      "extent": {
+        "x": 30.27908851657412,
+        "y": 30.27908851657412,
+        "z": 70.39599456786527
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var27",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_67",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -40194.11233994896,
+        "y": -101663.30529662142,
+        "z": -207892.93137067577
+      },
+      "extent": {
+        "x": 33.50033354768675,
+        "y": 33.500333547679475,
+        "z": 70.39599456786527
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var28",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_68",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -40280.90589214924,
+        "y": -101811.55895855543,
+        "z": -207892.93137067577
+      },
+      "extent": {
+        "x": 33.50033359968802,
+        "y": 33.50033359968802,
+        "z": 70.39599456786527
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var29",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_69",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -40357.998145234254,
+        "y": -101949.45003373755,
+        "z": -207892.9635224332
+      },
+      "extent": {
+        "x": 33.600195856815844,
+        "y": 33.55715694448736,
+        "z": 70.43623685635976
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var30",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_70",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -41235.23195621447,
+        "y": -103481.09933139339,
+        "z": -207862.20337170723
+      },
+      "extent": {
+        "x": 33.47801611733303,
+        "y": 33.47801611732575,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var31",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_71",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -41313.327853269366,
+        "y": -103624.50842646095,
+        "z": -207864.69872262032
+      },
+      "extent": {
+        "x": 33.47801611733303,
+        "y": 33.47801611732575,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var32",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_72",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -41395.03345318978,
+        "y": -103765.89360031225,
+        "z": -207858.20720084972
+      },
+      "extent": {
+        "x": 33.47801611733303,
+        "y": 33.47801611732575,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var33",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_75",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -41123.468794420405,
+        "y": -103299.932695175,
+        "z": -207870.14787269797
+      },
+      "extent": {
+        "x": 33.47801611733303,
+        "y": 33.47801611732575,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var34",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_53",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -41002.279611946346,
+        "y": -103075.46303443251,
+        "z": -207858.00181698543
+      },
+      "extent": {
+        "x": 33.47801611733303,
+        "y": 33.47801611732575,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var35",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_56",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -41555.25988435056,
+        "y": -104031.86147368513,
+        "z": -207851.88652925557
+      },
+      "extent": {
+        "x": 33.8918177039086,
+        "y": 33.891817703915876,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var36",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_57",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -41686.96492533847,
+        "y": -104267.92915100511,
+        "z": -207837.1480236971
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var38",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_59",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -41871.90720907248,
+        "y": -104547.70018550563,
+        "z": -207837.14802418926
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var39",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_60",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -42011.09390573557,
+        "y": -104772.24239321158,
+        "z": -207837.14802418926
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var40",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_61",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -42114.83142468502,
+        "y": -104950.38835565335,
+        "z": -207837.14802418926
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var41",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_62",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -42243.37270951402,
+        "y": -105152.30834358351,
+        "z": -207837.14802418926
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var42",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_73",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -42425.13836046225,
+        "y": -105453.19788422715,
+        "z": -207837.14802418926
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var43",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_76",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -42584.49052218269,
+        "y": -105692.65912565164,
+        "z": -207837.14802418926
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var44",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_77",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -42732.19698126969,
+        "y": -105907.20630526399,
+        "z": -207837.14802418926
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var45",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_78",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -42899.17013256755,
+        "y": -106161.64438673397,
+        "z": -207837.14802418926
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var46",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_79",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -43014.05192437204,
+        "y": -106338.05810831374,
+        "z": -207831.22872548812
+      },
+      "extent": {
+        "x": 34.02276802925189,
+        "y": 34.02276802924462,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var47",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_80",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -43119.363643258315,
+        "y": -106523.55802730564,
+        "z": -207837.14802418926
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var48",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_81",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -43263.61114377424,
+        "y": -106729.35798166686,
+        "z": -207825.1304810833
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var49",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_82",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -43532.406959851374,
+        "y": -107081.97465668013,
+        "z": -207825.13048118923
+      },
+      "extent": {
+        "x": 33.89181771184667,
+        "y": 33.89181771184667,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var50",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_83",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -43916.498179050715,
+        "y": -107666.05534401101,
+        "z": -207808.51686446034
+      },
+      "extent": {
+        "x": 34.78375898923696,
+        "y": 34.84280427300837,
+        "z": 66.33371854902362
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var51",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_84",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -43781.243638206455,
+        "y": -107465.00959240235,
+        "z": -207824.50895909537
+      },
+      "extent": {
+        "x": 34.77870290134888,
+        "y": 34.83774863372673,
+        "z": 66.33351765517727
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var52",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_85",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -43634.489794222245,
+        "y": -107243.45877511965,
+        "z": -207825.2351803091
+      },
+      "extent": {
+        "x": 33.87056827900233,
+        "y": 33.929637615714455,
+        "z": 66.32191632126342
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoadTurn1",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoadTurn1_C_3",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -43403.31714448704,
+        "y": -106851.5551986037,
+        "z": -207733.598893739
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var54",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_87",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -44563.60714722458,
+        "y": -108521.30258362484,
+        "z": -207836.7315023246
+      },
+      "extent": {
+        "x": 34.54394596937345,
+        "y": 34.54394596937345,
+        "z": 66.25505371094914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var55",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_88",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -44668.57515332982,
+        "y": -108665.22812771519,
+        "z": -207820.31991278246
+      },
+      "extent": {
+        "x": 35.90856001235079,
+        "y": 36.30967550446803,
+        "z": 67.35528700888972
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var56",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_89",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -44757.096910146414,
+        "y": -108797.57472896152,
+        "z": -207809.76707212374
+      },
+      "extent": {
+        "x": 35.84635218047333,
+        "y": 34.690721851133276,
+        "z": 66.98436559020774
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var57",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_90",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -44943.75635514801,
+        "y": -108991.48753769771,
+        "z": -207826.7182928364
+      },
+      "extent": {
+        "x": 35.8463517237833,
+        "y": 34.69072211343155,
+        "z": 66.98436535496148
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad_C_2",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -47975.0015666769,
+        "y": -108279.8328684003,
+        "z": -207611.39021442365
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide2_C_1",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -52400.78751111937,
+        "y": -113714.73368877049,
+        "z": -207591.87460168166
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678283691406
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad1",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad1_C_1",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -53106.3077206279,
+        "y": -115000.31858870081,
+        "z": -207594.6414653243
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad3",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad_C_3",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -58196.88201498572,
+        "y": -122355.41484222346,
+        "z": -207465.14169913615
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var58",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_104",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -52922.82057579009,
+        "y": -119752.4174210633,
+        "z": -207681.77537808917
+      },
+      "extent": {
+        "x": 35.858422878234705,
+        "y": 34.78985269587429,
+        "z": 66.97223043232225
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var59",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_105",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -52001.71261147631,
+        "y": -118389.0228575724,
+        "z": -207697.0724929096
+      },
+      "extent": {
+        "x": 35.8584229805565,
+        "y": 34.789853312890045,
+        "z": 66.97223042277619
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var60",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_106",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -52170.47367072828,
+        "y": -118643.87439468384,
+        "z": -207690.0213364926
+      },
+      "extent": {
+        "x": 35.40089003073808,
+        "y": 34.331871966976905,
+        "z": 66.94656131681404
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var61",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_107",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -52302.90461456785,
+        "y": -118837.89955555498,
+        "z": -207680.15873630808
+      },
+      "extent": {
+        "x": 36.54721039986907,
+        "y": 35.35322505830845,
+        "z": 67.6952147820266
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var62",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_108",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -52433.10681318134,
+        "y": -119046.58109112311,
+        "z": -207697.53128372674
+      },
+      "extent": {
+        "x": 35.99939866263594,
+        "y": 34.931018569055595,
+        "z": 66.98246015270706
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var63",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_109",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -52591.206052856796,
+        "y": -119257.60703159287,
+        "z": -207690.45695255353
+      },
+      "extent": {
+        "x": 35.63343188504223,
+        "y": 34.564622527730535,
+        "z": 66.95873532007681
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var64",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_110",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -52761.410385129064,
+        "y": -119503.44798143319,
+        "z": -207679.6554703225
+      },
+      "extent": {
+        "x": 36.841708224143076,
+        "y": 35.54433661699295,
+        "z": 67.70574948887224
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad1_C_2",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -59595.09593510642,
+        "y": -129365.18015768597,
+        "z": -207390.34268561788
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad2_C_1",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -65070.24813196034,
+        "y": -131895.22966700332,
+        "z": -207292.56518500377
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide3",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide3_C_2",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -21161.047985949765,
+        "y": -61649.27044857946,
+        "z": -209364.82061966788
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678283691406
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad6",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad2_C_2",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -19558.54570570519,
+        "y": -64929.20676408896,
+        "z": -209330.44360797634
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide1",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide1_C_1",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -31027.410552107205,
+        "y": -76243.7277522063,
+        "z": -208684.9523348815
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 395.60711669761804
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide4_C_1",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -38276.14510602772,
+        "y": -90411.74703571048,
+        "z": -208114.5867291815
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678283691406
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide4_C_3",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -60056.71382572866,
+        "y": -130805.99838569993,
+        "z": -207356.25490557827
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678283691406
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad3_C_1",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -67927.38848820401,
+        "y": -140106.04836913542,
+        "z": -207235.89775050015
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad8",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad3_C_3",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -67846.73945087712,
+        "y": -140130.72085454437,
+        "z": -207235.8977503008
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad1_C_3",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -68373.43798415322,
+        "y": -140569.78953878838,
+        "z": -207235.89776687222
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var53",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_123",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28284.46311115963,
+        "y": -79635.37306817857,
+        "z": -208863.2431714291
+      },
+      "extent": {
+        "x": 29.775622844623285,
+        "y": 29.775622844623285,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var65",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_136",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28410.079418258094,
+        "y": -79866.40933735232,
+        "z": -208848.19930221714
+      },
+      "extent": {
+        "x": 29.775622844623285,
+        "y": 29.775622844623285,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var66",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_137",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -28703.728876244517,
+        "y": -80405.56762427987,
+        "z": -208825.21236521713
+      },
+      "extent": {
+        "x": 29.894026973706787,
+        "y": 29.894026973706787,
+        "z": 56.937936782836914
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var67",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_138",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -40441.395251483766,
+        "y": -102110.52984675634,
+        "z": -207892.9513488593
+      },
+      "extent": {
+        "x": 33.60019536960317,
+        "y": 33.55715725850314,
+        "z": 70.43623656246928
+      }
+    },
+    {
+      "actor_label": "Road_SideGuard_Pillar_Var68",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_139",
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "mesh_path": "/Game/ModularCity/Meshes/Road_Props/Road_SideGuard_Pillar_Var2.Road_SideGuard_Pillar_Var2",
+      "origin": {
+        "x": -44990.65481780529,
+        "y": -109083.67142275785,
+        "z": -207826.1145266662
+      },
+      "extent": {
+        "x": 35.84635169781541,
+        "y": 34.690722077168175,
+        "z": 66.98436535496148
+      }
+    },
+    {
+      "actor_label": "Street_Navigator",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_1",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -29076.790195865717,
+        "y": -73503.71196095878,
+        "z": -209009.20340302715
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "Street_Navigator2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_4",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -47651.77388668309,
+        "y": -113199.19662509052,
+        "z": -207704.2612039614
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "Street_Navigator3",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_7",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -44270.26234671104,
+        "y": -108234.78334929363,
+        "z": -207780.75314189488
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "Path1",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_118",
+      "mesh_name": "Path1",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path1.Path1",
+      "origin": {
+        "x": -67642.29073231007,
+        "y": -140873.0188337292,
+        "z": -207369.80428748069
+      },
+      "extent": {
+        "x": 927.7806127178192,
+        "y": 939.9957317541121,
+        "z": 72.07123288983712
+      }
+    },
+    {
+      "actor_label": "Path9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_146",
+      "mesh_name": "Path9",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path9.Path9",
+      "origin": {
+        "x": -71059.35596101088,
+        "y": -137420.86978596612,
+        "z": -207448.1544197047
+      },
+      "extent": {
+        "x": 1911.664700828289,
+        "y": 1890.2309344046516,
+        "z": 176.81170778238447
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide6",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide4_C_2",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -83569.82736641099,
+        "y": -150339.38223806373,
+        "z": -207157.22535003006
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678283691406
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide4_C_5",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -99044.26424105966,
+        "y": -165251.59074391605,
+        "z": -207236.18160183678
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678283691406
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad1_C_4",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -99498.50649210621,
+        "y": -166711.02713062742,
+        "z": -207256.47219471665
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad3_C_0",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -71246.71147754695,
+        "y": -138802.2528584046,
+        "z": -207253.15160553873
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "Street_Navigator4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_2",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -104522.47985716863,
+        "y": -171475.6207282989,
+        "z": -207341.11344170407
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "Street_Navigator5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_5",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -110588.70466634483,
+        "y": -176892.92341502884,
+        "z": -207400.5086516345
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad12",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad_C_4",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -110851.66750342931,
+        "y": -177246.94570229563,
+        "z": -207353.19320713304
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad13",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad_C_6",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -121893.67472814413,
+        "y": -192242.38733577973,
+        "z": -207467.36303429253
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide8",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide4_C_7",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -107033.22783108996,
+        "y": -178402.5190086086,
+        "z": -207305.03389282012
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678283691406
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad14",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad1_C_6",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -106237.28890023276,
+        "y": -176870.7052374581,
+        "z": -207312.759490979
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "Street_Navigator6",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_9",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -104316.2065517538,
+        "y": -175116.05753746,
+        "z": -207343.69786857546
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "Street_Navigator7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_11",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -99865.74826691888,
+        "y": -170920.83437543717,
+        "z": -207321.09267933603
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad15",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad_C_8",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -97494.76181249283,
+        "y": -168493.41095349932,
+        "z": -207246.2849686888
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide4_C_9",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -86628.87762486673,
+        "y": -158581.35286161047,
+        "z": -207163.06938382616
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678283691406
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad16",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad1_C_8",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -86171.89822165357,
+        "y": -157240.22550741647,
+        "z": -207148.03251857264
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "Street_Navigator8",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_14",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -82358.92981997307,
+        "y": -153604.31981640065,
+        "z": -207214.33027923742
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "Path10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_160",
+      "mesh_name": "Path10",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path10.Path10",
+      "origin": {
+        "x": -75698.90354536069,
+        "y": -141356.93935256058,
+        "z": -207441.53574291934
+      },
+      "extent": {
+        "x": 3035.9353076222033,
+        "y": 2877.1130090017687,
+        "z": 358.49360589365824
+      }
+    },
+    {
+      "actor_label": "Path11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_181",
+      "mesh_name": "Path11",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path11.Path11",
+      "origin": {
+        "x": -92297.45507156294,
+        "y": -157449.8160787731,
+        "z": -207385.38104161556
+      },
+      "extent": {
+        "x": 9422.606101872821,
+        "y": 8513.998973837734,
+        "z": 173.0251398459659
+      }
+    },
+    {
+      "actor_label": "Path12",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_142",
+      "mesh_name": "Path12",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path12.Path12",
+      "origin": {
+        "x": -118015.71978433462,
+        "y": -183144.102780598,
+        "z": -207653.34005066036
+      },
+      "extent": {
+        "x": 8084.059171449306,
+        "y": 9311.717888468993,
+        "z": 678.8323964314768
+      }
+    },
+    {
+      "actor_label": "Path13",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_188",
+      "mesh_name": "Path13",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path13.Path13",
+      "origin": {
+        "x": -114154.43373576317,
+        "y": -186183.37457417522,
+        "z": -207551.22351145608
+      },
+      "extent": {
+        "x": 8508.926966442086,
+        "y": 9022.193749654456,
+        "z": 436.45811050149496
+      }
+    },
+    {
+      "actor_label": "Path14",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_190",
+      "mesh_name": "Path14",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path14.Path14",
+      "origin": {
+        "x": -91317.88113137794,
+        "y": -164871.63679413954,
+        "z": -207439.78695199583
+      },
+      "extent": {
+        "x": 7318.639414906764,
+        "y": 6928.326083762222,
+        "z": 1179.3042875029496
+      }
+    },
+    {
+      "actor_label": "Path3",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_195",
+      "mesh_name": "Path3",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path3.Path3",
+      "origin": {
+        "x": -71167.63501444084,
+        "y": -145030.59851888235,
+        "z": -207379.48050313638
+      },
+      "extent": {
+        "x": 3410.3315429687646,
+        "y": 3187.30712890625,
+        "z": 87.08049774169922
+      }
+    },
+    {
+      "actor_label": "Path6",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_203",
+      "mesh_name": "Path6",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path6.Path6",
+      "origin": {
+        "x": -79581.38139102858,
+        "y": -153217.24348963553,
+        "z": -207347.74666207426
+      },
+      "extent": {
+        "x": 6837.388183593765,
+        "y": 5198.521484375029,
+        "z": 111.1301040649414
+      }
+    },
+    {
+      "actor_label": "Path5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_206",
+      "mesh_name": "Path5",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path5.Path5",
+      "origin": {
+        "x": -81068.52410899985,
+        "y": -146936.92453191453,
+        "z": -207379.8018927823
+      },
+      "extent": {
+        "x": 3438.0344238281396,
+        "y": 3740.031005859375,
+        "z": 100.25413513183594
+      }
+    },
+    {
+      "actor_label": "Path4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_209",
+      "mesh_name": "Path4",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path4.Path4",
+      "origin": {
+        "x": -101378.91435167447,
+        "y": -174448.71711250365,
+        "z": -207490.56520539982
+      },
+      "extent": {
+        "x": 5283.375000000015,
+        "y": 4804.568359375029,
+        "z": 113.60133361816406
+      }
+    },
+    {
+      "actor_label": "Path7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_211",
+      "mesh_name": "Path7",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path7.Path7",
+      "origin": {
+        "x": -104909.7739381578,
+        "y": -170772.4381220306,
+        "z": -207501.07671751935
+      },
+      "extent": {
+        "x": 5852.568847656265,
+        "y": 5327.011718750029,
+        "z": 128.52157592773438
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide1_C_2",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -69059.84441893795,
+        "y": -135512.36104284017,
+        "z": -207124.2532108224
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 395.60711669761804
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide1_C_3",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -70085.49536906544,
+        "y": -136980.62441988365,
+        "z": -207124.25321130233
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 395.60711669761804
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_MainRoad17",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_MainRoad1_C_5",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -70209.03107226861,
+        "y": -138077.2778699213,
+        "z": -207229.95205443856
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 256.60711669921875
+      }
+    },
+    {
+      "actor_label": "BP_SignMaster_RoadLightsSide12",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SignMaster_RoadLightsSide3_C_1",
+      "mesh_name": "stoika198",
+      "mesh_path": "/Game/Datasmith/DS_Signs/Geometries/stoika198.stoika198",
+      "origin": {
+        "x": -67796.45104387365,
+        "y": -141011.53938385705,
+        "z": -207083.75980132178
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 275.8678283691406
+      }
+    },
+    {
+      "actor_label": "Street_Navigator9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_6",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -93939.49406740454,
+        "y": -160948.94642734266,
+        "z": -207240.35009232163
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "Street_Navigator10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_8",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -77932.54015989052,
+        "y": -144791.38644642505,
+        "z": -207245.5024544407
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "Street_Navigator11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.Street_Navigator_C_12",
+      "mesh_name": "Cone",
+      "mesh_path": "/Game/Datasmith/navigator/Geometries/Cone.Cone",
+      "origin": {
+        "x": -66276.16006799969,
+        "y": -138596.30589854065,
+        "z": -207255.1203809136
+      },
+      "extent": {
+        "x": 128.0,
+        "y": 128.0,
+        "z": 214.06838045250333
+      }
+    },
+    {
+      "actor_label": "Path8",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_207",
+      "mesh_name": "Path8",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path8.Path8",
+      "origin": {
+        "x": -40822.16371264962,
+        "y": -93246.94021584389,
+        "z": -208532.49194071934
+      },
+      "extent": {
+        "x": 29499.53906250013,
+        "y": 42661.0214843751,
+        "z": 1182.630126953125
+      }
+    },
+    {
+      "actor_label": "Path2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_234",
+      "mesh_name": "Path2",
+      "mesh_path": "/Game/Meshes/Roads/Paths/Path2.Path2",
+      "origin": {
+        "x": -36840.48793139965,
+        "y": -98203.3855283439,
+        "z": -208551.36407206696
+      },
+      "extent": {
+        "x": 29938.08496093763,
+        "y": 43125.00000000009,
+        "z": 1222.28662109375
+      }
+    },
+    {
+      "actor_label": "Plane",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_295",
+      "mesh_name": "Plane",
+      "mesh_path": "/Engine/BasicShapes/Plane.Plane",
+      "origin": {
+        "x": -78961.74914670314,
+        "y": -146440.00384330726,
+        "z": -207587.88893246467
+      },
+      "extent": {
+        "x": 265.12493553981767,
+        "y": 265.09703818222624,
+        "z": 3.847768100706162
+      }
+    },
+    {
+      "actor_label": "Plane2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_296",
+      "mesh_name": "Plane",
+      "mesh_path": "/Engine/BasicShapes/Plane.Plane",
+      "origin": {
+        "x": -79891.41522329624,
+        "y": -147331.05651636567,
+        "z": -207593.48781780544
+      },
+      "extent": {
+        "x": 265.12495545108686,
+        "y": 265.0970580763824,
+        "z": 3.8477694752800744
+      }
+    },
+    {
+      "actor_label": "Plane7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_297",
+      "mesh_name": "Plane",
+      "mesh_path": "/Engine/BasicShapes/Plane.Plane",
+      "origin": {
+        "x": -77395.63987923434,
+        "y": -149503.72654694173,
+        "z": -207599.11858775484
+      },
+      "extent": {
+        "x": 265.12495545108686,
+        "y": 265.0970580763824,
+        "z": 3.8477694752800744
+      }
+    },
+    {
+      "actor_label": "Plane8",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_298",
+      "mesh_name": "Plane",
+      "mesh_path": "/Engine/BasicShapes/Plane.Plane",
+      "origin": {
+        "x": -65408.060106506164,
+        "y": -140095.960605147,
+        "z": -207631.69433499617
+      },
+      "extent": {
+        "x": 263.20965095103384,
+        "y": 263.2357323745382,
+        "z": 3.8395874296547845
+      }
+    },
+    {
+      "actor_label": "Plane9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_299",
+      "mesh_name": "Plane",
+      "mesh_path": "/Engine/BasicShapes/Plane.Plane",
+      "origin": {
+        "x": -68727.9776028342,
+        "y": -142392.64107839012,
+        "z": -207653.63580000435
+      },
+      "extent": {
+        "x": 505.79413148140884,
+        "y": 505.964992469555,
+        "z": 8.659102797042578
+      }
+    },
+    {
+      "actor_label": "Plane10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_302",
+      "mesh_name": "Plane",
+      "mesh_path": "/Engine/BasicShapes/Plane.Plane",
+      "origin": {
+        "x": -68724.86407649182,
+        "y": -142390.6641657906,
+        "z": -207380.0268868829
+      },
+      "extent": {
+        "x": 504.66416794429824,
+        "y": 504.05034948390676,
+        "z": 46.10792985925218
+      }
+    },
+    {
+      "actor_label": "Plane11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_305",
+      "mesh_name": "Plane",
+      "mesh_path": "/Engine/BasicShapes/Plane.Plane",
+      "origin": {
+        "x": -73094.66147947349,
+        "y": -146946.7307703112,
+        "z": -207646.50688300616
+      },
+      "extent": {
+        "x": 505.8574913451448,
+        "y": 505.8907706240134,
+        "z": 9.135354215686675
+      }
+    },
+    {
+      "actor_label": "Plane3",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_255",
+      "mesh_name": "Plane",
+      "mesh_path": "/Engine/BasicShapes/Plane.Plane",
+      "origin": {
+        "x": -105404.71024792755,
+        "y": -184647.98834387993,
+        "z": -205579.7100244641
+      },
+      "extent": {
+        "x": 662.0453974878037,
+        "y": 242.50032838521292,
+        "z": 1687.0622020111769
+      }
+    },
+    {
+      "actor_label": "Road2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_208",
+      "mesh_name": "Road",
+      "mesh_path": "/Game/Meshes/Roads/Road.Road",
+      "origin": {
+        "x": -67246.10546875,
+        "y": -123162.78396576445,
+        "z": -208490.88256861444
+      },
+      "extent": {
+        "x": 57363.44531250006,
+        "y": 69748.03125000006,
+        "z": 1194.0053533016762
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -14756.426836285005,
+        "y": -55970.36534195202,
+        "z": -209200.21562429238
+      },
+      "extent": {
+        "x": 195.5079130774975,
+        "y": 187.52043071014486,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_2",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -18125.28510901842,
+        "y": -63270.9927830422,
+        "z": -209124.79786262667
+      },
+      "extent": {
+        "x": 192.6954035838462,
+        "y": 190.56600318961864,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP3",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_0",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -21906.086419821775,
+        "y": -63136.843952610856,
+        "z": -209079.9999999999
+      },
+      "extent": {
+        "x": 179.20244284961882,
+        "y": 202.01560542366497,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_3",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -23597.987602998764,
+        "y": -65921.63890192544,
+        "z": -209046.01486369997
+      },
+      "extent": {
+        "x": 179.2024429967678,
+        "y": 202.01560532186704,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_4",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -25015.619951726592,
+        "y": -68332.25497424164,
+        "z": -209015.25811899078
+      },
+      "extent": {
+        "x": 172.8210408815903,
+        "y": 206.0453348656447,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP6",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_5",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -21405.573938736532,
+        "y": -68008.67279417175,
+        "z": -209054.40510776502
+      },
+      "extent": {
+        "x": 176.04568032511816,
+        "y": 204.10264517148607,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_6",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -22861.25456113185,
+        "y": -70431.39462344916,
+        "z": -208985.9320936869
+      },
+      "extent": {
+        "x": 176.04568072525217,
+        "y": 204.10264491886483,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_9",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -26932.64695566417,
+        "y": -70974.76611935528,
+        "z": -208893.35774159705
+      },
+      "extent": {
+        "x": 176.33509145195057,
+        "y": 203.90237086740672,
+        "z": 488.7186696337303
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_10",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -30168.69218872144,
+        "y": -76046.93604373475,
+        "z": -208635.33886662484
+      },
+      "extent": {
+        "x": 174.3596966685509,
+        "y": 205.14128936438647,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_12",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -29126.893393314473,
+        "y": -81307.15508515484,
+        "z": -208464.4197931117
+      },
+      "extent": {
+        "x": 169.1258605483672,
+        "y": 208.05412915119086,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP12",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_13",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -30827.52963553017,
+        "y": -84387.02759922507,
+        "z": -208323.60491451196
+      },
+      "extent": {
+        "x": 167.1087731214393,
+        "y": 209.05864460337034,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP8",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_8",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -32899.20374321284,
+        "y": -88250.77786526122,
+        "z": -208101.30199499597
+      },
+      "extent": {
+        "x": 167.92829356097354,
+        "y": 208.65811411946197,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP13",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_11",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -34559.02428875792,
+        "y": -91263.82642704224,
+        "z": -207951.4877935784
+      },
+      "extent": {
+        "x": 169.12586045711214,
+        "y": 208.05412919807713,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP14",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_15",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -37560.91325700577,
+        "y": -89988.14870193045,
+        "z": -207918.8934409396
+      },
+      "extent": {
+        "x": 173.3639274858142,
+        "y": 205.7310368068138,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP15",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_18",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -33623.68564745659,
+        "y": -82797.81758646623,
+        "z": -208303.96245931732
+      },
+      "extent": {
+        "x": 166.02402595163585,
+        "y": 209.57311720431608,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP16",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_20",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -35815.25196244856,
+        "y": -86783.23708909108,
+        "z": -208093.91376031525
+      },
+      "extent": {
+        "x": 170.51912144802918,
+        "y": 207.32291164151684,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP17",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_14",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -40681.32652880452,
+        "y": -95716.24229858551,
+        "z": -207697.03933567242
+      },
+      "extent": {
+        "x": 171.221586909116,
+        "y": 206.942348742974,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP18",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_17",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -42291.281059387096,
+        "y": -98714.32227312557,
+        "z": -207578.6682045366
+      },
+      "extent": {
+        "x": 172.89417932906508,
+        "y": 206.00328622802044,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP19",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_23",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -36331.212182041025,
+        "y": -94573.31374215716,
+        "z": -207778.48029364657
+      },
+      "extent": {
+        "x": 163.93123933004972,
+        "y": 210.51633801985008,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP20",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_25",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -37680.64959631537,
+        "y": -96976.94091391366,
+        "z": -207672.796067642
+      },
+      "extent": {
+        "x": 171.103710240699,
+        "y": 207.00677289628948,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP21",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_16",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -43449.84159157092,
+        "y": -100802.282644972,
+        "z": -207567.19307593515
+      },
+      "extent": {
+        "x": 169.0998947491462,
+        "y": 208.06746312709583,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP22",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_24",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -46366.16016347332,
+        "y": -105536.78578280288,
+        "z": -207492.64142250095
+      },
+      "extent": {
+        "x": 173.4418232919561,
+        "y": 205.68552436523896,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP23",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_19",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -41455.21275158631,
+        "y": -103908.9805180412,
+        "z": -207526.74046688073
+      },
+      "extent": {
+        "x": 178.17644899582228,
+        "y": 202.714951423186,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP24",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_22",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -43406.83548949013,
+        "y": -106961.84784534536,
+        "z": -207504.78881914326
+      },
+      "extent": {
+        "x": 175.15201715075818,
+        "y": 204.65955438569654,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP25",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_21",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -52190.83681838596,
+        "y": -113720.42007041267,
+        "z": -207373.59519056245
+      },
+      "extent": {
+        "x": 179.6295703472133,
+        "y": 201.71829803896253,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP26",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_26",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -49738.21765254554,
+        "y": -115318.05863343138,
+        "z": -207406.2706611081
+      },
+      "extent": {
+        "x": 175.3527095969912,
+        "y": 204.5357491230243,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP27",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_28",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -51462.35773382074,
+        "y": -117671.17128773416,
+        "z": -207374.5593678465
+      },
+      "extent": {
+        "x": 180.26539063229575,
+        "y": 201.2688811300759,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP28",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_30",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -54065.90702349607,
+        "y": -116368.2035166995,
+        "z": -207331.83518681087
+      },
+      "extent": {
+        "x": 182.22672885622524,
+        "y": 199.82939424044162,
+        "z": 488.0003603629593
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP29",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_33",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -55865.910906278674,
+        "y": -118965.4484345656,
+        "z": -207295.3783831538
+      },
+      "extent": {
+        "x": 180.4597546287041,
+        "y": 201.12984441591834,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP30",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_35",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -53302.37991279579,
+        "y": -120411.67909117683,
+        "z": -207329.74978693645
+      },
+      "extent": {
+        "x": 176.87031489591755,
+        "y": 203.57573897736438,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP31",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_27",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -55661.16556103385,
+        "y": -123777.66006789483,
+        "z": -207254.22271326112
+      },
+      "extent": {
+        "x": 178.0758652929144,
+        "y": 202.782402443132,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP32",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_31",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -57608.791338672105,
+        "y": -126535.13186001331,
+        "z": -207205.16582950618
+      },
+      "extent": {
+        "x": 178.5888996663125,
+        "y": 202.43630317627685,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP33",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_7",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -59735.7737668936,
+        "y": -129512.15160055085,
+        "z": -207145.0916416994
+      },
+      "extent": {
+        "x": 177.36529401475855,
+        "y": 203.25335704695317,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP34",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_32",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -61952.261418363225,
+        "y": -132579.7767044913,
+        "z": -207084.05114068137
+      },
+      "extent": {
+        "x": 182.07619757339125,
+        "y": 199.94278876998578,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP35",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_36",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -65757.81668041914,
+        "y": -137718.6515947522,
+        "z": -206999.40281393527
+      },
+      "extent": {
+        "x": 182.90643570206885,
+        "y": 199.31117246614303,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP36",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_38",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -67270.33736658821,
+        "y": -134858.9595651407,
+        "z": -207008.93425155253
+      },
+      "extent": {
+        "x": 180.16051142045762,
+        "y": 201.34358218929265,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP37",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_29",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -66072.45626316978,
+        "y": -133239.91412489052,
+        "z": -207026.96444195084
+      },
+      "extent": {
+        "x": 176.78460847825045,
+        "y": 203.63109132906538,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP38",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_39",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -59913.50101354238,
+        "y": -124724.8026669409,
+        "z": -207197.80899820122
+      },
+      "extent": {
+        "x": 173.5430530538797,
+        "y": 205.62622178561287,
+        "z": 488.00155158249254
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP39",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_42",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -20590.29271945145,
+        "y": -61625.745701666776,
+        "z": -209101.17014058787
+      },
+      "extent": {
+        "x": 190.17870229616528,
+        "y": 193.06772610722692,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP40",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_34",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -62129.544616822386,
+        "y": -127858.61422686667,
+        "z": -207125.63122657928
+      },
+      "extent": {
+        "x": 178.0758648616029,
+        "y": 202.78240273194388,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP41",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_37",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -50003.86312953482,
+        "y": -110886.56076371025,
+        "z": -207422.14544003163
+      },
+      "extent": {
+        "x": 179.62956972224492,
+        "y": 201.7182984766696,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP42",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_40",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -24276.687323660284,
+        "y": -72774.20369001341,
+        "z": -208890.57215761594
+      },
+      "extent": {
+        "x": 172.82104062648068,
+        "y": 206.04533501215337,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP43",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_43",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -77869.22919209336,
+        "y": -149332.51103551988,
+        "z": -206967.36242745814
+      },
+      "extent": {
+        "x": 218.0,
+        "y": 128.0,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP44",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_44",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -72945.75470603447,
+        "y": -146215.55969484826,
+        "z": -206614.5798437632
+      },
+      "extent": {
+        "x": 218.0,
+        "y": 128.0,
+        "z": 840.7825832366943
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP46",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_46",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -80617.05355426198,
+        "y": -151894.24388883018,
+        "z": -206967.3624269999
+      },
+      "extent": {
+        "x": 218.0,
+        "y": 128.0,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP47",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_47",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -82940.69910697144,
+        "y": -154127.49535692684,
+        "z": -206936.6232032738
+      },
+      "extent": {
+        "x": 218.0,
+        "y": 128.0,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP48",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_49",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -85138.1057428197,
+        "y": -156306.14945204073,
+        "z": -206925.7846875097
+      },
+      "extent": {
+        "x": 194.78908519675315,
+        "y": 188.32593222305877,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP49",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_48",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -84129.92133071276,
+        "y": -151473.723051219,
+        "z": -206923.9788110902
+      },
+      "extent": {
+        "x": 191.63961069396464,
+        "y": 191.63960991959902,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP50",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_50",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -86916.65250715046,
+        "y": -154204.62823546218,
+        "z": -206923.97882628097
+      },
+      "extent": {
+        "x": 191.63961030678183,
+        "y": 191.63961030679638,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP51",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_51",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -88805.78675463313,
+        "y": -156056.50988493967,
+        "z": -206941.67746849434
+      },
+      "extent": {
+        "x": 191.63961030678183,
+        "y": 191.63961030679638,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP52",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_52",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -91592.24851970084,
+        "y": -158787.71225435584,
+        "z": -206967.86310492054
+      },
+      "extent": {
+        "x": 191.63961030678183,
+        "y": 191.63961030679638,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP53",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_53",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -94487.6339351236,
+        "y": -161588.84135245212,
+        "z": -206971.92918990686
+      },
+      "extent": {
+        "x": 191.63961030678183,
+        "y": 191.63961030679638,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP54",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_54",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -96877.23669491833,
+        "y": -163978.44404379948,
+        "z": -206993.03023207068
+      },
+      "extent": {
+        "x": 191.63961030678183,
+        "y": 191.63961030679638,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP55",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_55",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -99392.95045767102,
+        "y": -166563.62973101213,
+        "z": -207025.23025736277
+      },
+      "extent": {
+        "x": 191.63961030678183,
+        "y": 191.63961030679638,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP56",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_56",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -101347.1150846456,
+        "y": -168508.86186709302,
+        "z": -207019.24467500183
+      },
+      "extent": {
+        "x": 191.63961030678183,
+        "y": 191.63961030679638,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP57",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_57",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -104016.91161042781,
+        "y": -171035.0202641427,
+        "z": -207048.29895910205
+      },
+      "extent": {
+        "x": 191.63961030678183,
+        "y": 191.63961030679638,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP58",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_59",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -106597.94905772083,
+        "y": -173488.73714867968,
+        "z": -207084.0516513148
+      },
+      "extent": {
+        "x": 196.0463584617828,
+        "y": 186.90410087667988,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP45",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_60",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -69303.6127368547,
+        "y": -142393.027417169,
+        "z": -206617.1144926006
+      },
+      "extent": {
+        "x": 218.0,
+        "y": 128.0,
+        "z": 840.7827200000029
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP59",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_61",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -73688.173301262,
+        "y": -140096.1675379746,
+        "z": -206672.82718056563
+      },
+      "extent": {
+        "x": 218.0,
+        "y": 128.0,
+        "z": 840.7827200000029
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP60",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_62",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -76498.14803075351,
+        "y": -143166.15482961008,
+        "z": -206651.61672799994
+      },
+      "extent": {
+        "x": 218.0,
+        "y": 128.0,
+        "z": 840.7827200000029
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP61",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_63",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -70554.4443177275,
+        "y": -138380.35340786463,
+        "z": -207008.934252
+      },
+      "extent": {
+        "x": 190.2236243741063,
+        "y": 193.02476889424725,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP62",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_64",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -108653.42769371785,
+        "y": -175436.68522272812,
+        "z": -207099.69551106996
+      },
+      "extent": {
+        "x": 196.04635856185632,
+        "y": 186.90410076107946,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP63",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_65",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -110775.42855725426,
+        "y": -177101.917827532,
+        "z": -207118.7884923596
+      },
+      "extent": {
+        "x": 196.04635856185632,
+        "y": 186.90410076107946,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP64",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_66",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -115455.64116235968,
+        "y": -181991.70817010605,
+        "z": -207152.35575130064
+      },
+      "extent": {
+        "x": 196.04635856185632,
+        "y": 186.90410076107946,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP65",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_67",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -117142.51346806786,
+        "y": -183776.94518835918,
+        "z": -207170.12288122304
+      },
+      "extent": {
+        "x": 196.04635856185632,
+        "y": 186.90410076107946,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP66",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_68",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -121933.7051685233,
+        "y": -188415.21259022562,
+        "z": -207238.70601017657
+      },
+      "extent": {
+        "x": 196.04635856185632,
+        "y": 186.90410076107946,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP67",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_69",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -124188.61629301345,
+        "y": -190645.06792878057,
+        "z": -207298.37276706295
+      },
+      "extent": {
+        "x": 196.04635856185632,
+        "y": 186.90410076107946,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP68",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_70",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -122347.11200434458,
+        "y": -192663.62695536885,
+        "z": -207250.985165
+      },
+      "extent": {
+        "x": 196.04635856185632,
+        "y": 186.90410076107946,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP69",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_72",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -117503.65269957873,
+        "y": -187909.72825938126,
+        "z": -207197.17754359113
+      },
+      "extent": {
+        "x": 191.29775008441356,
+        "y": 191.9796439053025,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP70",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_73",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -115239.6628389451,
+        "y": -185709.16408125975,
+        "z": -207197.17754399992
+      },
+      "extent": {
+        "x": 191.29774956501205,
+        "y": 191.97964441918884,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP71",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_75",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -113325.62167996317,
+        "y": -183854.79488777224,
+        "z": -207161.0955625831
+      },
+      "extent": {
+        "x": 187.94240511587122,
+        "y": 195.1335092850495,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP72",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_76",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -111017.43944133754,
+        "y": -181564.72940843517,
+        "z": -207161.095563
+      },
+      "extent": {
+        "x": 193.77586626488483,
+        "y": 189.42910887440667,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP73",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_77",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -108804.63052894571,
+        "y": -179386.32552430418,
+        "z": -207161.0955581602
+      },
+      "extent": {
+        "x": 193.77586641447851,
+        "y": 189.4291087142483,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP74",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_79",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -106306.23806621123,
+        "y": -176955.93196761445,
+        "z": -207097.3851139863
+      },
+      "extent": {
+        "x": 184.4258431524504,
+        "y": 198.11507843920845,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP75",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_80",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -104664.15771202359,
+        "y": -175402.92916640744,
+        "z": -207097.38511399998
+      },
+      "extent": {
+        "x": 193.6527619285771,
+        "y": 189.5606599310704,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP76",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_81",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -102466.89232527165,
+        "y": -173319.36968460266,
+        "z": -207063.954236571
+      },
+      "extent": {
+        "x": 193.65276236334466,
+        "y": 189.56065946741728,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP77",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_83",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -99739.26967988306,
+        "y": -170723.85163331655,
+        "z": -207030.17101170137
+      },
+      "extent": {
+        "x": 193.0471430865291,
+        "y": 190.20023453555768,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP78",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_84",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -97583.33212070202,
+        "y": -168586.2936224654,
+        "z": -207023.89123148055
+      },
+      "extent": {
+        "x": 193.04714309236442,
+        "y": 190.20023452947498,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP79",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_86",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -95038.63263728766,
+        "y": -166005.47535533522,
+        "z": -206995.72883851593
+      },
+      "extent": {
+        "x": 189.6290583608643,
+        "y": 193.58855971548473,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP80",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_88",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -92172.78134243534,
+        "y": -163146.13619694358,
+        "z": -206972.66676419598
+      },
+      "extent": {
+        "x": 190.91582817016752,
+        "y": 192.35525282105664,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP81",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_90",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -89826.22923805559,
+        "y": -160884.6767109051,
+        "z": -206956.32573096073
+      },
+      "extent": {
+        "x": 192.59059455167153,
+        "y": 190.67419800412608,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP82",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_92",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -87671.38362986757,
+        "y": -158769.02264117228,
+        "z": -206943.18128913123
+      },
+      "extent": {
+        "x": 191.7248610404058,
+        "y": 191.55424521918758,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP83",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_C_45",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -77778.89517748318,
+        "y": -145267.31168691284,
+        "z": -206963.04968186808
+      },
+      "extent": {
+        "x": 193.99247270017804,
+        "y": 189.1963523987797,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_busstop1",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_busstop_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -12662.983539915382,
+        "y": -57996.67894749869,
+        "z": -209225.136768463
+      },
+      "extent": {
+        "x": 193.88119223629292,
+        "y": 189.3161358006546,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_MuseumSign",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_MuseumSign_C_1",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -26967.847826283905,
+        "y": -77343.23832885257,
+        "z": -208658.95674211555
+      },
+      "extent": {
+        "x": 168.29900472155714,
+        "y": 208.47353738000675,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_MuseumSign2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_MuseumSign_C_2",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -39265.54117749829,
+        "y": -93154.86820516399,
+        "z": -207750.16543747202
+      },
+      "extent": {
+        "x": 173.4433504901026,
+        "y": 205.68463101692032,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_MuseumSign3",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_MuseumSign_C_0",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -47949.849315598316,
+        "y": -108222.41719849288,
+        "z": -207470.6963333941
+      },
+      "extent": {
+        "x": 173.44335057285207,
+        "y": 205.6846309685061,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_MuseumSign4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_MuseumSign_C_5",
+      "mesh_name": "Box039",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Box039.Box039",
+      "origin": {
+        "x": -64160.745477407065,
+        "y": -130663.1377300013,
+        "z": -207074.97509020995
+      },
+      "extent": {
+        "x": 180.1430298538835,
+        "y": 201.35601159861835,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_nostop",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_nostop_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -15524.082305135715,
+        "y": -60704.01936996887,
+        "z": -209164.2880446078
+      },
+      "extent": {
+        "x": 192.56398776678907,
+        "y": 190.7016067070872,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_nostop2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_nostop_C_0",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -19677.318349569607,
+        "y": -65215.73474577571,
+        "z": -209106.67143421277
+      },
+      "extent": {
+        "x": 174.53645954162494,
+        "y": 205.0347839182432,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName10_C_2",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -120050.04528645452,
+        "y": -190418.83668026346,
+        "z": -207224.34184739654
+      },
+      "extent": {
+        "x": 188.0120701280539,
+        "y": 195.07124151932658,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName11_C_2",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -96101.4441416671,
+        "y": -167087.64132725477,
+        "z": -207011.8478165285
+      },
+      "extent": {
+        "x": 183.56752591692202,
+        "y": 198.79724615739542,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName1",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName1_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -25256.46394161071,
+        "y": -74443.93884371451,
+        "z": -208814.07588992585
+      },
+      "extent": {
+        "x": 172.28328337719722,
+        "y": 206.35171225528757,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName2_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -28496.5573933041,
+        "y": -73500.10615773773,
+        "z": -208785.5800141266
+      },
+      "extent": {
+        "x": 170.42345508678045,
+        "y": 207.37411705650447,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName3",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName3_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -32154.573193096032,
+        "y": -80036.15226010294,
+        "z": -208443.49703823592
+      },
+      "extent": {
+        "x": 166.03564228845426,
+        "y": 209.56770142467576,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName4_C_3",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -39620.92962864775,
+        "y": -100618.59770316983,
+        "z": -207578.732730323
+      },
+      "extent": {
+        "x": 170.00573758302926,
+        "y": 207.59596729800978,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName5_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -58166.071452331904,
+        "y": -122242.13238241445,
+        "z": -207219.86431038132
+      },
+      "extent": {
+        "x": 176.96806808021938,
+        "y": 203.5124381045316,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName6",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName6_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -63764.315248100975,
+        "y": -135037.3497338381,
+        "z": -207046.37552182228
+      },
+      "extent": {
+        "x": 179.0354896055942,
+        "y": 202.13082220451906,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName7_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -47625.74836286028,
+        "y": -112568.16726549745,
+        "z": -207439.64871983882
+      },
+      "extent": {
+        "x": 177.65689228230622,
+        "y": 203.0612619722233,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName8",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName8_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -80919.33189558974,
+        "y": -148476.41316696838,
+        "z": -206933.29007162945
+      },
+      "extent": {
+        "x": 185.85088366003765,
+        "y": 196.94400089749251,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName9_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -113082.34807934813,
+        "y": -179368.4654231104,
+        "z": -207143.4350084153
+      },
+      "extent": {
+        "x": 181.33994597809215,
+        "y": 200.49034530925564,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "StreetLight_BP_StreetName1",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StreetLight_BP_StreetName_C_1",
+      "mesh_name": "Cylinder126",
+      "mesh_path": "/Game/Datasmith/DS_StreetLight/Geometries/Cylinder126.Cylinder126",
+      "origin": {
+        "x": -17939.154671633914,
+        "y": -58954.52861115298,
+        "z": -209161.27181744034
+      },
+      "extent": {
+        "x": 194.46385660197848,
+        "y": 188.6840651702878,
+        "z": 488.0
+      }
+    },
+    {
+      "actor_label": "BP_SplineTool_Tiedtke_Deformation63",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SplineTool_Tiedtke_Deformation_C_0",
+      "mesh_name": "SM_Road_NoCollision",
+      "mesh_path": "/Game/SnappyRoads/Meshes/Road/Misc/SM_Road_NoCollision.SM_Road_NoCollision",
+      "origin": {
+        "x": -76641.02604224358,
+        "y": -135615.45359676878,
+        "z": -208116.37251434915
+      },
+      "extent": {
+        "x": 59255.481896797195,
+        "y": 56489.51710293566,
+        "z": 819.3142039141094
+      }
+    },
+    {
+      "actor_label": "BP_SplineTool_Tiedtke_Deformation64",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SplineTool_Tiedtke_Deformation_C_6",
+      "mesh_name": "SM_Road_NoCollision",
+      "mesh_path": "/Game/SnappyRoads/Meshes/Road/Misc/SM_Road_NoCollision.SM_Road_NoCollision",
+      "origin": {
+        "x": -19216.501810295144,
+        "y": -65119.43970794227,
+        "z": -209346.3545214149
+      },
+      "extent": {
+        "x": 12367.307486739948,
+        "y": 11830.896467376115,
+        "z": 357.3326726813684
+      }
+    },
+    {
+      "actor_label": "SM_1Lane_Intersection_T_1x1",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_266",
+      "mesh_name": "SM_1Lane_Intersection_T_1x1",
+      "mesh_path": "/Game/SnappyRoads/Meshes/Road/1Lane/SM_1Lane_Intersection_T_1x1.SM_1Lane_Intersection_T_1x1",
+      "origin": {
+        "x": -70791.99994191957,
+        "y": -150821.99992922877,
+        "z": -207361.18633651733
+      },
+      "extent": {
+        "x": 1510.362481218719,
+        "y": 1510.3624050740327,
+        "z": 11.813721656799316
+      }
+    },
+    {
+      "actor_label": "SM_1Lane_Road",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_271",
+      "mesh_name": "SM_1Lane_Road",
+      "mesh_path": "/Game/SnappyRoads/Meshes/Road/1Lane/SM_1Lane_Road.SM_1Lane_Road",
+      "origin": {
+        "x": -69188.99996948242,
+        "y": -150982.99993896484,
+        "z": -207401.18645381927
+      },
+      "extent": {
+        "x": 400.00006103515625,
+        "y": 357.71826171875,
+        "z": 11.813697814941406
+      }
+    },
+    {
+      "actor_label": "SM_1Lane_Road2",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_274",
+      "mesh_name": "SM_1Lane_Road",
+      "mesh_path": "/Game/SnappyRoads/Meshes/Road/1Lane/SM_1Lane_Road.SM_1Lane_Road",
+      "origin": {
+        "x": -72543.38726498,
+        "y": -149386.27185259626,
+        "z": -207344.55936145782
+      },
+      "extent": {
+        "x": 1608.4148737853975,
+        "y": 1590.831922845391,
+        "z": 35.44109344482422
+      }
+    }
+  ],
+  "mesh_counts": [
+    {
+      "mesh_name": "Road_SideGuard_Pillar_Var2",
+      "count": 66
+    },
+    {
+      "mesh_name": "Plane",
+      "count": 8
+    },
+    {
+      "mesh_name": "SM_Road_NoCollision",
+      "count": 2
+    },
+    {
+      "mesh_name": "SM_1Lane_Road",
+      "count": 2
+    }
+  ],
+  "all_actor_count": 1344
+}

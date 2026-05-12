@@ -1,0 +1,31 @@
+{
+  "map_path": "/Game/Maps/MoscowEA5",
+  "map_loaded": true,
+  "playerstart_found": false,
+  "playerstart_created": true,
+  "playerstart_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.PlayerStart_1",
+  "before_location": {
+    "x": -83566.072225,
+    "y": -151863.753235,
+    "z": -198531.098248
+  },
+  "before_rotation": {
+    "pitch": 2.6000061035156254,
+    "yaw": 0.0,
+    "roll": 0.0
+  },
+  "trace": {
+    "success": false,
+    "source": "",
+    "yaw": 362.600008,
+    "trace_start": null,
+    "trace_end": null,
+    "hit_actor_path": "",
+    "hit_actor_label": "",
+    "hit_location": null
+  },
+  "after_location": null,
+  "after_rotation": null,
+  "saved": false,
+  "error": "Could not find valid ground trace for PlayerStart"
+}

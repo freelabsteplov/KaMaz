@@ -1,0 +1,85 @@
+{
+  "imc_path": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz",
+  "asset_found": true,
+  "asset_class": "/Script/EnhancedInput.InputMappingContext",
+  "default_key_mappings_count": 15,
+  "default_key_mappings": [
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_GAZ.IA_GAZ",
+      "key": "<Struct 'Key' (0x0000024FFC21C738) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_TORM.IA_TORM",
+      "key": "<Struct 'Key' (0x0000024FFC21C7A8) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_RUL.IA_RUL",
+      "key": "<Struct 'Key' (0x0000024FFC21C658) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_RUL.IA_RUL",
+      "key": "<Struct 'Key' (0x0000024FFC21C6C8) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_Gear1.IA_Gear1",
+      "key": "<Struct 'Key' (0x0000024FFC21C578) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_Gear2.IA_Gear2",
+      "key": "<Struct 'Key' (0x0000024FFC21C5E8) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_Gear3.IA_Gear3",
+      "key": "<Struct 'Key' (0x0000024FFC21C498) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_Gear4.IA_Gear4",
+      "key": "<Struct 'Key' (0x0000024FFC21C508) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_Gear5.IA_Gear5",
+      "key": "<Struct 'Key' (0x0000024FFC21C3B8) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_GearNeutral.IA_GearNeutral",
+      "key": "<Struct 'Key' (0x0000024FFC21C428) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_GearReverse.IA_GearReverse",
+      "key": "<Struct 'Key' (0x0000024FFC21C2D8) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_Clutch.IA_Clutch",
+      "key": "<Struct 'Key' (0x0000024FFC21C348) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_Handbrake_Digital.IA_Handbrake_Digital",
+      "key": "<Struct 'Key' (0x0000024FFC21C1F8) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_PlowLift.IA_PlowLift",
+      "key": "<Struct 'Key' (0x0000024FFC21C268) {}>"
+    },
+    {
+      "action": "/Game/CityPark/Kamaz/inputs/IA_PlowLift.IA_PlowLift",
+      "key": "<Struct 'Key' (0x0000024FFC21C118) {}>"
+    }
+  ],
+  "default_key_mappings_type": "<class 'InputMappingContextMappingData'>",
+  "default_key_mappings_dir": [
+    "mappings"
+  ],
+  "default_key_mappings_fields": {
+    "mappings": "<class 'Array'>"
+  },
+  "property_mappings_count": 0,
+  "method_mappings_count": "ERR: 'InputMappingContext' object has no attribute 'get_mappings'",
+  "property_mappings": [],
+  "method_mappings": [],
+  "dir_matches": [
+    "default_key_mappings",
+    "mapping_profile_overrides",
+    "mappings"
+  ],
+  "error": ""
+}

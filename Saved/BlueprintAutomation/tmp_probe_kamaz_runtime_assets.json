@@ -1,0 +1,112 @@
+{
+  "assets": [
+    {
+      "asset_path": "/Game/BPs/BP_KamazGameMode",
+      "asset_exists": true,
+      "asset_object_path": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode",
+      "asset_class": "/Script/Engine.Blueprint",
+      "generated_class": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C",
+      "generated_class_class": "/Script/Engine.BlueprintGeneratedClass",
+      "cdo": "/Game/BPs/BP_KamazGameMode.Default__BP_KamazGameMode_C",
+      "compile": {
+        "available": true,
+        "raw": "('{\\r\\n\\t\"blueprint_path\": \"/Game/BPs/BP_KamazGameMode.BP_KamazGameMode\",\\r\\n\\t\"status\": \"up_to_date\",\\r\\n\\t\"num_errors\": 0,\\r\\n\\t\"num_warnings\": 0,\\r\\n\\t\"messages\": []\\r\\n}', \"Compiled Blueprint '/Game/BPs/BP_KamazGameMode.BP_KamazGameMode' and collected 0 messages.\")",
+        "success": null,
+        "strings": [
+          "{\r\n\t\"blueprint_path\": \"/Game/BPs/BP_KamazGameMode.BP_KamazGameMode\",\r\n\t\"status\": \"up_to_date\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 0,\r\n\t\"messages\": []\r\n}",
+          "Compiled Blueprint '/Game/BPs/BP_KamazGameMode.BP_KamazGameMode' and collected 0 messages."
+        ],
+        "report": {
+          "blueprint_path": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode",
+          "status": "up_to_date",
+          "num_errors": 0,
+          "num_warnings": 0,
+          "messages": []
+        },
+        "summary": "Compiled Blueprint '/Game/BPs/BP_KamazGameMode.BP_KamazGameMode' and collected 0 messages."
+      },
+      "defaults": {
+        "default_pawn_class": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+        "player_controller_class": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C",
+        "game_state_class": "/Script/Engine.GameState",
+        "hud_class": "/Script/Engine.HUD",
+        "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>",
+        "block_input": false,
+        "input_priority": 0
+      }
+    },
+    {
+      "asset_path": "/Game/BPs/BP_KamazPlayerController",
+      "asset_exists": true,
+      "asset_object_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController",
+      "asset_class": "/Script/Engine.Blueprint",
+      "generated_class": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController_C",
+      "generated_class_class": "/Script/Engine.BlueprintGeneratedClass",
+      "cdo": "/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C",
+      "compile": {
+        "available": true,
+        "raw": "('{\\r\\n\\t\"blueprint_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\",\\r\\n\\t\"status\": \"up_to_date_with_warnings\",\\r\\n\\t\"num_errors\": 0,\\r\\n\\t\"num_warnings\": 2,\\r\\n\\t\"messages\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"severity\": \"warning\",\\r\\n\\t\\t\\t\"text\": \"Invalid property \\'ClusterWidgetClass\\' class, replaced with Object.  Please fix or remove.\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"severity\": \"warning\",\\r\\n\\t\\t\\t\"text\": \"Invalid property \\'ClusterWidgetClass\\' class, replaced with Object.  Please fix or remove.\"\\r\\n\\t\\t}\\r\\n\\t]\\r\\n}', \"Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController' and collected 2 messages.\")",
+        "success": null,
+        "strings": [
+          "{\r\n\t\"blueprint_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\",\r\n\t\"status\": \"up_to_date_with_warnings\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 2,\r\n\t\"messages\": [\r\n\t\t{\r\n\t\t\t\"severity\": \"warning\",\r\n\t\t\t\"text\": \"Invalid property 'ClusterWidgetClass' class, replaced with Object.  Please fix or remove.\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"severity\": \"warning\",\r\n\t\t\t\"text\": \"Invalid property 'ClusterWidgetClass' class, replaced with Object.  Please fix or remove.\"\r\n\t\t}\r\n\t]\r\n}",
+          "Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController' and collected 2 messages."
+        ],
+        "report": {
+          "blueprint_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController",
+          "status": "up_to_date_with_warnings",
+          "num_errors": 0,
+          "num_warnings": 2,
+          "messages": [
+            {
+              "severity": "warning",
+              "text": "Invalid property 'ClusterWidgetClass' class, replaced with Object.  Please fix or remove."
+            },
+            {
+              "severity": "warning",
+              "text": "Invalid property 'ClusterWidgetClass' class, replaced with Object.  Please fix or remove."
+            }
+          ]
+        },
+        "summary": "Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController' and collected 2 messages."
+      },
+      "defaults": {
+        "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>",
+        "block_input": false,
+        "input_priority": 0
+      }
+    },
+    {
+      "asset_path": "/Game/CityPark/Kamaz/model/KamazBP",
+      "asset_exists": true,
+      "asset_object_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP",
+      "asset_class": "/Script/Engine.Blueprint",
+      "generated_class": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP_C",
+      "generated_class_class": "/Script/Engine.BlueprintGeneratedClass",
+      "cdo": "/Game/CityPark/Kamaz/model/KamazBP.Default__KamazBP_C",
+      "compile": {
+        "available": true,
+        "raw": "('{\\r\\n\\t\"blueprint_path\": \"/Game/CityPark/Kamaz/model/KamazBP.KamazBP\",\\r\\n\\t\"status\": \"up_to_date\",\\r\\n\\t\"num_errors\": 0,\\r\\n\\t\"num_warnings\": 0,\\r\\n\\t\"messages\": []\\r\\n}', \"Compiled Blueprint '/Game/CityPark/Kamaz/model/KamazBP.KamazBP' and collected 0 messages.\")",
+        "success": null,
+        "strings": [
+          "{\r\n\t\"blueprint_path\": \"/Game/CityPark/Kamaz/model/KamazBP.KamazBP\",\r\n\t\"status\": \"up_to_date\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 0,\r\n\t\"messages\": []\r\n}",
+          "Compiled Blueprint '/Game/CityPark/Kamaz/model/KamazBP.KamazBP' and collected 0 messages."
+        ],
+        "report": {
+          "blueprint_path": "/Game/CityPark/Kamaz/model/KamazBP.KamazBP",
+          "status": "up_to_date",
+          "num_errors": 0,
+          "num_warnings": 0,
+          "messages": []
+        },
+        "summary": "Compiled Blueprint '/Game/CityPark/Kamaz/model/KamazBP.KamazBP' and collected 0 messages."
+      },
+      "defaults": {
+        "auto_possess_player": "<AutoReceiveInput.DISABLED: 0>",
+        "auto_receive_input": "<AutoReceiveInput.DISABLED: 0>",
+        "block_input": false,
+        "input_priority": 0
+      }
+    }
+  ],
+  "error": ""
+}

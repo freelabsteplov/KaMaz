@@ -1,0 +1,56 @@
+{
+  "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "world_settings": {
+    "world_settings_path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.WorldSettings_1",
+    "default_game_mode": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C",
+    "default_game_mode_name": "BP_KamazGameMode_C",
+    "global_default_game_mode": "<Struct 'SoftClassPath' (0x000001DDEE71A760) {}>",
+    "global_default_game_mode_name": "<Struct 'SoftClassPath' (0x000001DDEE71A760) {}>"
+  },
+  "player_starts": [
+    {
+      "label": "PlayerStart",
+      "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.PlayerStart_1",
+      "class": "/Script/Engine.PlayerStart",
+      "location": {
+        "x": 19098.523546241846,
+        "y": 33742.211762744424,
+        "z": 124.14109775911176
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "capture_actors": [
+    {
+      "label": "BP_Capture",
+      "path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.BP_Capture_C_1",
+      "class": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C",
+      "location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -2000.0
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    }
+  ],
+  "kamaz_like_actors": [],
+  "error": ""
+}

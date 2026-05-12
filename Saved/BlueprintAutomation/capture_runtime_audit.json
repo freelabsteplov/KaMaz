@@ -1,0 +1,187 @@
+{
+  "project_name": "../../../../../../../Users/post/Documents/Unreal Projects/Kamaz_Cleaner/Kamaz_Cleaner.uproject",
+  "map_path": "/Game/Maps/MoscowEA6",
+  "bp_capture_asset": {
+    "path": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture",
+    "class": "/Script/Engine.Blueprint",
+    "parent_class": null,
+    "component_templates": []
+  },
+  "rt_capture": {
+    "path": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture",
+    "class": "/Script/Engine.TextureRenderTarget2D",
+    "size_x": 256,
+    "size_y": 256,
+    "render_target_format": "<TextureRenderTargetFormat.RTF_RGBA16F: 6>",
+    "clear_color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "address_x": "<TextureAddress.TA_WRAP: 0>",
+    "address_y": "<TextureAddress.TA_WRAP: 0>",
+    "auto_generate_mips": false,
+    "target_gamma": 0.0,
+    "override_format": null,
+    "filter": "<TextureFilter.TF_DEFAULT: 3>"
+  },
+  "rt_persistent": {
+    "path": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Persistent.RT_Persistent",
+    "class": "/Script/Engine.TextureRenderTarget2D",
+    "size_x": 256,
+    "size_y": 256,
+    "render_target_format": "<TextureRenderTargetFormat.RTF_RGBA16F: 6>",
+    "clear_color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 1.0
+    },
+    "address_x": "<TextureAddress.TA_WRAP: 0>",
+    "address_y": "<TextureAddress.TA_WRAP: 0>",
+    "auto_generate_mips": false,
+    "target_gamma": 0.0,
+    "override_format": null,
+    "filter": "<TextureFilter.TF_DEFAULT: 3>"
+  },
+  "mpc_capture": {
+    "path": "/Game/LandscapeDeformation/Material/MPC_Capture.MPC_Capture",
+    "class": "/Script/Engine.MaterialParameterCollection",
+    "scalar_parameters": [
+      {
+        "parameter_name": "CaptureSize",
+        "default_value": 0.0
+      },
+      {
+        "parameter_name": "Height",
+        "default_value": 24.944835662841797
+      }
+    ],
+    "vector_parameters": [
+      {
+        "parameter_name": "CaptureLocation",
+        "default_value": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      }
+    ]
+  },
+  "m_draw_to_persistent": {
+    "path": "/Game/LandscapeDeformation/Material/M_DrawToPersistent.M_DrawToPersistent",
+    "class": "/Script/Engine.Material",
+    "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+    "material_domain": "<MaterialDomain.MD_SURFACE: 0>",
+    "shading_model": "<MaterialShadingModel.MSM_UNLIT: 0>",
+    "expressions": []
+  },
+  "actors": {
+    "bp_capture": {
+      "label": "BP_Capture",
+      "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1",
+      "class": "/Game/LandscapeDeformation/Blueprints/BP_Capture.BP_Capture_C",
+      "location": {
+        "x": -29070.999999999884,
+        "y": -78192.99999999988,
+        "z": -208858.0
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": -0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    "sphere": {
+      "label": "Sphere",
+      "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.StaticMeshActor_224",
+      "class": "/Script/Engine.StaticMeshActor",
+      "location": {
+        "x": -29091.0,
+        "y": -77693.0,
+        "z": -206722.0
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    "player_start": {
+      "label": "PlayerStart",
+      "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.PlayerStart_0",
+      "class": "/Script/Engine.PlayerStart",
+      "location": {
+        "x": -29071.0,
+        "y": -78193.0,
+        "z": -206858.0
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    "bp_capture_scene_capture": {
+      "path": "/Game/Maps/MoscowEA6.MoscowEA6:PersistentLevel.BP_Capture_C_1.SceneCapture",
+      "class": "/Script/Engine.SceneCaptureComponent2D",
+      "relative_location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "relative_rotation": {
+        "pitch": 90.0,
+        "yaw": 90.0,
+        "roll": 0.0
+      },
+      "relative_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "world_location": null,
+      "world_rotation": null,
+      "world_scale": null,
+      "texture_target": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture",
+      "projection_type": "<CameraProjectionMode.ORTHOGRAPHIC: 1>",
+      "ortho_width": 2048.0,
+      "custom_near_clipping_plane": 0.0,
+      "b_enable_clip_plane": null,
+      "clip_plane_base": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "clip_plane_normal": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "capture_every_frame": true,
+      "capture_on_movement": true,
+      "capture_source": "<SceneCaptureSource.SCS_FINAL_COLOR_LDR: 2>",
+      "primitive_render_mode": "<SceneCapturePrimitiveRenderMode.PRM_LEGACY_SCENE_CAPTURE: 0>",
+      "lod_distance_factor": 1.0,
+      "max_view_distance_override": -1.0
+    }
+  },
+  "error": ""
+}

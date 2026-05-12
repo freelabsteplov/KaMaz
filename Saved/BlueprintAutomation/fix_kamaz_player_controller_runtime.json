@@ -1,0 +1,100 @@
+{
+  "blueprint_path": "/Game/BPs/BP_KamazPlayerController",
+  "cluster_widget_class_default": "/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C",
+  "vehicle_mapping_context_default": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+  "compile_before": {
+    "success": null,
+    "json": "{\r\n\t\"blueprint_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\",\r\n\t\"status\": \"up_to_date_with_warnings\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 2,\r\n\t\"messages\": [\r\n\t\t{\r\n\t\t\t\"severity\": \"warning\",\r\n\t\t\t\"text\": \"Invalid property 'ClusterWidgetClass' class, replaced with Object.  Please fix or remove.\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"severity\": \"warning\",\r\n\t\t\t\"text\": \"Invalid property 'ClusterWidgetClass' class, replaced with Object.  Please fix or remove.\"\r\n\t\t}\r\n\t]\r\n}",
+    "summary": "Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController' and collected 2 messages.",
+    "raw_repr": "('{\\r\\n\\t\"blueprint_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\",\\r\\n\\t\"status\": \"up_to_date_with_warnings\",\\r\\n\\t\"num_errors\": 0,\\r\\n\\t\"num_warnings\": 2,\\r\\n\\t\"messages\": [\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"severity\": \"warning\",\\r\\n\\t\\t\\t\"text\": \"Invalid property \\'ClusterWidgetClass\\' class, replaced with Object.  Please fix or remove.\"\\r\\n\\t\\t},\\r\\n\\t\\t{\\r\\n\\t\\t\\t\"severity\": \"warning\",\\r\\n\\t\\t\\t\"text\": \"Invalid property \\'ClusterWidgetClass\\' class, replaced with Object.  Please fix or remove.\"\\r\\n\\t\\t}\\r\\n\\t]\\r\\n}', \"Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController' and collected 2 messages.\")",
+    "result": {
+      "blueprint_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController",
+      "status": "up_to_date_with_warnings",
+      "num_errors": 0,
+      "num_warnings": 2,
+      "messages": [
+        {
+          "severity": "warning",
+          "text": "Invalid property 'ClusterWidgetClass' class, replaced with Object.  Please fix or remove."
+        },
+        {
+          "severity": "warning",
+          "text": "Invalid property 'ClusterWidgetClass' class, replaced with Object.  Please fix or remove."
+        }
+      ]
+    }
+  },
+  "removed_unused_variables": 3,
+  "cluster_widget_class_property_exists_before": true,
+  "cluster_widget_class_property_exists_after_remove_unused": true,
+  "cluster_widget_class_added": false,
+  "set_cluster_widget_class": {
+    "success": null,
+    "json": "{\r\n\t\"success\": true,\r\n\t\"blueprint_asset_path\": \"/Game/BPs/BP_KamazPlayerController\",\r\n\t\"target_mode\": \"class_default_object\",\r\n\t\"target_object_path\": \"/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C\",\r\n\t\"component_name\": \"\",\r\n\t\"property_name\": \"ClusterWidgetClass\",\r\n\t\"property_class\": \"ClassProperty\",\r\n\t\"value_as_string\": \"/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C\",\r\n\t\"before_value\": \"\",\r\n\t\"after_value\": \"/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C\",\r\n\t\"compiled\": true,\r\n\t\"saved\": true,\r\n\t\"compile_summary\": \"Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.\",\r\n\t\"save_summary\": \"Saved Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.\",\r\n\t\"error\": \"\"\r\n}",
+    "summary": "SetBlueprintPropertyValue blueprint='/Game/BPs/BP_KamazPlayerController' target='/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C' property='ClusterWidgetClass' success=true",
+    "raw_repr": "('{\\r\\n\\t\"success\": true,\\r\\n\\t\"blueprint_asset_path\": \"/Game/BPs/BP_KamazPlayerController\",\\r\\n\\t\"target_mode\": \"class_default_object\",\\r\\n\\t\"target_object_path\": \"/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C\",\\r\\n\\t\"component_name\": \"\",\\r\\n\\t\"property_name\": \"ClusterWidgetClass\",\\r\\n\\t\"property_class\": \"ClassProperty\",\\r\\n\\t\"value_as_string\": \"/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C\",\\r\\n\\t\"before_value\": \"\",\\r\\n\\t\"after_value\": \"/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C\",\\r\\n\\t\"compiled\": true,\\r\\n\\t\"saved\": true,\\r\\n\\t\"compile_summary\": \"Compiled Blueprint \\'/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\\'.\",\\r\\n\\t\"save_summary\": \"Saved Blueprint \\'/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\\'.\",\\r\\n\\t\"error\": \"\"\\r\\n}', \"SetBlueprintPropertyValue blueprint='/Game/BPs/BP_KamazPlayerController' target='/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C' property='ClusterWidgetClass' success=true\")",
+    "result": {
+      "success": true,
+      "blueprint_asset_path": "/Game/BPs/BP_KamazPlayerController",
+      "target_mode": "class_default_object",
+      "target_object_path": "/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C",
+      "component_name": "",
+      "property_name": "ClusterWidgetClass",
+      "property_class": "ClassProperty",
+      "value_as_string": "/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C",
+      "before_value": "",
+      "after_value": "/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C",
+      "compiled": true,
+      "saved": true,
+      "compile_summary": "Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.",
+      "save_summary": "Saved Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.",
+      "error": ""
+    }
+  },
+  "set_vehicle_mapping_context": {
+    "success": null,
+    "json": "{\r\n\t\"success\": true,\r\n\t\"blueprint_asset_path\": \"/Game/BPs/BP_KamazPlayerController\",\r\n\t\"target_mode\": \"class_default_object\",\r\n\t\"target_object_path\": \"/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C\",\r\n\t\"component_name\": \"\",\r\n\t\"property_name\": \"VehicleMappingContext\",\r\n\t\"property_class\": \"ObjectProperty\",\r\n\t\"value_as_string\": \"/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz\",\r\n\t\"before_value\": \"/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz\",\r\n\t\"after_value\": \"/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz\",\r\n\t\"compiled\": true,\r\n\t\"saved\": true,\r\n\t\"compile_summary\": \"Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.\",\r\n\t\"save_summary\": \"Saved Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.\",\r\n\t\"error\": \"\"\r\n}",
+    "summary": "SetBlueprintPropertyValue blueprint='/Game/BPs/BP_KamazPlayerController' target='/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C' property='VehicleMappingContext' success=true",
+    "raw_repr": "('{\\r\\n\\t\"success\": true,\\r\\n\\t\"blueprint_asset_path\": \"/Game/BPs/BP_KamazPlayerController\",\\r\\n\\t\"target_mode\": \"class_default_object\",\\r\\n\\t\"target_object_path\": \"/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C\",\\r\\n\\t\"component_name\": \"\",\\r\\n\\t\"property_name\": \"VehicleMappingContext\",\\r\\n\\t\"property_class\": \"ObjectProperty\",\\r\\n\\t\"value_as_string\": \"/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz\",\\r\\n\\t\"before_value\": \"/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz\",\\r\\n\\t\"after_value\": \"/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz\",\\r\\n\\t\"compiled\": true,\\r\\n\\t\"saved\": true,\\r\\n\\t\"compile_summary\": \"Compiled Blueprint \\'/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\\'.\",\\r\\n\\t\"save_summary\": \"Saved Blueprint \\'/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\\'.\",\\r\\n\\t\"error\": \"\"\\r\\n}', \"SetBlueprintPropertyValue blueprint='/Game/BPs/BP_KamazPlayerController' target='/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C' property='VehicleMappingContext' success=true\")",
+    "result": {
+      "success": true,
+      "blueprint_asset_path": "/Game/BPs/BP_KamazPlayerController",
+      "target_mode": "class_default_object",
+      "target_object_path": "/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C",
+      "component_name": "",
+      "property_name": "VehicleMappingContext",
+      "property_class": "ObjectProperty",
+      "value_as_string": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+      "before_value": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+      "after_value": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+      "compiled": true,
+      "saved": true,
+      "compile_summary": "Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.",
+      "save_summary": "Saved Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.",
+      "error": ""
+    }
+  },
+  "compile_after": {
+    "success": null,
+    "json": "{\r\n\t\"blueprint_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\",\r\n\t\"status\": \"up_to_date\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 0,\r\n\t\"messages\": []\r\n}",
+    "summary": "Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController' and collected 0 messages.",
+    "raw_repr": "('{\\r\\n\\t\"blueprint_path\": \"/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController\",\\r\\n\\t\"status\": \"up_to_date\",\\r\\n\\t\"num_errors\": 0,\\r\\n\\t\"num_warnings\": 0,\\r\\n\\t\"messages\": []\\r\\n}', \"Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController' and collected 0 messages.\")",
+    "result": {
+      "blueprint_path": "/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController",
+      "status": "up_to_date",
+      "num_errors": 0,
+      "num_warnings": 0,
+      "messages": []
+    }
+  },
+  "graph_check": {
+    "begin_play_connected": true,
+    "has_add_mapping_context": true,
+    "has_create_widget": true,
+    "has_add_to_viewport": true,
+    "create_widget_class_default": "/Game/CityPark/Kamaz/UI/WBP_KamazCluster.WBP_KamazCluster_C",
+    "inspect_summary": "Serialized graph '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController:EventGraph' to JSON."
+  },
+  "saved": true,
+  "error": ""
+}

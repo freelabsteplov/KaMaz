@@ -1,0 +1,9 @@
+{
+  "bp_path": "/Game/BPs/BP_KamazPlayerController",
+  "cdo_error": "'builtin_function_or_method_with_closure' object has no attribute 'get_default_object'",
+  "vehicle_mapping_context": "None",
+  "cluster_widget_class": "None",
+  "cluster_widget": "None",
+  "new_variables_error": "Blueprint: Failed to find property 'new_variables' for attribute 'new_variables' on 'Blueprint'",
+  "interesting_variables": []
+}

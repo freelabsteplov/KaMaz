@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "path": "/Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial",
+      "loaded": true,
+      "asset_class": "/Script/Engine.Material",
+      "vector_parameters": []
+    }
+  ]
+}

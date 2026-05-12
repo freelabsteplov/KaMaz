@@ -1,0 +1,265 @@
+{
+  "map_path": "/Game/Maps/SnowMap_MoscowEA5",
+  "landscape": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.Landscape_0",
+    "location": {
+      "x": -59013.32758505613,
+      "y": -35071.54520739088,
+      "z": 0.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 330.5153034741387,
+      "y": 330.5153034741387,
+      "z": 100.0
+    },
+    "bounds": {
+      "origin": {
+        "x": 24276.528890426824,
+        "y": 48218.311268092075,
+        "z": -38.28125
+      },
+      "extent": {
+        "x": 83289.85647548296,
+        "y": 83289.85647548296,
+        "z": 4125.78125
+      },
+      "min": {
+        "x": -59013.32758505613,
+        "y": -35071.54520739088,
+        "z": -4164.0625
+      },
+      "max": {
+        "x": 107566.38536590978,
+        "y": 131508.16774357503,
+        "z": 4087.5
+      },
+      "width_cm": 166579.7129509659,
+      "length_cm": 166579.7129509659,
+      "height_cm": 8251.5625
+    },
+    "material": "/Game/LandscapeDeformation/Material/M_Snow.M_Snow",
+    "draw_in_virtual_textures": []
+  },
+  "rvt_height": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1",
+    "location": {
+      "x": -59013.32758505614,
+      "y": -35071.54520739088,
+      "z": -4164.0625
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 166579.7129509659,
+      "y": 166579.7129509659,
+      "z": 8251.5625
+    },
+    "bounds": {
+      "origin": {
+        "x": 24276.528890426816,
+        "y": 48218.311268092075,
+        "z": -38.28125
+      },
+      "extent": {
+        "x": 83289.85647548296,
+        "y": 83289.85647548296,
+        "z": 4125.78125
+      },
+      "min": {
+        "x": -59013.32758505614,
+        "y": -35071.54520739088,
+        "z": -4164.0625
+      },
+      "max": {
+        "x": 107566.38536590978,
+        "y": 131508.16774357503,
+        "z": 4087.5
+      },
+      "width_cm": 166579.7129509659,
+      "length_cm": 166579.7129509659,
+      "height_cm": 8251.5625
+    },
+    "component_path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1.VirtualTextureComponent",
+    "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight.RVT_SnowHeight"
+  },
+  "rvt_material": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_2",
+    "location": {
+      "x": -59013.32758505614,
+      "y": -35071.54520739088,
+      "z": -4164.0625
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 166579.7129509659,
+      "y": 166579.7129509659,
+      "z": 8251.5625
+    },
+    "bounds": {
+      "origin": {
+        "x": 24276.528890426816,
+        "y": 48218.311268092075,
+        "z": -38.28125
+      },
+      "extent": {
+        "x": 83289.85647548296,
+        "y": 83289.85647548296,
+        "z": 4125.78125
+      },
+      "min": {
+        "x": -59013.32758505614,
+        "y": -35071.54520739088,
+        "z": -4164.0625
+      },
+      "max": {
+        "x": 107566.38536590978,
+        "y": 131508.16774357503,
+        "z": 4087.5
+      },
+      "width_cm": 166579.7129509659,
+      "length_cm": 166579.7129509659,
+      "height_cm": 8251.5625
+    },
+    "component_path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_2.VirtualTextureComponent",
+    "virtual_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowMaterial.RVT_SnowMaterial"
+  },
+  "vhm": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.VirtualHeightfieldMesh_1",
+    "location": {
+      "x": -59013.327585,
+      "y": -35071.545207,
+      "z": -4164.0625
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": {
+      "x": 166579.7129509659,
+      "y": 166579.7129509659,
+      "z": 4146.875
+    },
+    "bounds": {
+      "origin": {
+        "x": 24276.528890482958,
+        "y": 48218.311268482954,
+        "z": -2090.625
+      },
+      "extent": {
+        "x": 83289.85647548296,
+        "y": 83289.85647548296,
+        "z": 2073.4375
+      },
+      "min": {
+        "x": -59013.327585,
+        "y": -35071.545207,
+        "z": -4164.0625
+      },
+      "max": {
+        "x": 107566.38536596592,
+        "y": 131508.16774396593,
+        "z": -17.1875
+      },
+      "width_cm": 166579.7129509659,
+      "length_cm": 166579.7129509659,
+      "height_cm": 4146.875
+    },
+    "component_path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.VirtualHeightfieldMesh_1.VirtualHeightfieldMeshComponent",
+    "material": "/Game/LandscapeDeformation/Material/MI_VHM_SnowLand.MI_VHM_SnowLand",
+    "virtual_texture": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1",
+    "min_max_texture": "/Game/LandscapeDeformation/Textures/VirtualTexture/Snow/RVT_SnowHeight_MinMax.RVT_SnowHeight_MinMax",
+    "displacement_height": 50.0
+  },
+  "bp_capture": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.BP_Capture_C_1",
+    "location": {
+      "x": 19098.52354624185,
+      "y": 33742.21176274441,
+      "z": -2000.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "bounds": {
+      "origin": {
+        "x": 19098.52354624185,
+        "y": 33742.21176274441,
+        "z": -2000.0
+      },
+      "extent": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 1000.0
+      },
+      "min": {
+        "x": 18098.52354624185,
+        "y": 32742.21176274441,
+        "z": -3000.0
+      },
+      "max": {
+        "x": 20098.52354624185,
+        "y": 34742.21176274441,
+        "z": -1000.0
+      },
+      "width_cm": 2000.0,
+      "length_cm": 2000.0,
+      "height_cm": 2000.0
+    },
+    "scene_capture_component": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.BP_Capture_C_1.SceneCapture",
+    "projection_type": "<CameraProjectionMode.ORTHOGRAPHIC: 1>",
+    "ortho_width": 16400.0,
+    "texture_target": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture",
+    "capture_every_frame": true,
+    "capture_on_movement": true,
+    "primitive_render_mode": "<SceneCapturePrimitiveRenderMode.PRM_LEGACY_SCENE_CAPTURE: 0>",
+    "hidden_actors_count": 0,
+    "show_only_actors_count": 0
+  },
+  "player_starts": [
+    {
+      "label": "PlayerStart",
+      "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.PlayerStart_0",
+      "location": {
+        "x": 19098.52354624185,
+        "y": 33742.21176274441,
+        "z": 424.1410977591004
+      }
+    }
+  ],
+  "helper_actor": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.SnowMapKamazPlowCaptureDeformerActor_0",
+    "label": "KamazSnowPlowCaptureDeformer",
+    "location": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "rt_capture": {
+    "path": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Capture.RT_Capture",
+    "size_x": 2048,
+    "size_y": 2048,
+    "render_target_format": "<TextureRenderTargetFormat.RTF_RGBA16F: 6>"
+  },
+  "rt_persistent": {
+    "path": "/Game/LandscapeDeformation/Textures/RenderTargets/RT_Persistent.RT_Persistent",
+    "size_x": 2048,
+    "size_y": 2048,
+    "render_target_format": "<TextureRenderTargetFormat.RTF_RGBA16F: 6>"
+  }
+}

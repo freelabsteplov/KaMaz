@@ -1,0 +1,18 @@
+{
+  "blueprint_path": "/Game/CityPark/SnowSystem/BP_PlowBrush_Component",
+  "brush_material_instance_path": "/Game/CityPark/SnowSystem/BrushMaterials/MI_Snow_PlowBrush_BoxSafe_350x50x100",
+  "success": false,
+  "compiled": false,
+  "saved": false,
+  "before_brush_material": "",
+  "after_brush_material": "",
+  "compile_summary": "",
+  "compile_json": "",
+  "instance_update": {},
+  "summary": "Missing material instance: /Game/CityPark/SnowSystem/BrushMaterials/MI_Snow_PlowBrush_BoxSafe_350x50x100",
+  "notes": [
+    "This script does not recreate assets.",
+    "It only re-applies the existing box brush instance and persists BP_PlowBrush_Component.",
+    "BrushHeightCm remains metadata for the current 2D render-target writer."
+  ]
+}

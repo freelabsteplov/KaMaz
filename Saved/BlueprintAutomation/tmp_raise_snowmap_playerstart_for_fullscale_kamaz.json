@@ -1,0 +1,17 @@
+{
+  "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "player_start_name": "PlayerStart_1",
+  "z_offset_cm": 300.0,
+  "before_location": {
+    "x": 19098.523546241846,
+    "y": 33742.211762744424,
+    "z": 124.14109775911176
+  },
+  "after_location": {
+    "x": 19098.523546241846,
+    "y": 33742.211762744424,
+    "z": 424.14109775911174
+  },
+  "saved": true,
+  "error": ""
+}

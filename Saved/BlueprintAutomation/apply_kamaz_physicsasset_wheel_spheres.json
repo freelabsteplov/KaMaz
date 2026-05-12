@@ -1,0 +1,48 @@
+{
+  "physics_asset_path": "/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset",
+  "target_radius_cm": 30.0,
+  "updated_bodies": [
+    {
+      "bone_name": "WFL",
+      "body_path": "/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset.kamaz_ue5_PhysicsAsset:SkeletalBodySetup_5",
+      "radii_before": [
+        55.64104080200195
+      ],
+      "radii_after": [
+        30.0
+      ]
+    },
+    {
+      "bone_name": "WFR",
+      "body_path": "/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset.kamaz_ue5_PhysicsAsset:SkeletalBodySetup_6",
+      "radii_before": [
+        55.0
+      ],
+      "radii_after": [
+        30.0
+      ]
+    },
+    {
+      "bone_name": "WRL",
+      "body_path": "/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset.kamaz_ue5_PhysicsAsset:SkeletalBodySetup_7",
+      "radii_before": [
+        55.641841888427734
+      ],
+      "radii_after": [
+        30.0
+      ]
+    },
+    {
+      "bone_name": "WRR",
+      "body_path": "/Game/CityPark/Kamaz/model/kamaz_ue5_PhysicsAsset.kamaz_ue5_PhysicsAsset:SkeletalBodySetup_8",
+      "radii_before": [
+        55.64104080200195
+      ],
+      "radii_after": [
+        30.0
+      ]
+    }
+  ],
+  "saved": true,
+  "error": ""
+}

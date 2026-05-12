@@ -1,0 +1,456 @@
+{
+  "pawn_base": {
+    "blueprint_asset_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase",
+    "inspect_success": true,
+    "inspect_summary": "Serialized graph '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph' to JSON.",
+    "apply_success": true,
+    "apply_summary": "SetEnhancedInputActionsByNode requested=7 scanned=7 applied=7 success=true",
+    "apply_result": {
+      "blueprint_asset_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase",
+      "requested": 7,
+      "scanned_enhanced_nodes": 7,
+      "applied": 7,
+      "results": [
+        {
+          "node_name": "K2Node_EnhancedInputAction_0",
+          "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_0",
+          "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Throttle",
+          "applied": true,
+          "reason": "ok"
+        },
+        {
+          "node_name": "K2Node_EnhancedInputAction_1",
+          "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_1",
+          "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Brake",
+          "applied": true,
+          "reason": "ok"
+        },
+        {
+          "node_name": "K2Node_EnhancedInputAction_2",
+          "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_2",
+          "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Handbrake",
+          "applied": true,
+          "reason": "ok"
+        },
+        {
+          "node_name": "K2Node_EnhancedInputAction_3",
+          "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_3",
+          "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera",
+          "applied": true,
+          "reason": "ok"
+        },
+        {
+          "node_name": "K2Node_EnhancedInputAction_5",
+          "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_5",
+          "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Reset",
+          "applied": true,
+          "reason": "ok"
+        },
+        {
+          "node_name": "K2Node_EnhancedInputAction_6",
+          "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_6",
+          "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Steering",
+          "applied": true,
+          "reason": "ok"
+        },
+        {
+          "node_name": "K2Node_EnhancedInputAction_7",
+          "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_7",
+          "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera",
+          "applied": true,
+          "reason": "ok"
+        }
+      ]
+    },
+    "rewire_success": true,
+    "rewire_summary": "RewireGraphPinLinksByNode requested=3 applied=3 disconnected=4 connected=4 success=true",
+    "rewire_result": {
+      "blueprint_asset_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase",
+      "requested": 3,
+      "applied": 3,
+      "disconnected": 4,
+      "connected": 4,
+      "results": [
+        {
+          "applied": true,
+          "source_node_name": "K2Node_EnhancedInputAction_0",
+          "source_node_path": "",
+          "source_pin": "ActionValue",
+          "disconnect_targets": [
+            {
+              "disconnected": true,
+              "node_name": "K2Node_CallFunction_14",
+              "node_path": "",
+              "pin_name": "InBool",
+              "reason": "ok"
+            }
+          ],
+          "connect_targets": [
+            {
+              "connected": true,
+              "node_name": "K2Node_CallFunction_30",
+              "node_path": "",
+              "pin_name": "Throttle",
+              "reason": "ok"
+            }
+          ],
+          "reason": "ok"
+        },
+        {
+          "applied": true,
+          "source_node_name": "K2Node_EnhancedInputAction_1",
+          "source_node_path": "",
+          "source_pin": "ActionValue",
+          "disconnect_targets": [
+            {
+              "disconnected": true,
+              "node_name": "K2Node_CallFunction_24",
+              "node_path": "",
+              "pin_name": "InBool",
+              "reason": "ok"
+            },
+            {
+              "disconnected": true,
+              "node_name": "K2Node_CallFunction_25",
+              "node_path": "",
+              "pin_name": "InBool",
+              "reason": "ok"
+            }
+          ],
+          "connect_targets": [
+            {
+              "connected": true,
+              "node_name": "K2Node_CallFunction_39",
+              "node_path": "",
+              "pin_name": "Brake",
+              "reason": "ok"
+            },
+            {
+              "connected": true,
+              "node_name": "K2Node_CallFunction_31",
+              "node_path": "",
+              "pin_name": "Brake",
+              "reason": "ok"
+            }
+          ],
+          "reason": "ok"
+        },
+        {
+          "applied": true,
+          "source_node_name": "K2Node_EnhancedInputAction_6",
+          "source_node_path": "",
+          "source_pin": "ActionValue",
+          "disconnect_targets": [
+            {
+              "disconnected": true,
+              "node_name": "K2Node_CallFunction_37",
+              "node_path": "",
+              "pin_name": "InBool",
+              "reason": "ok"
+            }
+          ],
+          "connect_targets": [
+            {
+              "connected": true,
+              "node_name": "K2Node_CallFunction_34",
+              "node_path": "",
+              "pin_name": "Steering",
+              "reason": "ok"
+            }
+          ],
+          "reason": "ok"
+        }
+      ]
+    },
+    "scanned_nodes": [
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_0",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_0",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Throttle",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_1",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_1",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Brake",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_2",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_2",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Handbrake",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_3",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_3",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_ToggleCamera",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_5",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_5",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Reset",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Reset.IA_Reset"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_6",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_6",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Steering",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_7",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_7",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_ToggleCamera",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera"
+      }
+    ],
+    "ensured_action_assets": [
+      {
+        "action_key": "throttle",
+        "target_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Throttle",
+        "source_asset_path": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Throttle",
+        "created": false,
+        "loaded": true,
+        "saved": true,
+        "value_type_set": true,
+        "error": ""
+      },
+      {
+        "action_key": "brake",
+        "target_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Brake",
+        "source_asset_path": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Throttle",
+        "created": false,
+        "loaded": true,
+        "saved": true,
+        "value_type_set": true,
+        "error": ""
+      },
+      {
+        "action_key": "handbrake",
+        "target_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Handbrake",
+        "source_asset_path": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Handbrake",
+        "created": false,
+        "loaded": true,
+        "saved": true,
+        "value_type_set": true,
+        "error": ""
+      },
+      {
+        "action_key": "togglecamera",
+        "target_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera",
+        "source_asset_path": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_SwitchCamera",
+        "created": false,
+        "loaded": true,
+        "saved": true,
+        "value_type_set": true,
+        "error": ""
+      },
+      {
+        "action_key": "reset",
+        "target_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Reset",
+        "source_asset_path": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Handbrake",
+        "created": false,
+        "loaded": true,
+        "saved": true,
+        "value_type_set": true,
+        "error": ""
+      },
+      {
+        "action_key": "steering",
+        "target_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Steering",
+        "source_asset_path": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Steering",
+        "created": false,
+        "loaded": true,
+        "saved": true,
+        "value_type_set": true,
+        "error": ""
+      }
+    ],
+    "changes": [
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_0",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_0",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Throttle",
+        "guessed_action_key": "throttle",
+        "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Throttle",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Throttle.IA_Throttle",
+        "context": "enhancedinputaction ia_throttle | k2node_enhancedinputaction_0 | k2node_callfunction_30 | set throttle input | k2node_callfunction_30 | set throttle input | k2node_callfunction_14 | to float (boolean)",
+        "repair_mode": "refresh_existing_action",
+        "status": "refreshed"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_1",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_1",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Brake",
+        "guessed_action_key": "brake",
+        "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Brake",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Brake.IA_Brake",
+        "context": "enhancedinputaction ia_brake | k2node_enhancedinputaction_1 | k2node_callfunction_39 | set brake input | k2node_callfunction_40 | brakelights | k2node_callfunction_31 | set brake input | k2node_callfunction_24 | to float (boolean) | k2node_callfunction_25 | to float (boolean)",
+        "repair_mode": "refresh_existing_action",
+        "status": "refreshed"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_2",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_2",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Handbrake",
+        "guessed_action_key": "handbrake",
+        "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Handbrake",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Handbrake.IA_Handbrake",
+        "context": "enhancedinputaction ia_handbrake | k2node_enhancedinputaction_2 | k2node_callfunction_17 | set handbrake input | k2node_callfunction_36 | set handbrake input",
+        "repair_mode": "refresh_existing_action",
+        "status": "refreshed"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_3",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_3",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_ToggleCamera",
+        "guessed_action_key": "togglecamera",
+        "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera",
+        "context": "enhancedinputaction ia_togglecamera | k2node_enhancedinputaction_3 | k2node_callfunction_44 | add local rotation | rotate camera around the vehicle | k2node_callfunction_28 | to float (boolean)",
+        "repair_mode": "refresh_existing_action",
+        "status": "refreshed"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_5",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_5",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Reset",
+        "guessed_action_key": "reset",
+        "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Reset",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Reset.IA_Reset",
+        "context": "enhancedinputaction ia_reset | k2node_enhancedinputaction_5 | k2node_knot_0 | reroute node",
+        "repair_mode": "refresh_existing_action",
+        "status": "refreshed"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_6",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_6",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Steering",
+        "guessed_action_key": "steering",
+        "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Steering",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Steering.IA_Steering",
+        "context": "enhancedinputaction ia_steering | k2node_enhancedinputaction_6 | k2node_callfunction_34 | set steering input | k2node_callfunction_34 | set steering input | k2node_callfunction_37 | to float (boolean)",
+        "repair_mode": "refresh_existing_action",
+        "status": "refreshed"
+      },
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_7",
+        "node_path": "/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase:EventGraph.K2Node_EnhancedInputAction_7",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_ToggleCamera",
+        "guessed_action_key": "togglecamera",
+        "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_ToggleCamera.IA_ToggleCamera",
+        "context": "enhancedinputaction ia_togglecamera | k2node_enhancedinputaction_7 | k2node_callfunction_33 | deactivate",
+        "repair_mode": "refresh_existing_action",
+        "status": "refreshed"
+      }
+    ],
+    "unresolved": [],
+    "compile_success": true,
+    "compile_report_json": "{\r\n\t\"blueprint_path\": \"/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase\",\r\n\t\"status\": \"up_to_date\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 0,\r\n\t\"messages\": []\r\n}",
+    "compile_summary": "Compiled Blueprint '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase' and collected 0 messages.",
+    "save_success": true,
+    "save_result_json": "Saved Blueprint '/Game/VehicleTemplate/Blueprints/BP_VehicleAdvPawnBase.BP_VehicleAdvPawnBase'.",
+    "save_summary": ""
+  },
+  "sportscar": {
+    "blueprint_asset_path": "/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar",
+    "inspect_success": true,
+    "inspect_summary": "Serialized graph '/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar:EventGraph' to JSON.",
+    "apply_success": true,
+    "apply_summary": "SetEnhancedInputActionsByNode requested=1 scanned=1 applied=1 success=true",
+    "apply_result": {
+      "blueprint_asset_path": "/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar",
+      "requested": 1,
+      "scanned_enhanced_nodes": 1,
+      "applied": 1,
+      "results": [
+        {
+          "node_name": "K2Node_EnhancedInputAction_0",
+          "node_path": "/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar:EventGraph.K2Node_EnhancedInputAction_0",
+          "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Headlights",
+          "applied": true,
+          "reason": "ok"
+        }
+      ]
+    },
+    "rewire_success": false,
+    "rewire_summary": "",
+    "rewire_result": {},
+    "scanned_nodes": [
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_0",
+        "node_path": "/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar:EventGraph.K2Node_EnhancedInputAction_0",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Headlights",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Headlights.IA_Headlights"
+      }
+    ],
+    "ensured_action_assets": [
+      {
+        "action_key": "headlights",
+        "target_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Headlights",
+        "source_asset_path": "/Game/SnappyRoads/Blueprints/Vehicle/Input/Actions/IA_Handbrake",
+        "created": false,
+        "loaded": true,
+        "saved": true,
+        "value_type_set": true,
+        "error": ""
+      }
+    ],
+    "changes": [
+      {
+        "graph_name": "EventGraph",
+        "node_name": "K2Node_EnhancedInputAction_0",
+        "node_path": "/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar:EventGraph.K2Node_EnhancedInputAction_0",
+        "class_path": "/Script/InputBlueprintNodes.K2Node_EnhancedInputAction",
+        "node_title": "EnhancedInputAction IA_Headlights",
+        "guessed_action_key": "headlights",
+        "action_asset_path": "/Game/VehicleTemplate/Input/Actions/IA_Headlights",
+        "current_action": "/Game/VehicleTemplate/Input/Actions/IA_Headlights.IA_Headlights",
+        "context": "enhancedinputaction ia_headlights | k2node_enhancedinputaction_0 | k2node_macroinstance_0 | flip flop",
+        "repair_mode": "refresh_existing_action",
+        "status": "refreshed"
+      }
+    ],
+    "unresolved": [],
+    "compile_success": true,
+    "compile_report_json": "{\r\n\t\"blueprint_path\": \"/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar\",\r\n\t\"status\": \"up_to_date\",\r\n\t\"num_errors\": 0,\r\n\t\"num_warnings\": 0,\r\n\t\"messages\": []\r\n}",
+    "compile_summary": "Compiled Blueprint '/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar' and collected 0 messages.",
+    "save_success": true,
+    "save_result_json": "Saved Blueprint '/Game/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.BP_VehicleAdvSportsCar'.",
+    "save_summary": ""
+  },
+  "overall_ok": true
+}

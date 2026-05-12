@@ -1,0 +1,33 @@
+{
+  "map_path": "/Game/Maps/MoscowEA5",
+  "map_loaded": true,
+  "player_starts": [
+    {
+      "label": "PlayerStart",
+      "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.PlayerStart_0",
+      "class": "/Script/Engine.PlayerStart",
+      "location": {
+        "x": -62965.0,
+        "y": -129612.0,
+        "z": -206858.0
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      }
+    }
+  ],
+  "kamaz_like_actors": [],
+  "game_mode": {
+    "blueprint_path": "/Game/BPs/BP_KamazGameMode",
+    "generated_class": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C",
+    "parent_class": "",
+    "parent_class_name": "",
+    "class_default_object": "/Script/Engine.Default__BlueprintGeneratedClass",
+    "game_state_class": "",
+    "default_pawn_class": "",
+    "player_controller_class": ""
+  },
+  "error": ""
+}

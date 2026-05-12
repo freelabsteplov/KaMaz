@@ -1,0 +1,29 @@
+{
+  "map_path": "/Game/Maps/MoscowEA5",
+  "begin_play_request": {
+    "success": true,
+    "name": "editor_request_begin_play",
+    "value": null,
+    "attempts": []
+  },
+  "pie_world_path": "",
+  "player_controller_path": "",
+  "player_controller_class": "",
+  "pawn_path": "",
+  "pawn_class": "",
+  "pawn_initial_location": null,
+  "pawn_initial_rotation": null,
+  "ground_probe_initial": {},
+  "ground_probe_after_settle": {},
+  "runtime_widget": {},
+  "simulating_component_path": "",
+  "movement_probe": {},
+  "controller_matches_expected": false,
+  "pawn_matches_expected": false,
+  "spawn_on_ground": false,
+  "physics_present": false,
+  "cluster_widget_present": false,
+  "hud_present": false,
+  "movement_present": false,
+  "error": "PIE world did not start"
+}

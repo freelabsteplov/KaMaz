@@ -1,0 +1,250 @@
+{
+  "map_path": "/Game/Maps/SnowMap_MoscowEA5",
+  "sublevel_token": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.",
+  "actors_touched": 1192,
+  "primitive_components_touched": 8372,
+  "sample_components": [
+    {
+      "actor_label": "BP_Tveskaya_4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tveskaya_4_C_0",
+      "component_name": "TRASH_BillboardComponent_3",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tveskaya_4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tveskaya_4_C_0",
+      "component_name": "TRASH_BillboardComponent_2",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tveskaya_4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tveskaya_4_C_0",
+      "component_name": "TRASH_StaticMeshComponent_6",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tveskaya_4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tveskaya_4_C_0",
+      "component_name": "TRASH_StaticMeshComponent_5",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tveskaya_4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tveskaya_4_C_0",
+      "component_name": "TRASH_StaticMeshComponent_4",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tveskaya_4",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tveskaya_4_C_0",
+      "component_name": "TRASH_StaticMeshComponent_7",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_5_C_0",
+      "component_name": "TRASH_BillboardComponent_3",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_5_C_0",
+      "component_name": "TRASH_BillboardComponent_2",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_5_C_0",
+      "component_name": "TRASH_StaticMeshComponent_6",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_5_C_0",
+      "component_name": "TRASH_StaticMeshComponent_5",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_5_C_0",
+      "component_name": "TRASH_StaticMeshComponent_4",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_5",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_5_C_0",
+      "component_name": "TRASH_StaticMeshComponent_7",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_7_C_0",
+      "component_name": "TRASH_BillboardComponent_3",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_7_C_0",
+      "component_name": "TRASH_BillboardComponent_2",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_7_C_0",
+      "component_name": "TRASH_StaticMeshComponent_6",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_7_C_0",
+      "component_name": "TRASH_StaticMeshComponent_5",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_7_C_0",
+      "component_name": "TRASH_StaticMeshComponent_4",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_7",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_7_C_0",
+      "component_name": "TRASH_StaticMeshComponent_7",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_tverskaya_9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_tverskaya_9_C_0",
+      "component_name": "TRASH_BillboardComponent_3",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_tverskaya_9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_tverskaya_9_C_0",
+      "component_name": "TRASH_BillboardComponent_2",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_tverskaya_9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_tverskaya_9_C_0",
+      "component_name": "TRASH_StaticMeshComponent_4",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_tverskaya_9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_tverskaya_9_C_0",
+      "component_name": "TRASH_StaticMeshComponent_3",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_tverskaya_9",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_tverskaya_9_C_0",
+      "component_name": "TRASH_StaticMeshComponent_5",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_10_C_2",
+      "component_name": "TRASH_BillboardComponent_3",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_10_C_2",
+      "component_name": "TRASH_BillboardComponent_2",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_10_C_2",
+      "component_name": "TRASH_StaticMeshComponent_4",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_10_C_2",
+      "component_name": "TRASH_StaticMeshComponent_3",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_10",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_10_C_2",
+      "component_name": "TRASH_StaticMeshComponent_5",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_11_C_2",
+      "component_name": "TRASH_BillboardComponent_3",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_11_C_2",
+      "component_name": "TRASH_BillboardComponent_2",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_11_C_2",
+      "component_name": "TRASH_StaticMeshComponent_6",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_11_C_2",
+      "component_name": "TRASH_StaticMeshComponent_5",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_11_C_2",
+      "component_name": "TRASH_StaticMeshComponent_4",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_11",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_11_C_2",
+      "component_name": "TRASH_StaticMeshComponent_7",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_13",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_13_C_2",
+      "component_name": "TRASH_BillboardComponent_3",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_13",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_13_C_2",
+      "component_name": "TRASH_BillboardComponent_2",
+      "component_class": "/Script/Engine.BillboardComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_13",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_13_C_2",
+      "component_name": "TRASH_StaticMeshComponent_4",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_13",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_13_C_2",
+      "component_name": "TRASH_StaticMeshComponent_3",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_13",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_13_C_2",
+      "component_name": "TRASH_StaticMeshComponent_5",
+      "component_class": "/Script/Engine.StaticMeshComponent"
+    },
+    {
+      "actor_label": "BP_Tverskaya_8",
+      "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_Tverskaya_8_C_2",
+      "component_name": "TRASH_BillboardComponent_3",
+      "component_class": "/Script/Engine.BillboardComponent"
+    }
+  ],
+  "save_ok": true,
+  "error": ""
+}

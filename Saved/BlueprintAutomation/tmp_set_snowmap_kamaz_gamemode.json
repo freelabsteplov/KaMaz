@@ -1,0 +1,9 @@
+{
+  "map_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "game_mode_bp_path": "/Game/BPs/BP_KamazGameMode",
+  "before_value": "/Game/LandscapeDeformation/DemoContent/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C",
+  "after_value": "/Game/BPs/BP_KamazGameMode.BP_KamazGameMode_C",
+  "saved": true,
+  "success": true,
+  "error": ""
+}

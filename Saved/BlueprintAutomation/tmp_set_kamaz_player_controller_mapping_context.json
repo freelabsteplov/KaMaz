@@ -1,0 +1,28 @@
+{
+  "bp_path": "/Game/BPs/BP_KamazPlayerController",
+  "property": "VehicleMappingContext",
+  "value": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+  "raw": [
+    "{\r\n\t\"success\": true,\r\n\t\"blueprint_asset_path\": \"/Game/BPs/BP_KamazPlayerController\",\r\n\t\"target_mode\": \"class_default_object\",\r\n\t\"target_object_path\": \"/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C\",\r\n\t\"component_name\": \"\",\r\n\t\"property_name\": \"VehicleMappingContext\",\r\n\t\"property_class\": \"ObjectProperty\",\r\n\t\"value_as_string\": \"/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz\",\r\n\t\"before_value\": \"/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz\",\r\n\t\"after_value\": \"/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz\",\r\n\t\"compiled\": true,\r\n\t\"saved\": true,\r\n\t\"compile_summary\": \"Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.\",\r\n\t\"save_summary\": \"Saved Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.\",\r\n\t\"error\": \"\"\r\n}",
+    "SetBlueprintPropertyValue blueprint='/Game/BPs/BP_KamazPlayerController' target='/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C' property='VehicleMappingContext' success=true"
+  ],
+  "success": null,
+  "summary": "SetBlueprintPropertyValue blueprint='/Game/BPs/BP_KamazPlayerController' target='/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C' property='VehicleMappingContext' success=true",
+  "payload": {
+    "success": true,
+    "blueprint_asset_path": "/Game/BPs/BP_KamazPlayerController",
+    "target_mode": "class_default_object",
+    "target_object_path": "/Game/BPs/BP_KamazPlayerController.Default__BP_KamazPlayerController_C",
+    "component_name": "",
+    "property_name": "VehicleMappingContext",
+    "property_class": "ObjectProperty",
+    "value_as_string": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+    "before_value": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+    "after_value": "/Game/CityPark/Kamaz/inputs/IMC_MOZA_Kamaz.IMC_MOZA_Kamaz",
+    "compiled": true,
+    "saved": true,
+    "compile_summary": "Compiled Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.",
+    "save_summary": "Saved Blueprint '/Game/BPs/BP_KamazPlayerController.BP_KamazPlayerController'.",
+    "error": ""
+  }
+}

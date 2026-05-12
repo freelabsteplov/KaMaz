@@ -1,0 +1,235 @@
+{
+  "snowmap_source_path": "/Game/LandscapeDeformation/Maps/SnowMap",
+  "moscow_map_path": "/Game/Maps/MoscowEA5",
+  "target_map_path": "/Game/Maps/SnowMap_MoscowEA5",
+  "target_builtdata_path": "/Game/Maps/SnowMap_MoscowEA5_BuiltData",
+  "moved_receiver": {
+    "landscape_path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.Landscape_0",
+    "landscape_before_origin": {
+      "x": 25200.0,
+      "y": 25200.0,
+      "z": 2014.0625
+    },
+    "landscape_before_extent": {
+      "x": 25200.0,
+      "y": 25200.0,
+      "z": 2073.4375
+    },
+    "landscape_before_scale": {
+      "x": 100.0,
+      "y": 100.0,
+      "z": 100.0
+    },
+    "landscape_after_origin": {
+      "x": 93980.52889042682,
+      "y": 123947.31126809207,
+      "z": 2014.0625
+    },
+    "landscape_after_extent": {
+      "x": 83289.85647548296,
+      "y": 83289.85647548296,
+      "z": 2073.4375
+    },
+    "landscape_after_scale": {
+      "x": 330.5153034741387,
+      "y": 330.5153034741387,
+      "z": 100.0
+    },
+    "rvt_height_path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_1",
+    "rvt_material_path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.RuntimeVirtualTextureVolume_2",
+    "vhm_path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.VirtualHeightfieldMesh_1",
+    "receiver_location": {
+      "x": 10690.67241494386,
+      "y": 40657.45479260912,
+      "z": 0.0
+    },
+    "receiver_rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "receiver_scale": {
+      "x": 165257.65173706936,
+      "y": 165257.65173706936,
+      "z": 8000.0
+    },
+    "bp_capture_path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.BP_Capture_C_1",
+    "bp_capture_location": {
+      "x": 10690.67241494386,
+      "y": 40657.45479260912,
+      "z": -2000.0
+    },
+    "scale_ratio": 3.3051530347413873
+  },
+  "sublevel_added": {
+    "streaming_level_path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:LevelStreamingAlwaysLoaded_0",
+    "streaming_level_package": "",
+    "world_asset": "/Game/Maps/MoscowEA5.MoscowEA5",
+    "method": "add_level_to_world_with_transform",
+    "offset": {
+      "x": 82063.52354624185,
+      "y": 163354.2117627444,
+      "z": 207282.1410977591
+    },
+    "transform": {
+      "location": {
+        "x": 82063.52354624185,
+        "y": 163354.2117627444,
+        "z": 207282.1410977591
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    }
+  },
+  "deleted_persistent_actors": [
+    "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.PlayerStart_1"
+  ],
+  "removed_existing_sublevels": [],
+  "save_ok": true,
+  "error": "",
+  "moscow_player_start": {
+    "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.PlayerStart_0",
+    "location": {
+      "x": -62965.0,
+      "y": -129612.0,
+      "z": -206858.0
+    }
+  },
+  "moscow_road_bounds": {
+    "min": {
+      "x": -135896.50793904078,
+      "y": -192104.97069970443,
+      "z": -209703.68719409627
+    },
+    "max": {
+      "x": -6849.194323555195,
+      "y": -53288.543240566156,
+      "z": -207297.05831043504
+    },
+    "matches": [
+      {
+        "actor_label": "BP_SplineTool_Tiedtke_Deformation63",
+        "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SplineTool_Tiedtke_Deformation_C_0",
+        "origin": {
+          "x": -76641.02604224358,
+          "y": -135615.45359676878,
+          "z": -208116.37251434915
+        },
+        "extent": {
+          "x": 59255.481896797195,
+          "y": 56489.51710293566,
+          "z": 819.3142039141094
+        },
+        "mesh_path": "/Game/SnappyRoads/Meshes/Road/Misc/SM_Road_NoCollision.SM_Road_NoCollision"
+      },
+      {
+        "actor_label": "BP_SplineTool_Tiedtke_Deformation64",
+        "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.BP_SplineTool_Tiedtke_Deformation_C_6",
+        "origin": {
+          "x": -19216.501810295144,
+          "y": -65119.43970794227,
+          "z": -209346.3545214149
+        },
+        "extent": {
+          "x": 12367.307486739948,
+          "y": 11830.896467376115,
+          "z": 357.3326726813684
+        },
+        "mesh_path": "/Game/SnappyRoads/Meshes/Road/Misc/SM_Road_NoCollision.SM_Road_NoCollision"
+      },
+      {
+        "actor_label": "SM_1Lane_Intersection_T_1x1",
+        "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_266",
+        "origin": {
+          "x": -70791.99994191957,
+          "y": -150821.99992922877,
+          "z": -207361.18633651733
+        },
+        "extent": {
+          "x": 1510.362481218719,
+          "y": 1510.3624050740327,
+          "z": 11.813721656799316
+        },
+        "mesh_path": "/Game/SnappyRoads/Meshes/Road/1Lane/SM_1Lane_Intersection_T_1x1.SM_1Lane_Intersection_T_1x1"
+      },
+      {
+        "actor_label": "SM_1Lane_Road",
+        "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_271",
+        "origin": {
+          "x": -69188.99996948242,
+          "y": -150982.99993896484,
+          "z": -207401.18645381927
+        },
+        "extent": {
+          "x": 400.00006103515625,
+          "y": 357.71826171875,
+          "z": 11.813697814941406
+        },
+        "mesh_path": "/Game/SnappyRoads/Meshes/Road/1Lane/SM_1Lane_Road.SM_1Lane_Road"
+      },
+      {
+        "actor_label": "SM_1Lane_Road2",
+        "actor_path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.StaticMeshActor_274",
+        "origin": {
+          "x": -72543.38726498,
+          "y": -149386.27185259626,
+          "z": -207344.55936145782
+        },
+        "extent": {
+          "x": 1608.4148737853975,
+          "y": 1590.831922845391,
+          "z": 35.44109344482422
+        },
+        "mesh_path": "/Game/SnappyRoads/Meshes/Road/1Lane/SM_1Lane_Road.SM_1Lane_Road"
+      }
+    ],
+    "match_count": 5
+  },
+  "snowmap_player_start_before": {
+    "path": "/Game/Maps/SnowMap_MoscowEA5.SnowMap_MoscowEA5:PersistentLevel.PlayerStart_1",
+    "location": {
+      "x": 19098.523546241846,
+      "y": 33742.211762744424,
+      "z": 424.14109775911174
+    }
+  },
+  "transformed_road_bounds": {
+    "min": {
+      "x": -53832.98439279893,
+      "y": -28750.758936960017,
+      "z": -2421.5460963371734
+    },
+    "max": {
+      "x": 75214.32922268665,
+      "y": 110065.66852217825,
+      "z": -14.917212675936753
+    },
+    "span_x": 129047.31361548557,
+    "span_y": 138816.42745913827,
+    "target_square_span_with_margin": 166579.7129509659,
+    "target_center": {
+      "x": 10690.67241494386,
+      "y": 40657.45479260912,
+      "z": 2014.0625
+    }
+  },
+  "final_streaming_levels": [],
+  "final_player_starts": [
+    {
+      "path": "/Game/Maps/MoscowEA5.MoscowEA5:PersistentLevel.PlayerStart_0",
+      "location": {
+        "x": 19098.52354624185,
+        "y": 33742.21176274441,
+        "z": 424.1410977591004
+      }
+    }
+  ]
+}

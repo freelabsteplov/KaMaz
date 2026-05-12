@@ -1,0 +1,62 @@
+{
+  "map": "/Game/CityPark/SnowSystem/SnowTest_Level",
+  "mpc_path": "/Game/CityPark/SnowSystem/MPC_SnowSystem",
+  "rvt_volume_path": "/Game/LandscapeDeformation/Maps/SnowMap.SnowMap:PersistentLevel.RuntimeVirtualTextureVolume_1",
+  "origin": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "extent": {
+    "x": 25000.0,
+    "y": 25000.0,
+    "z": 4000.0
+  },
+  "world_bounds_min": {
+    "x": -25000.0,
+    "y": -25000.0,
+    "z": -4000.0
+  },
+  "world_bounds_max": {
+    "x": 25000.0,
+    "y": 25000.0,
+    "z": 4000.0
+  },
+  "parameter_results": {
+    "WorldBoundsMin": "created",
+    "WorldBoundsMax": "created",
+    "BrushUV": "created"
+  },
+  "saved": true,
+  "error": "",
+  "bounds_source": "actor_transform_fallback",
+  "saved_parameters": [
+    {
+      "parameter_name": "WorldBoundsMin",
+      "default_value": {
+        "r": -25000.0,
+        "g": -25000.0,
+        "b": -4000.0,
+        "a": 0.0
+      }
+    },
+    {
+      "parameter_name": "WorldBoundsMax",
+      "default_value": {
+        "r": 25000.0,
+        "g": 25000.0,
+        "b": 4000.0,
+        "a": 0.0
+      }
+    },
+    {
+      "parameter_name": "BrushUV",
+      "default_value": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      }
+    }
+  ]
+}
